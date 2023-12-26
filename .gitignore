@@ -8,7 +8,7 @@
 /assets
 /.htaccess
 /node_modules
-/translationfiles
+# /translationfiles
 /translationtool.phar
 
 # ignore all apps except core ones

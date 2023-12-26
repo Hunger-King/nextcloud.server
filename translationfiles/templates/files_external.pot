@@ -1,0 +1,671 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2023-12-26 02:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /var/www/html/apps/files_external/js/settings.js:94
+msgid "Type to select user or group."
+msgstr ""
+
+#: /var/www/html/apps/files_external/js/settings.js:179
+msgid "(Group)"
+msgstr ""
+
+#: /var/www/html/apps/files_external/js/settings.js:498
+msgid "Compatibility with Mac NFD encoding (slow)"
+msgstr ""
+
+#: /var/www/html/apps/files_external/js/settings.js:499
+#: /var/www/html/apps/files_external/templates/settings.php:11
+msgid "Enable encryption"
+msgstr ""
+
+#: /var/www/html/apps/files_external/js/settings.js:500
+#: /var/www/html/apps/files_external/templates/settings.php:12
+msgid "Enable previews"
+msgstr ""
+
+#: /var/www/html/apps/files_external/js/settings.js:501
+#: /var/www/html/apps/files_external/templates/settings.php:13
+msgid "Enable sharing"
+msgstr ""
+
+#: /var/www/html/apps/files_external/js/settings.js:502
+#: /var/www/html/apps/files_external/templates/settings.php:14
+msgid "Check for changes"
+msgstr ""
+
+#: /var/www/html/apps/files_external/js/settings.js:503
+#: /var/www/html/apps/files_external/templates/settings.php:15
+msgid "Never"
+msgstr ""
+
+#: /var/www/html/apps/files_external/js/settings.js:504
+#: /var/www/html/apps/files_external/templates/settings.php:16
+msgid "Once every direct access"
+msgstr ""
+
+#: /var/www/html/apps/files_external/js/settings.js:505
+#: /var/www/html/apps/files_external/templates/settings.php:17
+msgid "Read only"
+msgstr ""
+
+#: /var/www/html/apps/files_external/js/settings.js:506
+msgid "Disconnect"
+msgstr ""
+
+#: /var/www/html/apps/files_external/js/settings.js:1013
+msgid "Admin defined"
+msgstr ""
+
+#: /var/www/html/apps/files_external/js/settings.js:1053
+msgid ""
+"Automatic status checking is disabled due to the large number of configured "
+"storages, click to check status"
+msgstr ""
+
+#: /var/www/html/apps/files_external/js/settings.js:1223
+msgid ""
+"Are you sure you want to disconnect this external storage? It will make the "
+"storage unavailable in Nextcloud and will lead to a deletion of these files "
+"and folders on any sync client that is currently connected but will not "
+"delete any files and folders on the external storage itself."
+msgstr ""
+
+#: /var/www/html/apps/files_external/js/settings.js:1225
+msgid "Delete storage?"
+msgstr ""
+
+#: /var/www/html/apps/files_external/js/settings.js:1432
+#: /var/www/html/apps/files_external/js/settings.js:1450
+#: /var/www/html/apps/files_external/js/settings.js:1478
+msgid "Saved"
+msgstr ""
+
+#: /var/www/html/apps/files_external/js/settings.js:1466
+msgid "Saving …"
+msgstr ""
+
+#: /var/www/html/apps/files_external/js/settings.js:1480
+#: /var/www/html/apps/files_external/templates/settings.php:185
+#: /var/www/html/apps/files_external/templates/settings.php:238
+msgid "Save"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Controller/GlobalStoragesController.php:107
+#: /var/www/html/apps/files_external/lib/Controller/StoragesController.php:102
+#: /var/www/html/apps/files_external/lib/Controller/UserStoragesController.php:137
+msgid "Forbidden to manage local mounts"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Controller/GlobalStoragesController.php:195
+#: /var/www/html/apps/files_external/lib/Controller/StoragesController.php:302
+#: /var/www/html/apps/files_external/lib/Controller/StoragesController.php:331
+#: /var/www/html/apps/files_external/lib/Controller/UserGlobalStoragesController.php:131
+#: /var/www/html/apps/files_external/lib/Controller/UserGlobalStoragesController.php:183
+#: /var/www/html/apps/files_external/lib/Controller/UserStoragesController.php:213
+#, php-format
+msgid "Storage with ID \"%d\" not found"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Controller/StoragesController.php:123
+msgid "Invalid backend or authentication mechanism class"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Controller/StoragesController.php:142
+msgid "Invalid mount point"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Controller/StoragesController.php:152
+msgid "Objectstore forbidden"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Controller/StoragesController.php:166
+#, php-format
+msgid "Invalid storage backend \"%s\""
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Controller/StoragesController.php:178
+#, php-format
+msgid "Not permitted to use backend \"%s\""
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Controller/StoragesController.php:189
+#, php-format
+msgid "Not permitted to use authentication mechanism \"%s\""
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Controller/StoragesController.php:201
+msgid "Unsatisfied backend parameters"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Controller/StoragesController.php:210
+msgid "Unsatisfied authentication mechanism parameters"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Controller/StoragesController.php:256
+#, php-format
+msgid "Insufficient data: %s"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Controller/StoragesController.php:261
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Controller/UserGlobalStoragesController.php:175
+#, php-format
+msgid "Storage with ID \"%d\" is not user editable"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/AmazonS3/AccessKey.php:41
+#: /var/www/html/apps/files_external/lib/Lib/Auth/AmazonS3/AccessKey.php:43
+msgid "Access key"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/AmazonS3/AccessKey.php:44
+msgid "Secret key"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/Builtin.php:35
+msgid "Builtin"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/NullMechanism.php:35
+msgid "None"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/OAuth1/OAuth1.php:38
+msgid "OAuth1"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/OAuth1/OAuth1.php:42
+msgid "App key"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/OAuth1/OAuth1.php:43
+msgid "App secret"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/OAuth2/OAuth2.php:38
+msgid "OAuth2"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/OAuth2/OAuth2.php:42
+msgid "Client ID"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/OAuth2/OAuth2.php:43
+msgid "Client secret"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/OpenStack/OpenStackV2.php:39
+msgid "OpenStack v2"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/OpenStack/OpenStackV2.php:41
+#: /var/www/html/apps/files_external/lib/Lib/Auth/OpenStack/OpenStackV3.php:45
+#: /var/www/html/apps/files_external/lib/Lib/Auth/OpenStack/Rackspace.php:40
+#: /var/www/html/apps/files_external/lib/Lib/Auth/Password/Password.php:40
+#: /var/www/html/apps/files_external/lib/Lib/Auth/Password/UserProvided.php:55
+#: /var/www/html/apps/files_external/lib/Lib/Auth/PublicKey/RSA.php:50
+#: /var/www/html/apps/files_external/lib/Lib/Auth/PublicKey/RSAPrivateKey.php:49
+#: /var/www/html/apps/files_external/templates/settings.php:231
+msgid "Username"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/OpenStack/OpenStackV2.php:42
+#: /var/www/html/apps/files_external/lib/Lib/Auth/OpenStack/OpenStackV3.php:47
+#: /var/www/html/apps/files_external/lib/Lib/Auth/Password/Password.php:41
+#: /var/www/html/apps/files_external/lib/Lib/Auth/Password/UserProvided.php:57
+#: /var/www/html/apps/files_external/lib/Lib/Auth/PublicKey/RSAPrivateKey.php:50
+#: /var/www/html/apps/files_external/templates/settings.php:235
+msgid "Password"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/OpenStack/OpenStackV2.php:44
+#: /var/www/html/apps/files_external/lib/Lib/Auth/OpenStack/OpenStackV3.php:49
+msgid "Tenant name"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/OpenStack/OpenStackV2.php:45
+#: /var/www/html/apps/files_external/lib/Lib/Auth/OpenStack/OpenStackV3.php:50
+msgid "Identity endpoint URL"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/OpenStack/OpenStackV3.php:43
+msgid "OpenStack v3"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/OpenStack/OpenStackV3.php:46
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SMB.php:57
+msgid "Domain"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/OpenStack/Rackspace.php:38
+msgid "Rackspace"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/OpenStack/Rackspace.php:41
+msgid "API key"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/Password/GlobalAuth.php:51
+#: /var/www/html/apps/files_external/templates/settings.php:226
+msgid "Global credentials"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/Password/LoginCredentials.php:80
+msgid "Log-in credentials, save in database"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/Password/Password.php:38
+msgid "Username and password"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/Password/SessionCredentials.php:50
+msgid "Log-in credentials, save in session"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/Password/UserGlobalAuth.php:55
+msgid "Global credentials, user entered"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/Password/UserProvided.php:53
+msgid "User entered, store in database"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/PublicKey/RSA.php:48
+msgid "RSA public key"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/PublicKey/RSA.php:51
+msgid "Public key"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/PublicKey/RSAPrivateKey.php:47
+msgid "RSA private key"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/PublicKey/RSAPrivateKey.php:53
+msgid "Private key"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/SMB/KerberosApacheAuth.php:41
+msgid "Kerberos default realm, defaults to \"WORKGROUP\""
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/SMB/KerberosApacheAuth.php:45
+msgid "Kerberos ticket Apache mode"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Auth/SMB/KerberosAuth.php:33
+msgid "Kerberos ticket"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/AmazonS3.php:41
+msgid "Amazon S3"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/AmazonS3.php:43
+#: /var/www/html/apps/files_external/lib/Lib/Backend/Swift.php:49
+msgid "Bucket"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/AmazonS3.php:44
+msgid "Hostname"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/AmazonS3.php:46
+msgid "Port"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/AmazonS3.php:48
+#: /var/www/html/apps/files_external/lib/Lib/Backend/Swift.php:48
+msgid "Region"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/AmazonS3.php:50
+msgid "Storage Class"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/AmazonS3.php:52
+msgid "Enable SSL"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/AmazonS3.php:55
+msgid "Enable Path Style"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/AmazonS3.php:57
+msgid "Legacy (v2) authentication"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/DAV.php:40
+msgid "WebDAV"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/DAV.php:42
+#: /var/www/html/apps/files_external/lib/Lib/Backend/OwnCloud.php:40
+msgid "URL"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/DAV.php:43
+#: /var/www/html/apps/files_external/lib/Lib/Backend/FTP.php:43
+#: /var/www/html/apps/files_external/lib/Lib/Backend/OwnCloud.php:41
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SFTP_Key.php:39
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SMB.php:55
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SMB_OC.php:53
+msgid "Remote subfolder"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/DAV.php:45
+#: /var/www/html/apps/files_external/lib/Lib/Backend/OwnCloud.php:43
+msgid "Secure https://"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/FTP.php:40
+msgid "FTP"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/FTP.php:42
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SFTP.php:39
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SFTP_Key.php:38
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SMB.php:53
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SMB_OC.php:48
+msgid "Host"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/FTP.php:45
+msgid "Secure ftps://"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/Local.php:40
+msgid "Local"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/Local.php:42
+msgid "Location"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/OwnCloud.php:38
+msgid "Nextcloud"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SFTP.php:37
+msgid "SFTP"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SFTP.php:40
+msgid "Root"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SFTP_Key.php:36
+msgid "SFTP with secret key login"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SMB.php:51
+msgid "SMB/CIFS"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SMB.php:54
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SMB_OC.php:51
+msgid "Share"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SMB.php:59
+msgid "Show hidden files"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SMB.php:62
+msgid "Case sensitive file system"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SMB.php:66
+msgid ""
+"Disabling it will allow to use a case insensitive file system, but comes "
+"with a performance penalty"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SMB.php:67
+msgid "Verify ACL access when listing files"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SMB.php:70
+msgid ""
+"Check the ACL's of each file or folder inside a directory to filter out "
+"items where the user has no read permissions, comes with a performance "
+"penalty"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SMB.php:71
+msgid "Timeout"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SMB_OC.php:46
+msgid "SMB/CIFS using OC login"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/SMB_OC.php:49
+msgid "Username as share"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/Swift.php:44
+msgid "OpenStack Object Storage"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/Swift.php:46
+msgid "Service name"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Lib/Backend/Swift.php:50
+msgid "Request timeout (seconds)"
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/MountConfig.php:186
+#, php-format
+msgid ""
+"The cURL support in PHP is not enabled or installed. Mounting of %s is not "
+"possible. Please ask your system administrator to install it."
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/MountConfig.php:188
+#, php-format
+msgid ""
+"The FTP support in PHP is not enabled or installed. Mounting of %s is not "
+"possible. Please ask your system administrator to install it."
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/MountConfig.php:190
+#, php-format
+msgid ""
+"\"%1$s\" is not installed. Mounting of %2$s is not possible. Please ask your "
+"system administrator to install it."
+msgstr ""
+
+#: /var/www/html/apps/files_external/lib/Settings/Section.php:63
+#: /var/www/html/apps/files_external/src/init.ts:38
+#: /var/www/html/apps/files_external/templates/settings.php:109
+#: /var/www/html/apps/files_external/templates/settings.php:120
+msgid "External storage"
+msgstr ""
+
+#: /var/www/html/apps/files_external/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "External storage support"
+msgstr ""
+
+#: /var/www/html/apps/files_external/specialAppInfoFakeDummyForL10nScript.php:3
+msgid "Adds basic external storage support"
+msgstr ""
+
+#: /var/www/html/apps/files_external/specialAppInfoFakeDummyForL10nScript.php:4
+msgid ""
+"This application enables administrators to configure connections to external "
+"storage providers, such as FTP servers, S3 or SWIFT object stores, other "
+"Nextcloud servers, WebDAV servers, and more. Administrators can choose which "
+"types of storage to enable and can mount these storage locations for a user, "
+"a group, or the entire system. Users will see a new folder appear in their "
+"root Nextcloud directory, which they can access and use like any other "
+"Nextcloud folder. External storage also allows users to share files stored "
+"in these external locations. In these cases, the credentials for the owner "
+"of the file are used when the recipient requests the file from external "
+"storage, thereby ensuring that the recipient can access the shared file.\n"
+"\n"
+"External storage can be configured using the GUI or at the command line. "
+"This second option provides the advanced user with more flexibility for "
+"configuring bulk external storage mounts and setting mount priorities. More "
+"information is available in the external storage GUI documentation and the "
+"external storage Configuration File documentation."
+msgstr ""
+
+#: /var/www/html/apps/files_external/src/actions/enterCredentialsAction.ts:54
+msgid "Enter missing credentials"
+msgstr ""
+
+#: /var/www/html/apps/files_external/src/actions/enterCredentialsAction.ts:92
+msgid "Unable to update this external storage config. {statusMessage}"
+msgstr ""
+
+#: /var/www/html/apps/files_external/src/actions/enterCredentialsAction.ts:99
+msgid "New configuration successfully saved"
+msgstr ""
+
+#: /var/www/html/apps/files_external/src/actions/inlineStorageCheckAction.ts:59
+msgid "There was an error with this external storage."
+msgstr ""
+
+#: /var/www/html/apps/files_external/src/actions/inlineStorageCheckAction.ts:67
+msgid "We were unable to check the external storage {basename}"
+msgstr ""
+
+#: /var/www/html/apps/files_external/src/actions/openInFilesAction.ts:36
+msgid "Examine this faulty external storage configuration"
+msgstr ""
+
+#: /var/www/html/apps/files_external/src/actions/openInFilesAction.ts:38
+msgid "Open in Files"
+msgstr ""
+
+#: /var/www/html/apps/files_external/src/actions/openInFilesAction.ts:48
+msgid ""
+"There was an error with this external storage. Do you want to review this "
+"mount point config in the settings page?"
+msgstr ""
+
+#: /var/www/html/apps/files_external/src/actions/openInFilesAction.ts:49
+msgid "External mount error"
+msgstr ""
+
+#: /var/www/html/apps/files_external/src/init.ts:39
+msgid "List of external storage."
+msgstr ""
+
+#: /var/www/html/apps/files_external/src/init.ts:42
+msgid ""
+"There is no external storage configured. You can configure them in your "
+"Personal settings."
+msgstr ""
+
+#: /var/www/html/apps/files_external/src/init.ts:43
+msgid ""
+"There is no external storage configured and you don't have the permission to "
+"configure them."
+msgstr ""
+
+#: /var/www/html/apps/files_external/src/init.ts:44
+msgid "No external storage"
+msgstr ""
+
+#: /var/www/html/apps/files_external/src/init.ts:52
+msgid "Storage type"
+msgstr ""
+
+#: /var/www/html/apps/files_external/src/init.ts:54
+msgid "Unknown"
+msgstr ""
+
+#: /var/www/html/apps/files_external/src/init.ts:62
+msgid "Scope"
+msgstr ""
+
+#: /var/www/html/apps/files_external/src/init.ts:65
+msgid "Personal"
+msgstr ""
+
+#: /var/www/html/apps/files_external/src/init.ts:67
+msgid "System"
+msgstr ""
+
+#: /var/www/html/apps/files_external/templates/settings.php:102
+msgid ""
+"No external storage configured or you don't have the permission to configure "
+"them"
+msgstr ""
+
+#: /var/www/html/apps/files_external/templates/settings.php:110
+msgid "Open documentation"
+msgstr ""
+
+#: /var/www/html/apps/files_external/templates/settings.php:111
+msgid ""
+"External storage enables you to mount external storage services and devices "
+"as secondary Nextcloud storage devices. You may also allow users to mount "
+"their own external storage services."
+msgstr ""
+
+#: /var/www/html/apps/files_external/templates/settings.php:119
+#: /var/www/html/apps/files_external/templates/settings.php:146
+msgid "Folder name"
+msgstr ""
+
+#: /var/www/html/apps/files_external/templates/settings.php:121
+msgid "Authentication"
+msgstr ""
+
+#: /var/www/html/apps/files_external/templates/settings.php:122
+msgid "Configuration"
+msgstr ""
+
+#: /var/www/html/apps/files_external/templates/settings.php:124
+msgid "Available for"
+msgstr ""
+
+#: /var/www/html/apps/files_external/templates/settings.php:143
+msgid "Click to recheck the configuration"
+msgstr ""
+
+#: /var/www/html/apps/files_external/templates/settings.php:152
+msgid "Add storage"
+msgstr ""
+
+#: /var/www/html/apps/files_external/templates/settings.php:174
+msgid "All users"
+msgstr ""
+
+#: /var/www/html/apps/files_external/templates/settings.php:181
+msgid "Advanced settings"
+msgstr ""
+
+#: /var/www/html/apps/files_external/templates/settings.php:196
+msgid "Allow users to mount external storage"
+msgstr ""
+
+#: /var/www/html/apps/files_external/templates/settings.php:227
+msgid ""
+"Global credentials can be used to authenticate with multiple external "
+"storages that have the same credentials."
+msgstr ""

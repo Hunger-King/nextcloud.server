@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2023-12-26 02:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /var/www/html/apps/provisioning_api/lib/Controller/AppConfigController.php:164
+msgid ""
+"Logged in user must be an administrator or have authorization to edit this "
+"setting."
+msgstr "登入的使用者必須為管理員或是有權編輯此設定的使用者。"
+
+#: /var/www/html/apps/provisioning_api/lib/Controller/UsersController.php:440
+msgid "User already exists"
+msgstr "使用者已存在"
+
+#: /var/www/html/apps/provisioning_api/lib/Controller/VerificationController.php:92
+msgid "Email confirmation"
+msgstr "電子郵件確認"
+
+#: /var/www/html/apps/provisioning_api/lib/Controller/VerificationController.php:93
+#, php-format
+msgid "To enable the email address %s please click the button below."
+msgstr "要啟用電子郵件地址 %s，請點擊下方按鈕。"
+
+#: /var/www/html/apps/provisioning_api/lib/Controller/VerificationController.php:94
+msgid "Confirm"
+msgstr "確認"
+
+#: /var/www/html/apps/provisioning_api/lib/Controller/VerificationController.php:118
+msgid ""
+"Email was already removed from account and cannot be confirmed anymore."
+msgstr "電子郵件已自帳號移除且無法再確認。"
+
+#: /var/www/html/apps/provisioning_api/lib/Controller/VerificationController.php:125
+msgid "Could not verify mail because the token is expired."
+msgstr "無法驗證郵件，因為權杖已過期。"
+
+#: /var/www/html/apps/provisioning_api/lib/Controller/VerificationController.php:126
+msgid "Could not verify mail because the token is invalid."
+msgstr "無法驗證郵件，因為權杖無效。"
+
+#: /var/www/html/apps/provisioning_api/lib/Controller/VerificationController.php:130
+msgid "An unexpected error occurred. Please contact your admin."
+msgstr "遇到非預期的錯誤。請聯絡您的管理員。"
+
+#: /var/www/html/apps/provisioning_api/lib/Controller/VerificationController.php:142
+#: /var/www/html/apps/provisioning_api/lib/Controller/VerificationController.php:143
+msgid "Email confirmation successful"
+msgstr "電子郵件確認成功"
+
+#: /var/www/html/apps/provisioning_api/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "Provisioning API"
+msgstr "Provisioning API"
+
+#: /var/www/html/apps/provisioning_api/specialAppInfoFakeDummyForL10nScript.php:3
+msgid ""
+"This application enables a set of APIs that external systems can use to "
+"manage users, groups and apps."
+msgstr "此應用程式啟用了一組 API，外部系統可以使用其來管理使用者、群組與應用程式。"
+
+#: /var/www/html/apps/provisioning_api/specialAppInfoFakeDummyForL10nScript.php:4
+msgid ""
+"This application enables a set of APIs that external systems can use to create, edit, delete and query user\n"
+"\t\tattributes, query, set and remove groups, set quota and query total storage used in Nextcloud. Group admin users\n"
+"\t\tcan also query Nextcloud and perform the same functions as an admin for groups they manage. The API also enables\n"
+"\t\tan admin to query for active Nextcloud applications, application info, and to enable or disable an app remotely.\n"
+"\t\tOnce the app is enabled, HTTP requests can be used via a Basic Auth header to perform any of the functions\n"
+"\t\tlisted above. More information is available in the Provisioning API documentation, including example calls\n"
+"\t\tand server responses."
+msgstr ""
+"此應用程式啟用了一組 API，外部系統可以使用其來建立、編輯、刪除與查詢使用者\n"
+"\t\t屬性，查詢、設定與移除群組，設定配額與查詢 Nextcloud 中使用的總儲存空間。群組管理員使用者\n"
+"\t\t也可以用其來查詢 Nextcloud，並在其管理的群組中執行與系統管理員相同的動作。這組 API 也讓\n"
+"\t\t管理員可以查詢作用中的 Nextcloud 應用程式、應用程式資訊，以及遠端啟用或停用應用程式。\n"
+"\t\t應用程式啟用後，可以使用基本驗證標頭來使用 HTTP 請求執行上面\n"
+"\t\t列出的任何功能。更多資訊在 Provisioning API 的文件中提供，包含範例呼叫\n"
+"\t\t與伺服器回應。"

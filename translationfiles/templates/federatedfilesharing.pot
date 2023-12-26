@@ -1,0 +1,269 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2023-12-26 02:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /var/www/html/apps/federatedfilesharing/js/external.js:35
+#: /var/www/html/apps/federatedfilesharing/js/external.js:48
+msgid "Do you want to add the remote share {name} from {owner}@{remote}?"
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/js/external.js:38
+#: /var/www/html/apps/federatedfilesharing/js/external.js:51
+msgid "Remote share"
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/js/external.js:57
+msgid "Remote share password"
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/js/external.js:68
+msgid "Cancel"
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/js/external.js:69
+msgid "Add remote share"
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/lib/AddressHandler.php:78
+msgid "Invalid Federated Cloud ID"
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:163
+msgid "Server to server sharing is not enabled on this server"
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:184
+msgid "Couldn't establish a federated share."
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:186
+msgid "Couldn't establish a federated share, maybe the password was wrong."
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:195
+msgid ""
+"Federated Share request sent, you will receive an invitation. Check your "
+"notifications."
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:200
+msgid ""
+"Couldn't establish a federated share, it looks like the server to federate "
+"with is too old (Nextcloud <= 9)."
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/lib/FederatedShareProvider.php:123
+msgid "It is not allowed to send federated group shares from this server."
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/lib/FederatedShareProvider.php:135
+#, php-format
+msgid "Sharing %1$s failed, because this item is already shared with user %2$s"
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/lib/FederatedShareProvider.php:147
+msgid "Not allowed to create a federated share with the same user"
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/lib/FederatedShareProvider.php:155
+msgid "Federated shares require read permissions"
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/lib/FederatedShareProvider.php:187
+#, php-format
+msgid "File is already shared with %s"
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/lib/FederatedShareProvider.php:254
+#, php-format
+msgid ""
+"Sharing %1$s failed, could not find %2$s, maybe the server is currently "
+"unreachable or uses a self-signed certificate."
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/lib/FederatedShareProvider.php:794
+#: /var/www/html/apps/federatedfilesharing/lib/FederatedShareProvider.php:800
+msgid "Could not find share"
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/lib/Notifier.php:81
+msgid "Federated sharing"
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/lib/Notifier.php:113
+msgid ""
+"You received {share} as a remote share from {user} (on behalf of {behalf})"
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/lib/Notifier.php:129
+msgid "You received {share} as a remote share from {user}"
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/lib/Notifier.php:146
+msgid "Accept"
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/lib/Notifier.php:153
+msgid "Decline"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettings.vue:24
+#: /var/www/html/apps/federatedfilesharing/lib/Settings/Admin.php:96
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:2
+msgid "Federated Cloud Sharing"
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/lib/Settings/PersonalSection.php:70
+msgid "Sharing"
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "Federated file sharing"
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/specialAppInfoFakeDummyForL10nScript.php:3
+msgid "Provide federated file sharing across servers"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettings.vue:25
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:4
+msgid ""
+"Adjust how people can share between servers. This includes shares between "
+"users on this server as well if they are using federated sharing."
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettings.vue:30
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:6
+msgid ""
+"Allow users on this server to send shares to other servers (this option also "
+"allows WebDAV access to public shares)"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettings.vue:36
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:8
+msgid "Allow users on this server to receive shares from other servers"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettings.vue:43
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:10
+msgid "Allow users on this server to send shares to groups on other servers"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettings.vue:50
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:12
+msgid "Allow users on this server to receive group shares from other servers"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettings.vue:56
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:14
+msgid "Search global and public address book for users"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettings.vue:62
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:16
+msgid "Allow users to publish their data to a global and public address book"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettings.vue:117
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:18
+msgid "Unable to update federated files sharing config"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalSettings.vue:20
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:20
+msgid "Federated Cloud"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalSettings.vue:21
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:22
+msgid ""
+"You can share with anyone who uses a Nextcloud server or other Open Cloud "
+"Mesh (OCM) compatible servers and services! Just put their Federated Cloud "
+"ID in the share dialog. It looks like person@cloud.example.com"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalSettings.vue:24
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:24
+msgid "Your Federated Cloud ID:"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalSettings.vue:39
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:26
+msgid "Share it so your friends can share files with you:"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalSettings.vue:41
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:28
+msgid "Facebook"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalSettings.vue:47
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:30
+msgid "Twitter"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalSettings.vue:53
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:32
+msgid "Diaspora"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalSettings.vue:66
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:34
+msgid "Add to your website"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalSettings.vue:77
+#. TRANSLATORS src/components/PersonalSettings.vue:150
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:36
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:44
+msgid "Share with me via Nextcloud"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalSettings.vue:82
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:38
+msgid "HTML Code:"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalSettings.vue:124
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:40
+msgid "Share with me through my #Nextcloud Federated Cloud ID, see {url}"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalSettings.vue:127
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:42
+msgid "Share with me through my #Nextcloud Federated Cloud ID"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalSettings.vue:154
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:46
+msgid "Cloud ID copied to the clipboard"
+msgstr ""
+
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:46
+msgid "Copy to clipboard"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalSettings.vue:161
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:48
+msgid "Clipboard is not available"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalSettings.vue:166
+#: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:50
+msgid "Copied!"
+msgstr ""

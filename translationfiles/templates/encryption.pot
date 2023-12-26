@@ -1,0 +1,307 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2023-12-26 02:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:78
+msgid "Missing recovery key password"
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:84
+msgid "Please repeat the recovery key password"
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:90
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:134
+msgid ""
+"Repeated recovery key password does not match the provided recovery key "
+"password"
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:97
+msgid "Recovery key successfully enabled"
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:99
+msgid "Could not enable recovery key. Please check your recovery key password!"
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:102
+msgid "Recovery key successfully disabled"
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:104
+msgid ""
+"Could not disable recovery key. Please check your recovery key password!"
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:107
+msgid "Missing parameters"
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:119
+msgid "Please provide the old recovery password"
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:124
+msgid "Please provide a new recovery password"
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:129
+msgid "Please repeat the new recovery password"
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:145
+msgid "Password successfully changed."
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:152
+msgid "Could not change the password. Maybe the old password was not correct."
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:172
+msgid "Recovery Key disabled"
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:179
+msgid "Recovery Key enabled"
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:187
+msgid ""
+"Could not enable the recovery key, please try again or contact your "
+"administrator"
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/SettingsController.php:111
+msgid "Could not update the private key password."
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/SettingsController.php:136
+msgid "The old password was not correct, please try again."
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/SettingsController.php:139
+msgid "The current log-in password was not correct, please try again."
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/SettingsController.php:145
+msgid "Private key password successfully updated."
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/StatusController.php:77
+msgid ""
+"Invalid private key for encryption app. Please update your private key "
+"password in your personal settings to recover access to your encrypted files."
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/StatusController.php:84
+#: /var/www/html/apps/encryption/templates/settings-personal.php:11
+msgid ""
+"Encryption App is enabled, but your keys are not initialized. Please log-out "
+"and log-in again."
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/StatusController.php:88
+msgid ""
+"Please enable server side encryption in the admin settings in order to use "
+"the encryption module."
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Controller/StatusController.php:94
+msgid "Encryption app is enabled and ready"
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Crypto/Crypt.php:483
+msgid "Bad Signature"
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Crypto/Crypt.php:551
+#: /var/www/html/apps/encryption/lib/Crypto/Crypt.php:556
+msgid "Missing Signature"
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Crypto/EncryptAll.php:431
+msgid "one-time password for server-side-encryption"
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Crypto/EncryptAll.php:435
+msgid "Encryption password"
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Crypto/EncryptAll.php:437
+#, php-format
+msgid ""
+"The administration enabled server-side-encryption. Your files were encrypted "
+"using the password <strong>%s</strong>."
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Crypto/EncryptAll.php:438
+#, php-format
+msgid ""
+"The administration enabled server-side-encryption. Your files were encrypted "
+"using the password \"%s\"."
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Crypto/EncryptAll.php:441
+msgid ""
+"Please login to the web interface, go to the \"Security\" section of your "
+"personal settings and update your encryption password by entering this "
+"password into the \"Old login password\" field and your current login "
+"password."
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Crypto/Encryption.php:349
+msgid ""
+"Cannot decrypt this file, probably this is a shared file. Please ask the "
+"file owner to reshare the file with you."
+msgstr ""
+
+#: /var/www/html/apps/encryption/lib/Crypto/Encryption.php:488
+msgid ""
+"Cannot read this file, probably this is a shared file. Please ask the file "
+"owner to reshare the file with you."
+msgstr ""
+
+#: /var/www/html/apps/encryption/specialAppInfoFakeDummyForL10nScript.php:2
+#: /var/www/html/apps/encryption/templates/settings-admin.php:8
+msgid "Default encryption module"
+msgstr ""
+
+#: /var/www/html/apps/encryption/specialAppInfoFakeDummyForL10nScript.php:3
+msgid "Default encryption module for server-side encryption"
+msgstr ""
+
+#: /var/www/html/apps/encryption/specialAppInfoFakeDummyForL10nScript.php:4
+msgid ""
+"In order to use this encryption module you need to enable server-side "
+"encryption in the admin settings. Once enabled this module will encrypt all "
+"your files transparently. The encryption is based on AES 256 keys.\n"
+"The module will not touch existing files, only new files will be encrypted "
+"after server-side encryption was enabled. It is also not possible to disable "
+"the encryption again and switch back to an unencrypted system.\n"
+"Please read the documentation to know all implications before you decide to "
+"enable server-side encryption."
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:10
+msgid ""
+"Encryption app is enabled but your keys are not initialized, please log-out "
+"and log-in again"
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:17
+msgid "Encrypt the home storage"
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:18
+msgid ""
+"Enabling this option encrypts all files stored on the main storage, "
+"otherwise only files on external storage will be encrypted"
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:23
+#: /var/www/html/apps/encryption/templates/settings-admin.php:42
+msgid "Enable recovery key"
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:23
+#: /var/www/html/apps/encryption/templates/settings-admin.php:42
+msgid "Disable recovery key"
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:27
+msgid ""
+"The recovery key is an extra encryption key that is used to encrypt files. "
+"It allows recovery of a user's files if the user forgets his or her password."
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:33
+msgid "Recovery key password"
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:37
+msgid "Repeat recovery key password"
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:49
+msgid "Change recovery key password:"
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:56
+msgid "Old recovery key password"
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:62
+msgid "New recovery key password"
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:67
+msgid "Repeat new recovery key password"
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:72
+msgid "Change Password"
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:7
+msgid "Basic encryption module"
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:17
+msgid "Your private key password no longer matches your log-in password."
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:20
+msgid "Set your old private key password to your current log-in password:"
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:22
+msgid ""
+" If you don't remember your old password you can ask your administrator to "
+"recover your files."
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:29
+msgid "Old log-in password"
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:35
+msgid "Current log-in password"
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:40
+msgid "Update Private Key Password"
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:48
+msgid "Enable password recovery:"
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:51
+msgid ""
+"Enabling this option will allow you to reobtain access to your encrypted "
+"files in case of password loss"
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:60
+msgid "Enabled"
+msgstr ""
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:70
+msgid "Disabled"
+msgstr ""

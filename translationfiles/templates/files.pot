@@ -1,0 +1,1444 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2023-12-26 02:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /var/www/html/apps/files/js/app.js:63
+msgid "File could not be found"
+msgstr ""
+
+#: /var/www/html/apps/files/js/app.js:94
+#: /var/www/html/apps/files/js/fileactions.js:679
+#: /var/www/html/apps/files/js/filelist.js:3498
+#: /var/www/html/apps/files/src/actions/moveOrCopyAction.ts:225
+#: /var/www/html/apps/files/tests/js/filelistSpec.js:192
+msgid "Move or copy"
+msgstr ""
+
+#: /var/www/html/apps/files/js/app.js:100
+#: /var/www/html/apps/files/js/fileactions.js:631
+#: /var/www/html/apps/files/src/actions/downloadAction.ts:62
+#: /var/www/html/apps/files/tests/js/filelistSpec.js:197
+msgid "Download"
+msgstr ""
+
+#: /var/www/html/apps/files/js/app.js:107
+#: /var/www/html/apps/files/src/actions/deleteAction.ts:35
+#: /var/www/html/apps/files/templates/simplelist.php:29
+#: /var/www/html/apps/files/tests/js/filelistSpec.js:202
+msgid "Delete"
+msgstr ""
+
+#. TRANSLATORS src/views/Sidebar.vue:68
+#: /var/www/html/apps/files/js/app.js:114
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:200
+msgid "Tags"
+msgstr ""
+
+#: /var/www/html/apps/files/js/app.js:388
+#: /var/www/html/apps/files/js/app.js:389
+msgid "Show list view"
+msgstr ""
+
+#: /var/www/html/apps/files/js/app.js:388
+#: /var/www/html/apps/files/js/app.js:389
+msgid "Show grid view"
+msgstr ""
+
+#. TRANSLATORS src/components/BreadCrumbs.vue:93
+#: /var/www/html/apps/files/js/breadcrumb.js:225
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:2
+msgid "Home"
+msgstr ""
+
+#: /var/www/html/apps/files/js/detailsview.js:100
+msgid "Close"
+msgstr ""
+
+#: /var/www/html/apps/files/js/file-upload.js:598
+#: /var/www/html/apps/files/js/filelist.js:3099
+#: /var/www/html/apps/files/js/filelist.js:3117
+#: /var/www/html/apps/files/js/filelist.js:3123
+msgid "Could not create folder \"{dir}\""
+msgstr ""
+
+#: /var/www/html/apps/files/js/file-upload.js:637
+msgid "This will stop your current uploads."
+msgstr ""
+
+#: /var/www/html/apps/files/js/file-upload.js:731
+msgid "Upload cancelled."
+msgstr ""
+
+#: /var/www/html/apps/files/js/file-upload.js:878
+msgid "Processing files …"
+msgstr ""
+
+#: /var/www/html/apps/files/js/file-upload.js:878
+#: /var/www/html/apps/files/js/file-upload.js:1216
+msgid "…"
+msgstr ""
+
+#: /var/www/html/apps/files/js/file-upload.js:1038
+msgid "Unable to upload {filename} as it is a directory or has 0 bytes"
+msgstr ""
+
+#: /var/www/html/apps/files/js/file-upload.js:1065
+msgid ""
+"Not enough free space, you are uploading {size1} but only {size2} is left"
+msgstr ""
+
+#: /var/www/html/apps/files/js/file-upload.js:1141
+msgid "Target folder \"{dir}\" does not exist any more"
+msgstr ""
+
+#: /var/www/html/apps/files/js/file-upload.js:1145
+#: /var/www/html/apps/files/js/file-upload.js:1421
+msgid "Not enough free space"
+msgstr ""
+
+#: /var/www/html/apps/files/js/file-upload.js:1149
+msgid "An unknown error has occurred"
+msgstr ""
+
+#: /var/www/html/apps/files/js/file-upload.js:1157
+msgid "File could not be uploaded"
+msgstr ""
+
+#: /var/www/html/apps/files/js/file-upload.js:1216
+#: /var/www/html/apps/files/js/file-upload.js:1293
+msgid "Uploading …"
+msgstr ""
+
+#: /var/www/html/apps/files/js/file-upload.js:1283
+msgid "{remainingTime} ({currentNumber}/{total})"
+msgstr ""
+
+#: /var/www/html/apps/files/js/file-upload.js:1291
+msgid "Uploading … ({currentNumber}/{total})"
+msgstr ""
+
+#: /var/www/html/apps/files/js/file-upload.js:1304
+msgid "{loadedSize} of {totalSize} ({bitrate})"
+msgstr ""
+
+#: /var/www/html/apps/files/js/file-upload.js:1366
+msgid "Uploading that item is not supported"
+msgstr ""
+
+#: /var/www/html/apps/files/js/file-upload.js:1424
+msgid "Target folder does not exist any more"
+msgstr ""
+
+#: /var/www/html/apps/files/js/file-upload.js:1426
+msgid "Operation is blocked by access control"
+msgstr ""
+
+#: /var/www/html/apps/files/js/file-upload.js:1428
+msgid "Error when assembling chunks, status code {status}"
+msgstr ""
+
+#. TRANSLATORS src/components/FilesListTableHeaderActions.vue:28
+#: /var/www/html/apps/files/js/fileactions.js:404
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:78
+#: /var/www/html/apps/files/templates/list.php:54
+msgid "Actions"
+msgstr ""
+
+#: /var/www/html/apps/files/js/fileactions.js:661
+#: /var/www/html/apps/files/src/actions/renameAction.ts:31
+msgid "Rename"
+msgstr ""
+
+#: /var/www/html/apps/files/js/fileactions.js:677
+#: /var/www/html/apps/files/src/actions/moveOrCopyAction.ts:194
+#: /var/www/html/apps/files/src/actions/moveOrCopyAction.ts:221
+msgid "Move"
+msgstr ""
+
+#: /var/www/html/apps/files/js/fileactions.js:681
+#: /var/www/html/apps/files/js/filelist.js:3500
+#: /var/www/html/apps/files/src/actions/moveOrCopyAction.ts:180
+#: /var/www/html/apps/files/src/actions/moveOrCopyAction.ts:223
+msgid "Copy"
+msgstr ""
+
+#: /var/www/html/apps/files/js/fileactions.js:701
+#: /var/www/html/apps/files/js/filelist.js:1088
+msgid "Choose target folder"
+msgstr ""
+
+#: /var/www/html/apps/files/js/fileactions.js:717
+msgid "Set reminder"
+msgstr ""
+
+#: /var/www/html/apps/files/js/fileactions.js:735
+#: /var/www/html/apps/files/src/actions/editLocallyAction.ts:49
+msgid "Edit locally"
+msgstr ""
+
+#: /var/www/html/apps/files/js/fileactions.js:776
+msgid "Open"
+msgstr ""
+
+#: /var/www/html/apps/files/js/fileactions.js:785
+msgid "Delete file"
+msgstr ""
+
+#: /var/www/html/apps/files/js/fileactions.js:786
+msgid "Delete folder"
+msgstr ""
+
+#: /var/www/html/apps/files/js/fileactions.js:788
+msgid "Disconnect storage"
+msgstr ""
+
+#: /var/www/html/apps/files/js/fileactions.js:790
+msgid "Leave this share"
+msgstr ""
+
+#: /var/www/html/apps/files/js/fileinfomodel.js:124
+msgid "Could not load info for file \"{file}\""
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalSettings.vue:24
+#. TRANSLATORS src/views/Navigation.vue:24
+#: /var/www/html/apps/files/js/filelist.js:42
+#: /var/www/html/apps/files/lib/Activity/Settings/FileActivitySettings.php:47
+#: /var/www/html/apps/files/lib/Notification/Notifier.php:77
+#: /var/www/html/apps/files/lib/Search/FilesSearchProvider.php:95
+#: /var/www/html/apps/files/lib/Search/FilesSearchProvider.php:142
+#: /var/www/html/apps/files/specialAppInfoFakeDummyForL10nScript.php:2
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:110
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:162
+msgid "Files"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:585
+msgid "Details"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:1156
+msgid "Please select tag(s) to add to the selection"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:1157
+msgid "Apply tag(s) to selection"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:1685
+msgid "Select directory \"{dirName}\""
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:1686
+msgid "Select file \"{fileName}\""
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry.vue:258
+#: /var/www/html/apps/files/js/filelist.js:1821
+#: /var/www/html/apps/files/js/filesummary.js:229
+#: /var/www/html/apps/files/js/filesummary.js:266
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:56
+msgid "Pending"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:1856
+msgid "Unable to determine date"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:2246
+msgid "This operation is forbidden"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:2254
+msgid ""
+"This directory is unavailable, please check the logs or contact the "
+"administrator"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:2265
+msgid "Storage is temporarily not available"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:2620
+msgid "Could not move \"{file}\", target exists"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:2624
+msgid "Could not move \"{file}\""
+msgstr ""
+
+#. TRANSLATORS name that is appended to copied files with the same name, will be put in parenthesis and appended with a number if it is the second+ copy
+#: /var/www/html/apps/files/js/filelist.js:2702
+msgid "copy"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:2762
+msgid "Could not copy \"{file}\", target exists"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:2766
+msgid "Could not copy \"{file}\""
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:2790
+#: /var/www/html/apps/files/js/filelist.js:2797
+msgid "Copied {origin} inside {destination}"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:2804
+msgid "Copied {origin} and {nbfiles} other files inside {destination}"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:2838
+#: /var/www/html/apps/files/src/actions/editLocallyAction.ts:43
+msgid "Failed to redirect to client"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:2893
+#: /var/www/html/apps/files/js/newfilemenu.js:143
+msgid "{newName} already exists"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:2946
+msgid "Could not rename \"{fileName}\", it does not exist any more"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:2955
+msgid ""
+"The name \"{targetName}\" is already used in the folder \"{dir}\". Please "
+"choose a different name."
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:2966
+msgid "Could not rename \"{fileName}\""
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:3049
+#: /var/www/html/apps/files/js/filelist.js:3060
+msgid "Could not create file \"{file}\""
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:3056
+msgid "Could not create file \"{file}\" because it already exists"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:3110
+msgid "Could not create folder \"{dir}\" because it already exists"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:3181
+msgid "Could not fetch file details \"{file}\""
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:3277
+msgid "Error deleting file \"{fileName}\"."
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:3424
+msgid "No search results in other folders for {tag}{filter}{endtag}"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:3426
+msgid "Enter more than two characters to search in other folders"
+msgstr ""
+
+#. TRANSLATORS src/components/FilesListTableHeader.vue:42
+#: /var/www/html/apps/files/js/filelist.js:3458
+#: /var/www/html/apps/files/js/mainfileinfodetailview.js:153
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:68
+#: /var/www/html/apps/files/templates/list.php:47
+#: /var/www/html/apps/files/templates/simplelist.php:17
+msgid "Name"
+msgstr ""
+
+#. TRANSLATORS src/components/FilesListTableHeader.vue:53
+#: /var/www/html/apps/files/js/filelist.js:3459
+#: /var/www/html/apps/files/js/mainfileinfodetailview.js:158
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:70
+#: /var/www/html/apps/files/templates/list.php:60
+#: /var/www/html/apps/files/templates/simplelist.php:21
+msgid "Size"
+msgstr ""
+
+#. TRANSLATORS src/components/FilesListTableHeader.vue:61
+#: /var/www/html/apps/files/js/filelist.js:3460
+#: /var/www/html/apps/files/js/mainfileinfodetailview.js:161
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:72
+#: /var/www/html/apps/files/templates/list.php:63
+#: /var/www/html/apps/files/templates/simplelist.php:24
+msgid "Modified"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:3468
+#: /var/www/html/apps/files/js/filesummary.js:226
+msgid "%n folder"
+msgid_plural "%n folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/apps/files/js/filelist.js:3469
+#: /var/www/html/apps/files/js/filesummary.js:227
+msgid "%n file"
+msgid_plural "%n files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/apps/files/js/filelist.js:3476
+#: /var/www/html/apps/files/js/filesummary.js:202
+msgid "{dirs} and {files}"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:3484
+#: /var/www/html/apps/files/js/filesummary.js:228
+msgid "including %n hidden"
+msgid_plural "including %n hidden"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/apps/files/js/filelist.js:3598
+#: /var/www/html/apps/files/templates/list.php:8
+msgid "You do not have permission to upload or create files here"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:3696
+msgid "Uploading %n file"
+msgid_plural "Uploading %n files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/apps/files/js/filelist.js:3849
+msgid "New"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:3850
+msgid "New file/folder menu"
+msgstr ""
+
+#: /var/www/html/apps/files/js/filelist.js:3959
+msgid "Select file range"
+msgstr ""
+
+#: /var/www/html/apps/files/js/files.js:107
+msgid "{used}%"
+msgstr ""
+
+#. TRANSLATORS src/components/NavigationQuota.vue:62
+#: /var/www/html/apps/files/js/files.js:109
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:104
+msgid "{used} of {quota} used"
+msgstr ""
+
+#: /var/www/html/apps/files/js/files.js:111
+msgid "{used} used"
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry/FileEntryName.vue:208
+#: /var/www/html/apps/files/js/files.js:145
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:32
+msgid "\"{name}\" is an invalid file name."
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry/FileEntryName.vue:210
+#: /var/www/html/apps/files/js/files.js:147
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:34
+msgid "File name cannot be empty."
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry/FileEntryName.vue:212
+#: /var/www/html/apps/files/js/files.js:149
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:36
+msgid "\"/\" is not allowed inside a file name."
+msgstr ""
+
+#: /var/www/html/apps/files/js/files.js:151
+msgid "\"{name}\" is not an allowed filetype"
+msgstr ""
+
+#: /var/www/html/apps/files/js/files.js:168
+msgid "Storage of {owner} is full, files cannot be updated or synced anymore!"
+msgstr ""
+
+#: /var/www/html/apps/files/js/files.js:173
+msgid ""
+"Group folder \"{mountPoint}\" is full, files cannot be updated or synced "
+"anymore!"
+msgstr ""
+
+#: /var/www/html/apps/files/js/files.js:179
+msgid ""
+"External storage \"{mountPoint}\" is full, files cannot be updated or synced "
+"anymore!"
+msgstr ""
+
+#: /var/www/html/apps/files/js/files.js:185
+msgid "Your storage is full, files cannot be updated or synced anymore!"
+msgstr ""
+
+#: /var/www/html/apps/files/js/files.js:191
+msgid "Storage of {owner} is almost full ({usedSpacePercent}%)."
+msgstr ""
+
+#: /var/www/html/apps/files/js/files.js:202
+msgid "Group folder \"{mountPoint}\" is almost full ({usedSpacePercent}%)."
+msgstr ""
+
+#: /var/www/html/apps/files/js/files.js:208
+msgid "External storage \"{mountPoint}\" is almost full ({usedSpacePercent}%)."
+msgstr ""
+
+#: /var/www/html/apps/files/js/files.js:213
+msgid "Your storage is almost full ({usedSpacePercent}%)."
+msgstr ""
+
+#: /var/www/html/apps/files/js/filesummary.js:253
+msgid "matches \"{filter}\""
+msgid_plural "match \"{filter}\""
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/apps/files/js/gotoplugin.js:41
+#: /var/www/html/apps/files/src/actions/viewInFolderAction.ts:29
+msgid "View in folder"
+msgstr ""
+
+#: /var/www/html/apps/files/js/mainfileinfodetailview.js:72
+msgid ""
+"Direct link was copied (only works for users who have access to this file/"
+"folder)"
+msgstr ""
+
+#: /var/www/html/apps/files/js/mainfileinfodetailview.js:155
+msgid "Path"
+msgstr ""
+
+#: /var/www/html/apps/files/js/mainfileinfodetailview.js:160
+msgid "%n byte"
+msgid_plural "%n bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/apps/files/js/mainfileinfodetailview.js:166
+#: /var/www/html/apps/files/js/tagsplugin.js:39
+msgid "Favorited"
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry/FavoriteIcon.vue:23
+#: /var/www/html/apps/files/js/mainfileinfodetailview.js:166
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:12
+msgid "Favorite"
+msgstr ""
+
+#: /var/www/html/apps/files/js/mainfileinfodetailview.js:169
+msgid ""
+"Copy direct link (only works for users who have access to this file/folder)"
+msgstr ""
+
+#: /var/www/html/apps/files/js/newfilemenu.js:50
+#: /var/www/html/apps/files/js/newfilemenu.js:51
+#: /var/www/html/apps/files/src/newMenu/newFolder.ts:71
+#: /var/www/html/apps/files/src/newMenu/newFolder.ts:77
+msgid "New folder"
+msgstr ""
+
+#: /var/www/html/apps/files/js/newfilemenu.js:54
+msgid "Create new folder"
+msgstr ""
+
+#: /var/www/html/apps/files/js/newfilemenu.js:240
+msgid "Upload file"
+msgstr ""
+
+#: /var/www/html/apps/files/js/recentfilelist.js:36
+#: /var/www/html/apps/files/src/views/recent.ts:32
+msgid "Recent"
+msgstr ""
+
+#: /var/www/html/apps/files/js/tagsplugin.js:39
+msgid "Not favorited"
+msgstr ""
+
+#. TRANSLATORS src/views/Sidebar.vue:60
+#: /var/www/html/apps/files/js/tagsplugin.js:86
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:198
+#: /var/www/html/apps/files/src/actions/favoriteAction.ts:80
+msgid "Remove from favorites"
+msgstr ""
+
+#: /var/www/html/apps/files/js/tagsplugin.js:93
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:198
+#: /var/www/html/apps/files/src/actions/favoriteAction.ts:79
+msgid "Add to favorites"
+msgstr ""
+
+#: /var/www/html/apps/files/js/tagsplugin.js:263
+msgid "An error occurred while trying to update the tags"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/FavoriteProvider.php:100
+msgid "Added to favorites"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/FavoriteProvider.php:108
+msgid "Removed from favorites"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/FavoriteProvider.php:130
+msgid "You added {file} to your favorites"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/FavoriteProvider.php:138
+msgid "You removed {file} from your favorites"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Filter/Favorites.php:78
+#: /var/www/html/apps/files/src/views/favorites.ts:66
+msgid "Favorites"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Filter/FileChanges.php:60
+msgid "File changes"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:143
+msgid "Created by {user}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:146
+msgid "Changed by {user}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:149
+msgid "Deleted by {user}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:152
+msgid "Restored by {user}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:155
+msgid "Renamed by {user}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:158
+msgid "Moved by {user}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:166
+#: /var/www/html/apps/files/lib/Activity/Provider.php:284
+msgid "\"remote user\""
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:186
+msgid "You created {file}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:188
+msgid "You created an encrypted file in {file}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:192
+msgid "{user} created {file}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:194
+msgid "{user} created an encrypted file in {file}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:198
+msgid "{file} was created in a public folder"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:201
+msgid "You changed {file}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:203
+msgid "You changed an encrypted file in {file}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:207
+msgid "{user} changed {file}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:209
+msgid "{user} changed an encrypted file in {file}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:213
+msgid "You deleted {file}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:215
+msgid "You deleted an encrypted file in {file}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:219
+msgid "{user} deleted {file}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:221
+msgid "{user} deleted an encrypted file in {file}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:225
+msgid "You restored {file}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:228
+msgid "{user} restored {file}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:236
+msgid "You renamed {oldfile} (hidden) to {newfile} (hidden)"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:238
+msgid "You renamed {oldfile} (hidden) to {newfile}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:242
+msgid "You renamed {oldfile} to {newfile} (hidden)"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:244
+msgid "You renamed {oldfile} to {newfile}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:255
+msgid "{user} renamed {oldfile} (hidden) to {newfile} (hidden)"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:257
+msgid "{user} renamed {oldfile} (hidden) to {newfile}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:261
+msgid "{user} renamed {oldfile} to {newfile} (hidden)"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:263
+msgid "{user} renamed {oldfile} to {newfile}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:269
+msgid "You moved {oldfile} to {newfile}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Provider.php:272
+msgid "{user} moved {oldfile} to {newfile}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Settings/FavoriteAction.php:40
+msgid ""
+"A file has been added to or removed from your <strong>favorites</strong>"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Settings/FileChanged.php:40
+msgid "A file or folder has been <strong>changed</strong>"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Activity/Settings/FileFavoriteChanged.php:40
+msgid "A favorite file or folder has been <strong>changed</strong>"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Helper.php:54
+#, php-format
+msgid "Upload (max. %s)"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Notification/Notifier.php:116
+msgid "Accept"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Notification/Notifier.php:129
+msgid "Reject"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Notification/Notifier.php:145
+msgid "Incoming ownership transfer from {user}"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Notification/Notifier.php:154
+msgid ""
+"Do you want to accept {path}?\n"
+"\n"
+"Note: The transfer process after accepting may take up to 1 hour."
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Notification/Notifier.php:171
+#: /var/www/html/apps/files/lib/Notification/Notifier.php:194
+msgid "Ownership transfer failed"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Notification/Notifier.php:173
+msgid "Your ownership transfer of {path} to {user} failed."
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Notification/Notifier.php:196
+msgid "The ownership transfer of {path} from {user} failed."
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Notification/Notifier.php:218
+#: /var/www/html/apps/files/lib/Notification/Notifier.php:242
+msgid "Ownership transfer done"
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Notification/Notifier.php:220
+msgid "Your ownership transfer of {path} to {user} has completed."
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Notification/Notifier.php:244
+msgid "The ownership transfer of {path} from {user} has completed."
+msgstr ""
+
+#: /var/www/html/apps/files/lib/Search/FilesSearchProvider.php:231
+#, php-format
+msgid "in %s"
+msgstr ""
+
+#: /var/www/html/apps/files/specialAppInfoFakeDummyForL10nScript.php:3
+msgid "File Management"
+msgstr ""
+
+#. TRANSLATORS src/components/BreadCrumbs.vue:109
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:4
+msgid "Reload current directory"
+msgstr ""
+
+#. TRANSLATORS src/components/BreadCrumbs.vue:111
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:6
+msgid "Go to the \"{dir}\" directory"
+msgstr ""
+
+#. TRANSLATORS src/components/DragAndDropNotice.vue:30
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:8
+msgid "Drag and drop files here to upload"
+msgstr ""
+
+#. TRANSLATORS src/components/DragAndDropNotice.vue:108
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:10
+msgid "Upload successful"
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry/FileEntryActions.vue:294
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:14
+msgid "\"{displayName}\" action executed successfully"
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry/FileEntryActions.vue:297
+#. TRANSLATORS src/components/FilesListTableHeaderActions.vue:197
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:16
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:18
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:84
+msgid "\"{displayName}\" action failed"
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry/FileEntryCheckbox.vue:26
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:20
+msgid "Select the row for {displayName}"
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry/FileEntryName.vue:26
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:22
+msgid "Rename file"
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry/FileEntryName.vue:133
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:24
+msgid "File name"
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry/FileEntryName.vue:134
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:26
+msgid "Folder name"
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry/FileEntryName.vue:142
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:28
+msgid "This node is unavailable"
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry/FileEntryName.vue:161
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:30
+msgid "Download file {name}"
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry/FileEntryName.vue:214
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:38
+msgid "\"{name}\" is not an allowed filetype."
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry/FileEntryName.vue:216
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:40
+msgid "{newName} already exists."
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry/FileEntryName.vue:222
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:42
+msgid "\"{char}\" is not allowed inside a file name."
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry/FileEntryName.vue:264
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:44
+msgid "Name cannot be empty"
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry/FileEntryName.vue:275
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:46
+msgid "Another entry with the same name already exists"
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry/FileEntryName.vue:300
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:48
+msgid "Renamed \"{oldName}\" to \"{newName}\""
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry/FileEntryName.vue:314
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:50
+msgid "Could not rename \"{oldName}\", it does not exist any more"
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry/FileEntryName.vue:317
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:52
+msgid ""
+"The name \"{newName}\" is already used in the folder \"{dir}\". Please "
+"choose a different name."
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntry/FileEntryName.vue:322
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:54
+msgid "Could not rename \"{oldName}\""
+msgstr ""
+
+#. TRANSLATORS src/components/FilesListTableFooter.vue:25
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:66
+msgid "Total rows summary"
+msgstr ""
+
+#. TRANSLATORS src/components/FilesListTableHeader.vue:151
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:74
+#: /var/www/html/apps/files/templates/list.php:41
+msgid "Select all"
+msgstr ""
+
+#. TRANSLATORS src/components/FilesListTableHeader.vue:152
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:76
+msgid "Unselect all"
+msgstr ""
+
+#. TRANSLATORS src/components/FilesListTableHeaderActions.vue:188
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:80
+msgid "\"{displayName}\" failed on some elements "
+msgstr ""
+
+#. TRANSLATORS src/components/FilesListTableHeaderActions.vue:193
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:82
+msgid "\"{displayName}\" batch action executed successfully"
+msgstr ""
+
+#. TRANSLATORS src/components/FilesListVirtual.vue:157
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:86
+msgid "{summaryFile} and {summaryFolder}"
+msgstr ""
+
+#. TRANSLATORS src/components/FilesListVirtual.vue:183
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:88
+msgid "List of files and folders."
+msgstr ""
+
+#. TRANSLATORS src/components/FilesListVirtual.vue:185
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:90
+msgid "Column headers with buttons are sortable."
+msgstr ""
+
+#. TRANSLATORS src/components/FilesListVirtual.vue:186
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:92
+msgid ""
+"This list is not fully rendered for performance reasons. The files will be "
+"rendered as you navigate through the list."
+msgstr ""
+
+#. TRANSLATORS src/components/FilesListVirtual.vue:231
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:94
+msgid "File not found"
+msgstr ""
+
+#. TRANSLATORS src/components/FilesListVirtual.vue:150
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:96
+msgid "{count} file"
+msgid_plural "{count} files"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS src/components/FilesListVirtual.vue:154
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:98
+msgid "{count} folder"
+msgid_plural "{count} folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS src/components/NavigationQuota.vue:3
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:100
+msgid "Storage informations"
+msgstr ""
+
+#. TRANSLATORS src/components/NavigationQuota.vue:59
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:102
+msgid "{usedQuotaByte} used"
+msgstr ""
+
+#. TRANSLATORS src/components/NavigationQuota.vue:72
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:106
+msgid "{relative}% used"
+msgstr ""
+
+#. TRANSLATORS src/components/NavigationQuota.vue:121
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:108
+msgid "Could not refresh storage stats"
+msgstr ""
+
+#. TRANSLATORS src/components/TransferOwnershipDialogue.vue:24
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:112
+msgid "Transfer ownership of a file or folder"
+msgstr ""
+
+#. TRANSLATORS src/components/TransferOwnershipDialogue.vue:31
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:114
+msgid "Choose file or folder to transfer"
+msgstr ""
+
+#. TRANSLATORS src/components/TransferOwnershipDialogue.vue:34
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:116
+msgid "Change"
+msgstr ""
+
+#. TRANSLATORS src/components/TransferOwnershipDialogue.vue:40
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:118
+msgid "New owner"
+msgstr ""
+
+#. TRANSLATORS src/components/TransferOwnershipDialogue.vue:74
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:120
+msgid "Choose a file or folder to transfer"
+msgstr ""
+
+#. TRANSLATORS src/components/TransferOwnershipDialogue.vue:115
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:122
+msgid "Transfer"
+msgstr ""
+
+#. TRANSLATORS src/components/TransferOwnershipDialogue.vue:118
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:124
+msgid "Transfer {path} to {userid}"
+msgstr ""
+
+#. TRANSLATORS src/components/TransferOwnershipDialogue.vue:140
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:126
+msgid "Invalid path selected"
+msgstr ""
+
+#. TRANSLATORS src/components/TransferOwnershipDialogue.vue:148
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:128
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:134
+msgid "Unknown error"
+msgstr ""
+
+#. TRANSLATORS src/components/TransferOwnershipDialogue.vue:204
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:130
+msgid "Ownership transfer request sent"
+msgstr ""
+
+#. TRANSLATORS src/components/TransferOwnershipDialogue.vue:210
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:132
+msgid "Cannot transfer ownership of a file or folder you do not own"
+msgstr ""
+
+#. TRANSLATORS src/views/FileReferencePickerElement.vue:62
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:136
+msgid "Select file or folder to link to"
+msgstr ""
+
+#. TRANSLATORS src/views/FileReferencePickerElement.vue:73
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:138
+msgid "Choose file"
+msgstr ""
+
+#. TRANSLATORS src/views/FileReferencePickerElement.vue:79
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:140
+msgid "Choose {file}"
+msgstr ""
+
+#. TRANSLATORS src/views/FilesList.vue:73
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:142
+msgid "Loading current folder"
+msgstr ""
+
+#. TRANSLATORS src/views/FilesList.vue:77
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:144
+#: /var/www/html/apps/files/templates/list.php:26
+msgid "No files in here"
+msgstr ""
+
+#. TRANSLATORS src/views/FilesList.vue:78
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:146
+#: /var/www/html/apps/files/templates/list.php:27
+msgid "Upload some content or sync with your devices!"
+msgstr ""
+
+#. TRANSLATORS src/views/FilesList.vue:82
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:148
+msgid "Go to the previous folder"
+msgstr ""
+
+#. TRANSLATORS src/views/FilesList.vue:85
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:150
+msgid "Go back"
+msgstr ""
+
+#. TRANSLATORS src/views/FilesList.vue:335
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:152
+msgid "Share"
+msgstr ""
+
+#. TRANSLATORS src/views/FilesList.vue:339
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:154
+msgid "Shared by link"
+msgstr ""
+
+#. TRANSLATORS src/views/FilesList.vue:341
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:156
+msgid "Shared"
+msgstr ""
+
+#. TRANSLATORS src/views/FilesList.vue:358
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:158
+msgid "Switch to list view"
+msgstr ""
+
+#. TRANSLATORS src/views/FilesList.vue:359
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:160
+msgid "Switch to grid view"
+msgstr ""
+
+#. TRANSLATORS src/views/Navigation.vue:61
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:164
+msgid "Open the files app settings"
+msgstr ""
+
+#. TRANSLATORS src/views/Navigation.vue:62
+#. TRANSLATORS src/views/Settings.vue:25
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:166
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:172
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:174
+msgid "Files settings"
+msgstr ""
+
+#. TRANSLATORS src/views/ReferenceFileWidget.vue:27
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:168
+msgid "File cannot be accessed"
+msgstr ""
+
+#. TRANSLATORS src/views/ReferenceFileWidget.vue:30
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:170
+msgid ""
+"You might not have have permissions to view it, ask the sender to share it"
+msgstr ""
+
+#. TRANSLATORS src/views/Settings.vue:31
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:176
+msgid "Sort favorites first"
+msgstr ""
+
+#. TRANSLATORS src/views/Settings.vue:35
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:178
+msgid "Show hidden files"
+msgstr ""
+
+#. TRANSLATORS src/views/Settings.vue:39
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:180
+msgid "Crop image previews"
+msgstr ""
+
+#. TRANSLATORS src/views/Settings.vue:43
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:182
+msgid "Enable the grid view"
+msgstr ""
+
+#. TRANSLATORS src/views/Settings.vue:50
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:184
+msgid "Additional settings"
+msgstr ""
+
+#. TRANSLATORS src/views/Settings.vue:57
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:186
+msgid "WebDAV"
+msgstr ""
+
+#. TRANSLATORS src/views/Settings.vue:61
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:188
+msgid "Copy to clipboard"
+msgstr ""
+
+#. TRANSLATORS src/views/Settings.vue:76
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:190
+msgid "Use this address to access your Files via WebDAV"
+msgstr ""
+
+#. TRANSLATORS src/views/Settings.vue:82
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:192
+msgid ""
+"If you have enabled 2FA, you must create and use a new app password by "
+"clicking here."
+msgstr ""
+
+#. TRANSLATORS src/views/Settings.vue:171
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:194
+msgid "Clipboard is not available"
+msgstr ""
+
+#. TRANSLATORS src/views/Settings.vue:177
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:196
+msgid "WebDAV URL copied to clipboard"
+msgstr ""
+
+#. TRANSLATORS src/views/Sidebar.vue:436
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:202
+msgid "Unable to change the favourite state of the file"
+msgstr ""
+
+#. TRANSLATORS src/views/Sidebar.vue:498
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:204
+msgid "Error while loading the file data"
+msgstr ""
+
+#. TRANSLATORS src/views/TemplatePicker.vue:32
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:206
+msgid "Pick a template for {name}"
+msgstr ""
+
+#. TRANSLATORS src/views/TemplatePicker.vue:52
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:208
+msgid "Create"
+msgstr ""
+
+#. TRANSLATORS src/views/TemplatePicker.vue:53
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:210
+msgid "Create a new file with the selected template"
+msgstr ""
+
+#. TRANSLATORS src/views/TemplatePicker.vue:58
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:212
+msgid "Creating file"
+msgstr ""
+
+#. TRANSLATORS src/views/TemplatePicker.vue:120
+#. TRANSLATORS src/views/TemplatePicker.vue:122
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:214
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:216
+msgid "Blank"
+msgstr ""
+
+#. TRANSLATORS src/views/TemplatePicker.vue:258
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:218
+msgid "Unable to create new file from template"
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntryGrid.vue:390
+#. TRANSLATORS src/components/FileEntry.vue:512
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:64
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:60
+msgid "Could not move {file}. {message}"
+msgstr ""
+
+#. TRANSLATORS src/components/FileEntryGrid.vue:388
+#. TRANSLATORS src/components/FileEntry.vue:510
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:62
+#: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:58
+msgid "Could not copy {file}. {message}"
+msgstr ""
+
+#: /var/www/html/apps/files/src/actions/deleteAction.ts:34
+msgid "Delete permanently"
+msgstr ""
+
+#: /var/www/html/apps/files/src/actions/moveOrCopyAction.ts:77
+msgid "Destination is not a folder"
+msgstr ""
+
+#: /var/www/html/apps/files/src/actions/moveOrCopyAction.ts:81
+msgid "This file/folder is already in that directory"
+msgstr ""
+
+#: /var/www/html/apps/files/src/actions/moveOrCopyAction.ts:91
+msgid "You cannot move a file/folder onto itself or into a subfolder of itself"
+msgstr ""
+
+#: /var/www/html/apps/files/src/actions/moveOrCopyAction.ts:123
+msgid "A file or folder with that name already exists in this folder"
+msgstr ""
+
+#: /var/www/html/apps/files/src/actions/moveOrCopyAction.ts:125
+msgid "The files is locked"
+msgstr ""
+
+#: /var/www/html/apps/files/src/actions/moveOrCopyAction.ts:127
+msgid "The file does not exist anymore"
+msgstr ""
+
+#: /var/www/html/apps/files/src/actions/moveOrCopyAction.ts:148
+msgid "Chose destination"
+msgstr ""
+
+#: /var/www/html/apps/files/src/actions/moveOrCopyAction.ts:180
+msgid "Copy to {target}"
+msgstr ""
+
+#: /var/www/html/apps/files/src/actions/moveOrCopyAction.ts:194
+msgid "Move to {target}"
+msgstr ""
+
+#: /var/www/html/apps/files/src/actions/moveOrCopyAction.ts:211
+msgid "Cancelled move or copy operation"
+msgstr ""
+
+#: /var/www/html/apps/files/src/actions/openFolderAction.ts:32
+msgid "Open folder {displayName}"
+msgstr ""
+
+#: /var/www/html/apps/files/src/actions/openInFilesAction.ts:31
+msgid "Open in Files"
+msgstr ""
+
+#: /var/www/html/apps/files/src/actions/sidebarAction.ts:32
+msgid "Open details"
+msgstr ""
+
+#: /var/www/html/apps/files/src/init-templates.ts:79
+msgid "Create new templates folder"
+msgstr ""
+
+#: /var/www/html/apps/files/src/init-templates.ts:92
+msgid "Templates"
+msgstr ""
+
+#: /var/www/html/apps/files/src/init-templates.ts:146
+msgid "Unable to initialize the templates directory"
+msgstr ""
+
+#: /var/www/html/apps/files/src/newMenu/newFolder.ts:90
+msgid "Created new folder \"{name}\""
+msgstr ""
+
+#: /var/www/html/apps/files/src/services/DropService.ts:52
+msgid "One of the dropped files could not be processed"
+msgstr ""
+
+#: /var/www/html/apps/files/src/services/DropService.ts:71
+msgid "Uploading \"{filename}\" failed"
+msgstr ""
+
+#: /var/www/html/apps/files/src/utils/fileUtils.ts:59
+msgid "{folderCount} folder"
+msgid_plural "{folderCount} folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/apps/files/src/utils/fileUtils.ts:61
+msgid "{fileCount} file"
+msgid_plural "{fileCount} files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/apps/files/src/utils/fileUtils.ts:65
+msgid "1 file and {folderCount} folder"
+msgid_plural "1 file and {folderCount} folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/apps/files/src/utils/fileUtils.ts:69
+msgid "{fileCount} file and 1 folder"
+msgid_plural "{fileCount} files and 1 folder"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/apps/files/src/utils/fileUtils.ts:72
+msgid "{fileCount} files and {folderCount} folders"
+msgstr ""
+
+#: /var/www/html/apps/files/src/views/favorites.ts:67
+msgid "List of favorites files and folders."
+msgstr ""
+
+#: /var/www/html/apps/files/src/views/favorites.ts:69
+#: /var/www/html/apps/files/templates/simplelist.php:3
+msgid "No favorites yet"
+msgstr ""
+
+#: /var/www/html/apps/files/src/views/favorites.ts:70
+#: /var/www/html/apps/files/templates/simplelist.php:4
+msgid "Files and folders you mark as favorite will show up here"
+msgstr ""
+
+#: /var/www/html/apps/files/src/views/files.ts:32
+msgid "All files"
+msgstr ""
+
+#: /var/www/html/apps/files/src/views/files.ts:33
+msgid "List of your files and folders."
+msgstr ""
+
+#: /var/www/html/apps/files/src/views/recent.ts:33
+msgid "List of recently modified files and folders."
+msgstr ""
+
+#: /var/www/html/apps/files/src/views/recent.ts:35
+msgid "No recently modified files"
+msgstr ""
+
+#: /var/www/html/apps/files/src/views/recent.ts:36
+msgid "Files and folders you recently modified will show up here."
+msgstr ""
+
+#: /var/www/html/apps/files/templates/appnavigation.php:49
+#, php-format
+msgid "Toggle %1$s sublist"
+msgstr ""
+
+#: /var/www/html/apps/files/templates/list.php:32
+#: /var/www/html/apps/files/templates/simplelist.php:9
+msgid "No entries found in this folder"
+msgstr ""
+
+#: /var/www/html/apps/files/templates/list.php:76
+msgid "Upload too large"
+msgstr ""
+
+#: /var/www/html/apps/files/templates/list.php:78
+msgid ""
+"The files you are trying to upload exceed the maximum size for file uploads "
+"on this server."
+msgstr ""
+
+#: /var/www/html/apps/files/tests/js/newfilemenuSpec.js:114
+msgid "Text file"
+msgstr ""
+
+#: /var/www/html/apps/files/tests/js/newfilemenuSpec.js:115
+msgid "New text file.txt"
+msgstr ""

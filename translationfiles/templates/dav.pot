@@ -1,0 +1,991 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2023-12-26 02:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Filter/Calendar.php:56
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:93
+#: /var/www/html/apps/dav/lib/UserMigration/CalendarMigrator.php:501
+msgid "Calendar"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Filter/Todo.php:55
+msgid "To-dos"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Base.php:74
+#: /var/www/html/apps/dav/lib/CalDAV/Calendar.php:74
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Base.php:76
+msgid "Personal"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:100
+msgid "{actor} created calendar {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:102
+msgid "You created calendar {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:104
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:112
+msgid "{actor} deleted calendar {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:106
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:114
+msgid "You deleted calendar {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:108
+msgid "{actor} updated calendar {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:110
+msgid "You updated calendar {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:116
+msgid "{actor} restored calendar {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:118
+msgid "You restored calendar {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:120
+msgid "You shared calendar {calendar} as public link"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:122
+msgid "You removed public link for calendar {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:124
+msgid "{actor} shared calendar {calendar} with you"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:126
+msgid "You shared calendar {calendar} with {user}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:128
+msgid "{actor} shared calendar {calendar} with {user}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:130
+msgid "{actor} unshared calendar {calendar} from you"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:132
+msgid "You unshared calendar {calendar} from {user}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:134
+msgid "{actor} unshared calendar {calendar} from {user}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:136
+msgid "{actor} unshared calendar {calendar} from themselves"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:138
+msgid "You shared calendar {calendar} with group {group}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:140
+msgid "{actor} shared calendar {calendar} with group {group}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:142
+msgid "You unshared calendar {calendar} from group {group}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:144
+msgid "{actor} unshared calendar {calendar} from group {group}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:92
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/NotificationProvider/EmailProvider.php:463
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:229
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:285
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:296
+#: /var/www/html/apps/dav/lib/Search/EventsSearchProvider.php:170
+msgid "Untitled event"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:138
+msgid "{actor} created event {event} in calendar {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:140
+msgid "You created event {event} in calendar {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:142
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:154
+msgid "{actor} deleted event {event} from calendar {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:144
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:156
+msgid "You deleted event {event} from calendar {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:146
+msgid "{actor} updated event {event} in calendar {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:148
+msgid "You updated event {event} in calendar {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:150
+msgid ""
+"{actor} moved event {event} from calendar {sourceCalendar} to calendar "
+"{targetCalendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:152
+msgid ""
+"You moved event {event} from calendar {sourceCalendar} to calendar "
+"{targetCalendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:158
+msgid "{actor} restored event {event} of calendar {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:160
+msgid "You restored event {event} of calendar {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:253
+#: /var/www/html/apps/dav/lib/CalDAV/CalendarObject.php:125
+msgid "Busy"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:53
+msgid "{actor} created to-do {todo} in list {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:55
+msgid "You created to-do {todo} in list {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:57
+msgid "{actor} deleted to-do {todo} from list {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:59
+msgid "You deleted to-do {todo} from list {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:61
+msgid "{actor} updated to-do {todo} in list {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:63
+msgid "You updated to-do {todo} in list {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:65
+msgid "{actor} solved to-do {todo} in list {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:67
+msgid "You solved to-do {todo} in list {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:69
+msgid "{actor} reopened to-do {todo} in list {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:71
+msgid "You reopened to-do {todo} in list {calendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:73
+msgid ""
+"{actor} moved to-do {todo} from list {sourceCalendar} to list "
+"{targetCalendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:75
+msgid ""
+"You moved to-do {todo} from list {sourceCalendar} to list {targetCalendar}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Setting/CalDAVSetting.php:48
+msgid "Calendar, contacts and tasks"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Setting/Calendar.php:40
+msgid "A <strong>calendar</strong> was modified"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Setting/Event.php:40
+msgid "A calendar <strong>event</strong> was modified"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Setting/Todo.php:41
+msgid "A calendar <strong>to-do</strong> was modified"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/BirthdayService.php:150
+#: /var/www/html/apps/dav/lib/CalDAV/Calendar.php:70
+msgid "Contact birthdays"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/BirthdayService.php:486
+#: /var/www/html/apps/dav/lib/CalDAV/BirthdayService.php:511
+#, php-format
+msgid "Death of %s"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/NotificationProvider/AbstractProvider.php:190
+msgid "Untitled calendar"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/NotificationProvider/EmailProvider.php:168
+msgid "Calendar:"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/NotificationProvider/EmailProvider.php:171
+msgid "Date:"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/NotificationProvider/EmailProvider.php:175
+msgid "Where:"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/NotificationProvider/EmailProvider.php:179
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:558
+msgid "Description:"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:158
+msgid "%n year"
+msgid_plural "%n years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:161
+msgid "%n month"
+msgid_plural "%n months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:164
+msgid "%n day"
+msgid_plural "%n days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:167
+msgid "%n hour"
+msgid_plural "%n hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:170
+msgid "%n minute"
+msgid_plural "%n minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:180
+#, php-format
+msgid "%s (in %s)"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:182
+#, php-format
+msgid "%s (%s ago)"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:210
+#, php-format
+msgid "Calendar: %s"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:211
+#, php-format
+msgid "Date: %s"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:214
+#, php-format
+msgid "Description: %s"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:217
+#, php-format
+msgid "Where: %s"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:84
+#, php-format
+msgid "%1$s via %2$s"
+msgstr ""
+
+#. TRANSLATORS Subject for email, when an invitation is cancelled. Ex: "Cancelled: {{Event Name}}"
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:414
+#, php-format
+msgid "Cancelled: %1$s"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:415
+#, php-format
+msgid "\"%1$s\" has been canceled"
+msgstr ""
+
+#. TRANSLATORS Subject for email, when an invitation is replied to. Ex: "Re: {{Event Name}}"
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:418
+#, php-format
+msgid "Re: %1$s"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:424
+#, php-format
+msgid "%1$s has accepted your invitation"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:427
+#, php-format
+msgid "%1$s has tentatively accepted your invitation"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:430
+#, php-format
+msgid "%1$s has declined your invitation"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:434
+#, php-format
+msgid "%1$s has responded to your invitation"
+msgstr ""
+
+#. TRANSLATORS Subject for email, when an invitation is updated. Ex: "Invitation updated: {{Event Name}}"
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:439
+#, php-format
+msgid "Invitation updated: %1$s"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:440
+#, php-format
+msgid "%1$s updated the event \"%2$s\""
+msgstr ""
+
+#. TRANSLATORS Subject for email, when an invitation is sent. Ex: "Invitation: {{Event Name}}"
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:443
+#, php-format
+msgid "Invitation: %1$s"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:444
+#, php-format
+msgid "%1$s would like to invite you to \"%2$s\""
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:496
+msgid "Organizer:"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:527
+msgid "Attendees:"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:539
+msgid "Title:"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:542
+msgid "Time:"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:546
+msgid "Location:"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:550
+msgid "Link:"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:643
+#: /var/www/html/apps/dav/templates/schedule-response-options.php:14
+msgid "Accept"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:647
+#: /var/www/html/apps/dav/templates/schedule-response-options.php:24
+msgid "Decline"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:659
+msgid "More options …"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:661
+#, php-format
+msgid "More options at %s"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Filter.php:53
+#: /var/www/html/apps/dav/lib/CardDAV/AddressBook.php:62
+#: /var/www/html/apps/dav/lib/Search/ContactsSearchProvider.php:83
+#: /var/www/html/apps/dav/lib/UserMigration/ContactsMigrator.php:402
+msgid "Contacts"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:88
+msgid "{actor} created address book {addressbook}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:90
+msgid "You created address book {addressbook}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:92
+msgid "{actor} deleted address book {addressbook}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:94
+msgid "You deleted address book {addressbook}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:96
+msgid "{actor} updated address book {addressbook}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:98
+msgid "You updated address book {addressbook}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:100
+msgid "{actor} shared address book {addressbook} with you"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:102
+msgid "You shared address book {addressbook} with {user}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:104
+msgid "{actor} shared address book {addressbook} with {user}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:106
+msgid "{actor} unshared address book {addressbook} from you"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:108
+msgid "You unshared address book {addressbook} from {user}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:110
+msgid "{actor} unshared address book {addressbook} from {user}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:112
+msgid "{actor} unshared address book {addressbook} from themselves"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:114
+msgid "You shared address book {addressbook} with group {group}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:116
+msgid "{actor} shared address book {addressbook} with group {group}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:118
+msgid "You unshared address book {addressbook} from group {group}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:120
+msgid "{actor} unshared address book {addressbook} from group {group}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Card.php:90
+msgid "{actor} created contact {card} in address book {addressbook}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Card.php:92
+msgid "You created contact {card} in address book {addressbook}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Card.php:94
+msgid "{actor} deleted contact {card} from address book {addressbook}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Card.php:96
+msgid "You deleted contact {card} from address book {addressbook}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Card.php:98
+msgid "{actor} updated contact {card} in address book {addressbook}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Card.php:100
+msgid "You updated contact {card} in address book {addressbook}"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Setting.php:42
+msgid ""
+"A <strong>contact</strong> or <strong>address book</strong> was modified"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/SystemAddressbook.php:75
+#: /var/www/html/apps/dav/lib/Connector/Sabre/Principal.php:214
+msgid "Accounts"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/CardDAV/SystemAddressbook.php:76
+msgid "System address book which holds all accounts"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:146
+#, php-format
+msgid "File is not updatable: %1$s"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:181
+msgid "Could not write to final file, canceled by hook"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:269
+msgid "Could not write file contents"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:286
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:287
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:305
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:306
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:619
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:620
+msgid "%n byte"
+msgid_plural "%n bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:284
+#, php-format
+msgid ""
+"Error while copying file to target location (copied: %1$s, expected "
+"filesize: %2$s)"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:303
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:617
+#, php-format
+msgid ""
+"Expected filesize of %1$s but read (from Nextcloud client) and wrote (to "
+"Nextcloud storage) %2$s. Could either be a network problem on the sending "
+"side or a problem writing to the storage on the server side."
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:329
+msgid "Could not rename part file to final file, canceled by hook"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:358
+msgid "Could not rename part file to final file"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:417
+#, php-format
+msgid "Failed to check file size: %1$s"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:505
+msgid "Could not open file"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:521
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:756
+#, php-format
+msgid "Encryption not ready: %1$s"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:523
+#, php-format
+msgid "Failed to open file: %1$s"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:548
+#, php-format
+msgid "Failed to unlink: %1$s"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:602
+msgid "Invalid chunk name"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:670
+msgid "Could not rename part file assembled from chunks"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:759
+#, php-format
+msgid "Failed to write file contents: %1$s"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:762
+#, php-format
+msgid "File not found: %1$s"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/MaintenancePlugin.php:86
+msgid "System is in maintenance mode."
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/MaintenancePlugin.php:89
+msgid "Upgrade needed"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Provisioning/Apple/AppleProvisioningPlugin.php:122
+#, php-format
+msgid ""
+"Your %s needs to be configured to use HTTPS in order to use CalDAV and "
+"CardDAV with iOS/macOS."
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Provisioning/Apple/AppleProvisioningPlugin.php:149
+msgid "Configures a CalDAV account"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Provisioning/Apple/AppleProvisioningPlugin.php:151
+msgid "Configures a CardDAV account"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Search/EventsSearchProvider.php:86
+msgid "Events"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Search/TasksSearchProvider.php:74
+msgid "Tasks"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Search/TasksSearchProvider.php:118
+msgid "Untitled task"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Search/TasksSearchProvider.php:155
+#, php-format
+msgid "Completed on %s"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Search/TasksSearchProvider.php:164
+#, php-format
+msgid "Due on %s by %s"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/Search/TasksSearchProvider.php:167
+#, php-format
+msgid "Due on %s"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/SetupChecks/NeedsSystemAddressBookSync.php:43
+msgid "DAV system address book"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/SetupChecks/NeedsSystemAddressBookSync.php:52
+msgid "No outstanding DAV system address book sync."
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/SetupChecks/NeedsSystemAddressBookSync.php:54
+msgid ""
+"The DAV system address book sync has not run yet as your instance has more "
+"than 1000 users or because an error occurred. Please run it manually by "
+"calling \"occ dav:sync-system-addressbook\"."
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/UserMigration/CalendarMigrator.php:369
+#, php-format
+msgid "Migrated calendar (%1$s)"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/UserMigration/CalendarMigrator.php:508
+msgid "Calendars including events, details and attendees"
+msgstr ""
+
+#: /var/www/html/apps/dav/lib/UserMigration/ContactsMigrator.php:409
+msgid "Contacts and groups"
+msgstr ""
+
+#: /var/www/html/apps/dav/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "WebDAV"
+msgstr ""
+
+#: /var/www/html/apps/dav/specialAppInfoFakeDummyForL10nScript.php:3
+msgid "WebDAV endpoint"
+msgstr ""
+
+#. TRANSLATORS src/components/AbsenceForm.vue:28
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:2
+msgid "First day"
+msgstr ""
+
+#. TRANSLATORS src/components/AbsenceForm.vue:33
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:4
+msgid "Last day (inclusive)"
+msgstr ""
+
+#. TRANSLATORS src/components/AbsenceForm.vue:37
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:6
+msgid "Short absence status"
+msgstr ""
+
+#. TRANSLATORS src/components/AbsenceForm.vue:38
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:8
+msgid "Long absence Message"
+msgstr ""
+
+#. TRANSLATORS src/components/AbsenceForm.vue:44
+#. TRANSLATORS src/components/AvailabilityForm.vue:35
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:10
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:52
+#: /var/www/html/apps/dav/templates/schedule-response-options.php:29
+msgid "Save"
+msgstr ""
+
+#. TRANSLATORS src/components/AbsenceForm.vue:49
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:12
+msgid "Disable absence"
+msgstr ""
+
+#. TRANSLATORS src/components/AbsenceForm.vue:126
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:14
+msgid "Absence saved"
+msgstr ""
+
+#. TRANSLATORS src/components/AbsenceForm.vue:128
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:16
+msgid "Failed to save your absence settings"
+msgstr ""
+
+#. TRANSLATORS src/components/AbsenceForm.vue:139
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:18
+msgid "Absence cleared"
+msgstr ""
+
+#. TRANSLATORS src/components/AbsenceForm.vue:141
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:20
+msgid "Failed to clear your absence settings"
+msgstr ""
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:5
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:22
+msgid "Time zone:"
+msgstr ""
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:14
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:24
+msgid "to"
+msgstr ""
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:15
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:26
+msgid "Delete slot"
+msgstr ""
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:16
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:28
+msgid "No working hours set"
+msgstr ""
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:17
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:30
+msgid "Add slot"
+msgstr ""
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:18
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:32
+msgid "Monday"
+msgstr ""
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:19
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:34
+msgid "Tuesday"
+msgstr ""
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:20
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:36
+msgid "Wednesday"
+msgstr ""
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:21
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:38
+msgid "Thursday"
+msgstr ""
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:22
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:40
+msgid "Friday"
+msgstr ""
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:23
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:42
+msgid "Saturday"
+msgstr ""
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:24
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:44
+msgid "Sunday"
+msgstr ""
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:25
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:46
+msgid "Pick a start time for {dayName}"
+msgstr ""
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:26
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:48
+msgid "Pick a end time for {dayName}"
+msgstr ""
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:29
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:50
+msgid ""
+"Automatically set user status to \"Do not disturb\" outside of availability "
+"to mute all notifications."
+msgstr ""
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:102
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:54
+msgid "Failed to load availability"
+msgstr ""
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:119
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:56
+msgid "Saved availability"
+msgstr ""
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:123
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:58
+msgid "Failed to save availability"
+msgstr ""
+
+#. TRANSLATORS src/views/Availability.vue:3
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:60
+msgid "Availability"
+msgstr ""
+
+#. TRANSLATORS src/views/Availability.vue:4
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:62
+msgid ""
+"If you configure your working hours, other users will see when you are out "
+"of office when they book a meeting."
+msgstr ""
+
+#. TRANSLATORS src/views/Availability.vue:8
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:64
+msgid "Absence"
+msgstr ""
+
+#. TRANSLATORS src/views/Availability.vue:9
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:66
+msgid "Configure your next absence period."
+msgstr ""
+
+#. TRANSLATORS src/views/CalDavSettings.vue:2
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:68
+msgid "Calendar server"
+msgstr ""
+
+#. TRANSLATORS src/views/CalDavSettings.vue:13
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:70
+msgid "Send invitations to attendees"
+msgstr ""
+
+#. TRANSLATORS src/views/CalDavSettings.vue:26
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:72
+msgid "Automatically generate a birthday calendar"
+msgstr ""
+
+#. TRANSLATORS src/views/CalDavSettings.vue:29
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:74
+msgid "Birthday calendars will be generated by a background job."
+msgstr ""
+
+#. TRANSLATORS src/views/CalDavSettings.vue:33
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:76
+msgid ""
+"Hence they will not be available immediately after enabling but will show up "
+"after some time."
+msgstr ""
+
+#. TRANSLATORS src/views/CalDavSettings.vue:40
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:78
+msgid "Send notifications for events"
+msgstr ""
+
+#. TRANSLATORS src/views/CalDavSettings.vue:49
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:80
+msgid ""
+"Notifications are sent via background jobs, so these must occur often enough."
+msgstr ""
+
+#. TRANSLATORS src/views/CalDavSettings.vue:57
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:82
+msgid "Send reminder notifications to calendar sharees as well"
+msgstr ""
+
+#. TRANSLATORS src/views/CalDavSettings.vue:60
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:84
+msgid "Reminders are always sent to organizers and attendees."
+msgstr ""
+
+#. TRANSLATORS src/views/CalDavSettings.vue:68
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:86
+msgid "Enable notifications for events via push"
+msgstr ""
+
+#. TRANSLATORS src/views/CalDavSettings.vue:96
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:88
+msgid ""
+"Also install the {calendarappstoreopen}Calendar app{linkclose}, or "
+"{calendardocopen}connect your desktop & mobile for syncing ↗{linkclose}."
+msgstr ""
+
+#. TRANSLATORS src/views/CalDavSettings.vue:106
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:90
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:92
+msgid ""
+"Please make sure to properly set up {emailopen}the email server{linkclose}."
+msgstr ""
+
+#: /var/www/html/apps/dav/templates/schedule-response-error.php:9
+msgid "There was an error updating your attendance status."
+msgstr ""
+
+#: /var/www/html/apps/dav/templates/schedule-response-error.php:10
+msgid "Please contact the organizer directly."
+msgstr ""
+
+#: /var/www/html/apps/dav/templates/schedule-response-options.php:10
+msgid "Are you accepting the invitation?"
+msgstr ""
+
+#: /var/www/html/apps/dav/templates/schedule-response-options.php:19
+msgid "Tentative"
+msgstr ""
+
+#: /var/www/html/apps/dav/templates/schedule-response-success.php:8
+msgid "Your attendance was updated successfully."
+msgstr ""

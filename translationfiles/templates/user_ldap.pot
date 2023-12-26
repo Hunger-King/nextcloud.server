@@ -1,0 +1,1064 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2023-12-26 02:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /var/www/html/apps/user_ldap/ajax/clearMappings.php:54
+msgid "Failed to clear the mappings."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/ajax/deleteConfiguration.php:39
+msgid "Failed to delete the server configuration"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/ajax/testConfiguration.php:70
+msgid "Invalid configuration: Anonymous binding is not allowed."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/ajax/testConfiguration.php:75
+msgid "Valid configuration, connection established!"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/ajax/testConfiguration.php:78
+msgid ""
+"Valid configuration, but binding failed. Please check the server settings "
+"and credentials."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/ajax/testConfiguration.php:82
+msgid ""
+"Invalid configuration. Please have a look at the logs for further details."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/ajax/wizard.php:37
+msgid "No action specified"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/ajax/wizard.php:42
+msgid "No configuration specified"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/ajax/wizard.php:111
+msgid "No data specified"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/ajax/wizard.php:115
+msgid "Invalid data specified"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/ajax/wizard.php:123
+#, php-format
+msgid " Could not set configuration %s"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/ajax/wizard.php:133
+msgid "Action does not exist"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/renewPassword.js:28
+msgid "Renewing …"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/renewPassword.js:42
+msgid "Very weak password"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/renewPassword.js:43
+msgid "Weak password"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/renewPassword.js:44
+msgid "So-so password"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/renewPassword.js:45
+msgid "Good password"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/renewPassword.js:46
+msgid "Strong password"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/view.js:190
+msgid "The Base DN appears to be wrong"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/view.js:379
+msgid "Testing configuration…"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/view.js:387
+msgid "Configuration incorrect"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/view.js:395
+msgid "Configuration incomplete"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/view.js:402
+msgid "Configuration OK"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabAbstractFilter.js:47
+msgid "Select groups"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabAbstractFilter.js:51
+msgid "Select object classes"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:191
+msgid "Please check the credentials, they seem to be wrong."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:193
+msgid "Please specify the port, it could not be auto-detected."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:200
+msgid ""
+"Base DN could not be auto-detected, please revise credentials, host and port."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:202
+msgid "Could not detect Base DN, please enter it manually."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:233
+msgid "{nthServer}. Server"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:285
+msgid "No object found in the given Base DN. Please revise."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:287
+msgid "More than 1,000 directory entries available."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:291
+msgid "{objectsFound} entry available within the provided Base DN"
+msgid_plural "{objectsFound} entries available within the provided Base DN"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:300
+msgid ""
+"An error occurred. Please check the Base DN, as well as connection settings "
+"and credentials."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:366
+msgid "Do you really want to delete the current Server Configuration?"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:367
+msgid "Confirm Deletion"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabExpert.js:120
+msgid "Mappings cleared successfully!"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabExpert.js:122
+msgid "Error while clearing the mappings."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabGeneric.js:89
+msgid "Anonymous bind is not allowed. Please provide a User DN and Password."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabGeneric.js:94
+msgid "LDAP Operations error. Anonymous bind might not be allowed."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabGeneric.js:141
+msgid ""
+"Saving failed. Please make sure the database is in Operation. Reload before "
+"continuing."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabGeneric.js:557
+msgid ""
+"Switching the mode will enable automatic LDAP queries. Depending on your "
+"LDAP size they may take a while. Do you still want to switch the mode?"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabGeneric.js:558
+msgid "Mode switch"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabLoginFilter.js:61
+msgid "Select attributes"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabLoginFilter.js:146
+msgid ""
+"User not found. Please check your login attributes and username. Effective "
+"filter (to copy-and-paste for command-line validation): <br/>"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabLoginFilter.js:150
+msgid "User found and settings verified."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabLoginFilter.js:152
+msgid ""
+"Consider narrowing your search, as it encompassed many users, only the first "
+"one of whom will be able to log in."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabLoginFilter.js:155
+msgid "An unspecified error occurred. Please check log and settings."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabLoginFilter.js:160
+msgid ""
+"The search filter is invalid, probably due to syntax issues like uneven "
+"number of opened and closed brackets. Please revise."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabLoginFilter.js:162
+msgid ""
+"A connection error to LDAP/AD occurred. Please check host, port and "
+"credentials."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabLoginFilter.js:164
+msgid ""
+"The \"%uid\" placeholder is missing. It will be replaced with the login name "
+"when querying LDAP/AD."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabLoginFilter.js:248
+msgid "Please provide a login name to test against"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/js/wizard/wizardTabUserFilter.js:134
+msgid ""
+"The group box was disabled, because the LDAP/AD server does not support "
+"memberOf."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/lib/Access.php:357
+msgid "Password change rejected. Hint: "
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/lib/Controller/RenewPasswordController.php:146
+msgid "Please login with the new password"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/lib/Notification/Notifier.php:61
+msgid "LDAP User backend"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/lib/Notification/Notifier.php:85
+msgid "Your password will expire tomorrow."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/lib/Notification/Notifier.php:87
+msgid "Your password will expire today."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/lib/Notification/Notifier.php:90
+msgid "Your password will expire within %n day."
+msgid_plural "Your password will expire within %n days."
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/apps/user_ldap/lib/Settings/Section.php:64
+#: /var/www/html/apps/user_ldap/templates/settings.php:57
+msgid "LDAP/AD integration"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/lib/SetupChecks/LdapInvalidUuids.php:49
+msgid "Invalid LDAP UUIDs"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/lib/SetupChecks/LdapInvalidUuids.php:55
+msgid "None found"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/lib/SetupChecks/LdapInvalidUuids.php:57
+msgid ""
+"Invalid UUIDs of LDAP users or groups have been found. Please review your "
+"\"Override UUID detection\" settings in the Expert part of the LDAP "
+"configuration and use \"occ ldap:update-uuid\" to update them."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/lib/Wizard.php:132
+#: /var/www/html/apps/user_ldap/lib/Wizard.php:151
+msgid "%n group found"
+msgid_plural "%n groups found"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/apps/user_ldap/lib/Wizard.php:148
+msgid "> 1000 groups found"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/lib/Wizard.php:168
+msgid "> 1000 users found"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/lib/Wizard.php:171
+msgid "%n user found"
+msgid_plural "%n users found"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/apps/user_ldap/lib/Wizard.php:254
+msgid ""
+"Could not detect user display name attribute. Please specify it yourself in "
+"advanced LDAP settings."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/lib/Wizard.php:469
+#: /var/www/html/apps/user_ldap/lib/Wizard.php:1263
+msgid "Could not find the desired feature"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/lib/Wizard.php:1066
+#: /var/www/html/apps/user_ldap/lib/Wizard.php:1074
+msgid "Invalid Host"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "LDAP user and group backend"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/specialAppInfoFakeDummyForL10nScript.php:3
+msgid ""
+"This application enables administrators to connect Nextcloud to an LDAP-"
+"based user directory."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/specialAppInfoFakeDummyForL10nScript.php:4
+msgid ""
+"This application enables administrators to connect Nextcloud to an LDAP-"
+"based user directory for authentication and provisioning users, groups and "
+"user attributes. Admins can configure this application to connect to one or "
+"more LDAP directories or Active Directories via an LDAP interface. "
+"Attributes such as user quota, email, avatar pictures, group memberships and "
+"more can be pulled into Nextcloud from a directory with the appropriate "
+"queries and filters.\n"
+"\n"
+"A user logs into Nextcloud with their LDAP or AD credentials, and is granted "
+"access based on an authentication request handled by the LDAP or AD server. "
+"Nextcloud does not store LDAP or AD passwords, rather these credentials are "
+"used to authenticate a user and then Nextcloud uses a session for the user "
+"ID. More information is available in the LDAP User and Group Backend "
+"documentation."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.settingcontrols.php:3
+msgid "Test Configuration"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.settingcontrols.php:9
+#: /var/www/html/apps/user_ldap/templates/part.wizardcontrols.php:15
+msgid "Help"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-groupfilter.php:4
+#, php-format
+msgid "Groups meeting these criteria are available in %s:"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-groupfilter.php:8
+#: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:8
+msgid "Only these object classes:"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-groupfilter.php:17
+#: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:21
+msgid "Only from these groups:"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-groupfilter.php:20
+#: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:24
+msgid "Search groups"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-groupfilter.php:31
+#: /var/www/html/apps/user_ldap/templates/part.wizard-groupfilter.php:33
+#: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:34
+#: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:36
+msgid "Available groups"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-groupfilter.php:41
+#: /var/www/html/apps/user_ldap/templates/part.wizard-groupfilter.php:43
+#: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:44
+#: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:46
+msgid "Selected groups"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-groupfilter.php:47
+#: /var/www/html/apps/user_ldap/templates/part.wizard-groupfilter.php:55
+#: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:42
+#: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:51
+#: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:50
+#: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:59
+msgid "Edit LDAP Query"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-groupfilter.php:50
+#: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:45
+#: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:53
+msgid "LDAP Filter:"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-groupfilter.php:57
+#: /var/www/html/apps/user_ldap/templates/part.wizard-groupfilter.php:60
+#, php-format
+msgid ""
+"The filter specifies which LDAP groups shall have access to the %s instance."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-groupfilter.php:69
+msgid "Verify settings and count the groups"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:4
+#, php-format
+msgid ""
+"When logging in, %s will find the user based on the following attributes:"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:8
+msgid "LDAP/AD Username:"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:13
+#: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:16
+msgid ""
+"Allows login against the LDAP/AD username, which is either \"uid\" or "
+"\"sAMAccountName\" and will be detected."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:21
+msgid "LDAP/AD Email Address:"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:25
+#: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:29
+msgid ""
+"Allows login against an email attribute. \"mail\" and \"mailPrimaryAddress\" "
+"allowed."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:34
+msgid "Other Attributes:"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:53
+#: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:56
+#, php-format
+msgid ""
+"Defines the filter to apply, when login is attempted. \"%%uid\" replaces the "
+"username in the login action. Example: \"uid=%%uid\""
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:64
+msgid "Test Loginname"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:67
+#: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:69
+msgid ""
+"Attempts to receive a DN for the given loginname and the current login filter"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:72
+msgid "Verify settings"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:10
+#, php-format
+msgid "%s. Server:"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:18
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:20
+msgid "Add a new configuration"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:26
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:28
+msgid "Copy current configuration into new directory binding"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:33
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:35
+msgid "Delete the current configuration"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:46
+msgid "Host"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:47
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:50
+msgid ""
+"You can omit the protocol, unless you require SSL. If so, start with ldaps://"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:54
+msgid "Port"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:56
+msgid "Detect Port"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:67
+msgid "User DN"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:68
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:71
+msgid ""
+"The DN of the client user with which the bind shall be done, e.g. uid=agent,"
+"dc=example,dc=com. For anonymous access, leave DN and Password empty."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:79
+msgid "Password"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:80
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:83
+msgid "For anonymous access, leave DN and Password empty."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:86
+msgid "Save Credentials"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:95
+msgid "One Base DN per line"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:96
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:99
+msgid "You can specify Base DN for users and groups in the Advanced tab"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:102
+msgid "Detect Base DN"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:105
+msgid "Test Base DN"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:113
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:116
+msgid ""
+"Avoids automatic LDAP requests. Better for bigger setups, but requires some "
+"LDAP knowledge."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:119
+msgid "Manually enter LDAP filters (recommended for large directories)"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:4
+msgid "Listing and searching for users is constrained by these criteria:"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:17
+msgid ""
+"The most common object classes for users are organizationalPerson, person, "
+"user, and inetOrgPerson. If you are not sure which object class to select, "
+"please consult your directory admin."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:61
+#: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:64
+#, php-format
+msgid ""
+"The filter specifies which LDAP users shall have access to the %s instance."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:72
+msgid "Verify settings and count users"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizardcontrols.php:2
+msgid "Saving"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizardcontrols.php:6
+msgid "Back"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/part.wizardcontrols.php:9
+msgid "Continue"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/renewpassword.php:10
+msgid "Please renew your password."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/renewpassword.php:19
+msgid "An internal error occurred."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/renewpassword.php:20
+msgid "Please try again or contact your administrator."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/renewpassword.php:32
+#: /var/www/html/apps/user_ldap/templates/renewpassword.php:34
+msgid "Current password"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/renewpassword.php:39
+#: /var/www/html/apps/user_ldap/templates/renewpassword.php:41
+msgid "New password"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/renewpassword.php:45
+msgid "Renew password"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/renewpassword.php:49
+msgid "Wrong password."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/renewpassword.php:54
+msgid "Cancel"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:61
+msgid "Server"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:62
+msgid "Users"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:63
+msgid "Login Attributes"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:64
+msgid "Groups"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:65
+msgid "Expert"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:66
+msgid "Advanced"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:70
+msgid ""
+"<b>Warning:</b> The PHP LDAP module is not installed, the backend will not "
+"work. Please ask your system administrator to install it."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:79
+msgid "Connection Settings"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:81
+msgid "Configuration Active"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:81
+msgid "When unchecked, this configuration will be skipped."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:82
+msgid "Backup (Replica) Host"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:82
+msgid ""
+"Give an optional backup host. It must be a replica of the main LDAP/AD "
+"server."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:83
+msgid "Backup (Replica) Port"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:84
+msgid "Disable Main Server"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:84
+msgid "Only connect to the replica server."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:85
+msgid "Turn off SSL certificate validation."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:85
+#, php-format
+msgid ""
+"Not recommended, use it for testing only! If connection only works with this "
+"option, import the LDAP server's SSL certificate in your %s server."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:86
+msgid "Cache Time-To-Live"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:86
+msgid "in seconds. A change empties the cache."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:88
+msgid "Directory Settings"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:90
+msgid "User Display Name Field"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:90
+msgid "The LDAP attribute to use to generate the user's display name."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:91
+msgid "2nd User Display Name Field"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:91
+msgid ""
+"Optional. An LDAP attribute to be added to the display name in brackets. "
+"Results in e.g. »John Doe (john.doe@example.org)«."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:92
+msgid "Base User Tree"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:92
+msgid "One User Base DN per line"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:93
+msgid "User Search Attributes"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:93
+#: /var/www/html/apps/user_ldap/templates/settings.php:97
+msgid "Optional; one attribute per line"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:94
+msgid "Disable users missing from LDAP"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:94
+msgid ""
+"When switched on, users imported from LDAP which are then missing will be "
+"disabled"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:95
+msgid "Group Display Name Field"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:95
+msgid "The LDAP attribute to use to generate the groups's display name."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:96
+msgid "Base Group Tree"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:96
+msgid "One Group Base DN per line"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:97
+msgid "Group Search Attributes"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:98
+msgid "Group-Member association"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:109
+msgid "Dynamic Group Member URL"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:109
+msgid ""
+"The LDAP attribute that on group objects contains an LDAP search URL that "
+"determines what objects belong to the group. (An empty setting disables "
+"dynamic group membership functionality.)"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:110
+msgid "Nested Groups"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:110
+msgid ""
+"When switched on, groups that contain groups are supported. (Only works if "
+"the group member attribute contains DNs.)"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:111
+msgid "Paging chunksize"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:111
+msgid ""
+"Chunksize used for paged LDAP searches that may return bulky results like "
+"user or group enumeration. (Setting it 0 disables paged LDAP searches in "
+"those situations.)"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:112
+msgid "Enable LDAP password changes per user"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:112
+msgid ""
+"Allow LDAP users to change their password and allow Super Administrators and "
+"Group Administrators to change the password of their LDAP users. Only works "
+"when access control policies are configured accordingly on the LDAP server. "
+"As passwords are sent in plaintext to the LDAP server, transport encryption "
+"must be used and password hashing should be configured on the LDAP server."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:112
+msgid "(New password is sent as plain text to LDAP)"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:114
+msgid "Default password policy DN"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:114
+msgid ""
+"The DN of a default password policy that will be used for password expiry "
+"handling. Works only when LDAP password changes per user are enabled and is "
+"only supported by OpenLDAP. Leave empty to disable password expiry handling."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:116
+msgid "Special Attributes"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:118
+msgid "Quota Field"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:118
+msgid ""
+"Leave empty for user's default quota. Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:119
+msgid "Quota Default"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:119
+msgid ""
+"Override default quota for LDAP users who do not have a quota set in the "
+"Quota Field."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:120
+msgid "Email Field"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:120
+msgid ""
+"Set the user's email from their LDAP attribute. Leave it empty for default "
+"behaviour."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:121
+msgid "User Home Folder Naming Rule"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:121
+msgid ""
+"Leave empty for username (default). Otherwise, specify an LDAP/AD attribute."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:122
+msgid "\"$home\" Placeholder Field"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:122
+msgid ""
+"$home in an external storage configuration will be replaced with the value "
+"of the specified attribute"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:124
+msgid "User Profile Attributes"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:126
+msgid "Phone Field"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:126
+msgid "User profile Phone will be set from the specified attribute"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:127
+msgid "Website Field"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:127
+msgid "User profile Website will be set from the specified attribute"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:128
+msgid "Address Field"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:128
+msgid "User profile Address will be set from the specified attribute"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:129
+msgid "Twitter Field"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:129
+msgid "User profile Twitter will be set from the specified attribute"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:130
+msgid "Fediverse Field"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:130
+msgid "User profile Fediverse will be set from the specified attribute"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:131
+msgid "Organisation Field"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:131
+msgid "User profile Organisation will be set from the specified attribute"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:132
+msgid "Role Field"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:132
+msgid "User profile Role will be set from the specified attribute"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:133
+msgid "Headline Field"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:133
+msgid "User profile Headline will be set from the specified attribute"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:134
+msgid "Biography Field"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:134
+msgid "User profile Biography will be set from the specified attribute"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:140
+msgid "Internal Username"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:141
+msgid ""
+"By default the internal username will be created from the UUID attribute. It "
+"makes sure that the username is unique and characters do not need to be "
+"converted. The internal username has the restriction that only these "
+"characters are allowed: [a-zA-Z0-9_.@-]. Other characters are replaced with "
+"their ASCII correspondence or simply omitted. On collisions a number will be "
+"added/increased. The internal username is used to identify a user "
+"internally. It is also the default name for the user home folder. It is also "
+"a part of remote URLs, for instance for all DAV services. With this setting, "
+"the default behavior can be overridden. Changes will have effect only on "
+"newly mapped (added) LDAP users. Leave it empty for default behavior."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:142
+msgid "Internal Username Attribute:"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:143
+msgid "Override UUID detection"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:144
+msgid ""
+"By default, the UUID attribute is automatically detected. The UUID attribute "
+"is used to doubtlessly identify LDAP users and groups. Also, the internal "
+"username will be created based on the UUID, if not specified otherwise "
+"above. You can override the setting and pass an attribute of your choice. "
+"You must make sure that the attribute of your choice can be fetched for both "
+"users and groups and it is unique. Leave it empty for default behavior. "
+"Changes will have effect only on newly mapped (added) LDAP users and groups."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:145
+msgid "UUID Attribute for Users:"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:146
+msgid "UUID Attribute for Groups:"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:147
+msgid "Username-LDAP User Mapping"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:148
+msgid ""
+"Usernames are used to store and assign metadata. In order to precisely "
+"identify and recognize users, each LDAP user will have an internal username. "
+"This requires a mapping from username to LDAP user. The created username is "
+"mapped to the UUID of the LDAP user. Additionally the DN is cached as well "
+"to reduce LDAP interaction, but it is not used for identification. If the DN "
+"changes, the changes will be found. The internal username is used all over. "
+"Clearing the mappings will have leftovers everywhere. Clearing the mappings "
+"is not configuration sensitive, it affects all LDAP configurations! Never "
+"clear the mappings in a production environment, only in a testing or "
+"experimental stage."
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:149
+msgid "Clear Username-LDAP User Mapping"
+msgstr ""
+
+#: /var/www/html/apps/user_ldap/templates/settings.php:149
+msgid "Clear Groupname-LDAP Group Mapping"
+msgstr ""

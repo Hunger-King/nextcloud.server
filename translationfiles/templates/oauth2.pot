@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2023-12-26 02:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /var/www/html/apps/oauth2/lib/Controller/LoginRedirectorController.php:95
+msgid ""
+"Your client is not authorized to connect. Please inform the administrator of "
+"your client."
+msgstr ""
+
+#: /var/www/html/apps/oauth2/lib/Controller/SettingsController.php:68
+msgid ""
+"Your redirect URL needs to be a full URL for example: https://yourdomain.com/"
+"path"
+msgstr ""
+
+#: /var/www/html/apps/oauth2/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "OAuth 2.0"
+msgstr ""
+
+#: /var/www/html/apps/oauth2/specialAppInfoFakeDummyForL10nScript.php:3
+msgid "Allows OAuth2 compatible authentication from other web applications."
+msgstr ""
+
+#: /var/www/html/apps/oauth2/specialAppInfoFakeDummyForL10nScript.php:4
+msgid ""
+"The OAuth2 app allows administrators to configure the built-in "
+"authentication workflow to also allow OAuth2 compatible authentication from "
+"other web applications."
+msgstr ""
+
+#. TRANSLATORS src/App.vue:23
+#: /var/www/html/apps/oauth2/specialVueFakeDummyForL10nScript.js:2
+msgid "OAuth 2.0 clients"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:24
+#: /var/www/html/apps/oauth2/specialVueFakeDummyForL10nScript.js:4
+msgid "OAuth 2.0 allows external services to request access to {instanceName}."
+msgstr ""
+
+#. TRANSLATORS src/App.vue:30
+#. TRANSLATORS src/App.vue:63
+#: /var/www/html/apps/oauth2/specialVueFakeDummyForL10nScript.js:6
+#: /var/www/html/apps/oauth2/specialVueFakeDummyForL10nScript.js:18
+#: /var/www/html/apps/oauth2/specialVueFakeDummyForL10nScript.js:20
+msgid "Name"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:33
+#. TRANSLATORS src/App.vue:70
+#: /var/www/html/apps/oauth2/specialVueFakeDummyForL10nScript.js:8
+#: /var/www/html/apps/oauth2/specialVueFakeDummyForL10nScript.js:22
+#: /var/www/html/apps/oauth2/specialVueFakeDummyForL10nScript.js:24
+msgid "Redirection URI"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:36
+#: /var/www/html/apps/oauth2/specialVueFakeDummyForL10nScript.js:10
+msgid "Client Identifier"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:39
+#: /var/www/html/apps/oauth2/specialVueFakeDummyForL10nScript.js:12
+msgid "Secret key"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:42
+#: /var/www/html/apps/oauth2/specialVueFakeDummyForL10nScript.js:14
+msgid "Delete client"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:55
+#: /var/www/html/apps/oauth2/specialVueFakeDummyForL10nScript.js:16
+msgid "Add client"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:73
+#: /var/www/html/apps/oauth2/specialVueFakeDummyForL10nScript.js:26
+msgid "Add"
+msgstr ""
+
+#. TRANSLATORS src/components/OAuthItem.vue:41
+#: /var/www/html/apps/oauth2/specialVueFakeDummyForL10nScript.js:28
+#: /var/www/html/apps/oauth2/specialVueFakeDummyForL10nScript.js:30
+msgid "Delete"
+msgstr ""
+
+#. TRANSLATORS src/components/OAuthItem.vue:91
+#: /var/www/html/apps/oauth2/specialVueFakeDummyForL10nScript.js:32
+msgid "Show client secret"
+msgstr ""
+
+#. TRANSLATORS src/components/OAuthItem.vue:93
+#: /var/www/html/apps/oauth2/specialVueFakeDummyForL10nScript.js:34
+msgid "Hide client secret"
+msgstr ""

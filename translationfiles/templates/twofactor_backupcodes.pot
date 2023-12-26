@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2023-12-26 02:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /var/www/html/apps/twofactor_backupcodes/lib/Activity/Provider.php:68
+msgid "You created two-factor backup codes for your account"
+msgstr ""
+
+#: /var/www/html/apps/twofactor_backupcodes/lib/Notifications/Notifier.php:65
+msgid "Second-factor backup codes"
+msgstr ""
+
+#. TRANSLATORS src/views/PersonalSettings.vue:7
+#: /var/www/html/apps/twofactor_backupcodes/lib/Notifications/Notifier.php:80
+#: /var/www/html/apps/twofactor_backupcodes/specialVueFakeDummyForL10nScript.js:2
+msgid "Generate backup codes"
+msgstr ""
+
+#: /var/www/html/apps/twofactor_backupcodes/lib/Notifications/Notifier.php:82
+msgid ""
+"You enabled two-factor authentication but did not generate backup codes yet. "
+"They are needed to restore access to your account in case you lose your "
+"second factor."
+msgstr ""
+
+#: /var/www/html/apps/twofactor_backupcodes/lib/Provider/BackupCodesProvider.php:90
+#: /var/www/html/apps/twofactor_backupcodes/templates/challenge.php:13
+msgid "Backup code"
+msgstr ""
+
+#: /var/www/html/apps/twofactor_backupcodes/lib/Provider/BackupCodesProvider.php:99
+msgid "Use backup code"
+msgstr ""
+
+#: /var/www/html/apps/twofactor_backupcodes/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "Two factor backup codes"
+msgstr ""
+
+#: /var/www/html/apps/twofactor_backupcodes/specialAppInfoFakeDummyForL10nScript.php:3
+msgid "A two-factor auth backup codes provider"
+msgstr ""
+
+#. TRANSLATORS src/views/PersonalSettings.vue:13
+#: /var/www/html/apps/twofactor_backupcodes/specialVueFakeDummyForL10nScript.js:4
+msgid ""
+"Backup codes have been generated. {used} of {total} codes have been used."
+msgstr ""
+
+#. TRANSLATORS src/views/PersonalSettings.vue:16
+#: /var/www/html/apps/twofactor_backupcodes/specialVueFakeDummyForL10nScript.js:6
+msgid ""
+"These are your backup codes. Please save and/or print them as you will not "
+"be able to read the codes again later"
+msgstr ""
+
+#. TRANSLATORS src/views/PersonalSettings.vue:24
+#: /var/www/html/apps/twofactor_backupcodes/specialVueFakeDummyForL10nScript.js:8
+msgid "Save backup codes"
+msgstr ""
+
+#. TRANSLATORS src/views/PersonalSettings.vue:27
+#: /var/www/html/apps/twofactor_backupcodes/specialVueFakeDummyForL10nScript.js:10
+msgid "Print backup codes"
+msgstr ""
+
+#. TRANSLATORS src/views/PersonalSettings.vue:34
+#: /var/www/html/apps/twofactor_backupcodes/specialVueFakeDummyForL10nScript.js:12
+msgid "Regenerate backup codes"
+msgstr ""
+
+#. TRANSLATORS src/views/PersonalSettings.vue:39
+#: /var/www/html/apps/twofactor_backupcodes/specialVueFakeDummyForL10nScript.js:14
+msgid "If you regenerate backup codes, you automatically invalidate old codes."
+msgstr ""
+
+#. TRANSLATORS src/views/PersonalSettings.vue:99
+#: /var/www/html/apps/twofactor_backupcodes/specialVueFakeDummyForL10nScript.js:16
+msgid "An error occurred while generating your backup codes"
+msgstr ""
+
+#: /var/www/html/apps/twofactor_backupcodes/src/service/PrintService.js:29
+#: /var/www/html/apps/twofactor_backupcodes/src/service/PrintService.js:30
+msgid "{name} backup codes"
+msgstr ""
+
+#: /var/www/html/apps/twofactor_backupcodes/templates/challenge.php:10
+msgid ""
+"Use one of the backup codes you saved when setting up two-factor "
+"authentication."
+msgstr ""
+
+#: /var/www/html/apps/twofactor_backupcodes/templates/challenge.php:15
+msgid "Submit"
+msgstr ""

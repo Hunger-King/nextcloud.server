@@ -1,0 +1,1409 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2023-12-26 02:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /var/www/html/apps/files_sharing/js/files_drop.js:96
+msgid "Waiting…"
+msgstr "正在等待……"
+
+#: /var/www/html/apps/files_sharing/js/files_drop.js:113
+msgid "error"
+msgstr "錯誤"
+
+#: /var/www/html/apps/files_sharing/js/files_drop.js:132
+msgid "finished"
+msgstr "已結束"
+
+#: /var/www/html/apps/files_sharing/js/files_drop.js:158
+msgid "This will stop your current uploads."
+msgstr "這會停止您目前的上傳。"
+
+#: /var/www/html/apps/files_sharing/js/public.js:92
+msgid "Move or copy"
+msgstr "移動或複製"
+
+#: /var/www/html/apps/files_sharing/js/public.js:97
+#: /var/www/html/apps/files_sharing/lib/DefaultPublicShareTemplateProvider.php:263
+#: /var/www/html/apps/files_sharing/lib/DefaultPublicShareTemplateProvider.php:265
+#: /var/www/html/apps/files_sharing/templates/public.php:73
+#: /var/www/html/apps/files_sharing/templates/public.php:84
+#: /var/www/html/apps/files_sharing/tests/Controller/ShareControllerTest.php:388
+#: /var/www/html/apps/files_sharing/tests/Controller/ShareControllerTest.php:389
+#: /var/www/html/apps/files_sharing/tests/Controller/ShareControllerTest.php:546
+#: /var/www/html/apps/files_sharing/tests/Controller/ShareControllerTest.php:547
+msgid "Download"
+msgstr "下載"
+
+#. TRANSLATORS src/components/SharePermissionsEditor.vue:87
+#. TRANSLATORS src/components/SharePermissionsEditor.vue:162
+#. TRANSLATORS src/views/SharingDetailsTab.vue:181
+#. TRANSLATORS src/views/SharingDetailsTab.vue:636
+#: /var/www/html/apps/files_sharing/js/public.js:102
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:36
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:46
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:226
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:260
+msgid "Delete"
+msgstr "刪除"
+
+#: /var/www/html/apps/files_sharing/js/public.js:281
+msgid "You can upload into this folder"
+msgstr "您可以上傳到此資料夾"
+
+#: /var/www/html/apps/files_sharing/js/public.js:352
+msgid "Terms of service"
+msgstr "服務條款"
+
+#: /var/www/html/apps/files_sharing/js/public.js:383
+#: /var/www/html/apps/files_sharing/templates/public.php:54
+msgid "Show list view"
+msgstr "顯示清單檢視"
+
+#: /var/www/html/apps/files_sharing/js/public.js:383
+#: /var/www/html/apps/files_sharing/templates/public.php:54
+msgid "Show grid view"
+msgstr "顯示網格檢視"
+
+#: /var/www/html/apps/files_sharing/js/public.js:436
+msgid "No compatible server found at {remote}"
+msgstr "在 {remote} 找不到相容的伺服器"
+
+#: /var/www/html/apps/files_sharing/js/public.js:437
+msgid "Invalid server URL"
+msgstr "無效的伺服器 URL"
+
+#: /var/www/html/apps/files_sharing/js/public.js:491
+msgid "Failed to add the public link to your Nextcloud"
+msgstr "無法將公開連結新增到您的 Nextcloud"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Filter.php:58
+msgid "File shares"
+msgstr "檔案分享"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Downloads.php:46
+msgid "Downloaded via public link"
+msgstr "透過公開連結下載"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Downloads.php:49
+msgid "Downloaded by {email}"
+msgstr "{email} 已下載"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Downloads.php:77
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Downloads.php:80
+msgid "{file} downloaded via public link"
+msgstr "{file} 已透過公開連結下載"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Downloads.php:86
+msgid "{email} downloaded {file}"
+msgstr "{email} 已下載 {file}"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Groups.php:75
+msgid "Shared with group {group}"
+msgstr "與群組 {group} 分享"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Groups.php:77
+msgid "Removed share for group {group}"
+msgstr "移除與群組 {group} 分享"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Groups.php:79
+msgid "{actor} shared with group {group}"
+msgstr "{actor} 分享給群組 {group}"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Groups.php:81
+msgid "{actor} removed share for group {group}"
+msgstr "{actor} 移除了與群組 {group} 的分享"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Groups.php:83
+msgid "Share for group {group} expired"
+msgstr "群組 {group} 的分享已過期"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Groups.php:109
+msgid "You shared {file} with group {group}"
+msgstr "你分享了 {file} 給群組 {group}"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Groups.php:111
+msgid "You removed group {group} from {file}"
+msgstr "你將群組 {group} 從 {file} 移除"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Groups.php:113
+msgid "{actor} shared {file} with group {group}"
+msgstr "{actor} 分享 {file} 給群組 {group}"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Groups.php:115
+msgid "{actor} removed group {group} from {file}"
+msgstr "{actor} 將群組 {group} 從 {file} 移除"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Groups.php:117
+msgid "Share for file {file} with group {group} expired"
+msgstr "與群組 {group} 分享的檔案 {file} 已過期"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:46
+msgid "Shared as public link"
+msgstr "以公開連結分享"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:48
+msgid "Removed public link"
+msgstr "已移除公開連結"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:50
+msgid "Public link expired"
+msgstr "公開連結已過期"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:52
+msgid "{actor} shared as public link"
+msgstr "{actor} 透過公開連結分享"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:54
+msgid "{actor} removed public link"
+msgstr "{actor} 移除公開連結分享"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:56
+msgid "Public link of {actor} expired"
+msgstr "{actor} 的公開連結過期了"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:82
+msgid "You shared {file} as public link"
+msgstr "您透過公開連結分享 {file}"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:84
+msgid "You removed public link for {file}"
+msgstr "您移除了 {file} 的公開分享連結"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:86
+msgid "Public link expired for {file}"
+msgstr "{file} 的公開連結已過期"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:88
+msgid "{actor} shared {file} as public link"
+msgstr "{actor} 透過公開連結分享 {file}"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:90
+msgid "{actor} removed public link for {file}"
+msgstr "{actor} 移除了 {file} 的公開連結分享"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:92
+msgid "Public link of {actor} for {file} expired"
+msgstr "{actor} 公開分享 {file} 的連結過期了"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:62
+msgid "{user} accepted the remote share"
+msgstr "{user} 接受了遠端分享"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:64
+msgid "{user} declined the remote share"
+msgstr "{user} 拒絕了遠端分享"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:90
+msgid "You received a new remote share {file} from {user}"
+msgstr "您收到了一個遠端分享 {file} 來自於 {user}"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:92
+msgid "{user} accepted the remote share of {file}"
+msgstr "{user} 接受了檔案 {file} 的遠端分享"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:94
+msgid "{user} declined the remote share of {file}"
+msgstr "{user} 拒絕了檔案 {file} 的遠端分享"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:96
+msgid "{user} unshared {file} from you"
+msgstr "{user} 取消與你分享檔案 {file}"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:54
+msgid "Shared with {user}"
+msgstr "與 {user} 分享"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:56
+msgid "Removed share for {user}"
+msgstr "移除對 {user} 的分享"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:58
+msgid "You removed yourself"
+msgstr "您移除了自己"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:60
+msgid "{actor} removed themselves"
+msgstr "{actor} 已將自己移除"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:62
+msgid "{actor} shared with {user}"
+msgstr "{actor} 分享給 {user}"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:64
+msgid "{actor} removed share for {user}"
+msgstr "{actor} 移除了對 {user} 的分享"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:66
+msgid "Shared by {actor}"
+msgstr "由 {actor} 分享"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:68
+msgid "{actor} removed share"
+msgstr "{actor} 移除了分享"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:70
+msgid "Share for {user} expired"
+msgstr "{user} 的分享已過期"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:72
+msgid "Share expired"
+msgstr "分享已過期"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:98
+msgid "You shared {file} with {user}"
+msgstr "你與 {user} 分享了 {file}"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:100
+msgid "You removed {user} from {file}"
+msgstr "你將 {user} 從 {file} 移除"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:102
+msgid "You removed yourself from {file}"
+msgstr "您已將自己從 {file} 移除"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:104
+msgid "{actor} removed themselves from {file}"
+msgstr "{actor} 從 {file} 移除了自己"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:106
+msgid "{actor} shared {file} with {user}"
+msgstr "{actor} 分享了 {file} 給 {user}"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:108
+msgid "{actor} removed {user} from {file}"
+msgstr "{actor} 移除 {user} 從 {file}"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:110
+msgid "{actor} shared {file} with you"
+msgstr "{actor} 與你分享了 {file}"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:112
+msgid "{actor} removed you from the share named {file}"
+msgstr "{actor} 將您從名為 {file} 的分享中移除了"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:114
+msgid "Share for file {file} with {user} expired"
+msgstr "與 {user} 分享的檔案 {file} 已過期"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:116
+msgid "Share for file {file} expired"
+msgstr "檔案 {file} 的分享已過期"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Settings/PublicLinks.php:40
+msgid ""
+"A file or folder shared by mail or by public link was "
+"<strong>downloaded</strong>"
+msgstr "透過電子郵件或公開連結分享的檔案或資料夾<strong>已被下載</strong>"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Settings/RemoteShare.php:41
+msgid "A file or folder was shared from <strong>another server</strong>"
+msgstr "檔案或資料夾是從<strong>其他伺服器</strong>分享的"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Settings/ShareActivitySettings.php:47
+msgid "Files"
+msgstr "檔案"
+
+#: /var/www/html/apps/files_sharing/lib/Activity/Settings/Shared.php:41
+msgid "A file or folder has been <strong>shared</strong>"
+msgstr "檔案或資料夾已被<strong>分享</strong>"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:287
+msgid "Shared link"
+msgstr "已分享的連結"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:520
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:539
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:558
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:568
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:1238
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:1244
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:1479
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:1483
+msgid "Wrong share ID, share does not exist"
+msgstr "錯誤的分享 ID，分享不存在"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:564
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:579
+msgid "Could not delete share"
+msgstr "無法刪除分享"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:642
+msgid "Please specify a file or folder path"
+msgstr "請指定檔案或資料夾路徑"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:650
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:1001
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:1130
+msgid "Wrong path, file/folder does not exist"
+msgstr "錯誤的路徑，該檔案或資料夾不存在"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:667
+msgid "Could not create share"
+msgstr "無法建立分享"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:671
+msgid "Invalid permissions"
+msgstr "無效的權限"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:702
+msgid "Please specify a valid user"
+msgstr "請指定有效使用者"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:708
+msgid "Group sharing is disabled by the administrator"
+msgstr "群組分享已被管理員停用"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:713
+msgid "Please specify a valid group"
+msgstr "請指定有效的群組"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:722
+msgid "Public link sharing is disabled by the administrator"
+msgstr "公開連結分享已被管理員停用"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:728
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:1330
+msgid "Public upload disabled by the administrator"
+msgstr "公開上傳已被管理員停用"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:733
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:1334
+msgid "Public upload is only possible for publicly shared folders"
+msgstr "只有公開分享的資料夾可以接受公開上傳"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:766
+#, php-format
+msgid ""
+"Sharing %s sending the password by Nextcloud Talk failed because Nextcloud "
+"Talk is not enabled"
+msgstr "因為未啟用 Nextcloud Talk，因此透過 Nextcloud Talk 傳送密碼分享 %s 失敗"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:773
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:794
+#, php-format
+msgid ""
+"Sharing %1$s failed because the back end does not allow shares from type "
+"%2$s"
+msgstr "分享 %1$s 失敗，因為後端不允許來自 %2$s 類型的分享"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:777
+msgid "Please specify a valid federated user ID"
+msgstr "請指定有效的聯盟使用者 ID"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:787
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:808
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:852
+msgid "Invalid date, date format must be YYYY-MM-DD"
+msgstr "無效的日期，需為 YYYY-MM-DD 格式"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:798
+msgid "Please specify a valid federated group ID"
+msgstr "請指定有效的聯盟群組 ID"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:813
+msgid "You cannot share to a Circle if the app is not enabled"
+msgstr "因為應用程式未啟用，所以您無法分享至小圈圈"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:820
+msgid "Please specify a valid circle"
+msgstr "請指定有效的小圈圈"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:828
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:834
+#, php-format
+msgid "Sharing %s failed because the back end does not support room shares"
+msgstr "分享 %s 失敗，因為後端不支援聊天室分享"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:840
+#, php-format
+msgid ""
+"Sharing %s failed because the back end does not support ScienceMesh shares"
+msgstr "分享 %s 失敗，因為後端不支援 ScienceMesh 分享"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:843
+msgid "Unknown share type"
+msgstr "未知的分享類型"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:925
+msgid "Not a directory"
+msgstr "不是目錄"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:1004
+msgid "Could not lock node"
+msgstr "無法鎖定節點"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:1132
+msgid "Could not lock path"
+msgstr "無法鎖定路徑"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:1262
+msgid "Wrong or no update parameter given"
+msgstr "更新參數不正確或未提供"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:1313
+msgid "Share must at least have READ or CREATE permissions"
+msgstr "分享必須至少有 READ 或 CREATE 權限"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:1319
+msgid "Share must have READ permission if UPDATE or DELETE permission is set"
+msgstr "若設定了 UPDATE 或 DELETE 權限，則分享必須有 READ 權限"
+
+#: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:1368
+msgid ""
+"\"Sending the password by Nextcloud Talk\" for sharing a file or folder "
+"failed because Nextcloud Talk is not enabled."
+msgstr "「透過 Nextcloud Talk 傳送密碼」分享檔案或資料夾失敗，因為未啟用 Nextcloud Talk。"
+
+#: /var/www/html/apps/files_sharing/lib/DefaultPublicShareTemplateProvider.php:255
+#, php-format
+msgid "shared by %s"
+msgstr "分享自 %s"
+
+#: /var/www/html/apps/files_sharing/lib/DefaultPublicShareTemplateProvider.php:264
+#: /var/www/html/apps/files_sharing/lib/DefaultPublicShareTemplateProvider.php:266
+msgid "Download all files"
+msgstr "下載所有檔案"
+
+#: /var/www/html/apps/files_sharing/lib/DefaultPublicShareTemplateProvider.php:267
+#: /var/www/html/apps/files_sharing/tests/Controller/ShareControllerTest.php:390
+#: /var/www/html/apps/files_sharing/tests/Controller/ShareControllerTest.php:548
+msgid "Direct link"
+msgstr "直接連結"
+
+#. TRANSLATORS The placeholder refers to the software product name as in 'Add
+#. to your Nextcloud'
+#: /var/www/html/apps/files_sharing/lib/DefaultPublicShareTemplateProvider.php:269
+#, php-format
+msgid "Add to your %s"
+msgstr "新增至您的 %s"
+
+#: /var/www/html/apps/files_sharing/lib/Middleware/OCSShareAPIMiddleware.php:56
+msgid "Share API is disabled"
+msgstr "分享 API 已停用"
+
+#: /var/www/html/apps/files_sharing/lib/Notification/Notifier.php:94
+#: /var/www/html/apps/files_sharing/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "File sharing"
+msgstr "檔案分享"
+
+#: /var/www/html/apps/files_sharing/lib/Notification/Notifier.php:142
+msgid "Share will expire tomorrow"
+msgstr "分享將於明天到期"
+
+#: /var/www/html/apps/files_sharing/lib/Notification/Notifier.php:144
+msgid "Your share of {node} will expire tomorrow"
+msgstr "您 {node} 的分享將於明天到期"
+
+#: /var/www/html/apps/files_sharing/lib/Notification/Notifier.php:182
+msgid "You received {share} as a share by {user}"
+msgstr "您收到 {user} 的分享 {share}"
+
+#: /var/www/html/apps/files_sharing/lib/Notification/Notifier.php:218
+msgid "You received {share} to group {group} as a share by {user}"
+msgstr "您收到了來自 {user} 到 {group} 群組的 {share}"
+
+#: /var/www/html/apps/files_sharing/lib/Notification/Notifier.php:246
+msgid "Accept"
+msgstr "接受"
+
+#: /var/www/html/apps/files_sharing/lib/Notification/Notifier.php:252
+msgid "Reject"
+msgstr "拒絕"
+
+#: /var/www/html/apps/files_sharing/specialAppInfoFakeDummyForL10nScript.php:3
+msgid ""
+"This application enables users to share files within Nextcloud. If enabled, the admin can choose which groups can share files. The applicable users can then share files and folders with other users and groups within Nextcloud. In addition, if the admin enables the share link feature, an external link can be used to share files with other users outside of Nextcloud. Admins can also enforce passwords, expirations dates, and enable server to server sharing via share links, as well as sharing from mobile devices.\n"
+"Turning the feature off removes shared files and folders on the server for all share recipients, and also on the sync clients and mobile apps. More information is available in the Nextcloud Documentation."
+msgstr ""
+"此應用程式讓使用者可以在 Nextcloud 中分享檔案。若啟用，管理員可以選擇哪些群組可以分享檔案。應用程式使用者可以與其他在 Nextcloud 中的使用者與群組分享檔案與資料夾。此外，如果管理員啟用了分享連結的功能，則可以使用外部連結與 Nextcloud 之外的使用者分享檔案。管理員也可以啟用密碼、到期日以及啟用透過分享連結的伺服器到伺服器分享，並可從行動裝置分享。\n"
+"將此功能關閉會移除伺服器上、同步客戶端與行動應用程式所有的分享收件者，以及檔案與資料夾。更多資訊請見 Nextcloud 文件。"
+
+#. TRANSLATORS src/components/PersonalSettings.vue:25
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:2
+#: /var/www/html/apps/files_sharing/src/files_sharing_tab.js:58
+msgid "Sharing"
+msgstr "分享"
+
+#. TRANSLATORS src/components/PersonalSettings.vue:32
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:4
+msgid "Accept user and group shares by default"
+msgstr "預設接受使用者與群組分享"
+
+#. TRANSLATORS src/components/PersonalSettings.vue:72
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:6
+msgid "Error while toggling options"
+msgstr "切換選項時發生錯誤"
+
+#. TRANSLATORS src/components/SelectShareFolderDialogue.vue:26
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:8
+msgid "Set default folder for accepted shares"
+msgstr "為接受的分享設定預設資料夾"
+
+#. TRANSLATORS src/components/SelectShareFolderDialogue.vue:34
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:10
+msgid "Reset"
+msgstr "重設"
+
+#. TRANSLATORS src/components/SelectShareFolderDialogue.vue:35
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:12
+msgid "Reset folder to system default"
+msgstr "將資料夾重設回系統預設"
+
+#. TRANSLATORS src/components/SelectShareFolderDialogue.vue:74
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:14
+msgid "Choose a default folder for accepted shares"
+msgstr "為接受的分享選擇預設資料夾"
+
+#. TRANSLATORS src/components/SelectShareFolderDialogue.vue:86
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:16
+msgid "Invalid path selected"
+msgstr "選取的路徑無效"
+
+#. TRANSLATORS src/components/SelectShareFolderDialogue.vue:95
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:18
+msgid "Unknown error"
+msgstr "未知的錯誤"
+
+#. TRANSLATORS src/components/SharePermissionsEditor.vue:30
+#. TRANSLATORS src/views/SharingDetailsTab.vue:45
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:20
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:180
+msgid "Allow editing"
+msgstr "允許編輯"
+
+#. TRANSLATORS src/components/SharePermissionsEditor.vue:40
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:22
+msgid "Read only"
+msgstr "唯讀"
+
+#. TRANSLATORS src/components/SharePermissionsEditor.vue:47
+#. TRANSLATORS src/views/SharingDetailsTab.vue:42
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:24
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:178
+msgid "Allow upload and editing"
+msgstr "允許上傳及編輯"
+
+#. TRANSLATORS src/components/SharePermissionsEditor.vue:54
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:26
+msgid "File drop (upload only)"
+msgstr "檔案投放（僅上傳）"
+
+#. TRANSLATORS src/components/SharePermissionsEditor.vue:58
+#. TRANSLATORS src/components/SharingEntryQuickShareSelect.vue:78
+#. TRANSLATORS src/views/SharingDetailsTab.vue:72
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:28
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:142
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:186
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:216
+msgid "Custom permissions"
+msgstr "自訂權限"
+
+#. TRANSLATORS src/components/SharePermissionsEditor.vue:72
+#. TRANSLATORS src/components/SharePermissionsEditor.vue:158
+#. TRANSLATORS src/views/SharingDetailsTab.vue:167
+#. TRANSLATORS src/views/SharingDetailsTab.vue:632
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:30
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:42
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:218
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:252
+msgid "Read"
+msgstr "讀取"
+
+#. TRANSLATORS src/components/SharePermissionsEditor.vue:77
+#. TRANSLATORS src/components/SharePermissionsEditor.vue:156
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:32
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:40
+msgid "Upload"
+msgstr "上傳"
+
+#. TRANSLATORS src/components/SharePermissionsEditor.vue:82
+#. TRANSLATORS src/components/SharePermissionsEditor.vue:160
+#. TRANSLATORS src/views/SharingDetailsTab.vue:173
+#. TRANSLATORS src/views/SharingDetailsTab.vue:634
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:34
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:44
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:222
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:256
+msgid "Edit"
+msgstr "編輯"
+
+#. TRANSLATORS src/components/SharePermissionsEditor.vue:94
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:38
+msgid "Bundled permissions"
+msgstr "權限套裝"
+
+#. TRANSLATORS src/components/SharingEntry.vue:50
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:48
+msgid "Open Sharing Details"
+msgstr "開啟分享詳細資訊"
+
+#. TRANSLATORS src/components/SharingEntry.vue:93
+#. TRANSLATORS src/views/SharingDetailsTab.vue:314
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:50
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:238
+msgid "group"
+msgstr "群組"
+
+#. TRANSLATORS src/components/SharingEntry.vue:95
+#. TRANSLATORS src/views/SharingDetailsTab.vue:316
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:52
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:240
+msgid "conversation"
+msgstr "交談"
+
+#. TRANSLATORS src/components/SharingEntry.vue:97
+#. TRANSLATORS src/views/SharingDetailsTab.vue:318
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:54
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:242
+msgid "remote"
+msgstr "遠端"
+
+#. TRANSLATORS src/components/SharingEntry.vue:99
+#. TRANSLATORS src/views/SharingDetailsTab.vue:320
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:56
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:244
+msgid "remote group"
+msgstr "遠端群組"
+
+#. TRANSLATORS src/components/SharingEntry.vue:101
+#. TRANSLATORS src/views/SharingDetailsTab.vue:322
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:58
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:246
+msgid "guest"
+msgstr "訪客"
+
+#. TRANSLATORS src/components/SharingEntry.vue:114
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:60
+msgid "Shared with the group {user} by {owner}"
+msgstr "由 {owner} 與群組 {user} 分享"
+
+#. TRANSLATORS src/components/SharingEntry.vue:116
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:62
+msgid "Shared with the conversation {user} by {owner}"
+msgstr "由 {owner} 與對話 {user} 分享"
+
+#. TRANSLATORS src/components/SharingEntry.vue:119
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:64
+msgid "Shared with {user} by {owner}"
+msgstr "由 {owner} 與 {user} 分享"
+
+#. TRANSLATORS src/components/SharingEntryInherited.vue:33
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:66
+msgid "Added by {initiator}"
+msgstr "由 {initiator} 新增"
+
+#. TRANSLATORS src/components/SharingEntryInherited.vue:38
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:68
+msgid "Via “{folder}”"
+msgstr "透過「{folder}」"
+
+#. TRANSLATORS src/components/SharingEntryInherited.vue:43
+#. TRANSLATORS src/components/SharingEntryLink.vue:166
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:70
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:104
+msgid "Unshare"
+msgstr "取消分享"
+
+#. TRANSLATORS src/components/SharingEntryInternal.vue:5
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:72
+msgid "Internal link"
+msgstr "內部連結"
+
+#. TRANSLATORS src/components/SharingEntryInternal.vue:68
+#. TRANSLATORS src/components/SharingEntryLink.vue:442
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:74
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:124
+msgid "Cannot copy, please copy the link manually"
+msgstr "無法複製，請手動複製連結"
+
+#. TRANSLATORS src/components/SharingEntryInternal.vue:70
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:76
+msgid "Copy internal link to clipboard"
+msgstr "複製內部連結至剪貼簿"
+
+#. TRANSLATORS src/components/SharingEntryInternal.vue:75
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:78
+msgid "Only works for users with access to this folder"
+msgstr "僅對可存取此資料夾的使用者有效"
+
+#. TRANSLATORS src/components/SharingEntryInternal.vue:77
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:80
+msgid "Only works for users with access to this file"
+msgstr "僅對可存取此檔案的使用者有效"
+
+#. TRANSLATORS src/components/SharingEntryInternal.vue:85
+#. TRANSLATORS src/components/SharingEntryLink.vue:632
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:82
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:134
+msgid "Link copied"
+msgstr "連結已複製"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:65
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:84
+msgid ""
+"Please enter the following required information before creating the share"
+msgstr "在建立分享前，請輸入以下的必要資訊"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:70
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:86
+msgid "Password protection (enforced)"
+msgstr "密碼保護（強制）"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:77
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:88
+msgid "Password protection"
+msgstr "密碼保護"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:89
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:90
+msgid "Enter a password"
+msgstr "輸入密碼"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:94
+#. TRANSLATORS src/views/SharingDetailsTab.vue:126
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:92
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:200
+msgid "Expiration date (enforced)"
+msgstr "到期日（強制）"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:108
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:94
+msgid "Enter a date"
+msgstr "輸入日期"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:112
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:96
+msgid "Create share"
+msgstr "建立分享"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:115
+#. TRANSLATORS src/views/SharingDetailsTab.vue:204
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:98
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:232
+msgid "Cancel"
+msgstr "取消"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:132
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:100
+msgid "Customize link"
+msgstr "自訂連結"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:159
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:102
+msgid "Add another link"
+msgstr "新增其他連結"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:173
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:106
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:108
+msgid "Create a new share link"
+msgstr "建立新分享連結"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:262
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:110
+msgid "{shareWith} by {initiator}"
+msgstr "{shareWith} 由 {initiator}"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:267
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:112
+msgid "Shared via link by {initiator}"
+msgstr "由 {initiator} 透過連結分享"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:273
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:114
+msgid "Mail share ({label})"
+msgstr "郵件分享 ({label})"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:277
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:116
+msgid "Share link ({label})"
+msgstr "分享連結 ({label})"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:286
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:118
+msgid "Share link ({index})"
+msgstr "分享連結˙ ({index})"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:288
+#. TRANSLATORS src/views/SharingDetailsTab.vue:312
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:120
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:236
+msgid "Share link"
+msgstr "分享連結"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:429
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:122
+msgid "Actions for \"{title}\""
+msgstr "「{title}」的動作"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:444
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:126
+msgid "Copy public link of \"{title}\" to clipboard"
+msgstr "將「{title}」的公開連結複製到剪貼簿"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:516
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:128
+msgid "Error, please enter proper password and/or expiration date"
+msgstr "錯誤，請輸入正確的密碼及／或到期日"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:607
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:130
+msgid "Link share created"
+msgstr "已建立連結分享"
+
+#. TRANSLATORS src/components/SharingEntryLink.vue:612
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:132
+msgid "Error while creating the share"
+msgstr "建立分享時發生錯誤"
+
+#. TRANSLATORS src/components/SharingEntryQuickShareSelect.vue:69
+#. TRANSLATORS src/views/SharingDetailsTab.vue:29
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:136
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:176
+msgid "View only"
+msgstr "僅檢視"
+
+#. TRANSLATORS src/components/SharingEntryQuickShareSelect.vue:72
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:138
+msgid "Can edit"
+msgstr "可以編輯"
+
+#. TRANSLATORS src/components/SharingEntryQuickShareSelect.vue:75
+#. TRANSLATORS src/views/SharingDetailsTab.vue:59
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:140
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:182
+msgid "File drop"
+msgstr "檔案投放"
+
+#. TRANSLATORS src/components/SharingInput.vue:25
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:144
+msgid "Search for share recipients"
+msgstr "搜尋分享參與者"
+
+#. TRANSLATORS src/components/SharingInput.vue:40
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:146
+msgid "No recommendations. Start typing."
+msgstr "沒有建議。開始輸入。"
+
+#. TRANSLATORS src/components/SharingInput.vue:124
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:148
+msgid "Resharing is not allowed"
+msgstr "不允許重新分享"
+
+#. TRANSLATORS src/components/SharingInput.vue:128
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:150
+msgid "Name or email …"
+msgstr "名稱或電子郵件……"
+
+#. TRANSLATORS src/components/SharingInput.vue:131
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:152
+msgid "Name, email, or Federated Cloud ID …"
+msgstr "名稱、電子郵件或雲端聯盟 ID……"
+
+#. TRANSLATORS src/components/SharingInput.vue:147
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:154
+msgid "Searching …"
+msgstr "正在搜尋……"
+
+#. TRANSLATORS src/components/SharingInput.vue:149
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:156
+msgid "No elements found."
+msgstr "找不到元素。"
+
+#. TRANSLATORS src/components/SharingInput.vue:241
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:158
+msgid "Search globally"
+msgstr "全域搜尋"
+
+#. TRANSLATORS src/components/SharingInput.vue:391
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:160
+msgid "Guest"
+msgstr "訪客"
+
+#. TRANSLATORS src/components/SharingInput.vue:397
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:162
+msgid "Group"
+msgstr "群組"
+
+#. TRANSLATORS src/components/SharingInput.vue:402
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:164
+msgid "Email"
+msgstr "電子郵件"
+
+#. TRANSLATORS src/components/SharingInput.vue:407
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:166
+msgid "Circle"
+msgstr "圈子"
+
+#. TRANSLATORS src/components/SharingInput.vue:412
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:168
+msgid "Talk conversation"
+msgstr "Talk 對話"
+
+#. TRANSLATORS src/components/SharingInput.vue:417
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:170
+msgid "Deck board"
+msgstr "看板佈告欄"
+
+#. TRANSLATORS src/components/SharingInput.vue:422
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:172
+msgid "ScienceMesh"
+msgstr "ScienceMesh"
+
+#. TRANSLATORS src/components/SharingInput.vue:442
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:174
+msgid "on {server}"
+msgstr "於 {server}"
+
+#. TRANSLATORS src/views/SharingDetailsTab.vue:60
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:184
+msgid "Upload only"
+msgstr "僅上傳"
+
+#. TRANSLATORS src/views/SharingDetailsTab.vue:87
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:188
+msgid "Advanced settings"
+msgstr "進階設定"
+
+#. TRANSLATORS src/views/SharingDetailsTab.vue:103
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:190
+msgid "Share label"
+msgstr "分享標籤"
+
+#. TRANSLATORS src/views/SharingDetailsTab.vue:106
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:192
+msgid "Set password"
+msgstr "設定密碼"
+
+#. TRANSLATORS src/views/SharingDetailsTab.vue:113
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:194
+msgid "Password"
+msgstr "密碼"
+
+#. TRANSLATORS src/views/SharingDetailsTab.vue:118
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:196
+msgid "Password expires {passwordExpirationTime}"
+msgstr "密碼於 {passwordExpirationTime} 到期"
+
+#. TRANSLATORS src/views/SharingDetailsTab.vue:121
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:198
+msgid "Password expired"
+msgstr "密碼已過期"
+
+#. TRANSLATORS src/views/SharingDetailsTab.vue:127
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:202
+msgid "Set expiration date"
+msgstr "設定到期日"
+
+#. TRANSLATORS src/views/SharingDetailsTab.vue:135
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:204
+#: /var/www/html/apps/files_sharing/templates/list.php:22
+msgid "Expiration date"
+msgstr "到期日"
+
+#. TRANSLATORS src/views/SharingDetailsTab.vue:142
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:206
+msgid "Hide download"
+msgstr "隱藏下載"
+
+#. TRANSLATORS src/views/SharingDetailsTab.vue:147
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:208
+msgid "Video verification"
+msgstr "視訊驗證"
+
+#. TRANSLATORS src/views/SharingDetailsTab.vue:150
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:210
+msgid "Allow download"
+msgstr "允許下載"
+
+#. TRANSLATORS src/views/SharingDetailsTab.vue:153
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:212
+msgid "Note to recipient"
+msgstr "給收件者的訊息"
+
+#. TRANSLATORS src/views/SharingDetailsTab.vue:157
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:214
+msgid "Enter a note for the share recipient"
+msgstr "輸入給分享收件者的訊息"
+
+#. TRANSLATORS src/views/SharingDetailsTab.vue:170
+#. TRANSLATORS src/views/SharingDetailsTab.vue:633
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:220
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:254
+msgid "Create"
+msgstr "建立"
+
+#. TRANSLATORS src/views/SharingDetailsTab.vue:178
+#. TRANSLATORS src/views/SharingDetailsTab.vue:635
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:224
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:258
+#: /var/www/html/apps/files_sharing/src/share.js:227
+#: /var/www/html/apps/files_sharing/src/share.js:229
+msgid "Share"
+msgstr "分享"
+
+#. TRANSLATORS src/views/SharingDetailsTab.vue:186
+#. TRANSLATORS src/views/SharingDetailsTab.vue:194
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:228
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:230
+msgid "Delete share"
+msgstr "刪除分享"
+
+#. TRANSLATORS src/views/SharingDetailsTab.vue:308
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:234
+msgid "Share with "
+msgstr "分享者"
+
+#. TRANSLATORS src/views/SharingDetailsTab.vue:491
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:248
+msgid "Save share"
+msgstr "儲存分享"
+
+#. TRANSLATORS src/views/SharingDetailsTab.vue:493
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:250
+msgid "Update share"
+msgstr "更新分享"
+
+#. TRANSLATORS src/views/SharingInherited.vue:93
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:262
+msgid "Others with access"
+msgstr "有存取權的其他人"
+
+#. TRANSLATORS src/views/SharingInherited.vue:97
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:264
+msgid "No other users with access found"
+msgstr "找不到其他有存取權的使用者"
+
+#. TRANSLATORS src/views/SharingInherited.vue:102
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:266
+msgid "Toggle list of others with access to this directory"
+msgstr "切換有權存取此目錄的其他人的列表"
+
+#. TRANSLATORS src/views/SharingInherited.vue:103
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:268
+msgid "Toggle list of others with access to this file"
+msgstr "切換有權存取此檔案的其他人的列表"
+
+#. TRANSLATORS src/views/SharingInherited.vue:141
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:270
+msgid "Unable to fetch inherited shares"
+msgstr "無法擷取繼承的分享"
+
+#. TRANSLATORS src/views/SharingTab.vue:226
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:272
+msgid "Unable to load the shares list"
+msgstr "無法載入分享列表"
+
+#. TRANSLATORS src/views/SharingTab.vue:255
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:274
+msgid "Expires {relativetime}"
+msgstr "過期於 {relativetime}"
+
+#. TRANSLATORS src/views/SharingTab.vue:263
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:276
+msgid "this share just expired."
+msgstr "此分享剛過期。"
+
+#. TRANSLATORS src/views/SharingTab.vue:322
+#: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:278
+#: /var/www/html/apps/files_sharing/src/utils/SharedWithMe.js:75
+msgid "Shared with you by {owner}"
+msgstr "{owner} 已經和您分享"
+
+#: /var/www/html/apps/files_sharing/src/actions/acceptShareAction.ts:35
+msgid "Accept share"
+msgid_plural "Accept shares"
+msgstr[0] "接受分享"
+msgstr[1] "接受分享"
+
+#: /var/www/html/apps/files_sharing/src/actions/openInFilesAction.ts:31
+msgid "Open in Files"
+msgstr "在「檔案」應用程式中開啟"
+
+#: /var/www/html/apps/files_sharing/src/actions/rejectShareAction.ts:35
+msgid "Reject share"
+msgid_plural "Reject shares"
+msgstr[0] "拒絕分享"
+msgstr[1] "拒絕分享"
+
+#: /var/www/html/apps/files_sharing/src/actions/restoreShareAction.ts:35
+msgid "Restore share"
+msgid_plural "Restore shares"
+msgstr[0] "還原分享"
+msgstr[1] "還原分享"
+
+#: /var/www/html/apps/files_sharing/src/actions/sharingStatusAction.ts:54
+#: /var/www/html/apps/files_sharing/src/share.js:224
+#: /var/www/html/apps/files_sharing/src/share.js:367
+#: /var/www/html/apps/files_sharing/src/share.js:384
+#: /var/www/html/apps/files_sharing/src/share.js:500
+#: /var/www/html/apps/files_sharing/src/share.js:517
+msgid "Shared"
+msgstr "已分享"
+
+#: /var/www/html/apps/files_sharing/src/actions/sharingStatusAction.ts:66
+msgid "Shared by {ownerDisplayName}"
+msgstr "由 {ownerDisplayName} 分享"
+
+#: /var/www/html/apps/files_sharing/src/actions/sharingStatusAction.ts:69
+msgid "Show sharing options"
+msgstr "顯示分享選項"
+
+#: /var/www/html/apps/files_sharing/src/collaborationresourceshandler.js:30
+#: /var/www/html/apps/files_sharing/src/collaborationresourceshandler.js:40
+msgid "Link to a file"
+msgstr "檔案連結"
+
+#: /var/www/html/apps/files_sharing/src/mixins/ShareRequests.js:69
+msgid "Error creating the share: {errorMessage}"
+msgstr "建立分享時發生錯誤：{errorMessage}"
+
+#: /var/www/html/apps/files_sharing/src/mixins/ShareRequests.js:69
+msgid "Error creating the share"
+msgstr "建立分享時發生錯誤"
+
+#: /var/www/html/apps/files_sharing/src/mixins/ShareRequests.js:94
+msgid "Error deleting the share: {errorMessage}"
+msgstr ""
+
+#: /var/www/html/apps/files_sharing/src/mixins/ShareRequests.js:94
+msgid "Error deleting the share"
+msgstr ""
+
+#: /var/www/html/apps/files_sharing/src/mixins/ShareRequests.js:121
+msgid "Error updating the share: {errorMessage}"
+msgstr "更新分享時發生錯誤：{errorMessage}"
+
+#: /var/www/html/apps/files_sharing/src/mixins/ShareRequests.js:121
+msgid "Error updating the share"
+msgstr "更新分享時發生錯誤："
+
+#: /var/www/html/apps/files_sharing/src/mixins/SharesMixin.js:269
+msgid "File \"{path}\" has been unshared"
+msgstr "檔案「{path}」已取消分享"
+
+#: /var/www/html/apps/files_sharing/src/mixins/SharesMixin.js:270
+msgid "Folder \"{path}\" has been unshared"
+msgstr "資料夾「{path}」已取消分享"
+
+#: /var/www/html/apps/files_sharing/src/mixins/SharesMixin.js:320
+msgid "Share {propertyName} saved"
+msgstr "分享 {propertyName} 已儲存"
+
+#: /var/www/html/apps/files_sharing/src/share.js:370
+#: /var/www/html/apps/files_sharing/src/share.js:503
+msgid "Shared by"
+msgstr "分享自"
+
+#: /var/www/html/apps/files_sharing/src/share.js:444
+msgid "Shared with"
+msgstr "分享給"
+
+#: /var/www/html/apps/files_sharing/src/utils/GeneratePassword.js:44
+msgid "Password created successfully"
+msgstr "成功建立密碼"
+
+#: /var/www/html/apps/files_sharing/src/utils/GeneratePassword.js:49
+msgid "Error generating password from password policy"
+msgstr "從密碼策略產生密碼時發生錯誤"
+
+#: /var/www/html/apps/files_sharing/src/utils/SharedWithMe.js:30
+msgid "Shared with you and the group {group} by {owner}"
+msgstr "由 {owner} 分享給您和 {group} 群組"
+
+#: /var/www/html/apps/files_sharing/src/utils/SharedWithMe.js:41
+msgid "Shared with you and {circle} by {owner}"
+msgstr "{owner} 分享給您和 {circle}"
+
+#: /var/www/html/apps/files_sharing/src/utils/SharedWithMe.js:53
+msgid "Shared with you and the conversation {conversation} by {owner}"
+msgstr "{owner} 分享給您和 {conversation} 對話"
+
+#: /var/www/html/apps/files_sharing/src/utils/SharedWithMe.js:64
+msgid "Shared with you in a conversation by {owner}"
+msgstr "{owner} 在對話中分享給您"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:44
+msgid "Shares"
+msgstr "分享"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:45
+msgid "Overview of shared files."
+msgstr "已分享檔案的概覽。"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:47
+msgid "No shares"
+msgstr "無分享"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:48
+msgid ""
+"Files and folders you shared or have been shared with you will show up here"
+msgstr "您分享或已與您分享的檔案與資料夾將顯示在此處"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:60
+msgid "Shared with you"
+msgstr "與您分享"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:61
+msgid "List of files that are shared with you."
+msgstr "與您分享的檔案清單。"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:63
+msgid "Nothing shared with you yet"
+msgstr "目前沒有任何與您分享的內容"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:64
+msgid "Files and folders others shared with you will show up here"
+msgstr "與您分享的檔案與資料夾將會顯示在此處"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:77
+msgid "Shared with others"
+msgstr "與其他人分享"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:78
+msgid "List of files that you shared with others."
+msgstr "您與其他人分享的檔案清單。"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:80
+msgid "Nothing shared yet"
+msgstr "目前沒有分享內容"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:81
+msgid "Files and folders you shared will show up here"
+msgstr "您分享的檔案與資料夾將會顯示在此處"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:94
+msgid "Shared by link"
+msgstr "由連結分享"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:95
+msgid "List of files that are shared by link."
+msgstr "透過連結分享的檔案清單。"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:97
+msgid "No shared links"
+msgstr "沒有已分享的連結"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:98
+msgid "Files and folders you shared by link will show up here"
+msgstr "您分享的檔案與資料夾連結將會顯示在此處"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:111
+msgid "Deleted shares"
+msgstr "已刪除的分享"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:112
+msgid "List of shares you left."
+msgstr "您離開的分享清單。"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:114
+msgid "No deleted shares"
+msgstr "沒有已刪除的分享"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:115
+msgid "Shares you have left will show up here"
+msgstr "您離開的分享將會顯示在此處"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:128
+msgid "Pending shares"
+msgstr "擱置中的分享"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:129
+msgid "List of unapproved shares."
+msgstr "未批准的分享清單。"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:131
+msgid "No pending shares"
+msgstr "沒有擱置中的分享"
+
+#: /var/www/html/apps/files_sharing/src/views/shares.ts:132
+msgid "Shares you have received but not approved will show up here"
+msgstr "您收到但尚未核准的分享將會在此顯示"
+
+#: /var/www/html/apps/files_sharing/templates/list.php:7
+msgid "No entries found in this folder"
+msgstr "在此資料夾中沒有任何項目"
+
+#: /var/www/html/apps/files_sharing/templates/list.php:15
+msgid "Name"
+msgstr "名稱"
+
+#: /var/www/html/apps/files_sharing/templates/list.php:19
+msgid "Share time"
+msgstr "分享時間"
+
+#: /var/www/html/apps/files_sharing/templates/part.404.php:3
+msgid "Sorry, this link does not seem to work anymore."
+msgstr "抱歉，此連結似乎無法運作。"
+
+#: /var/www/html/apps/files_sharing/templates/part.404.php:4
+msgid "Reasons might be:"
+msgstr "可能的原因："
+
+#: /var/www/html/apps/files_sharing/templates/part.404.php:6
+msgid "the item was removed"
+msgstr "項目已經移除"
+
+#: /var/www/html/apps/files_sharing/templates/part.404.php:7
+msgid "the link expired"
+msgstr "連結過期"
+
+#: /var/www/html/apps/files_sharing/templates/part.404.php:8
+msgid "sharing is disabled"
+msgstr "分享功能已停用"
+
+#: /var/www/html/apps/files_sharing/templates/part.404.php:10
+msgid "For more info, please ask the person who sent this link."
+msgstr "要取得更多資訊，請詢問傳送此連結給您的人。"
+
+#: /var/www/html/apps/files_sharing/templates/public.php:38
+msgid "Share note"
+msgstr "分享訊息"
+
+#: /var/www/html/apps/files_sharing/templates/public.php:99
+#: /var/www/html/apps/files_sharing/templates/public.php:103
+#, php-format
+msgid "Upload files to %s"
+msgstr "上傳檔案到 %s"
+
+#: /var/www/html/apps/files_sharing/templates/public.php:107
+msgid "Note"
+msgstr "筆記"
+
+#: /var/www/html/apps/files_sharing/templates/public.php:112
+msgid "Select or drop files"
+msgstr "選取或拖曳檔案"
+
+#: /var/www/html/apps/files_sharing/templates/public.php:113
+msgid "Uploading files"
+msgstr "正在上傳檔案"
+
+#: /var/www/html/apps/files_sharing/templates/public.php:114
+msgid "Uploaded files:"
+msgstr "已上傳的檔案："
+
+#: /var/www/html/apps/files_sharing/templates/public.php:120
+#, php-format
+msgid "By uploading files, you agree to the %1$sterms of service%2$s."
+msgstr "上傳檔案即表示您同意%1$s服務條款%2$s。"
+
+#: /var/www/html/apps/files_sharing/tests/Controller/ShareControllerTest.php:391
+#: /var/www/html/apps/files_sharing/tests/Controller/ShareControllerTest.php:549
+msgid "Add to your Nextcloud"
+msgstr "新增到您的 Nextcloud"

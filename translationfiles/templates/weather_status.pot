@@ -1,0 +1,257 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2023-12-26 02:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /var/www/html/apps/weather_status/lib/Service/WeatherStatusService.php:136
+msgid "Unknown address"
+msgstr ""
+
+#: /var/www/html/apps/weather_status/lib/Service/WeatherStatusService.php:275
+msgid "No result."
+msgstr ""
+
+#: /var/www/html/apps/weather_status/lib/Service/WeatherStatusService.php:335
+msgid "Malformed JSON data."
+msgstr ""
+
+#: /var/www/html/apps/weather_status/lib/Service/WeatherStatusService.php:372
+msgid "Error"
+msgstr ""
+
+#: /var/www/html/apps/weather_status/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "Weather status"
+msgstr ""
+
+#: /var/www/html/apps/weather_status/specialAppInfoFakeDummyForL10nScript.php:3
+msgid "Weather status in your dashboard"
+msgstr ""
+
+#: /var/www/html/apps/weather_status/specialAppInfoFakeDummyForL10nScript.php:4
+msgid ""
+"Weather status integrated in the Dashboard app.\n"
+"    User's position can be automatically determined or manually defined. A 6 "
+"hours forecast is then displayed.\n"
+"    This status can also be integrated in other places like the Calendar app."
+msgstr ""
+
+#. TRANSLATORS src/App.vue:55
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:2
+msgid "Detect location"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:58
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:4
+msgid "Set custom address"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:66
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:6
+msgid "Favorites"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:102
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:8
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:12
+msgid "{temperature} {unit} clear sky later today"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:103
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:10
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:14
+msgid "{temperature} {unit} clear sky"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:114
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:16
+msgid "{temperature} {unit} cloudy later today"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:115
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:18
+msgid "{temperature} {unit} cloudy"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:120
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:20
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:24
+msgid "{temperature} {unit} fair weather later today"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:121
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:22
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:26
+msgid "{temperature} {unit} fair weather"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:132
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:28
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:32
+msgid "{temperature} {unit} partly cloudy later today"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:133
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:30
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:34
+msgid "{temperature} {unit} partly cloudy"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:144
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:36
+msgid "{temperature} {unit} foggy later today"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:145
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:38
+msgid "{temperature} {unit} foggy"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:150
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:40
+msgid "{temperature} {unit} light rainfall later today"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:151
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:42
+msgid "{temperature} {unit} light rainfall"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:156
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:44
+msgid "{temperature} {unit} rainfall later today"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:157
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:46
+msgid "{temperature} {unit} rainfall"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:162
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:48
+msgid "{temperature} {unit} heavy rainfall later today"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:163
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:50
+msgid "{temperature} {unit} heavy rainfall"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:168
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:52
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:56
+msgid "{temperature} {unit} rainfall showers later today"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:169
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:54
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:58
+msgid "{temperature} {unit} rainfall showers"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:180
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:60
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:64
+msgid "{temperature} {unit} light rainfall showers later today"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:181
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:62
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:66
+msgid "{temperature} {unit} light rainfall showers"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:192
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:68
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:72
+msgid "{temperature} {unit} heavy rainfall showers later today"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:193
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:70
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:74
+msgid "{temperature} {unit} heavy rainfall showers"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:239
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:76
+msgid "More weather for {adr}"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:266
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:78
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:80
+msgid "Loading weather"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:293
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:82
+msgid "Remove from favorites"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:294
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:84
+msgid "Add as favorite"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:327
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:86
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:94
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:98
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:102
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:106
+msgid "You are not logged in."
+msgstr ""
+
+#. TRANSLATORS src/App.vue:329
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:88
+msgid "There was an error getting the weather status information."
+msgstr ""
+
+#. TRANSLATORS src/App.vue:378
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:90
+msgid "No weather information found"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:395
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:92
+msgid "Location not found"
+msgstr ""
+
+#. TRANSLATORS src/App.vue:402
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:96
+msgid "There was an error setting the location address."
+msgstr ""
+
+#. TRANSLATORS src/App.vue:416
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:100
+msgid "There was an error setting the location."
+msgstr ""
+
+#. TRANSLATORS src/App.vue:428
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:104
+msgid "There was an error saving the mode."
+msgstr ""
+
+#. TRANSLATORS src/App.vue:449
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:108
+msgid "There was an error using personal address."
+msgstr ""
+
+#. TRANSLATORS src/App.vue:514
+#: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:110
+msgid "Set location for weather"
+msgstr ""

@@ -1,0 +1,444 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2023-12-26 02:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:113
+#, php-format
+msgid "System tag %1$s added by the system"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:116
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:123
+msgid "Added system tag {systemtag}"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:120
+#, php-format
+msgid "Added system tag %1$s"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:127
+#, php-format
+msgid "%1$s added system tag %2$s"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:131
+msgid "{actor} added system tag {systemtag}"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:138
+#, php-format
+msgid "System tag %1$s removed by the system"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:141
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:148
+msgid "Removed system tag {systemtag}"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:145
+#, php-format
+msgid "Removed system tag %1$s"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:152
+#, php-format
+msgid "%1$s removed system tag %2$s"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:156
+msgid "{actor} removed system tag {systemtag}"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:185
+#, php-format
+msgid "You created system tag %1$s"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:188
+msgid "You created system tag {systemtag}"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:190
+#, php-format
+msgid "%1$s created system tag %2$s"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:194
+msgid "{actor} created system tag {systemtag}"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:198
+#, php-format
+msgid "You deleted system tag %1$s"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:201
+msgid "You deleted system tag {systemtag}"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:203
+#, php-format
+msgid "%1$s deleted system tag %2$s"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:207
+msgid "{actor} deleted system tag {systemtag}"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:211
+#, php-format
+msgid "You updated system tag %2$s to %1$s"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:215
+msgid "You updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:217
+#, php-format
+msgid "%1$s updated system tag %3$s to %2$s"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:222
+msgid "{actor} updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:227
+#, php-format
+msgid "System tag %2$s was added to %1$s by the system"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:231
+msgid "System tag {systemtag} was added to {file} by the system"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:233
+#, php-format
+msgid "You added system tag %2$s to %1$s"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:237
+msgid "You added system tag {systemtag} to {file}"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:239
+#, php-format
+msgid "%1$s added system tag %3$s to %2$s"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:244
+msgid "{actor} added system tag {systemtag} to {file}"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:249
+#, php-format
+msgid "System tag %2$s was removed from %1$s by the system"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:253
+msgid "System tag {systemtag} was removed from {file} by the system"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:255
+#, php-format
+msgid "You removed system tag %2$s from %1$s"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:259
+msgid "You removed system tag {systemtag} from {file}"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:261
+#, php-format
+msgid "%1$s removed system tag %3$s from %2$s"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:266
+msgid "{actor} removed system tag {systemtag} from {file}"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:345
+#, php-format
+msgid "%s (restricted)"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Provider.php:347
+#, php-format
+msgid "%s (invisible)"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Activity/Setting.php:53
+msgid "<strong>System tags</strong> for a file have been modified"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Search/TagSearchProvider.php:98
+#: /var/www/html/apps/systemtags/lib/Search/TagSearchProvider.php:117
+#: /var/www/html/apps/systemtags/lib/Search/TagSearchProvider.php:156
+#: /var/www/html/apps/systemtags/src/init.ts:34
+msgid "Tags"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Search/TagSearchProvider.php:146
+#, php-format
+msgid "All tagged %s …"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/lib/Search/TagSearchProvider.php:208
+#, php-format
+msgid "tagged %s"
+msgstr ""
+
+#. TRANSLATORS src/views/SystemTagsSection.vue:24
+#: /var/www/html/apps/systemtags/specialAppInfoFakeDummyForL10nScript.php:2
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:60
+msgid "Collaborative tags"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/specialAppInfoFakeDummyForL10nScript.php:3
+msgid "Collaborative tagging functionality which shares tags among users."
+msgstr ""
+
+#: /var/www/html/apps/systemtags/specialAppInfoFakeDummyForL10nScript.php:4
+msgid ""
+"Collaborative tagging functionality which shares tags among users. Great for "
+"teams.\n"
+"\t(If you are a provider with a multi-tenancy installation, it is advised to "
+"deactivate this app as tags are shared.)"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTagForm.vue:30
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:2
+msgid "Create or edit tags"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTagForm.vue:34
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:4
+msgid "Search for a tag to edit"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTagForm.vue:37
+#. TRANSLATORS src/components/SystemTags.vue:32
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:6
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:46
+msgid "Collaborative tags …"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTagForm.vue:43
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:8
+msgid "No tags to select"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTagForm.vue:49
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:10
+msgid "Tag name"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTagForm.vue:59
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:12
+msgid "Tag level"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTagForm.vue:72
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:14
+msgid "Create"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTagForm.vue:77
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:16
+msgid "Update"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTagForm.vue:81
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:18
+msgid "Delete"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTagForm.vue:86
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:20
+msgid "Reset"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTagForm.vue:89
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:22
+msgid "Loading …"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTagForm.vue:127
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:24
+msgid "Public"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTagForm.vue:131
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:26
+msgid "Restricted"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTagForm.vue:135
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:28
+msgid "Invisible"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTagForm.vue:255
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:30
+msgid "Created tag"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTagForm.vue:258
+#. TRANSLATORS src/components/SystemTags.vue:204
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:32
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:56
+#: /var/www/html/apps/systemtags/src/services/api.ts:89
+#: /var/www/html/apps/systemtags/src/services/api.ts:90
+msgid "Failed to create tag"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTagForm.vue:273
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:34
+msgid "Updated tag"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTagForm.vue:276
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:36
+#: /var/www/html/apps/systemtags/src/services/api.ts:113
+#: /var/www/html/apps/systemtags/src/services/api.ts:114
+msgid "Failed to update tag"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTagForm.vue:289
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:38
+msgid "Deleted tag"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTagForm.vue:292
+#. TRANSLATORS src/components/SystemTags.vue:214
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:40
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:58
+#: /var/www/html/apps/systemtags/src/services/api.ts:123
+#: /var/www/html/apps/systemtags/src/services/api.ts:124
+msgid "Failed to delete tag"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTags.vue:26
+#. TRANSLATORS src/views/SystemTagsSection.vue:27
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:42
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:64
+msgid "Loading collaborative tags …"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTags.vue:29
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:44
+msgid "Search or create collaborative tags"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTags.vue:45
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:48
+msgid "No tags to select, type to create a new tag"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTags.vue:120
+#. TRANSLATORS src/views/SystemTagsSection.vue:75
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:50
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:66
+#: /var/www/html/apps/systemtags/src/services/api.ts:55
+#: /var/www/html/apps/systemtags/src/services/api.ts:56
+msgid "Failed to load tags"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTags.vue:133
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:52
+msgid "Failed to load selected tags"
+msgstr ""
+
+#. TRANSLATORS src/components/SystemTags.vue:191
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:54
+msgid "Failed to select tag"
+msgstr ""
+
+#. TRANSLATORS src/views/SystemTagsSection.vue:25
+#: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:62
+msgid ""
+"Collaborative tags are available for all users. Restricted tags are visible "
+"to users but cannot be assigned by them. Invisible tags are for internal "
+"use, since users cannot see or assign them."
+msgstr ""
+
+#: /var/www/html/apps/systemtags/src/actions/inlineSystemTagsAction.ts:85
+msgid "This file has the tag {tag}"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/src/actions/inlineSystemTagsAction.ts:89
+msgid "This file has the tags {firstTags} and {lastTag}"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/src/init.ts:35
+msgid "List of tags and their associated files and folders."
+msgstr ""
+
+#: /var/www/html/apps/systemtags/src/init.ts:37
+msgid "No tags found"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/src/init.ts:38
+msgid "Tags you have created will show up here."
+msgstr ""
+
+#: /var/www/html/apps/systemtags/src/services/api.ts:66
+#: /var/www/html/apps/systemtags/src/services/api.ts:67
+msgid "Failed to load last used tags"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/src/services/api.ts:86
+#: /var/www/html/apps/systemtags/src/services/api.ts:87
+msgid "Missing \"Content-Location\" header"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/src/services/files.ts:41
+#: /var/www/html/apps/systemtags/src/services/files.ts:42
+msgid "Failed to load tags for file"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/src/services/files.ts:69
+#: /var/www/html/apps/systemtags/src/services/files.ts:70
+msgid "Failed to set tag for file"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/src/services/files.ts:79
+#: /var/www/html/apps/systemtags/src/services/files.ts:80
+msgid "Failed to delete tag for file"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/templates/list.php:6
+msgid "No files in here"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/templates/list.php:12
+msgid "No entries found in this folder"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/templates/list.php:21
+msgid "Name"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/templates/list.php:25
+msgid "Size"
+msgstr ""
+
+#: /var/www/html/apps/systemtags/templates/list.php:28
+msgid "Modified"
+msgstr ""

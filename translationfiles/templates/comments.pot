@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2023-12-26 02:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /var/www/html/apps/comments/lib/Activity/Filter.php:41
+#: /var/www/html/apps/comments/lib/Notification/Notifier.php:65
+#: /var/www/html/apps/comments/lib/Search/CommentsSearchProvider.php:55
+#: /var/www/html/apps/comments/lib/Search/CommentsSearchProvider.php:68
+#: /var/www/html/apps/comments/specialAppInfoFakeDummyForL10nScript.php:2
+#: /var/www/html/apps/comments/src/comments-tab.js:42
+msgid "Comments"
+msgstr ""
+
+#: /var/www/html/apps/comments/lib/Activity/Provider.php:94
+msgid "You commented"
+msgstr ""
+
+#: /var/www/html/apps/comments/lib/Activity/Provider.php:97
+msgid "{author} commented"
+msgstr ""
+
+#: /var/www/html/apps/comments/lib/Activity/Provider.php:116
+#, php-format
+msgid "You commented on %1$s"
+msgstr ""
+
+#: /var/www/html/apps/comments/lib/Activity/Provider.php:119
+msgid "You commented on {file}"
+msgstr ""
+
+#: /var/www/html/apps/comments/lib/Activity/Provider.php:124
+#, php-format
+msgid "%1$s commented on %2$s"
+msgstr ""
+
+#: /var/www/html/apps/comments/lib/Activity/Provider.php:128
+msgid "{author} commented on {file}"
+msgstr ""
+
+#: /var/www/html/apps/comments/lib/Activity/Setting.php:39
+msgid "<strong>Comments</strong> for files"
+msgstr ""
+
+#: /var/www/html/apps/comments/lib/Notification/Notifier.php:126
+msgid ""
+"You were mentioned on \"{file}\", in a comment by a user that has since been "
+"deleted"
+msgstr ""
+
+#: /var/www/html/apps/comments/lib/Notification/Notifier.php:128
+msgid "{user} mentioned you in a comment on \"{file}\""
+msgstr ""
+
+#: /var/www/html/apps/comments/specialAppInfoFakeDummyForL10nScript.php:3
+msgid "Files app plugin to add comments to files"
+msgstr ""
+
+#. TRANSLATORS src/components/Comment.vue:46
+#: /var/www/html/apps/comments/specialVueFakeDummyForL10nScript.js:2
+msgid "Edit comment"
+msgstr ""
+
+#. TRANSLATORS src/components/Comment.vue:52
+#: /var/www/html/apps/comments/specialVueFakeDummyForL10nScript.js:4
+msgid "Delete comment"
+msgstr ""
+
+#. TRANSLATORS src/components/Comment.vue:59
+#: /var/www/html/apps/comments/specialVueFakeDummyForL10nScript.js:6
+msgid "Cancel edit"
+msgstr ""
+
+#. TRANSLATORS src/components/Comment.vue:84
+#: /var/www/html/apps/comments/specialVueFakeDummyForL10nScript.js:8
+msgid "Post comment"
+msgstr ""
+
+#. TRANSLATORS src/components/Comment.vue:95
+#: /var/www/html/apps/comments/specialVueFakeDummyForL10nScript.js:10
+msgid "@ for mentions, : for emoji, / for smart picker"
+msgstr ""
+
+#. TRANSLATORS src/views/ActivityCommentAction.vue:59
+#: /var/www/html/apps/comments/specialVueFakeDummyForL10nScript.js:12
+msgid "Could not reload comments"
+msgstr ""
+
+#. TRANSLATORS src/views/Comments.vue:41
+#: /var/www/html/apps/comments/specialVueFakeDummyForL10nScript.js:14
+msgid "No comments yet, start the conversation!"
+msgstr ""
+
+#. TRANSLATORS src/views/Comments.vue:65
+#: /var/www/html/apps/comments/specialVueFakeDummyForL10nScript.js:16
+msgid "No more messages"
+msgstr ""
+
+#. TRANSLATORS src/views/Comments.vue:79
+#: /var/www/html/apps/comments/specialVueFakeDummyForL10nScript.js:18
+msgid "Retry"
+msgstr ""
+
+#. TRANSLATORS src/views/Comments.vue:156
+#: /var/www/html/apps/comments/specialVueFakeDummyForL10nScript.js:20
+msgid "Failed to mark comments as read"
+msgstr ""
+
+#. TRANSLATORS src/views/Comments.vue:226
+#: /var/www/html/apps/comments/specialVueFakeDummyForL10nScript.js:22
+msgid "Unable to load the comments list"
+msgstr ""
+
+#: /var/www/html/apps/comments/src/actions/inlineUnreadCommentsAction.ts:34
+msgid "1 new comment"
+msgid_plural "{unread} new comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/apps/comments/src/actions/inlineUnreadCommentsAction.ts:36
+msgid "Comment"
+msgstr ""
+
+#: /var/www/html/apps/comments/src/mixins/CommentMixin.js:75
+msgid "An error occurred while trying to edit the comment"
+msgstr ""
+
+#: /var/www/html/apps/comments/src/mixins/CommentMixin.js:86
+msgid "Comment deleted"
+msgstr ""
+
+#: /var/www/html/apps/comments/src/mixins/CommentMixin.js:97
+msgid "An error occurred while trying to delete the comment"
+msgstr ""
+
+#: /var/www/html/apps/comments/src/mixins/CommentMixin.js:115
+msgid "An error occurred while trying to create the comment"
+msgstr ""

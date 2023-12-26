@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2023-12-26 02:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /var/www/html/apps/provisioning_api/lib/Controller/AppConfigController.php:164
+msgid ""
+"Logged in user must be an administrator or have authorization to edit this "
+"setting."
+msgstr ""
+
+#: /var/www/html/apps/provisioning_api/lib/Controller/UsersController.php:440
+msgid "User already exists"
+msgstr ""
+
+#: /var/www/html/apps/provisioning_api/lib/Controller/VerificationController.php:92
+msgid "Email confirmation"
+msgstr ""
+
+#: /var/www/html/apps/provisioning_api/lib/Controller/VerificationController.php:93
+#, php-format
+msgid "To enable the email address %s please click the button below."
+msgstr ""
+
+#: /var/www/html/apps/provisioning_api/lib/Controller/VerificationController.php:94
+msgid "Confirm"
+msgstr ""
+
+#: /var/www/html/apps/provisioning_api/lib/Controller/VerificationController.php:118
+msgid "Email was already removed from account and cannot be confirmed anymore."
+msgstr ""
+
+#: /var/www/html/apps/provisioning_api/lib/Controller/VerificationController.php:125
+msgid "Could not verify mail because the token is expired."
+msgstr ""
+
+#: /var/www/html/apps/provisioning_api/lib/Controller/VerificationController.php:126
+msgid "Could not verify mail because the token is invalid."
+msgstr ""
+
+#: /var/www/html/apps/provisioning_api/lib/Controller/VerificationController.php:130
+msgid "An unexpected error occurred. Please contact your admin."
+msgstr ""
+
+#: /var/www/html/apps/provisioning_api/lib/Controller/VerificationController.php:142
+#: /var/www/html/apps/provisioning_api/lib/Controller/VerificationController.php:143
+msgid "Email confirmation successful"
+msgstr ""
+
+#: /var/www/html/apps/provisioning_api/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "Provisioning API"
+msgstr ""
+
+#: /var/www/html/apps/provisioning_api/specialAppInfoFakeDummyForL10nScript.php:3
+msgid ""
+"This application enables a set of APIs that external systems can use to "
+"manage users, groups and apps."
+msgstr ""
+
+#: /var/www/html/apps/provisioning_api/specialAppInfoFakeDummyForL10nScript.php:4
+msgid ""
+"This application enables a set of APIs that external systems can use to "
+"create, edit, delete and query user\n"
+"\t\tattributes, query, set and remove groups, set quota and query total "
+"storage used in Nextcloud. Group admin users\n"
+"\t\tcan also query Nextcloud and perform the same functions as an admin for "
+"groups they manage. The API also enables\n"
+"\t\tan admin to query for active Nextcloud applications, application info, "
+"and to enable or disable an app remotely.\n"
+"\t\tOnce the app is enabled, HTTP requests can be used via a Basic Auth "
+"header to perform any of the functions\n"
+"\t\tlisted above. More information is available in the Provisioning API "
+"documentation, including example calls\n"
+"\t\tand server responses."
+msgstr ""

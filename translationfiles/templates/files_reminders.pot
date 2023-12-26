@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2023-12-26 02:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /var/www/html/apps/files_reminders/lib/Notification/Notifier.php:53
+#: /var/www/html/apps/files_reminders/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "File reminders"
+msgstr ""
+
+#. TRANSLATORS The name placeholder is for a file or folder name
+#: /var/www/html/apps/files_reminders/lib/Notification/Notifier.php:91
+msgid "Reminder for {name}"
+msgstr ""
+
+#: /var/www/html/apps/files_reminders/lib/Notification/Notifier.php:106
+msgid "View file"
+msgstr ""
+
+#: /var/www/html/apps/files_reminders/lib/Notification/Notifier.php:107
+msgid "View folder"
+msgstr ""
+
+#: /var/www/html/apps/files_reminders/specialAppInfoFakeDummyForL10nScript.php:3
+msgid "Set file reminders"
+msgstr ""
+
+#: /var/www/html/apps/files_reminders/specialAppInfoFakeDummyForL10nScript.php:4
+msgid ""
+"**📣 File reminders**\n"
+"\n"
+"Set file reminders."
+msgstr ""
+
+#. TRANSLATORS src/components/SetCustomReminderModal.vue:42
+#: /var/www/html/apps/files_reminders/specialVueFakeDummyForL10nScript.js:2
+msgid "We will remind you of this file"
+msgstr ""
+
+#. TRANSLATORS src/components/SetCustomReminderModal.vue:47
+#. TRANSLATORS src/components/SetCustomReminderModal.vue:153
+#: /var/www/html/apps/files_reminders/specialVueFakeDummyForL10nScript.js:4
+#: /var/www/html/apps/files_reminders/specialVueFakeDummyForL10nScript.js:16
+msgid "Please choose a valid date & time"
+msgstr ""
+
+#. TRANSLATORS src/components/SetCustomReminderModal.vue:54
+#: /var/www/html/apps/files_reminders/specialVueFakeDummyForL10nScript.js:6
+msgid "Cancel"
+msgstr ""
+
+#. TRANSLATORS src/components/SetCustomReminderModal.vue:59
+#: /var/www/html/apps/files_reminders/specialVueFakeDummyForL10nScript.js:8
+#: /var/www/html/apps/files_reminders/src/actions/setReminderMenuAction.ts:30
+msgid "Set reminder"
+msgstr ""
+
+#. TRANSLATORS src/components/SetCustomReminderModal.vue:114
+#: /var/www/html/apps/files_reminders/specialVueFakeDummyForL10nScript.js:10
+msgid "Set reminder for \"{fileName}\""
+msgstr ""
+
+#. TRANSLATORS src/components/SetCustomReminderModal.vue:118
+#: /var/www/html/apps/files_reminders/specialVueFakeDummyForL10nScript.js:12
+#: /var/www/html/apps/files_reminders/src/actions/setReminderCustomAction.ts:32
+msgid "Set reminder at custom date & time"
+msgstr ""
+
+#. TRANSLATORS src/components/SetCustomReminderModal.vue:122
+#: /var/www/html/apps/files_reminders/specialVueFakeDummyForL10nScript.js:14
+msgid "Clear reminder"
+msgstr ""
+
+#. TRANSLATORS src/components/SetCustomReminderModal.vue:159
+#: /var/www/html/apps/files_reminders/specialVueFakeDummyForL10nScript.js:18
+#: /var/www/html/apps/files_reminders/src/actions/setReminderSuggestionActions.ts:100
+msgid "Reminder set for \"{fileName}\""
+msgstr ""
+
+#. TRANSLATORS src/components/SetCustomReminderModal.vue:163
+#: /var/www/html/apps/files_reminders/specialVueFakeDummyForL10nScript.js:20
+#: /var/www/html/apps/files_reminders/src/actions/setReminderSuggestionActions.ts:93
+#: /var/www/html/apps/files_reminders/src/actions/setReminderSuggestionActions.ts:103
+msgid "Failed to set reminder"
+msgstr ""
+
+#: /var/www/html/apps/files_reminders/src/actions/setReminderCustomAction.ts:31
+msgid "Set custom reminder"
+msgstr ""
+
+#: /var/www/html/apps/files_reminders/src/actions/setReminderSuggestionActions.ts:44
+msgid "Later today"
+msgstr ""
+
+#: /var/www/html/apps/files_reminders/src/actions/setReminderSuggestionActions.ts:45
+msgid "Set reminder for later today"
+msgstr ""
+
+#: /var/www/html/apps/files_reminders/src/actions/setReminderSuggestionActions.ts:50
+msgid "Tomorrow"
+msgstr ""
+
+#: /var/www/html/apps/files_reminders/src/actions/setReminderSuggestionActions.ts:51
+msgid "Set reminder for tomorrow"
+msgstr ""
+
+#: /var/www/html/apps/files_reminders/src/actions/setReminderSuggestionActions.ts:56
+msgid "This weekend"
+msgstr ""
+
+#: /var/www/html/apps/files_reminders/src/actions/setReminderSuggestionActions.ts:57
+msgid "Set reminder for this weekend"
+msgstr ""
+
+#: /var/www/html/apps/files_reminders/src/actions/setReminderSuggestionActions.ts:62
+msgid "Next week"
+msgstr ""
+
+#: /var/www/html/apps/files_reminders/src/actions/setReminderSuggestionActions.ts:63
+msgid "Set reminder for next week"
+msgstr ""

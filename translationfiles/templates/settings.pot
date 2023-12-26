@@ -1,0 +1,3426 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2023-12-26 02:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /var/www/html/apps/settings/js/federationscopemenu.js:33
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:167
+msgid "Private"
+msgstr ""
+
+#: /var/www/html/apps/settings/js/federationscopemenu.js:34
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:168
+msgid ""
+"Only visible to people matched via phone number integration through Talk on "
+"mobile"
+msgstr ""
+
+#: /var/www/html/apps/settings/js/federationscopemenu.js:40
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:174
+msgid "Local"
+msgstr ""
+
+#: /var/www/html/apps/settings/js/federationscopemenu.js:41
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:175
+msgid "Only visible to people on this instance and guests"
+msgstr ""
+
+#: /var/www/html/apps/settings/js/federationscopemenu.js:47
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:181
+msgid "Federated"
+msgstr ""
+
+#: /var/www/html/apps/settings/js/federationscopemenu.js:48
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:182
+msgid "Only synchronize to trusted servers"
+msgstr ""
+
+#: /var/www/html/apps/settings/js/federationscopemenu.js:54
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:188
+msgid "Published"
+msgstr ""
+
+#: /var/www/html/apps/settings/js/federationscopemenu.js:55
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:189
+msgid "Synchronize to trusted servers and the global and public address book"
+msgstr ""
+
+#: /var/www/html/apps/settings/js/federationsettingsview.js:226
+#: /var/www/html/apps/settings/lib/Settings/Personal/PersonalInfo.php:369
+msgid "Verify"
+msgstr ""
+
+#: /var/www/html/apps/settings/js/federationsettingsview.js:232
+#: /var/www/html/apps/settings/js/settings/personalInfo.js:80
+#: /var/www/html/apps/settings/lib/Settings/Personal/PersonalInfo.php:366
+msgid "Verifying …"
+msgstr ""
+
+#: /var/www/html/apps/settings/js/security_password.js:50
+#: /var/www/html/apps/settings/js/security_password.js:65
+#: /var/www/html/apps/settings/lib/Controller/ChangePasswordController.php:144
+#: /var/www/html/apps/settings/lib/Controller/ChangePasswordController.php:222
+#: /var/www/html/apps/settings/lib/Controller/ChangePasswordController.php:233
+msgid "Unable to change password"
+msgstr ""
+
+#: /var/www/html/apps/settings/js/security_password.js:76
+msgid "Very weak password"
+msgstr ""
+
+#: /var/www/html/apps/settings/js/security_password.js:77
+msgid "Weak password"
+msgstr ""
+
+#: /var/www/html/apps/settings/js/security_password.js:78
+msgid "So-so password"
+msgstr ""
+
+#: /var/www/html/apps/settings/js/security_password.js:79
+msgid "Good password"
+msgstr ""
+
+#: /var/www/html/apps/settings/js/security_password.js:80
+msgid "Strong password"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserListHeader.vue:56
+#. TRANSLATORS src/views/Users.vue:83
+#: /var/www/html/apps/settings/js/settings.js:54
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:576
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:624
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:814
+msgid "Groups"
+msgstr ""
+
+#: /var/www/html/apps/settings/js/settings.js:98
+msgid "Group list is empty"
+msgstr ""
+
+#: /var/www/html/apps/settings/js/settings.js:103
+msgid "Unable to retrieve the group list"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/GroupProvider.php:88
+msgid "{actor} added you to group {group}"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/GroupProvider.php:90
+msgid "You added {user} to group {group}"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/GroupProvider.php:92
+msgid "{actor} added {user} to group {group}"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/GroupProvider.php:95
+msgid "An administrator added you to group {group}"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/GroupProvider.php:97
+msgid "An administrator added {user} to group {group}"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/GroupProvider.php:103
+msgid "{actor} removed you from group {group}"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/GroupProvider.php:105
+msgid "You removed {user} from group {group}"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/GroupProvider.php:107
+msgid "{actor} removed {user} from group {group}"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/GroupProvider.php:110
+msgid "An administrator removed you from group {group}"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/GroupProvider.php:112
+msgid "An administrator removed {user} from group {group}"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/GroupSetting.php:54
+msgid "Your <strong>group memberships</strong> were modified"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/Provider.php:100
+msgid "{actor} changed your password"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/Provider.php:102
+msgid "You changed your password"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/Provider.php:104
+msgid "Your password was reset by an administrator"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/Provider.php:106
+msgid "Your password was reset"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/Provider.php:108
+msgid "{actor} changed your email address"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/Provider.php:110
+msgid "You changed your email address"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/Provider.php:112
+msgid "Your email address was changed by an administrator"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/Provider.php:115
+msgid "You created an app password for a session named \"{token}\""
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/Provider.php:117
+msgid ""
+"An administrator created an app password for a session named \"{token}\""
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/Provider.php:120
+msgid "You deleted app password \"{token}\""
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/Provider.php:122
+msgid "You renamed app password \"{token}\" to \"{newToken}\""
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/Provider.php:124
+msgid "You granted filesystem access to app password \"{token}\""
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/Provider.php:126
+msgid "You revoked filesystem access from app password \"{token}\""
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/SecurityFilter.php:59
+#: /var/www/html/apps/settings/lib/Activity/SecuritySetting.php:50
+#: /var/www/html/apps/settings/lib/Sections/Admin/Security.php:54
+#: /var/www/html/apps/settings/lib/Sections/Personal/Security.php:54
+msgid "Security"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/SecurityProvider.php:64
+#, php-format
+msgid "You successfully logged in using two-factor authentication (%1$s)"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/SecurityProvider.php:75
+#, php-format
+msgid "A login attempt using two-factor authentication failed (%1$s)"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/SecurityProvider.php:86
+#, php-format
+msgid "Remote wipe was started on %1$s"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/SecurityProvider.php:97
+#, php-format
+msgid "Remote wipe has finished on %1$s"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Activity/Setting.php:54
+msgid "Your <strong>password</strong> or <strong>email</strong> was modified"
+msgstr ""
+
+#. TRANSLATORS src/views/Apps.vue:28
+#: /var/www/html/apps/settings/lib/Controller/AppSettingsController.php:142
+#: /var/www/html/apps/settings/lib/Search/AppSearch.php:48
+#: /var/www/html/apps/settings/lib/Search/AppSearch.php:58
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:784
+msgid "Apps"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/AppSettingsController.php:526
+msgid "Could not remove app."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/AppSettingsController.php:548
+msgid "Could not update app."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/ChangePasswordController.php:90
+msgid "Wrong password"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/ChangePasswordController.php:102
+msgid "Unable to change personal password"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/ChangePasswordController.php:121
+#: /var/www/html/apps/settings/src/admin.js:48
+#: /var/www/html/apps/settings/src/admin.js:68
+msgid "Saved"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/ChangePasswordController.php:135
+msgid "No user supplied"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/ChangePasswordController.php:153
+msgid "Unable to change password. Password too long."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/ChangePasswordController.php:167
+msgid "Authentication error"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/ChangePasswordController.php:189
+msgid ""
+"Please provide an admin recovery password; otherwise, all user data will be "
+"lost."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/ChangePasswordController.php:196
+msgid "Wrong admin recovery password. Please check the password and try again."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/ChangePasswordController.php:215
+msgid ""
+"Backend does not support password change, but the user's encryption key was "
+"updated."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:214
+msgid ""
+"installing and updating apps via the App Store or Federated Cloud Sharing"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:216
+msgid "Federated Cloud Sharing"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:229
+#, php-format
+msgid ""
+"cURL is using an outdated %1$s version (%2$s). Please update your operating "
+"system or features such as %3$s will not work reliably."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:236
+msgid ""
+"Could not determine if TLS version of cURL is outdated or not because an "
+"error happened during the HTTPS request against https://nextcloud.com. "
+"Please check the Nextcloud log file for more details."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:350
+msgid ""
+"The PHP OPcache module is not loaded. For better performance it is "
+"recommended to load it into your PHP installation."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:363
+msgid ""
+"OPcache is disabled. For better performance, it is recommended to apply "
+"<code>opcache.enable=1</code> to your PHP configuration."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:367
+msgid ""
+"OPcache is configured to remove code comments. With OPcache enabled, "
+"<code>opcache.save_comments=1</code> must be set for Nextcloud to function."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:371
+msgid ""
+"Nextcloud is not allowed to use the OPcache API. With OPcache enabled, it is "
+"highly recommended to include all Nextcloud directories with <code>opcache."
+"restrict_api</code> or unset this setting to disable OPcache API "
+"restrictions, to prevent errors during Nextcloud core or app upgrades."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:374
+msgid ""
+"Nextcloud is not allowed to use the OPcache API. It is highly recommended to "
+"include all Nextcloud directories with <code>opcache.restrict_api</code> or "
+"unset this setting to disable OPcache API restrictions, to prevent errors "
+"during Nextcloud core or app upgrades."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:376
+msgid ""
+"The shared memory based OPcache is disabled. For better performance, it is "
+"recommended to apply <code>opcache.file_cache_only=0</code> to your PHP "
+"configuration and use the file cache as second level cache only."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:391
+#, php-format
+msgid ""
+"The maximum number of OPcache keys is nearly exceeded. To assure that all "
+"scripts can be kept in the cache, it is recommended to apply <code>opcache."
+"max_accelerated_files</code> to your PHP configuration with a value higher "
+"than <code>%s</code>."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:398
+#, php-format
+msgid ""
+"The OPcache buffer is nearly full. To assure that all scripts can be hold in "
+"cache, it is recommended to apply <code>opcache.memory_consumption</code> to "
+"your PHP configuration with a value higher than <code>%s</code>."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:409
+#, php-format
+msgid ""
+"The OPcache interned strings buffer is nearly full. To assure that repeating "
+"strings can be effectively cached, it is recommended to apply <code>opcache."
+"interned_strings_buffer</code> to your PHP configuration with a value higher "
+"than <code>%s</code>."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/HelpController.php:90
+#: /var/www/html/apps/settings/templates/help.php:28
+msgid "Administrator documentation"
+msgstr ""
+
+#. TRANSLATORS src/components/AppDetails.vue:133
+#: /var/www/html/apps/settings/lib/Controller/HelpController.php:92
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:164
+#: /var/www/html/apps/settings/templates/help.php:15
+msgid "User documentation"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/HelpController.php:105
+msgid "Nextcloud help overview"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/MailSettingsController.php:131
+msgid "Invalid SMTP password."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/MailSettingsController.php:159
+msgid "Email setting test"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/MailSettingsController.php:161
+#, php-format
+msgid "Well done, %s!"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/MailSettingsController.php:162
+msgid ""
+"If you received this email, the email configuration seems to be correct."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/MailSettingsController.php:171
+msgid "Email could not be sent. Check your mail server log"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/MailSettingsController.php:178
+#, php-format
+msgid ""
+"A problem occurred while sending the email. Please revise your settings. "
+"(Error: %s)"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/MailSettingsController.php:183
+#, php-format
+msgid ""
+"You need to set your user email before being able to send test emails. Go to "
+"%s for that."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/UsersController.php:283
+#: /var/www/html/apps/settings/lib/Search/UserSearch.php:46
+#: /var/www/html/apps/settings/lib/Search/UserSearch.php:56
+msgid "Users"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/UsersController.php:391
+msgid "Invalid user"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/UsersController.php:404
+msgid "Invalid mail address"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/UsersController.php:464
+msgid "Settings saved"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/UsersController.php:491
+msgid "Unable to change full name"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/UsersController.php:501
+msgid "Unable to change email address"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/UsersController.php:510
+msgid "Unable to set invalid phone number"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/UsersController.php:513
+msgid "Unable to set invalid website"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/UsersController.php:515
+msgid "Some account data was invalid"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/UsersController.php:547
+msgid ""
+"In order to verify your Twitter account, post the following tweet on Twitter "
+"(please make sure to post it without any line breaks):"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Controller/UsersController.php:552
+msgid ""
+"In order to verify your Website, store the following content in your web-"
+"root at '.well-known/CloudIdVerificationCode.txt' (please make sure that the "
+"complete text is in one line):"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Hooks.php:110
+#, php-format
+msgid "%1$s changed your password on %2$s."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Hooks.php:115
+#, php-format
+msgid "Your password on %s was changed."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Hooks.php:122
+#, php-format
+msgid "Your password on %s was reset by an administrator."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Hooks.php:126
+#, php-format
+msgid "Your password on %s was reset."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Hooks.php:140
+#, php-format
+msgid "Password for %1$s changed on %2$s"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Hooks.php:142
+#, php-format
+msgid "Password changed for %s"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Hooks.php:143
+#: /var/www/html/apps/settings/lib/Hooks.php:212
+msgid "If you did not request this, please contact an administrator."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Hooks.php:187
+#, php-format
+msgid "Your email address on %s was changed."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Hooks.php:195
+#, php-format
+msgid "Your email address on %s was changed by an administrator."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Hooks.php:209
+#, php-format
+msgid "Email address for %1$s changed on %2$s"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Hooks.php:211
+#, php-format
+msgid "Email address changed for %s"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Hooks.php:214
+#, php-format
+msgid "The new email address is %s"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Mailer/NewUserMailHelper.php:128
+#, php-format
+msgid "Your %s account was created"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Mailer/NewUserMailHelper.php:131
+msgid "Welcome aboard"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Mailer/NewUserMailHelper.php:133
+#, php-format
+msgid "Welcome aboard %s"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Mailer/NewUserMailHelper.php:135
+#, php-format
+msgid "Welcome to your %s account, you can add, protect, and share your data."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Mailer/NewUserMailHelper.php:137
+#, php-format
+msgid "Your username is: %s"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Mailer/NewUserMailHelper.php:140
+msgid "Set your password"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Mailer/NewUserMailHelper.php:142
+#, php-format
+msgid "Go to %s"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Mailer/NewUserMailHelper.php:155
+msgid "Install Client"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Middleware/SubadminMiddleware.php:70
+msgid "Logged in user must be a subadmin"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Search/SectionSearch.php:76
+#: /var/www/html/apps/settings/lib/Search/SectionSearch.php:113
+msgid "Settings"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Search/SectionSearch.php:99
+#: /var/www/html/apps/settings/templates/settings/frame.php:34
+msgid "Personal"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Search/SectionSearch.php:107
+#: /var/www/html/apps/settings/templates/settings/frame.php:61
+msgid "Administration"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Sections/Admin/Additional.php:54
+msgid "Additional settings"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Sections/Admin/ArtificialIntelligence.php:52
+#: /var/www/html/apps/settings/lib/Settings/Admin/ArtificialIntelligence.php:169
+msgid "Artificial Intelligence"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminDelegating.vue:2
+#: /var/www/html/apps/settings/lib/Sections/Admin/Delegation.php:58
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:26
+msgid "Administration privileges"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Sections/Admin/Groupware.php:54
+msgid "Groupware"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Sections/Admin/Overview.php:54
+msgid "Overview"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Sections/Admin/Server.php:54
+msgid "Basic settings"
+msgstr ""
+
+#. TRANSLATORS src/views/AdminSettingsSharing.vue:26
+#: /var/www/html/apps/settings/lib/Sections/Admin/Sharing.php:54
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:778
+msgid "Sharing"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Sections/Personal/Availability.php:52
+msgid "Availability"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Sections/Personal/Calendar.php:49
+msgid "Calendar"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Sections/Personal/PersonalInfo.php:54
+#: /var/www/html/apps/settings/templates/settings/personal/personal.info.php:47
+msgid "Personal info"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Sections/Personal/SyncClients.php:54
+msgid "Mobile & desktop"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Settings/Admin/Mail.php:100
+#: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:55
+msgid "Email server"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Settings/Admin/Overview.php:75
+#: /var/www/html/apps/settings/templates/settings/admin/overview.php:32
+msgid "Security & setup warnings"
+msgstr ""
+
+#. TRANSLATORS src/components/BasicSettings/BackgroundJob.vue:24
+#: /var/www/html/apps/settings/lib/Settings/Admin/Server.php:125
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:324
+msgid "Background jobs"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:461
+#: /var/www/html/apps/settings/lib/Settings/Personal/PersonalInfo.php:133
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:684
+#: /var/www/html/apps/settings/src/utils/userUtils.ts:25
+msgid "Unlimited"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/Settings/Personal/PersonalInfo.php:363
+msgid "Verifying"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/BruteForceThrottler.php:50
+msgid "Brute-force Throttle"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/BruteForceThrottler.php:58
+#: /var/www/html/apps/settings/lib/SetupChecks/BruteForceThrottler.php:61
+#: /var/www/html/apps/settings/lib/SetupChecks/ForwardedForHeaders.php:65
+#: /var/www/html/apps/settings/lib/SetupChecks/ForwardedForHeaders.php:68
+msgid "Your remote address could not be determined."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/BruteForceThrottler.php:65
+#, php-format
+msgid ""
+"Your remote address was identified as \"%s\" and is brute-force throttled at "
+"the moment slowing down the performance of various requests. If the remote "
+"address is not your address this can be an indication that a proxy is not "
+"configured correctly."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/BruteForceThrottler.php:70
+#, php-format
+msgid "Your remote address \"%s\" is not brute-force throttled."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/CheckUserCertificates.php:49
+msgid "Old user imported certificates"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/CheckUserCertificates.php:58
+msgid ""
+"A background job is pending that checks for user imported SSL certificates. "
+"Please check back later."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/CheckUserCertificates.php:60
+msgid ""
+"There are some user imported SSL certificates present, that are not used "
+"anymore with Nextcloud 21. They can be imported on the command line via "
+"\"occ security:certificates:import\" command. Their paths inside the data "
+"directory are shown below."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/DatabaseHasMissingColumns.php:50
+msgid "Database missing columns"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/DatabaseHasMissingColumns.php:82
+#, php-format
+msgid "Missing optional column \"%s\" in table \"%s\"."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/DatabaseHasMissingColumns.php:85
+msgid ""
+"The database is missing some optional columns. Due to the fact that adding "
+"columns on big tables could take some time they were not added automatically "
+"when they can be optional. By running \"occ db:add-missing-columns\" those "
+"missing columns could be added manually while the instance keeps running. "
+"Once the columns are added some features might improve responsiveness or "
+"usability."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/DatabaseHasMissingIndices.php:50
+msgid "Database missing indices"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/DatabaseHasMissingIndices.php:82
+#, php-format
+msgid "Missing optional index \"%s\" in table \"%s\"."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/DatabaseHasMissingIndices.php:85
+msgid ""
+"The database is missing some indexes. Due to the fact that adding indexes on "
+"big tables could take some time they were not added automatically. By "
+"running \"occ db:add-missing-indices\" those missing indexes could be added "
+"manually while the instance keeps running. Once the indexes are added "
+"queries to those tables are usually much faster."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/DatabaseHasMissingPrimaryKeys.php:50
+msgid "Database missing primary keys"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/DatabaseHasMissingPrimaryKeys.php:82
+#, php-format
+msgid "Missing primary key on table \"%s\"."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/DatabaseHasMissingPrimaryKeys.php:85
+msgid ""
+"The database is missing some primary keys. Due to the fact that adding "
+"primary keys on big tables could take some time they were not added "
+"automatically. By running \"occ db:add-missing-primary-keys\" those missing "
+"primary keys could be added manually while the instance keeps running."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/DefaultPhoneRegionSet.php:41
+msgid "Default phone region"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/DefaultPhoneRegionSet.php:53
+msgid ""
+"Your installation has no default phone region set. This is required to "
+"validate phone numbers in the profile settings without a country code. To "
+"allow numbers without a country code, please add \"default_phone_region\" "
+"with the respective ISO 3166-1 code of the region to your config file."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/EmailTestSuccessful.php:44
+msgid "Email test"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/EmailTestSuccessful.php:67
+msgid "Email test was successfully sent"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/EmailTestSuccessful.php:71
+msgid ""
+"You have not set or verified your email server configuration, yet. Please "
+"head over to the \"Basic settings\" in order to set them. Afterwards, use "
+"the \"Send email\" button below the form to verify your settings."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/FileLocking.php:46
+msgid "File locking"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/FileLocking.php:64
+msgid ""
+"Transactional file locking is disabled, this might lead to issues with race "
+"conditions. Enable \"filelocking.enabled\" in config.php to avoid these "
+"problems."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/FileLocking.php:71
+msgid ""
+"The database is used for transactional file locking. To enhance performance, "
+"please configure memcache, if available."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/ForwardedForHeaders.php:50
+msgid "Forwarded for headers"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/ForwardedForHeaders.php:59
+msgid ""
+"Your \"trusted_proxies\" setting is not correctly set, it should be an array."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/ForwardedForHeaders.php:74
+msgid ""
+"The reverse proxy header configuration is incorrect. This is a security "
+"issue and can allow an attacker to spoof their IP address as visible to the "
+"Nextcloud."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/ForwardedForHeaders.php:82
+#, php-format
+msgid "Your IP address was resolved as %s"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/ForwardedForHeaders.php:85
+msgid ""
+"The reverse proxy header configuration is incorrect, or you are accessing "
+"Nextcloud from a trusted proxy. If not, this is a security issue and can "
+"allow an attacker to spoof their IP address as visible to the Nextcloud."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/InternetConnectivity.php:55
+msgid "Internet connectivity"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/InternetConnectivity.php:60
+msgid "Internet connectivity is disabled in configuration file."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/InternetConnectivity.php:72
+msgid ""
+"This server has no working internet connection: Multiple endpoints could not "
+"be reached. This means that some of the features like mounting external "
+"storage, notifications about updates or installation of third-party apps "
+"will not work. Accessing files remotely and sending of notification emails "
+"might not work, either. Establish a connection from this server to the "
+"internet to enjoy all features."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/LegacySSEKeyFormat.php:47
+msgid "Old server-side-encryption"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/LegacySSEKeyFormat.php:52
+#: /var/www/html/apps/settings/lib/SetupChecks/PhpOutputBuffering.php:49
+msgid "Disabled"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/LegacySSEKeyFormat.php:54
+msgid ""
+"The old server-side-encryption format is enabled. We recommend disabling "
+"this."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/MemcacheConfigured.php:43
+msgid "Memcache"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/MemcacheConfigured.php:52
+msgid "Configured"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/MemcacheConfigured.php:55
+msgid ""
+"No memory cache has been configured. To enhance performance, please "
+"configure a memcache, if available."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/PhpDefaultCharset.php:39
+msgid "PHP default charset"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/PhpDefaultCharset.php:50
+msgid "PHP configuration option \"default_charset\" should be UTF-8"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/PhpFreetypeSupport.php:40
+msgid "Freetype"
+msgstr ""
+
+#. TRANSLATORS src/components/AppList/AppItem.vue:74
+#. TRANSLATORS src/views/Apps.vue:112
+#: /var/www/html/apps/settings/lib/SetupChecks/PhpFreetypeSupport.php:56
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:178
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:790
+msgid "Supported"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/PhpFreetypeSupport.php:59
+msgid ""
+"Your PHP does not have FreeType support, resulting in breakage of profile "
+"pictures and the settings interface."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/PhpGetEnv.php:41
+msgid "PHP getenv"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/PhpGetEnv.php:52
+msgid ""
+"PHP does not seem to be setup properly to query system environment "
+"variables. The test with getenv(\"PATH\") only returns an empty response."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/PhpMemoryLimit.php:47
+msgid "PHP memory limit"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/PhpMemoryLimit.php:54
+#, php-format
+msgid "The PHP memory limit is below the recommended value of %s."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/PhpModules.php:66
+msgid "PHP modules"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/PhpModules.php:78
+#, php-format
+msgid ""
+"This instance is missing some required PHP modules. It is required to "
+"install them: %s."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/PhpModules.php:83
+#, php-format
+msgid ""
+"This instance is missing some recommended PHP modules. For improved "
+"performance and better compatibility it is highly recommended to install "
+"them: %s."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/PhpOutdated.php:45
+msgid "PHP version"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/PhpOutdated.php:50
+#, php-format
+msgid ""
+"You are currently running PHP %s. PHP 8.0 is now deprecated in Nextcloud 27. "
+"Nextcloud 28 may require at least PHP 8.1. Please upgrade to one of the "
+"officially supported PHP versions provided by the PHP Group as soon as "
+"possible."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/PhpOutdated.php:52
+#, php-format
+msgid "You are currently running PHP %s."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/PhpOutputBuffering.php:43
+msgid "PHP \"output_buffering\" option"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/PhpOutputBuffering.php:51
+msgid "PHP configuration option \"output_buffering\" must be disabled"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/RandomnessSecure.php:45
+msgid "Random generator"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/RandomnessSecure.php:57
+msgid ""
+"No suitable source for randomness found by PHP which is highly discouraged "
+"for security reasons."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/RandomnessSecure.php:61
+msgid "Secure"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/ReadOnlyConfig.php:41
+msgid "Configuration file access rights"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/ReadOnlyConfig.php:50
+msgid ""
+"The read-only config has been enabled. This prevents setting some "
+"configurations via the web-interface. Furthermore, the file needs to be made "
+"writable manually for every update."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/ReadOnlyConfig.php:52
+msgid "Nextcloud configuration file is writable"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/SupportedDatabase.php:51
+msgid "Database version"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/SupportedDatabase.php:66
+#, php-format
+msgid ""
+"MariaDB version \"%s\" is used. Nextcloud 21 and higher do not support this "
+"version and require MariaDB 10.2 or higher."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/SupportedDatabase.php:70
+#, php-format
+msgid ""
+"MySQL version \"%s\" is used. Nextcloud 21 and higher do not support this "
+"version and require MySQL 8.0 or MariaDB 10.2 or higher."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/SupportedDatabase.php:79
+#, php-format
+msgid ""
+"PostgreSQL version \"%s\" is used. Nextcloud 21 and higher do not support "
+"this version and require PostgreSQL 9.6 or higher."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/SupportedDatabase.php:86
+msgid "Unknown database platform"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/SystemIs64bit.php:42
+msgid "Architecture"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/SystemIs64bit.php:59
+msgid "64-bit"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/SystemIs64bit.php:62
+msgid ""
+"It seems like you are running a 32-bit PHP version. Nextcloud needs 64-bit "
+"to run well. Please upgrade your OS and PHP to 64-bit!"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/TransactionIsolation.php:48
+msgid "Database transaction isolation level"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/TransactionIsolation.php:65
+msgid ""
+"Your database does not run with \"READ COMMITTED\" transaction isolation "
+"level. This can cause problems when multiple actions are executed in "
+"parallel."
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/SetupChecks/TransactionIsolation.php:71
+#, php-format
+msgid "Was not able to get transaction isolation level: %s"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/UserMigration/AccountMigrator.php:214
+msgid "Profile information"
+msgstr ""
+
+#: /var/www/html/apps/settings/lib/UserMigration/AccountMigrator.php:221
+msgid ""
+"Profile picture, full name, email, phone number, address, website, Twitter, "
+"organisation, role, headline, biography, and whether your profile is enabled"
+msgstr ""
+
+#: /var/www/html/apps/settings/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "Nextcloud settings"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminAI.vue:3
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:2
+msgid "Machine translation"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminAI.vue:4
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:4
+msgid ""
+"Machine translation can be implemented by different apps. Here you can "
+"define the precedence of the machine translation apps you have installed at "
+"the moment."
+msgstr ""
+
+#. TRANSLATORS src/components/AdminAI.vue:21
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:6
+msgid "Speech-To-Text"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminAI.vue:22
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:8
+msgid ""
+"Speech-To-Text can be implemented by different apps. Here you can set which "
+"app should be used."
+msgstr ""
+
+#. TRANSLATORS src/components/AdminAI.vue:35
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:10
+msgid ""
+"None of your currently installed apps provide Speech-To-Text functionality"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminAI.vue:39
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:12
+msgid "Image generation"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminAI.vue:40
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:14
+msgid ""
+"Image generation can be implemented by different apps. Here you can set "
+"which app should be used."
+msgstr ""
+
+#. TRANSLATORS src/components/AdminAI.vue:53
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:16
+msgid ""
+"None of your currently installed apps provide image generation functionality"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminAI.vue:57
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:18
+msgid "Text processing"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminAI.vue:58
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:20
+msgid ""
+"Text processing tasks can be implemented by different apps. Here you can set "
+"which app should be used for which task."
+msgstr ""
+
+#. TRANSLATORS src/components/AdminAI.vue:61
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:22
+msgid "Task:"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminAI.vue:79
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:24
+msgid ""
+"None of your currently installed apps provide Text processing functionality"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminDelegating.vue:3
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:28
+msgid ""
+"Here you can decide which group can access certain sections of the "
+"administration settings."
+msgstr ""
+
+#. TRANSLATORS src/components/AdminDelegation/GroupSelect.vue:5
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:30
+msgid "None"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminDelegation/GroupSelect.vue:60
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:32
+msgid "Unable to modify setting"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:27
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:34
+msgid "Allow apps to use the Share API"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:32
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:36
+msgid "Allow resharing"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:35
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:38
+msgid "Allow sharing with groups"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:38
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:40
+msgid "Restrict users to only share with users in their groups"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:46
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:42
+msgid "Allow users to share via link and emails"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:50
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:44
+msgid "Allow public uploads"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:53
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:46
+msgid "Always ask for a password"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:56
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:48
+msgid "Enforce password protection"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:59
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:50
+msgid "Exclude groups from password requirements"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:65
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:67
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:52
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:54
+msgid "Exclude groups from creating link shares"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:73
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:56
+msgid "Exclude groups from sharing"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:77
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:81
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:58
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:60
+msgid "Groups excluded from sharing"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:84
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:62
+msgid ""
+"These groups will still be able to receive shares, but not to initiate them."
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:91
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:64
+msgid "Set default expiration date for shares"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:95
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:66
+msgid "Enforce expiration date"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:99
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:68
+msgid "Default expiration time of new shares in days"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:100
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:70
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:86
+msgid "Expire shares after x days"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:107
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:72
+msgid "Set default expiration date for shares to other servers"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:111
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:74
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:82
+msgid "Enforce expiration date for remote shares"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:115
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:76
+msgid "Default expiration time of remote shares in days"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:116
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:78
+msgid "Expire remote shares after x days"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:124
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:80
+msgid "Set default expiration date for shares via link or mail"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:132
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:84
+msgid "Default expiration time of shares in days"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:139
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:88
+msgid "Privacy settings for sharing"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:144
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:90
+msgid ""
+"Allow username autocompletion in share dialog and allow access to the system "
+"address book"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:148
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:92
+msgid ""
+"If autocompletion \"same group\" and \"phone number integration\" are "
+"enabled a match in either is enough to show the user."
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:151
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:94
+msgid ""
+"Allow username autocompletion to users within the same groups and limit "
+"system address books to users in the same groups"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:154
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:96
+msgid ""
+"Allow username autocompletion to users based on phone number integration"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:159
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:98
+msgid ""
+"Allow autocompletion when entering the full name or email address (ignoring "
+"missing phonebook match and being in the same group)"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:165
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:100
+msgid ""
+"Show disclaimer text on the public link upload page (only shown when the "
+"file list is hidden)"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:172
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:102
+msgid "Disclaimer text"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:176
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:104
+msgid ""
+"This text will be shown on the public link upload page when the file list is "
+"hidden."
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:182
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:106
+msgid "Default share permissions"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:287
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:108
+msgid "Changed disclaimer text"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:289
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:110
+msgid "Deleted disclaimer text"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminSettingsSharingForm.vue:293
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:112
+msgid "Could not set disclaimer text"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminTwoFactor.vue:2
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:114
+#: /var/www/html/apps/settings/templates/settings/personal/security/twofactor.php:28
+msgid "Two-Factor Authentication"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminTwoFactor.vue:3
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:116
+msgid ""
+"Two-factor authentication can be enforced for all users and specific groups. "
+"If they do not have a two-factor provider configured, they will be unable to "
+"log into the system."
+msgstr ""
+
+#. TRANSLATORS src/components/AdminTwoFactor.vue:7
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:118
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:120
+msgid "Enforce two-factor authentication"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminTwoFactor.vue:16
+#. TRANSLATORS src/components/AppDetails.vue:33
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:122
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:138
+msgid "Limit to groups"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminTwoFactor.vue:17
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:124
+msgid ""
+"Enforcement of two-factor authentication can be set for certain groups only."
+msgstr ""
+
+#. TRANSLATORS src/components/AdminTwoFactor.vue:19
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:126
+msgid ""
+"Two-factor authentication is enforced for all members of the following "
+"groups."
+msgstr ""
+
+#. TRANSLATORS src/components/AdminTwoFactor.vue:23
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:128
+msgid "Enforced groups"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminTwoFactor.vue:35
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:130
+msgid ""
+"Two-factor authentication is not enforced for members of the following "
+"groups."
+msgstr ""
+
+#. TRANSLATORS src/components/AdminTwoFactor.vue:39
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:132
+msgid "Excluded groups"
+msgstr ""
+
+#. TRANSLATORS src/components/AdminTwoFactor.vue:53
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:134
+msgid ""
+"When groups are selected/excluded, they use the following logic to determine "
+"if a user has 2FA enforced: If no groups are selected, 2FA is enabled for "
+"everyone except members of the excluded groups. If groups are selected, 2FA "
+"is enabled for all members of these. If a user is both in a selected and "
+"excluded group, the selected takes precedence and 2FA is enforced."
+msgstr ""
+
+#. TRANSLATORS src/components/AdminTwoFactor.vue:62
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:136
+msgid "Save changes"
+msgstr ""
+
+#. TRANSLATORS src/components/AppDetails.vue:36
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:140
+msgid "All"
+msgstr ""
+
+#. TRANSLATORS src/components/AppDetails.vue:40
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:142
+msgid "Limit app usage to groups"
+msgstr ""
+
+#. TRANSLATORS src/components/AppDetails.vue:53
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:144
+msgid "No results"
+msgstr ""
+
+#. TRANSLATORS src/components/AppDetails.vue:60
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:146
+msgid "Update to {version}"
+msgstr ""
+
+#. TRANSLATORS src/components/AppDetails.vue:66
+#. TRANSLATORS src/components/AppList/AppItem.vue:98
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:148
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:188
+msgid "Remove"
+msgstr ""
+
+#. TRANSLATORS src/components/AppDetails.vue:72
+#. TRANSLATORS src/components/AppList/AppItem.vue:103
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:150
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:190
+msgid "Disable"
+msgstr ""
+
+#. TRANSLATORS src/components/AppDetails.vue:96
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:152
+msgid ""
+"This app has no minimum Nextcloud version assigned. This will be an error in "
+"the future."
+msgstr ""
+
+#. TRANSLATORS src/components/AppDetails.vue:99
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:154
+msgid ""
+"This app has no maximum Nextcloud version assigned. This will be an error in "
+"the future."
+msgstr ""
+
+#. TRANSLATORS src/components/AppDetails.vue:102
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:156
+msgid ""
+"This app cannot be installed because the following dependencies are not "
+"fulfilled:"
+msgstr ""
+
+#. TRANSLATORS src/components/AppDetails.vue:116
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:158
+msgid "View in store"
+msgstr ""
+
+#. TRANSLATORS src/components/AppDetails.vue:122
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:160
+msgid "Visit website"
+msgstr ""
+
+#. TRANSLATORS src/components/AppDetails.vue:127
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:162
+msgid "Report a bug"
+msgstr ""
+
+#. TRANSLATORS src/components/AppDetails.vue:138
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:166
+msgid "Admin documentation"
+msgstr ""
+
+#. TRANSLATORS src/components/AppDetails.vue:143
+#. TRANSLATORS src/views/Apps.vue:85
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:168
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:786
+msgid "Developer documentation"
+msgstr ""
+
+#. TRANSLATORS src/components/AppList/AppItem.vue:51
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:172
+msgid "Show details for {appName} app"
+msgstr ""
+
+#. TRANSLATORS src/components/AppList/AppItem.vue:71
+#. TRANSLATORS src/views/Apps.vue:110
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:174
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:176
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:788
+msgid "This app is supported via your current Nextcloud subscription."
+msgstr ""
+
+#. TRANSLATORS src/components/AppList/AppItem.vue:76
+#. TRANSLATORS src/views/Apps.vue:114
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:180
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:182
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:792
+msgid ""
+"Featured apps are developed by and within the community. They offer central "
+"functionality and are ready for production use."
+msgstr ""
+
+#. TRANSLATORS src/components/AppList/AppItem.vue:79
+#. TRANSLATORS src/views/Apps.vue:116
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:184
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:794
+msgid "Featured"
+msgstr ""
+
+#. TRANSLATORS src/components/AppList/AppItem.vue:91
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:186
+msgid "Update to {update}"
+msgstr ""
+
+#. TRANSLATORS src/components/AppList/AppScore.vue:24
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:192
+msgid "Rating: {score}/10"
+msgstr ""
+
+#. TRANSLATORS src/components/AppList.vue:38
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:194
+msgid "All apps are up-to-date."
+msgstr ""
+
+#. TRANSLATORS src/components/AppList.vue:44
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:196
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:206
+msgid "Icon"
+msgstr ""
+
+#. TRANSLATORS src/components/AppList.vue:47
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:198
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:208
+msgid "Name"
+msgstr ""
+
+#. TRANSLATORS src/components/AppList.vue:50
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:200
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:210
+#: /var/www/html/apps/settings/templates/settings/admin/overview.php:71
+msgid "Version"
+msgstr ""
+
+#. TRANSLATORS src/components/AppList.vue:53
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:202
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:212
+msgid "Level"
+msgstr ""
+
+#. TRANSLATORS src/components/AppList.vue:56
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:204
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:214
+msgid "Actions"
+msgstr ""
+
+#. TRANSLATORS src/components/AppList.vue:121
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:216
+msgid "Results from other categories"
+msgstr ""
+
+#. TRANSLATORS src/components/AppList.vue:134
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:218
+msgid "No apps found for your version"
+msgstr ""
+
+#. TRANSLATORS src/components/AppList.vue:246
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:220
+msgid "Disable all"
+msgstr ""
+
+#. TRANSLATORS src/components/AppList.vue:248
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:222
+msgid "Download and enable all"
+msgstr ""
+
+#. TRANSLATORS src/components/AppList.vue:28
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:224
+msgid "%n app has an update available"
+msgid_plural "%n apps have an update available"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS src/components/AppList.vue:33
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:226
+msgid "Update"
+msgid_plural "Update all"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS src/components/AuthToken.vue:33
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:228
+msgid "Device name"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthToken.vue:38
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:230
+msgid "Marked for remote wipe"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthToken.vue:45
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:232
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:234
+msgid "Device settings"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthToken.vue:52
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:236
+msgid "Allow filesystem access"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthToken.vue:58
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:238
+msgid "Rename"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthToken.vue:67
+#. TRANSLATORS src/components/AuthToken.vue:76
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:240
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:244
+msgid "Revoke"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthToken.vue:71
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:242
+msgid "Wipe device"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthToken.vue:78
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:246
+msgid ""
+"Revoking this token might prevent the wiping of your device if it has not "
+"started the wipe yet."
+msgstr ""
+
+#. TRANSLATORS src/components/AuthToken.vue:121
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:248
+msgid "Internet Explorer"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthToken.vue:122
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:250
+msgid "Edge"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthToken.vue:123
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:252
+msgid "Firefox"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthToken.vue:124
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:254
+msgid "Google Chrome"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthToken.vue:125
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:256
+msgid "Safari"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthToken.vue:126
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:258
+msgid "Google Chrome for Android"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthToken.vue:127
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:260
+msgid "iPhone"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthToken.vue:128
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:262
+msgid "iPad"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthToken.vue:129
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:264
+msgid "{productName} iOS app"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthToken.vue:130
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:266
+msgid "{productName} Android app"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthToken.vue:131
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:268
+msgid "{productName} Talk for iOS"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthToken.vue:132
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:270
+msgid "{productName} Talk for Android"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthToken.vue:193
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:272
+msgid "Sync client - {os}"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthToken.vue:218
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:274
+msgid "This session"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenList.vue:27
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:276
+msgid "Device"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenList.vue:28
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:278
+msgid "Last activity"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenSection.vue:24
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:280
+msgid "Devices & sessions"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenSection.vue:26
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:282
+msgid "Web, desktop and mobile clients currently logged in to your account."
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenSection.vue:49
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:284
+msgid "Do you really want to wipe your data from this device?"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenSection.vue:50
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:286
+msgid "Confirm wipe"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenSection.vue:103
+#. TRANSLATORS src/components/AuthTokenSetupDialogue.vue:156
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:288
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:320
+msgid "Error while creating device token"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenSection.vue:117
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:290
+msgid "Error while updating device token scope"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenSection.vue:135
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:292
+msgid "Error while updating device token name"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenSection.vue:156
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:294
+msgid "Error while deleting the token"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenSection.vue:179
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:296
+msgid "Error while wiping the device with the token"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenSetupDialogue.vue:30
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:298
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:300
+msgid "App name"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenSetupDialogue.vue:36
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:302
+msgid "Create new app password"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenSetupDialogue.vue:40
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:304
+msgid "Use the credentials below to configure your app or device."
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenSetupDialogue.vue:41
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:306
+msgid "For security reasons this password will only be shown once."
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenSetupDialogue.vue:43
+#. TRANSLATORS src/components/Users/UserListHeader.vue:39
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:308
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:620
+msgid "Username"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenSetupDialogue.vue:52
+#. TRANSLATORS src/components/PasswordSection.vue:20
+#. TRANSLATORS src/components/Users/UserListHeader.vue:145
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:310
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:402
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:572
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:644
+msgid "Password"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenSetupDialogue.vue:70
+#. TRANSLATORS src/components/Users/UserRowActions.vue:31
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:312
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:724
+msgid "Done"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenSetupDialogue.vue:77
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:314
+msgid "Show QR code for mobile apps"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenSetupDialogue.vue:127
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:316
+msgid "Copied!"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenSetupDialogue.vue:129
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:318
+msgid "Copy"
+msgstr ""
+
+#. TRANSLATORS src/components/AuthTokenSetupDialogue.vue:168
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:322
+msgid "Could not copy app password. Please copy it manually."
+msgstr ""
+
+#. TRANSLATORS src/components/BasicSettings/BackgroundJob.vue:25
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:326
+msgid ""
+"For the server to work properly, it's important to configure background jobs "
+"correctly. Cron is the recommended setting. Please see the documentation for "
+"more information."
+msgstr ""
+
+#. TRANSLATORS src/components/BasicSettings/BackgroundJob.vue:29
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:328
+msgid "Last job execution ran {time}. Something seems wrong."
+msgstr ""
+
+#. TRANSLATORS src/components/BasicSettings/BackgroundJob.vue:41
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:330
+msgid "Last job ran {relativeTime}."
+msgstr ""
+
+#. TRANSLATORS src/components/BasicSettings/BackgroundJob.vue:46
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:332
+msgid "Background job did not run yet!"
+msgstr ""
+
+#. TRANSLATORS src/components/BasicSettings/BackgroundJob.vue:55
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:334
+msgid "AJAX"
+msgstr ""
+
+#. TRANSLATORS src/components/BasicSettings/BackgroundJob.vue:57
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:336
+msgid "Execute one task with each page loaded. Use case: Single user instance."
+msgstr ""
+
+#. TRANSLATORS src/components/BasicSettings/BackgroundJob.vue:64
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:338
+msgid "Webcron"
+msgstr ""
+
+#. TRANSLATORS src/components/BasicSettings/BackgroundJob.vue:66
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:340
+msgid ""
+"cron.php is registered at a webcron service to call cron.php every 5 minutes "
+"over HTTP. Use case: Very small instance (1–5 users depending on the usage)."
+msgstr ""
+
+#. TRANSLATORS src/components/BasicSettings/BackgroundJob.vue:74
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:342
+msgid "Cron (Recommended)"
+msgstr ""
+
+#. TRANSLATORS src/components/BasicSettings/BackgroundJob.vue:122
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:344
+msgid "Use system cron service to call the cron.php file every 5 minutes."
+msgstr ""
+
+#. TRANSLATORS src/components/BasicSettings/BackgroundJob.vue:124
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:346
+msgid "The cron.php needs to be executed by the system user \"{user}\"."
+msgstr ""
+
+#. TRANSLATORS src/components/BasicSettings/BackgroundJob.vue:126
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:348
+msgid ""
+"The PHP POSIX extension is required. See {linkstart}PHP "
+"documentation{linkend} for more details."
+msgstr ""
+
+#. TRANSLATORS src/components/BasicSettings/BackgroundJob.vue:161
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:350
+msgid "Unable to update background job mode"
+msgstr ""
+
+#. TRANSLATORS src/components/BasicSettings/ProfileSettings.vue:27
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:352
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:59
+msgid "Profile"
+msgstr ""
+
+#. TRANSLATORS src/components/BasicSettings/ProfileSettings.vue:31
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:354
+msgid "Enable or disable profile by default for new users."
+msgstr ""
+
+#. TRANSLATORS src/components/BasicSettings/ProfileSettings.vue:37
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:356
+#: /var/www/html/apps/settings/src/mixins/AppManagement.js:41
+msgid "Enable"
+msgstr ""
+
+#. TRANSLATORS src/components/BasicSettings/ProfileSettings.vue:83
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:358
+msgid "Unable to update profile default setting"
+msgstr ""
+
+#. TRANSLATORS src/components/Encryption.vue:24
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:360
+msgid "Server-side encryption"
+msgstr ""
+
+#. TRANSLATORS src/components/Encryption.vue:25
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:362
+msgid ""
+"Server-side encryption makes it possible to encrypt files which are uploaded "
+"to this server. This comes with limitations like a performance penalty, so "
+"enable this only if needed."
+msgstr ""
+
+#. TRANSLATORS src/components/Encryption.vue:31
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:364
+msgid "Enable server-side encryption"
+msgstr ""
+
+#. TRANSLATORS src/components/Encryption.vue:35
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:366
+msgid "Please read carefully before activating server-side encryption:"
+msgstr ""
+
+#. TRANSLATORS src/components/Encryption.vue:37
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:368
+msgid ""
+"Once encryption is enabled, all files uploaded to the server from that point "
+"forward will be encrypted at rest on the server. It will only be possible to "
+"disable encryption at a later date if the active encryption module supports "
+"that function, and all pre-conditions (e.g. setting a recover key) are met."
+msgstr ""
+
+#. TRANSLATORS src/components/Encryption.vue:38
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:370
+msgid ""
+"Encryption alone does not guarantee security of the system. Please see "
+"documentation for more information about how the encryption app works, and "
+"the supported use cases."
+msgstr ""
+
+#. TRANSLATORS src/components/Encryption.vue:39
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:372
+msgid "Be aware that encryption always increases the file size."
+msgstr ""
+
+#. TRANSLATORS src/components/Encryption.vue:40
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:374
+msgid ""
+"It is always good to create regular backups of your data, in case of "
+"encryption make sure to backup the encryption keys along with your data."
+msgstr ""
+
+#. TRANSLATORS src/components/Encryption.vue:44
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:376
+msgid "This is the final warning: Do you really want to enable encryption?"
+msgstr ""
+
+#. TRANSLATORS src/components/Encryption.vue:55
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:378
+msgid ""
+"No encryption module loaded, please enable an encryption module in the app "
+"menu."
+msgstr ""
+
+#. TRANSLATORS src/components/Encryption.vue:58
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:380
+msgid "Select default encryption module:"
+msgstr ""
+
+#. TRANSLATORS src/components/Encryption.vue:118
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:382
+msgid ""
+"You need to migrate your encryption keys from the old encryption (ownCloud "
+"<= 8.0) to the new one. Please enable the \"Default encryption module\" and "
+"run {command}"
+msgstr ""
+
+#. TRANSLATORS src/components/Encryption.vue:150
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:384
+msgid "Unable to update server side encryption config"
+msgstr ""
+
+#. TRANSLATORS src/components/GroupListItem.vue:29
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:386
+msgid "Please confirm the group removal"
+msgstr ""
+
+#. TRANSLATORS src/components/GroupListItem.vue:33
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:388
+msgid ""
+"You are about to remove the group \"{group}\". The users will NOT be deleted."
+msgstr ""
+
+#. TRANSLATORS src/components/GroupListItem.vue:38
+#. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:84
+#. TRANSLATORS src/components/Users/UserRow.vue:534
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:390
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:424
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:700
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:712
+msgid "Cancel"
+msgstr ""
+
+#. TRANSLATORS src/components/GroupListItem.vue:42
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:392
+msgid "Confirm"
+msgstr ""
+
+#. TRANSLATORS src/components/GroupListItem.vue:67
+#. TRANSLATORS src/components/Users/UserRow.vue:45
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:394
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:648
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:652
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:658
+msgid "Submit"
+msgstr ""
+
+#. TRANSLATORS src/components/GroupListItem.vue:70
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:396
+msgid "Rename group"
+msgstr ""
+
+#. TRANSLATORS src/components/GroupListItem.vue:81
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:398
+msgid "Remove group"
+msgstr ""
+
+#. TRANSLATORS src/components/GroupListItem.vue:198
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:400
+msgid "Failed to remove group \"{group}\""
+msgstr ""
+
+#. TRANSLATORS src/components/PasswordSection.vue:23
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:404
+msgid "Current password"
+msgstr ""
+
+#. TRANSLATORS src/components/PasswordSection.vue:31
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:406
+msgid "New password"
+msgstr ""
+
+#. TRANSLATORS src/components/PasswordSection.vue:42
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:408
+msgid "Change password"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:26
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:410
+msgid "Your profile information"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:37
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:412
+msgid "Your profile picture"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:45
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:414
+msgid "Upload profile picture"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:51
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:416
+msgid "Choose profile picture from Files"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:58
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:418
+msgid "Remove profile picture"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:65
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:420
+msgid "The file must be a PNG or JPG"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:73
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:422
+msgid "Picture provided by original account"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:88
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:426
+msgid "Set as profile picture"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:91
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:428
+msgid ""
+"Please note that it can take up to 24 hours for your profile picture to be "
+"updated everywhere."
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:122
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:430
+msgid "Choose your profile picture"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:191
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:432
+msgid "Please select a valid png or jpg file"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:220
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:434
+msgid "Error setting profile picture"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:234
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:436
+msgid "Error cropping profile picture"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:245
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:438
+msgid "Error saving profile picture"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:257
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:440
+msgid "Error removing profile picture"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/BiographySection.vue:25
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:442
+msgid "Your biography"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/DetailsSection.vue:25
+#. TRANSLATORS src/views/Apps.vue:128
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:444
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:796
+msgid "Details"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/DetailsSection.vue:31
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:446
+msgid "You are a member of the following groups:"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/DetailsSection.vue:84
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:448
+msgid "You are using <strong>{usage}</strong>"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/DetailsSection.vue:86
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:450
+msgid ""
+"You are using <strong>{usage}</strong> of <strong>{totalSpace}</strong> "
+"(<strong>{usageRelative}%</strong>)"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/DisplayNameSection.vue:25
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:452
+msgid "Your full name"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/EmailSection/Email.vue:55
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:454
+msgid "Email options"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/EmailSection/Email.vue:84
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:456
+msgid "Primary email for password reset and notifications"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/EmailSection/Email.vue:181
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:458
+msgid "Remove primary email"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/EmailSection/Email.vue:183
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:460
+msgid "Delete email"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/EmailSection/Email.vue:192
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:462
+msgid "Unset as primary email"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/EmailSection/Email.vue:194
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:464
+msgid "This address is not confirmed"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/EmailSection/Email.vue:196
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:466
+msgid "Set as primary email"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/EmailSection/Email.vue:209
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:468
+msgid "Additional email address {index}"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/EmailSection/Email.vue:271
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:470
+msgid "Unable to delete primary email address"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/EmailSection/Email.vue:276
+#. TRANSLATORS src/components/PersonalInfo/EmailSection/EmailSection.vue:154
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:472
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:486
+msgid "Unable to update primary email address"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/EmailSection/Email.vue:292
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:474
+msgid "Unable to add additional email address"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/EmailSection/Email.vue:323
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:476
+msgid "Unable to update additional email address"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/EmailSection/Email.vue:335
+#. TRANSLATORS src/components/PersonalInfo/EmailSection/EmailSection.vue:167
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:478
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:480
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:488
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:490
+msgid "Unable to delete additional email address"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/EmailSection/EmailSection.vue:44
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:482
+msgid "No email address set"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/EmailSection/EmailSection.vue:48
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:484
+msgid "Additional emails"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/FediverseSection.vue:25
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:492
+msgid "Your handle"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/HeadlineSection.vue:25
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:494
+msgid "Your headline"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/LanguageSection/Language.vue:46
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:496
+msgid "Help translate"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/LanguageSection/Language.vue:114
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:498
+msgid "Unable to update language"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/LanguageSection/LanguageSection.vue:36
+#. TRANSLATORS src/components/Users/UserRow.vue:228
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:500
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:676
+msgid "No language set"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/LocaleSection/Locale.vue:51
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:502
+msgid "Week starts on {firstDayOfWeek}"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/LocaleSection/Locale.vue:137
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:504
+msgid "Unable to update locale"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/LocaleSection/LocaleSection.vue:36
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:506
+msgid "No locale set"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/LocationSection.vue:26
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:508
+msgid "Your city"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/OrganisationSection.vue:26
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:510
+msgid "Your organisation"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/PhoneSection.vue:25
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:512
+msgid "Your phone number"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/ProfileSection/EditProfileAnchorLink.vue:29
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:514
+msgid "Edit your Profile visibility"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/ProfileSection/ProfileCheckbox.vue:29
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:516
+msgid "Enable Profile"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/ProfileSection/ProfileCheckbox.vue:74
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:518
+msgid "Unable to update profile enabled state"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/ProfileVisibilitySection/ProfileVisibilitySection.vue:30
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:520
+msgid ""
+"The more restrictive setting of either visibility or scope is respected on "
+"your Profile. For example, if visibility is set to \"Show to everyone\" and "
+"scope is set to \"Private\", \"Private\" is respected."
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/ProfileVisibilitySection/VisibilityDropdown.vue:127
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:522
+msgid "Unable to update visibility of {displayId}"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/RoleSection.vue:26
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:524
+msgid "Your role"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/TwitterSection.vue:25
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:526
+msgid "Your X (formerly Twitter) handle"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/WebsiteSection.vue:25
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:528
+msgid "Your website"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/shared/AccountPropertySection.vue:60
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:530
+msgid "No {property} set"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/shared/AccountPropertySection.vue:186
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:532
+msgid "Unable to update {property}"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/shared/FederationControl.vue:109
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:534
+msgid "Change scope level of {property}, current scope is {scope}"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/shared/FederationControl.vue:163
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:536
+msgid "Unable to update federation scope of the primary {property}"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/shared/FederationControl.vue:178
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:538
+msgid "Unable to update federation scope of additional {property}"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/shared/HeaderBar.vue:44
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:540
+msgid "Add additional email"
+msgstr ""
+
+#. TRANSLATORS src/components/PersonalInfo/shared/HeaderBar.vue:49
+#. TRANSLATORS src/components/WebAuthn/AddDevice.vue:47
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:542
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:756
+msgid "Add"
+msgstr ""
+
+#. TRANSLATORS src/components/SelectSharingPermissions.vue:25
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:544
+msgid "Create"
+msgstr ""
+
+#. TRANSLATORS src/components/SelectSharingPermissions.vue:28
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:546
+msgid "Change"
+msgstr ""
+
+#. TRANSLATORS src/components/SelectSharingPermissions.vue:31
+#. TRANSLATORS src/components/WebAuthn/Device.vue:28
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:548
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:766
+msgid "Delete"
+msgstr ""
+
+#. TRANSLATORS src/components/SelectSharingPermissions.vue:34
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:550
+msgid "Reshare"
+msgstr ""
+
+#. TRANSLATORS src/components/UserList.vue:34
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:552
+msgid "No users"
+msgstr ""
+
+#. TRANSLATORS src/components/UserList.vue:37
+#. TRANSLATORS src/components/Users/UserListFooter.vue:30
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:554
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:608
+msgid "Loading users …"
+msgstr ""
+
+#. TRANSLATORS src/components/UserList.vue:64
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:556
+msgid ""
+"List of users. This list is not fully rendered for performance reasons. The "
+"users will be rendered as you navigate through the list."
+msgstr ""
+
+#. TRANSLATORS src/components/UserList.vue:113
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:558
+msgid "Default language"
+msgstr ""
+
+#. TRANSLATORS src/components/UserList.vue:242
+#. TRANSLATORS src/components/Users/NewUserModal.vue:264
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:560
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:602
+msgid "Common languages"
+msgstr ""
+
+#. TRANSLATORS src/components/UserList.vue:246
+#. TRANSLATORS src/components/Users/NewUserModal.vue:269
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:562
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:604
+msgid "Other languages"
+msgstr ""
+
+#. TRANSLATORS src/components/UserList.vue:275
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:564
+msgid "Password change is disabled because the master key is disabled"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/NewUserModal.vue:31
+#. TRANSLATORS src/views/Users.vue:28
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:566
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:806
+msgid "New user"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/NewUserModal.vue:46
+#. TRANSLATORS src/components/Users/UserListHeader.vue:36
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:568
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:618
+msgid "Display name"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/NewUserModal.vue:53
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:570
+msgid "Either password or email is required"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/NewUserModal.vue:62
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:572
+msgid "Password (required)"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/NewUserModal.vue:72
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:574
+msgid "Email (required)"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserListHeader.vue:51
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:574
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:622
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:55
+#: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:111
+msgid "Email"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/NewUserModal.vue:87
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:576
+msgid "Groups (required)"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/NewUserModal.vue:91
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:578
+msgid "Set user groups"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/NewUserModal.vue:109
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:580
+msgid "Administered groups"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/NewUserModal.vue:114
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:582
+msgid "Set user as admin for …"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/NewUserModal.vue:123
+#. TRANSLATORS src/components/Users/UserListHeader.vue:67
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:584
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:628
+msgid "Quota"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/NewUserModal.vue:128
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:586
+msgid "Set user quota"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/NewUserModal.vue:138
+#. TRANSLATORS src/components/Users/UserListHeader.vue:73
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:588
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:630
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:118
+msgid "Language"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/NewUserModal.vue:143
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:590
+msgid "Set default language"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/NewUserModal.vue:154
+#. TRANSLATORS src/components/Users/UserListHeader.vue:97
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:592
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:638
+msgid "Manager"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/NewUserModal.vue:169
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:594
+msgid "Add new user"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/NewUserModal.vue:214
+#. TRANSLATORS src/components/Users/UserRow.vue:402
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:596
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:678
+msgid "Set user manager"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/NewUserModal.vue:229
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:598
+msgid "Username will be autogenerated"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/NewUserModal.vue:231
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:600
+msgid "Username (required)"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserListFooter.vue:26
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:606
+msgid "Total rows summary"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserListFooter.vue:37
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:610
+msgid "Scroll to load more rows"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserListFooter.vue:73
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:612
+msgid "{userCount} user …"
+msgid_plural "{userCount} users …"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS src/components/Users/UserListFooter.vue:83
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:614
+msgid "{userCount} user"
+msgid_plural "{userCount} users"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS src/components/Users/UserListHeader.vue:29
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:616
+msgid "Avatar"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserListHeader.vue:62
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:626
+msgid "Group admin for"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserListHeader.vue:80
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:632
+msgid "User backend"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserListHeader.vue:84
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:634
+msgid "Storage location"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserListHeader.vue:91
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:636
+msgid "Last login"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserListHeader.vue:103
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:640
+msgid "User actions"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserListHeader.vue:143
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:642
+msgid "Password or insufficient permissions message"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:31
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:646
+msgid "Loading user …"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:49
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:650
+msgid "Change display name"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:79
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:654
+msgid "Set new password"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:90
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:656
+msgid "You do not have permissions to see the details of this user"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:102
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:660
+msgid "Set new email address"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:122
+#. TRANSLATORS src/components/Users/UserRow.vue:133
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:662
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:664
+msgid "Add user to group"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:155
+#. TRANSLATORS src/components/Users/UserRow.vue:168
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:666
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:668
+msgid "Set user as admin for"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:183
+#. TRANSLATORS src/components/Users/UserRow.vue:196
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:670
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:672
+msgid "Select user quota"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:217
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:674
+msgid "Set the language"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:439
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:680
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:682
+#: /var/www/html/apps/settings/src/mixins/UserRowMixin.js:91
+#: /var/www/html/apps/settings/src/mixins/UserRowMixin.js:93
+msgid "{size} used"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:472
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:686
+msgid "Delete user"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:477
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:688
+msgid "Wipe all devices"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:482
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:690
+msgid "Disable user"
+msgstr ""
+
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:690
+msgid "Enable user"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:489
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:692
+msgid "Resend welcome email"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:528
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:694
+msgid ""
+"In case of lost device or exiting the organization, this can remotely wipe "
+"the Nextcloud data from all devices associated with {userid}. Only works if "
+"the devices are connected to the internet."
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:529
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:696
+msgid "Remote wipe of devices"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:532
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:698
+msgid "Wipe {userid}'s devices"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:541
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:702
+msgid "Wiped {userid}'s devices"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:590
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:704
+msgid "Failed to update user manager"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:600
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:706
+msgid ""
+"Fully delete {userid}'s account including all their personal files, app "
+"data, etc."
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:601
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:708
+msgid "Account deletion"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:604
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:710
+msgid "Delete {userid}'s account"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:652
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:714
+msgid "Display name was successfully changed"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:675
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:716
+msgid "Password was successfully changed"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:699
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:718
+msgid "Email was successfully changed"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRow.vue:898
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:720
+msgid "Welcome mail sent!"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserRowActions.vue:25
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:722
+msgid "Toggle user actions menu"
+msgstr ""
+
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:724
+msgid "Edit"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserSettingsDialog.vue:26
+#. TRANSLATORS src/views/Users.vue:120
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:726
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:824
+msgid "User management settings"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserSettingsDialog.vue:28
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:728
+msgid "Visibility"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserSettingsDialog.vue:32
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:730
+msgid "Show language"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserSettingsDialog.vue:37
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:732
+msgid "Show user backend"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserSettingsDialog.vue:42
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:734
+msgid "Show storage path"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserSettingsDialog.vue:47
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:736
+msgid "Show last login"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserSettingsDialog.vue:52
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:738
+#: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:159
+msgid "Send email"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserSettingsDialog.vue:57
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:740
+msgid "Send welcome email to new users"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserSettingsDialog.vue:62
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:742
+msgid "Defaults"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserSettingsDialog.vue:63
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:744
+#: /var/www/html/apps/settings/src/utils/userUtils.ts:30
+msgid "Default quota"
+msgstr ""
+
+#. TRANSLATORS src/components/Users/UserSettingsDialog.vue:70
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:746
+msgid "Select default quota"
+msgstr ""
+
+#. TRANSLATORS src/components/WebAuthn/AddDevice.vue:24
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:748
+msgid "Passwordless authentication requires a secure connection."
+msgstr ""
+
+#. TRANSLATORS src/components/WebAuthn/AddDevice.vue:29
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:750
+msgid "Add WebAuthn device"
+msgstr ""
+
+#. TRANSLATORS src/components/WebAuthn/AddDevice.vue:36
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:752
+msgid "Please authorize your WebAuthn device."
+msgstr ""
+
+#. TRANSLATORS src/components/WebAuthn/AddDevice.vue:44
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:754
+msgid "Name your device"
+msgstr ""
+
+#. TRANSLATORS src/components/WebAuthn/AddDevice.vue:54
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:758
+msgid "Adding your device …"
+msgstr ""
+
+#. TRANSLATORS src/components/WebAuthn/AddDevice.vue:154
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:760
+msgid "Server error while trying to add WebAuthn device"
+msgstr ""
+
+#. TRANSLATORS src/components/WebAuthn/AddDevice.vue:196
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:762
+msgid "Server error while trying to complete WebAuthn device registration"
+msgstr ""
+
+#. TRANSLATORS src/components/WebAuthn/Device.vue:25
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:764
+msgid "Unnamed device"
+msgstr ""
+
+#. TRANSLATORS src/components/WebAuthn/Section.vue:24
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:768
+msgid "Passwordless Authentication"
+msgstr ""
+
+#. TRANSLATORS src/components/WebAuthn/Section.vue:26
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:770
+msgid ""
+"Set up your account for passwordless authentication following the FIDO2 "
+"standard."
+msgstr ""
+
+#. TRANSLATORS src/components/WebAuthn/Section.vue:29
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:772
+msgid "No devices configured."
+msgstr ""
+
+#. TRANSLATORS src/components/WebAuthn/Section.vue:32
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:774
+msgid "The following devices are configured for your account:"
+msgstr ""
+
+#. TRANSLATORS src/components/WebAuthn/Section.vue:40
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:776
+msgid "Your browser does not support WebAuthn."
+msgstr ""
+
+#. TRANSLATORS src/views/AdminSettingsSharing.vue:27
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:780
+msgid ""
+"As admin you can fine-tune the sharing behavior. Please see the "
+"documentation for more information."
+msgstr ""
+
+#. TRANSLATORS src/views/AdminSettingsSharing.vue:29
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:782
+msgid "You need to enable the File sharing App."
+msgstr ""
+
+#. TRANSLATORS src/views/Apps.vue:135
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:798
+msgid "Changelog"
+msgstr ""
+
+#. TRANSLATORS src/views/Apps.vue:261
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:802
+msgid ""
+"by {author}\n"
+"{license}"
+msgstr ""
+
+#. TRANSLATORS src/views/Users.vue:26
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:804
+msgid "User management"
+msgstr ""
+
+#. TRANSLATORS src/views/Users.vue:40
+#. TRANSLATORS src/views/Users.vue:217
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:808
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:826
+#: /var/www/html/apps/settings/src/router.js:61
+msgid "Active users"
+msgstr ""
+
+#. TRANSLATORS src/views/Users.vue:55
+#. TRANSLATORS src/views/Users.vue:220
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:810
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:828
+#: /var/www/html/apps/settings/src/router.js:71
+msgid "Admins"
+msgstr ""
+
+#. TRANSLATORS src/views/Users.vue:71
+#. TRANSLATORS src/views/Users.vue:221
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:812
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:830
+#: /var/www/html/apps/settings/src/router.js:74
+msgid "Disabled users"
+msgstr ""
+
+#. TRANSLATORS src/views/Users.vue:85
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:816
+msgid "Creating group …"
+msgstr ""
+
+#. TRANSLATORS src/views/Users.vue:85
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:816
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:818
+msgid "Create group"
+msgstr ""
+
+#. TRANSLATORS src/views/Users.vue:99
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:820
+msgid "Group name"
+msgstr ""
+
+#. TRANSLATORS src/views/Users.vue:105
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:822
+msgid "Please enter a valid group name"
+msgstr ""
+
+#. TRANSLATORS src/views/Users.vue:223
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:832
+msgid "User group: {group}"
+msgstr ""
+
+#. TRANSLATORS src/views/Users.vue:347
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:834
+msgid "Failed to create group"
+msgstr ""
+
+#. TRANSLATORS src/views/Apps.vue:259
+#. TRANSLATORS src/components/AppDetails.vue:184
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:800
+#: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:170
+msgid "{license}-licensed"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/admin.js:87
+msgid "Sending…"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/admin.js:93
+msgid "Email sent"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:50
+msgid "Location"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:51
+msgid "Profile picture"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:52
+msgid "About"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:53
+msgid "Full name"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:54
+msgid "Additional email"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:56
+msgid "Headline"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:57
+msgid "Organisation"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:58
+msgid "Phone number"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:60
+msgid "Role"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:61
+msgid "X (formerly Twitter)"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:62
+msgid "Fediverse (e.g. Mastodon)"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:63
+msgid "Website"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:85
+msgid "Profile visibility"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:119
+msgid "Locale"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:169
+msgid ""
+"Not available as this property is required for core functionality including "
+"file sharing and calendar invitations"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:183
+msgid ""
+"Not available as federation has been disabled for your account, contact your "
+"system administrator if you have any questions"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:190
+msgid ""
+"Not available as publishing user specific data to the lookup server is not "
+"allowed, contact your system administrator if you have any questions"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AppsConstants.js:27
+#: /var/www/html/apps/settings/src/router.js:90
+#: /var/www/html/apps/settings/src/router.js:100
+msgid "Your apps"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AppsConstants.js:28
+msgid "Active apps"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AppsConstants.js:29
+msgid "Disabled apps"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AppsConstants.js:30
+msgid "Updates"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AppsConstants.js:31
+msgid "App bundles"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AppsConstants.js:32
+msgid "Featured apps"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/AppsConstants.js:33
+msgid "Supported apps"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/ProfileConstants.js:40
+msgid "Show to everyone"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/ProfileConstants.js:44
+msgid "Show to logged in users only"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/constants/ProfileConstants.js:48
+msgid "Hide"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/mixins/AppManagement.js:39
+msgid "Download and enable"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/mixins/AppManagement.js:45
+#: /var/www/html/apps/settings/src/mixins/AppManagement.js:47
+msgid "Allow untested app"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/mixins/AppManagement.js:51
+#: /var/www/html/apps/settings/src/mixins/AppManagement.js:58
+msgid "The app will be downloaded from the App Store"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/mixins/AppManagement.js:56
+msgid ""
+"This app is not marked as compatible with your Nextcloud version. If you "
+"continue you will still be able to install the app. Note that the app might "
+"not work as expected."
+msgstr ""
+
+#: /var/www/html/apps/settings/src/mixins/UserRowMixin.js:151
+msgid "Never"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/store/apps.js:42
+#: /var/www/html/apps/settings/src/store/index.js:40
+#: /var/www/html/apps/settings/src/store/index.js:42
+msgid "An error occurred during the request. Unable to proceed."
+msgstr ""
+
+#: /var/www/html/apps/settings/src/store/apps.js:195
+msgid ""
+"The app has been enabled but needs to be updated. You will be redirected to "
+"the update page in 5 seconds."
+msgstr ""
+
+#: /var/www/html/apps/settings/src/store/apps.js:212
+msgid "Error: This app cannot be enabled because it makes the server unstable"
+msgstr ""
+
+#: /var/www/html/apps/settings/src/utils/handlers.js:43
+msgid ""
+"There were too many requests from your network. Retry later or contact your "
+"administrator if this is an error."
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/help.php:37
+msgid "Documentation"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/help.php:44
+#: /var/www/html/apps/settings/templates/help.php:74
+msgid "Forum"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/help.php:59
+msgid "Nextcloud help resources"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/help.php:64
+msgid "Account documentation"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/help.php:68
+msgid "Administration documentation"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/help.php:71
+msgid "General documentation"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:28
+msgid "Login"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:32
+msgid "None/STARTTLS"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:33
+msgid "SSL"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:57
+#: /var/www/html/apps/settings/templates/settings/admin/overview.php:33
+#: /var/www/html/apps/settings/templates/settings/personal/security/twofactor.php:30
+msgid "Open documentation"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:60
+msgid ""
+"It is important to set up this server to be able to send emails, like for "
+"password reset and notifications."
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:65
+msgid "Send mode"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:82
+msgid "Encryption"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:100
+msgid "Sendmail mode"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:110
+msgid "From address"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:120
+msgid "Server address"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:124
+msgid "Port"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:130
+msgid "Authentication"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:141
+msgid "Authentication required"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:148
+msgid "Credentials"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:149
+msgid "SMTP Username"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:152
+msgid "SMTP Password"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:153
+msgid "Save"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:158
+msgid "Test and verify email settings"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/overview.php:35
+msgid ""
+"It's important for the security and performance of your instance that "
+"everything is configured correctly. To help you with that we are doing some "
+"automatic checks. Please see the linked documentation for more information."
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/overview.php:38
+msgid "All checks passed."
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/overview.php:41
+msgid "There are some errors regarding your setup."
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/overview.php:44
+msgid "There are some warnings regarding your setup."
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/overview.php:47
+msgid "Checking for system and security issues."
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/overview.php:60
+#, php-format
+msgid ""
+"Please double check the <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%1$s\">installation guides ↗</a>, and check for any errors or "
+"warnings in the <a href=\"%2$s\">log</a>."
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/admin/overview.php:64
+#, php-format
+msgid ""
+"Check the security of your Nextcloud over <a target=\"_blank\" "
+"rel=\"noreferrer noopener\" href=\"%s\">our security scan ↗</a>."
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/personal/development.notice.php:3
+msgid "Reasons to use Nextcloud in your organization"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/personal/development.notice.php:19
+msgid ""
+"Developed by the {communityopen}Nextcloud community{linkclose}, the "
+"{githubopen}source code{linkclose} is licensed under the {licenseopen}"
+"AGPL{linkclose}."
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/personal/development.notice.php:55
+msgid "Like our Facebook page"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/personal/development.notice.php:56
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/personal/development.notice.php:57
+msgid "Follow us on Mastodon"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/personal/development.notice.php:58
+msgid "Check out our blog"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/personal/development.notice.php:59
+msgid "Subscribe to our newsletter"
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/personal/personal.info.php:41
+msgid ""
+"This community release of Nextcloud is unsupported and instant notifications "
+"are unavailable."
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/personal/security/twofactor.php:32
+msgid ""
+"Use a second factor besides your password to increase security for your "
+"account."
+msgstr ""
+
+#: /var/www/html/apps/settings/templates/settings/personal/security/twofactor.php:33
+msgid ""
+"If you use third party applications to connect to Nextcloud, please make "
+"sure to create and configure an app password for each before enabling second "
+"factor authentication."
+msgstr ""

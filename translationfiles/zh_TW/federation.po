@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2023-12-26 02:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /var/www/html/apps/federation/lib/Controller/SettingsController.php:61
+msgid "Added to the list of trusted servers"
+msgstr "已加入信任伺服器清單"
+
+#: /var/www/html/apps/federation/lib/Controller/SettingsController.php:84
+msgid "Server is already in the list of trusted servers."
+msgstr "伺服器已經在信任清單內"
+
+#: /var/www/html/apps/federation/lib/Controller/SettingsController.php:90
+msgid "No server to federate with found"
+msgstr "沒有找到可聯盟的伺服器"
+
+#: /var/www/html/apps/federation/lib/DbHandler.php:84
+msgid "Could not add server"
+msgstr "無法新增伺服器"
+
+#: /var/www/html/apps/federation/lib/Settings/Admin.php:69
+#: /var/www/html/apps/federation/templates/settings-admin.php:10
+msgid "Trusted servers"
+msgstr "信任的伺服器"
+
+#: /var/www/html/apps/federation/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "Federation"
+msgstr "聯盟"
+
+#: /var/www/html/apps/federation/specialAppInfoFakeDummyForL10nScript.php:3
+msgid ""
+"Federation allows you to connect with other trusted servers to exchange the "
+"user directory."
+msgstr "聯盟功能允許您與信任的伺服器連結，交換使用者列表。"
+
+#: /var/www/html/apps/federation/specialAppInfoFakeDummyForL10nScript.php:4
+msgid ""
+"Federation allows you to connect with other trusted servers to exchange the "
+"user directory. For example this will be used to auto-complete external "
+"users for federated sharing."
+msgstr ""
+"聯盟功能允許您與信任的伺服器連結，交換使用者列表。舉例來說，與其他雲端聯盟的使用者分享檔案時，有了這一份列表，就可以在輸入框搜尋他們的使用者名稱。"
+
+#: /var/www/html/apps/federation/templates/settings-admin.php:11
+msgid ""
+"Federation allows you to connect with other trusted servers to exchange the "
+"user directory. For example this will be used to auto-complete external "
+"users for federated sharing. It is not necessary to add a server as trusted "
+"server in order to create a federated share."
+msgstr ""
+"聯盟功能允許您與信任的伺服器連結，交換使用者列表。舉例來說，與其他雲端聯盟的使用者分享檔案時，有了這一份列表，就可以在輸入框搜尋他們的使用者名稱。不必將伺服器新增為受信任的伺服器就可以建立聯盟分享。"
+
+#: /var/www/html/apps/federation/templates/settings-admin.php:33
+msgid "+ Add trusted server"
+msgstr "+ 新增信任的伺服器"
+
+#: /var/www/html/apps/federation/templates/settings-admin.php:36
+#: /var/www/html/apps/federation/templates/settings-admin.php:37
+msgid "Trusted server"
+msgstr "信任的伺服器"
+
+#: /var/www/html/apps/federation/templates/settings-admin.php:38
+msgid "Add"
+msgstr "新增"

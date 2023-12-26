@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2023-12-26 02:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /var/www/html/apps/files_trashbin/lib/Trashbin.php:1083
+#: /var/www/html/apps/files_trashbin/lib/Trashbin.php:1085
+msgid "restored"
+msgstr ""
+
+#: /var/www/html/apps/files_trashbin/lib/UserMigration/TrashbinMigrator.php:172
+#: /var/www/html/apps/files_trashbin/specialAppInfoFakeDummyForL10nScript.php:2
+#: /var/www/html/apps/files_trashbin/src/main.ts:35
+msgid "Deleted files"
+msgstr ""
+
+#: /var/www/html/apps/files_trashbin/lib/UserMigration/TrashbinMigrator.php:179
+msgid ""
+"Deleted files and folders in the trash bin (may expire during export if you "
+"are low on storage space)"
+msgstr ""
+
+#: /var/www/html/apps/files_trashbin/specialAppInfoFakeDummyForL10nScript.php:3
+msgid ""
+"This application enables users to restore files that were deleted from the "
+"system."
+msgstr ""
+
+#: /var/www/html/apps/files_trashbin/specialAppInfoFakeDummyForL10nScript.php:4
+#, php-format
+msgid ""
+"This application enables users to restore files that were deleted from the "
+"system. It displays a list of deleted files in the web interface, and has "
+"options to restore those deleted files back to the users file directories or "
+"remove them permanently from the system. Restoring a file also restores "
+"related file versions, if the versions application is enabled. When a file "
+"is deleted from a share, it can be restored in the same manner, though it is "
+"no longer shared. By default, these files remain in the trash bin for 30 "
+"days.\n"
+"To prevent a user from running out of disk space, the Deleted files app will "
+"not utilize more than 50% of the currently available free quota for deleted "
+"files. If the deleted files exceed this limit, the app deletes the oldest "
+"files until it gets below this limit. More information is available in the "
+"Deleted Files documentation."
+msgstr ""
+
+#: /var/www/html/apps/files_trashbin/src/actions/restoreAction.ts:36
+msgid "Restore"
+msgstr ""
+
+#: /var/www/html/apps/files_trashbin/src/main.ts:36
+msgid "List of files that have been deleted."
+msgstr ""
+
+#: /var/www/html/apps/files_trashbin/src/main.ts:38
+#: /var/www/html/apps/files_trashbin/templates/index.php:8
+msgid "No deleted files"
+msgstr ""
+
+#: /var/www/html/apps/files_trashbin/src/main.ts:39
+msgid "Files and folders you have deleted will show up here"
+msgstr ""
+
+#: /var/www/html/apps/files_trashbin/src/main.ts:50
+#: /var/www/html/apps/files_trashbin/templates/index.php:39
+msgid "Deleted"
+msgstr ""
+
+#: /var/www/html/apps/files_trashbin/templates/index.php:9
+msgid "You will be able to recover deleted files from here"
+msgstr ""
+
+#: /var/www/html/apps/files_trashbin/templates/index.php:14
+msgid "No entries found in this folder"
+msgstr ""
+
+#: /var/www/html/apps/files_trashbin/templates/index.php:24
+msgid "Select all"
+msgstr ""
+
+#: /var/www/html/apps/files_trashbin/templates/index.php:29
+msgid "Name"
+msgstr ""
+
+#: /var/www/html/apps/files_trashbin/templates/index.php:33
+msgid "Actions"
+msgstr ""

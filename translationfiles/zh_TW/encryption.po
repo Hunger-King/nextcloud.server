@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2023-12-26 02:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:78
+msgid "Missing recovery key password"
+msgstr "遺失還原金鑰密碼"
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:84
+msgid "Please repeat the recovery key password"
+msgstr "請您再輸入新的還原金鑰密碼一次"
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:90
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:134
+msgid ""
+"Repeated recovery key password does not match the provided recovery key "
+"password"
+msgstr "輸入的還原金鑰密碼與設定的並不相符"
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:97
+msgid "Recovery key successfully enabled"
+msgstr "還原金鑰已成功啟用"
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:99
+msgid ""
+"Could not enable recovery key. Please check your recovery key password!"
+msgstr "無法啟用還原金鑰。請檢查您的還原金鑰密碼！"
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:102
+msgid "Recovery key successfully disabled"
+msgstr "還原金鑰已成功停用"
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:104
+msgid ""
+"Could not disable recovery key. Please check your recovery key password!"
+msgstr "無法停用還原金鑰。請檢查您的還原金鑰密碼！"
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:107
+msgid "Missing parameters"
+msgstr "遺失參數"
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:119
+msgid "Please provide the old recovery password"
+msgstr "請提供舊的還原密碼"
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:124
+msgid "Please provide a new recovery password"
+msgstr "請提供新的還原密碼"
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:129
+msgid "Please repeat the new recovery password"
+msgstr "請您再輸入新的還原密碼"
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:145
+msgid "Password successfully changed."
+msgstr "成功變更密碼。"
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:152
+msgid "Could not change the password. Maybe the old password was not correct."
+msgstr "無法變更密碼。或許是輸入的舊密碼不正確。"
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:172
+msgid "Recovery Key disabled"
+msgstr "還原金鑰停用"
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:179
+msgid "Recovery Key enabled"
+msgstr "還原金鑰啟用"
+
+#: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:187
+msgid ""
+"Could not enable the recovery key, please try again or contact your "
+"administrator"
+msgstr "無法啟用還原金鑰功能，請重試或聯絡系統管理員"
+
+#: /var/www/html/apps/encryption/lib/Controller/SettingsController.php:111
+msgid "Could not update the private key password."
+msgstr "無法更新私鑰密碼。"
+
+#: /var/www/html/apps/encryption/lib/Controller/SettingsController.php:136
+msgid "The old password was not correct, please try again."
+msgstr "舊密碼不正確，請再試一次。"
+
+#: /var/www/html/apps/encryption/lib/Controller/SettingsController.php:139
+msgid "The current log-in password was not correct, please try again."
+msgstr "目前登入的密碼不正確，請再試一次。"
+
+#: /var/www/html/apps/encryption/lib/Controller/SettingsController.php:145
+msgid "Private key password successfully updated."
+msgstr "私鑰密碼已成功更新。"
+
+#: /var/www/html/apps/encryption/lib/Controller/StatusController.php:77
+msgid ""
+"Invalid private key for encryption app. Please update your private key "
+"password in your personal settings to recover access to your encrypted "
+"files."
+msgstr "加密應用程式的私鑰無效。請在您的個人設定中更新您的私鑰密碼以恢復您對加密檔案的存取權。"
+
+#: /var/www/html/apps/encryption/lib/Controller/StatusController.php:84
+#: /var/www/html/apps/encryption/templates/settings-personal.php:11
+msgid ""
+"Encryption App is enabled, but your keys are not initialized. Please log-out"
+" and log-in again."
+msgstr "已啟用加密應用程式，但您的金鑰並未初始化。請登出並再次登入。"
+
+#: /var/www/html/apps/encryption/lib/Controller/StatusController.php:88
+msgid ""
+"Please enable server side encryption in the admin settings in order to use "
+"the encryption module."
+msgstr "請啟用管理員設定中的伺服器端加密，以使用加密模組。"
+
+#: /var/www/html/apps/encryption/lib/Controller/StatusController.php:94
+msgid "Encryption app is enabled and ready"
+msgstr "加密應用程式已啟用並準備就緒"
+
+#: /var/www/html/apps/encryption/lib/Crypto/Crypt.php:483
+msgid "Bad Signature"
+msgstr "錯誤簽章"
+
+#: /var/www/html/apps/encryption/lib/Crypto/Crypt.php:551
+#: /var/www/html/apps/encryption/lib/Crypto/Crypt.php:556
+msgid "Missing Signature"
+msgstr "遺失簽章"
+
+#: /var/www/html/apps/encryption/lib/Crypto/EncryptAll.php:431
+msgid "one-time password for server-side-encryption"
+msgstr "用於伺服器端加密的一次性密碼"
+
+#: /var/www/html/apps/encryption/lib/Crypto/EncryptAll.php:435
+msgid "Encryption password"
+msgstr "加密密碼"
+
+#: /var/www/html/apps/encryption/lib/Crypto/EncryptAll.php:437
+#, php-format
+msgid ""
+"The administration enabled server-side-encryption. Your files were encrypted"
+" using the password <strong>%s</strong>."
+msgstr "管理員啟用了伺服器端加密。您的檔案已使用密碼 <strong>%s</strong> 加密。"
+
+#: /var/www/html/apps/encryption/lib/Crypto/EncryptAll.php:438
+#, php-format
+msgid ""
+"The administration enabled server-side-encryption. Your files were encrypted"
+" using the password \"%s\"."
+msgstr "管理員啟用了伺服器端加密。您的檔案已使用密碼「%s」加密。"
+
+#: /var/www/html/apps/encryption/lib/Crypto/EncryptAll.php:441
+msgid ""
+"Please login to the web interface, go to the \"Security\" section of your "
+"personal settings and update your encryption password by entering this "
+"password into the \"Old login password\" field and your current login "
+"password."
+msgstr "請登入網頁界面，請到個人設定中的「安全」區塊，透過輸入此密碼至「舊登入密碼」欄位與您目前的登入密碼來更新您的加密密碼。"
+
+#: /var/www/html/apps/encryption/lib/Crypto/Encryption.php:349
+msgid ""
+"Cannot decrypt this file, probably this is a shared file. Please ask the "
+"file owner to reshare the file with you."
+msgstr "無法解密這個檔案，也許這是分享的檔案。請要求檔案所有人重新分享檔案給您。"
+
+#: /var/www/html/apps/encryption/lib/Crypto/Encryption.php:488
+msgid ""
+"Cannot read this file, probably this is a shared file. Please ask the file "
+"owner to reshare the file with you."
+msgstr "無法讀取這個檔案，也許這是分享的檔案。請要求檔案所有人重新分享檔案給您。"
+
+#: /var/www/html/apps/encryption/specialAppInfoFakeDummyForL10nScript.php:2
+#: /var/www/html/apps/encryption/templates/settings-admin.php:8
+msgid "Default encryption module"
+msgstr "預設加密模組"
+
+#: /var/www/html/apps/encryption/specialAppInfoFakeDummyForL10nScript.php:3
+msgid "Default encryption module for server-side encryption"
+msgstr "伺服器端加密的預設加密模組"
+
+#: /var/www/html/apps/encryption/specialAppInfoFakeDummyForL10nScript.php:4
+msgid ""
+"In order to use this encryption module you need to enable server-side encryption in the admin settings. Once enabled this module will encrypt all your files transparently. The encryption is based on AES 256 keys.\n"
+"The module will not touch existing files, only new files will be encrypted after server-side encryption was enabled. It is also not possible to disable the encryption again and switch back to an unencrypted system.\n"
+"Please read the documentation to know all implications before you decide to enable server-side encryption."
+msgstr ""
+"為了使用此加密模組，您必須在管理員設定中啟用伺服器端加密。啟用後，此模組將會加密您之後傳輸的所有檔案。此加密是以 AES 256 金鑰為基礎。\n"
+"此模組將不會處理既有的檔案，僅會加密在伺服器端加密啟用後的新檔案。同時也無法停用加密並切換回未加密的系統。\n"
+"在您決定啟用伺服器端加密前，請閱讀文件得知其實際作用與影響。"
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:10
+msgid ""
+"Encryption app is enabled but your keys are not initialized, please log-out "
+"and log-in again"
+msgstr "已啟用加密應用程式，但您的金鑰並未初始化，請登出並再次登入"
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:17
+msgid "Encrypt the home storage"
+msgstr "加密家目錄儲存空間"
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:18
+msgid ""
+"Enabling this option encrypts all files stored on the main storage, "
+"otherwise only files on external storage will be encrypted"
+msgstr "啟用此功能以加密所有主要儲存空間的檔案，否則僅有外部儲存空間的檔案會被加密。"
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:23
+#: /var/www/html/apps/encryption/templates/settings-admin.php:42
+msgid "Enable recovery key"
+msgstr "啟用還原金鑰"
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:23
+#: /var/www/html/apps/encryption/templates/settings-admin.php:42
+msgid "Disable recovery key"
+msgstr "停用還原金鑰"
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:27
+msgid ""
+"The recovery key is an extra encryption key that is used to encrypt files. "
+"It allows recovery of a user's files if the user forgets his or her "
+"password."
+msgstr "還原金鑰是用於加密檔案的另一把加密金鑰。當使用者忘記密碼時，可以用它來還原使用者的檔案。"
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:33
+msgid "Recovery key password"
+msgstr "還原金鑰密碼"
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:37
+msgid "Repeat recovery key password"
+msgstr "再輸入還原金鑰密碼一次"
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:49
+msgid "Change recovery key password:"
+msgstr "變更還原金鑰密碼："
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:56
+msgid "Old recovery key password"
+msgstr "舊的還原金鑰密碼"
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:62
+msgid "New recovery key password"
+msgstr "新的還原金鑰密碼"
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:67
+msgid "Repeat new recovery key password"
+msgstr "再輸入新的還原金鑰密碼一次"
+
+#: /var/www/html/apps/encryption/templates/settings-admin.php:72
+msgid "Change Password"
+msgstr "變更密碼"
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:7
+msgid "Basic encryption module"
+msgstr "基本加密模組"
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:17
+msgid "Your private key password no longer matches your log-in password."
+msgstr "您的私鑰密碼不符合您的登入密碼。"
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:20
+msgid "Set your old private key password to your current log-in password:"
+msgstr "設定您的舊私鑰密碼到您現在的登入密碼："
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:22
+msgid ""
+" If you don't remember your old password you can ask your administrator to "
+"recover your files."
+msgstr "如果您忘記舊密碼，可以請求管理員協助取回檔案。"
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:29
+msgid "Old log-in password"
+msgstr "舊登入密碼"
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:35
+msgid "Current log-in password"
+msgstr "目前的登入密碼"
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:40
+msgid "Update Private Key Password"
+msgstr "更新私鑰密碼"
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:48
+msgid "Enable password recovery:"
+msgstr "啟用密碼還原："
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:51
+msgid ""
+"Enabling this option will allow you to reobtain access to your encrypted "
+"files in case of password loss"
+msgstr "啟用此選項讓您可以在忘記密碼的情況下取回對您已加密檔案的存取權"
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:60
+msgid "Enabled"
+msgstr "已啟用"
+
+#: /var/www/html/apps/encryption/templates/settings-personal.php:70
+msgid "Disabled"
+msgstr "已停用"

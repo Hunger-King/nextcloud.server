@@ -1,0 +1,1002 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2023-12-26 02:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Filter/Calendar.php:56
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:93
+#: /var/www/html/apps/dav/lib/UserMigration/CalendarMigrator.php:501
+msgid "Calendar"
+msgstr "日曆"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Filter/Todo.php:55
+msgid "To-dos"
+msgstr "待辦事項"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Base.php:74
+#: /var/www/html/apps/dav/lib/CalDAV/Calendar.php:74
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Base.php:76
+msgid "Personal"
+msgstr "個人"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:100
+msgid "{actor} created calendar {calendar}"
+msgstr "{actor} 建立了日曆 {calendar}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:102
+msgid "You created calendar {calendar}"
+msgstr "您建立了日曆 {calendar}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:104
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:112
+msgid "{actor} deleted calendar {calendar}"
+msgstr "{actor} 刪除了日曆 {calendar}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:106
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:114
+msgid "You deleted calendar {calendar}"
+msgstr "您刪除了日曆 {calendar}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:108
+msgid "{actor} updated calendar {calendar}"
+msgstr "{actor} 更新了日曆 {calendar}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:110
+msgid "You updated calendar {calendar}"
+msgstr "您更新了日曆 {calendar}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:116
+msgid "{actor} restored calendar {calendar}"
+msgstr "{actor} 復原了日曆 {calendar}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:118
+msgid "You restored calendar {calendar}"
+msgstr "您復原了日曆 {calendar}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:120
+msgid "You shared calendar {calendar} as public link"
+msgstr "您將 {calendar} 日曆以公開連結分享"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:122
+msgid "You removed public link for calendar {calendar}"
+msgstr "您刪除了 {calendar} 的公開分享連結"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:124
+msgid "{actor} shared calendar {calendar} with you"
+msgstr "{actor} 與您分享了 {calendar} 日曆"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:126
+msgid "You shared calendar {calendar} with {user}"
+msgstr "您與 {user} 分享了 {calendar} 日曆"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:128
+msgid "{actor} shared calendar {calendar} with {user}"
+msgstr "{actor} 與 {user} 分享了日曆 {calendar}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:130
+msgid "{actor} unshared calendar {calendar} from you"
+msgstr "{actor} 停止與您分享日曆 {calendar}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:132
+msgid "You unshared calendar {calendar} from {user}"
+msgstr "您停止與 {user} 分享日曆 {calendar}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:134
+msgid "{actor} unshared calendar {calendar} from {user}"
+msgstr "{actor} 停止與 {user} 分享日曆 {calendar}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:136
+msgid "{actor} unshared calendar {calendar} from themselves"
+msgstr "{actor} 停止與他們自己分享日曆 {calendar}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:138
+msgid "You shared calendar {calendar} with group {group}"
+msgstr "您與群組 {group} 分享了日曆 {calendar}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:140
+msgid "{actor} shared calendar {calendar} with group {group}"
+msgstr "{actor} 與群組 {group} 分享了日曆 {calendar}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:142
+msgid "You unshared calendar {calendar} from group {group}"
+msgstr "您已停止與群組 {group} 分享日曆 {calendar}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:144
+msgid "{actor} unshared calendar {calendar} from group {group}"
+msgstr "{actor} 已停止與群組 {group} 分享日曆 {calendar}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:92
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/NotificationProvider/EmailProvider.php:463
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:229
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:285
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:296
+#: /var/www/html/apps/dav/lib/Search/EventsSearchProvider.php:170
+msgid "Untitled event"
+msgstr "未命名活動"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:138
+msgid "{actor} created event {event} in calendar {calendar}"
+msgstr "{actor} 在日曆 {calendar} 中建立了 {event} 活動"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:140
+msgid "You created event {event} in calendar {calendar}"
+msgstr "您在日曆 {calendar} 中建立了 {event} 活動"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:142
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:154
+msgid "{actor} deleted event {event} from calendar {calendar}"
+msgstr "{actor} 在日曆 {calendar} 中刪除了 {event} 活動"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:144
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:156
+msgid "You deleted event {event} from calendar {calendar}"
+msgstr "您在日曆 {calendar} 中刪除了 {event} 活動"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:146
+msgid "{actor} updated event {event} in calendar {calendar}"
+msgstr "{actor} 在日曆 {calendar} 中更新了 {event} 活動"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:148
+msgid "You updated event {event} in calendar {calendar}"
+msgstr "您在日曆 {calendar} 中刪除了 {event} 活動"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:150
+msgid ""
+"{actor} moved event {event} from calendar {sourceCalendar} to calendar "
+"{targetCalendar}"
+msgstr "{actor} 將事件 {event} 從行事曆 {sourceCalendar} 移動至行事曆 {targetCalendar}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:152
+msgid ""
+"You moved event {event} from calendar {sourceCalendar} to calendar "
+"{targetCalendar}"
+msgstr "您將事件 {event} 從行事曆 {sourceCalendar} 移動至行事曆 {targetCalendar}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:158
+msgid "{actor} restored event {event} of calendar {calendar}"
+msgstr "{actor} 復原了日曆 {calendar} 中的活動 {event}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:160
+msgid "You restored event {event} of calendar {calendar}"
+msgstr "您復原了日曆 {calendar} 中的活動 {event}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:253
+#: /var/www/html/apps/dav/lib/CalDAV/CalendarObject.php:125
+msgid "Busy"
+msgstr "忙碌"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:53
+msgid "{actor} created to-do {todo} in list {calendar}"
+msgstr "{actor} 在清單 {calendar} 中建立了待辦事項 {todo}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:55
+msgid "You created to-do {todo} in list {calendar}"
+msgstr "您在清單 {calendar} 中建立了待辦事項 {todo}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:57
+msgid "{actor} deleted to-do {todo} from list {calendar}"
+msgstr "{actor} 從清單 {calendar} 中刪除了待辦事項 {todo}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:59
+msgid "You deleted to-do {todo} from list {calendar}"
+msgstr "您從清單 {calendar} 中刪除了待辦事項 {todo}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:61
+msgid "{actor} updated to-do {todo} in list {calendar}"
+msgstr "{actor} 在清單 {calendar} 中更新了待辦事項 {todo}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:63
+msgid "You updated to-do {todo} in list {calendar}"
+msgstr "您在清單 {calendar} 中更新了待辦事項 {todo}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:65
+msgid "{actor} solved to-do {todo} in list {calendar}"
+msgstr "{actor} 在清單 {calendar} 中解決了待辦事項 {todo}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:67
+msgid "You solved to-do {todo} in list {calendar}"
+msgstr "您在清單 {calendar} 中解決了待辦事項 {todo}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:69
+msgid "{actor} reopened to-do {todo} in list {calendar}"
+msgstr "{actor} 在清單 {calendar} 中重新開啟了待辦事項 {todo}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:71
+msgid "You reopened to-do {todo} in list {calendar}"
+msgstr "您在清單 {calendar} 中重新開啟了待辦事項 {todo}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:73
+msgid ""
+"{actor} moved to-do {todo} from list {sourceCalendar} to list "
+"{targetCalendar}"
+msgstr "{actor} 將待辦事項 {todo} 從清單 {sourceCalendar} 移動到清單 {targetCalendar}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:75
+msgid ""
+"You moved to-do {todo} from list {sourceCalendar} to list {targetCalendar}"
+msgstr "您將待辦事項 {todo} 從清單 {sourceCalendar} 移動到清單 {targetCalendar}"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Setting/CalDAVSetting.php:48
+msgid "Calendar, contacts and tasks"
+msgstr "日曆、通訊錄與工作項目"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Setting/Calendar.php:40
+msgid "A <strong>calendar</strong> was modified"
+msgstr "一個<strong>日曆</strong>被更動"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Setting/Event.php:40
+msgid "A calendar <strong>event</strong> was modified"
+msgstr "一個日曆<strong>活動</strong>被更動"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Activity/Setting/Todo.php:41
+msgid "A calendar <strong>to-do</strong> was modified"
+msgstr "已修改一個行事曆<strong>待辦事項</strong>"
+
+#: /var/www/html/apps/dav/lib/CalDAV/BirthdayService.php:150
+#: /var/www/html/apps/dav/lib/CalDAV/Calendar.php:70
+msgid "Contact birthdays"
+msgstr "聯絡人生日"
+
+#: /var/www/html/apps/dav/lib/CalDAV/BirthdayService.php:486
+#: /var/www/html/apps/dav/lib/CalDAV/BirthdayService.php:511
+#, php-format
+msgid "Death of %s"
+msgstr "%s 逝世"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/NotificationProvider/AbstractProvider.php:190
+msgid "Untitled calendar"
+msgstr "未命名日曆"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/NotificationProvider/EmailProvider.php:168
+msgid "Calendar:"
+msgstr "日曆："
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/NotificationProvider/EmailProvider.php:171
+msgid "Date:"
+msgstr "日期："
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/NotificationProvider/EmailProvider.php:175
+msgid "Where:"
+msgstr "地點："
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/NotificationProvider/EmailProvider.php:179
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:558
+msgid "Description:"
+msgstr "描述："
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:158
+msgid "%n year"
+msgid_plural "%n years"
+msgstr[0] "%n年"
+msgstr[1] "%n年"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:161
+msgid "%n month"
+msgid_plural "%n months"
+msgstr[0] "%n月"
+msgstr[1] "%n月"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:164
+msgid "%n day"
+msgid_plural "%n days"
+msgstr[0] "%n天"
+msgstr[1] "%n天"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:167
+msgid "%n hour"
+msgid_plural "%n hours"
+msgstr[0] "%n小時"
+msgstr[1] "%n小時"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:170
+msgid "%n minute"
+msgid_plural "%n minutes"
+msgstr[0] "%n分鐘"
+msgstr[1] "%n分鐘"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:180
+#, php-format
+msgid "%s (in %s)"
+msgstr "%s（在 %s）"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:182
+#, php-format
+msgid "%s (%s ago)"
+msgstr "%s（%s 前）"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:210
+#, php-format
+msgid "Calendar: %s"
+msgstr "日曆：%s"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:211
+#, php-format
+msgid "Date: %s"
+msgstr "日期：%s"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:214
+#, php-format
+msgid "Description: %s"
+msgstr "描述：%s"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:217
+#, php-format
+msgid "Where: %s"
+msgstr "地點：%s"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:84
+#, php-format
+msgid "%1$s via %2$s"
+msgstr "%1$s 由 %2$s"
+
+#. TRANSLATORS Subject for email, when an invitation is cancelled. Ex:
+#. "Cancelled: {{Event Name}}"
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:414
+#, php-format
+msgid "Cancelled: %1$s"
+msgstr "已取消：%1$s"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:415
+#, php-format
+msgid "\"%1$s\" has been canceled"
+msgstr "「%1$s」已取消"
+
+#. TRANSLATORS Subject for email, when an invitation is replied to. Ex: "Re:
+#. {{Event Name}}"
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:418
+#, php-format
+msgid "Re: %1$s"
+msgstr "回覆：%1$s"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:424
+#, php-format
+msgid "%1$s has accepted your invitation"
+msgstr "%1$s 已接受您的邀請"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:427
+#, php-format
+msgid "%1$s has tentatively accepted your invitation"
+msgstr "%1$s 暫時接受了您的邀請"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:430
+#, php-format
+msgid "%1$s has declined your invitation"
+msgstr "%1$s 已婉拒您的邀請"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:434
+#, php-format
+msgid "%1$s has responded to your invitation"
+msgstr "%1$s 已回應您的邀請"
+
+#. TRANSLATORS Subject for email, when an invitation is updated. Ex:
+#. "Invitation updated: {{Event Name}}"
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:439
+#, php-format
+msgid "Invitation updated: %1$s"
+msgstr "邀請已更新：%1$s"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:440
+#, php-format
+msgid "%1$s updated the event \"%2$s\""
+msgstr "%1$s 已更新事件：「%2$s」"
+
+#. TRANSLATORS Subject for email, when an invitation is sent. Ex: "Invitation:
+#. {{Event Name}}"
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:443
+#, php-format
+msgid "Invitation: %1$s"
+msgstr "邀請：%1$s"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:444
+#, php-format
+msgid "%1$s would like to invite you to \"%2$s\""
+msgstr "%1$s 想邀請您加入「%2$s」"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:496
+msgid "Organizer:"
+msgstr "組織者："
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:527
+msgid "Attendees:"
+msgstr "參與者："
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:539
+msgid "Title:"
+msgstr "標題："
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:542
+msgid "Time:"
+msgstr "時間："
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:546
+msgid "Location:"
+msgstr "地點："
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:550
+msgid "Link:"
+msgstr "連結："
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:643
+#: /var/www/html/apps/dav/templates/schedule-response-options.php:14
+msgid "Accept"
+msgstr "接受"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:647
+#: /var/www/html/apps/dav/templates/schedule-response-options.php:24
+msgid "Decline"
+msgstr "拒絕"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:659
+msgid "More options …"
+msgstr "更多選項……"
+
+#: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:661
+#, php-format
+msgid "More options at %s"
+msgstr "%s 有更多選項"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Filter.php:53
+#: /var/www/html/apps/dav/lib/CardDAV/AddressBook.php:62
+#: /var/www/html/apps/dav/lib/Search/ContactsSearchProvider.php:83
+#: /var/www/html/apps/dav/lib/UserMigration/ContactsMigrator.php:402
+msgid "Contacts"
+msgstr "聯絡人"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:88
+msgid "{actor} created address book {addressbook}"
+msgstr "{actor} 建立了通訊錄 {addressbook}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:90
+msgid "You created address book {addressbook}"
+msgstr "您建立了通訊錄 {addressbook}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:92
+msgid "{actor} deleted address book {addressbook}"
+msgstr "{actor} 刪除了通訊錄 {addressbook}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:94
+msgid "You deleted address book {addressbook}"
+msgstr "您刪除了通訊錄 {addressbook}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:96
+msgid "{actor} updated address book {addressbook}"
+msgstr "{actor} 更新了通訊錄 {addressbook}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:98
+msgid "You updated address book {addressbook}"
+msgstr "您更新了通訊錄 {addressbook}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:100
+msgid "{actor} shared address book {addressbook} with you"
+msgstr "{actor} 與您分享了通訊錄 {addressbook}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:102
+msgid "You shared address book {addressbook} with {user}"
+msgstr "您與 {user} 分享了通訊錄 {addressbook}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:104
+msgid "{actor} shared address book {addressbook} with {user}"
+msgstr "{actor} 與 {user} 分享了通訊錄 {addressbook}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:106
+msgid "{actor} unshared address book {addressbook} from you"
+msgstr "{actor} 取消與您分享通訊錄 {addressbook}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:108
+msgid "You unshared address book {addressbook} from {user}"
+msgstr "您取消與 {user} 分享的通訊錄 {addressbook}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:110
+msgid "{actor} unshared address book {addressbook} from {user}"
+msgstr "{actor} 取消與 {user} 分享通訊錄 {addressbook}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:112
+msgid "{actor} unshared address book {addressbook} from themselves"
+msgstr "{actor} 取消與他們自己分享的通訊錄 {addressbook}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:114
+msgid "You shared address book {addressbook} with group {group}"
+msgstr "您與群組 {group} 分享了通訊錄 {addressbook}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:116
+msgid "{actor} shared address book {addressbook} with group {group}"
+msgstr "{actor} 與群組 {group} 分享了通訊錄 {addressbook}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:118
+msgid "You unshared address book {addressbook} from group {group}"
+msgstr "您取消與群組 {group} 分享的通訊錄 {addressbook}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Addressbook.php:120
+msgid "{actor} unshared address book {addressbook} from group {group}"
+msgstr "{actor} 取消與群組 {group} 分享的通訊錄 {addressbook}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Card.php:90
+msgid "{actor} created contact {card} in address book {addressbook}"
+msgstr "{actor} 在通訊錄 {addressbook} 中建立了聯絡人 {card}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Card.php:92
+msgid "You created contact {card} in address book {addressbook}"
+msgstr "您在通訊錄 {addressbook} 中建立了聯絡人 {card}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Card.php:94
+msgid "{actor} deleted contact {card} from address book {addressbook}"
+msgstr "{actor} 從通訊錄 {addressbook} 刪除了聯絡人 {card}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Card.php:96
+msgid "You deleted contact {card} from address book {addressbook}"
+msgstr "您從通訊錄 {addressbook} 刪除了聯絡人 {card}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Card.php:98
+msgid "{actor} updated contact {card} in address book {addressbook}"
+msgstr "{actor} 在通訊錄 {addressbook} 中更新了聯絡人 {card}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Provider/Card.php:100
+msgid "You updated contact {card} in address book {addressbook}"
+msgstr "您在通訊錄 {addressbook} 中更新了聯絡人 {card}"
+
+#: /var/www/html/apps/dav/lib/CardDAV/Activity/Setting.php:42
+msgid ""
+"A <strong>contact</strong> or <strong>address book</strong> was modified"
+msgstr "<strong>聯絡人</strong>或<strong>通訊錄</strong>已被修改"
+
+#: /var/www/html/apps/dav/lib/CardDAV/SystemAddressbook.php:75
+#: /var/www/html/apps/dav/lib/Connector/Sabre/Principal.php:214
+msgid "Accounts"
+msgstr "帳號"
+
+#: /var/www/html/apps/dav/lib/CardDAV/SystemAddressbook.php:76
+msgid "System address book which holds all accounts"
+msgstr "包含所有帳號的系統通訊錄"
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:146
+#, php-format
+msgid "File is not updatable: %1$s"
+msgstr "檔案無法更新：%1$s"
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:181
+msgid "Could not write to final file, canceled by hook"
+msgstr "無法寫入最終檔案，被掛勾取消"
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:269
+msgid "Could not write file contents"
+msgstr "無法寫入檔案內容"
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:286
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:287
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:305
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:306
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:619
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:620
+msgid "%n byte"
+msgid_plural "%n bytes"
+msgstr[0] "%n 位元組"
+msgstr[1] "%n 位元組"
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:284
+#, php-format
+msgid ""
+"Error while copying file to target location (copied: %1$s, expected "
+"filesize: %2$s)"
+msgstr "將檔案複製到目標位置時發生錯誤（已複製：%1$s，預期的檔案大小：%2$s）"
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:303
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:617
+#, php-format
+msgid ""
+"Expected filesize of %1$s but read (from Nextcloud client) and wrote (to "
+"Nextcloud storage) %2$s. Could either be a network problem on the sending "
+"side or a problem writing to the storage on the server side."
+msgstr ""
+"預期的檔案大小為 %1$s，但讀取（從 Nextcloud 客戶端）與寫入（至 Nextcloud "
+"儲存空間）%2$s。可能是傳送端的網路問題或是伺服器端的儲存空間寫入問題。"
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:329
+msgid "Could not rename part file to final file, canceled by hook"
+msgstr "無法將部份檔案重新命名為最終檔案，被掛勾取消"
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:358
+msgid "Could not rename part file to final file"
+msgstr "無法將部份檔案重新命名為最終檔案"
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:417
+#, php-format
+msgid "Failed to check file size: %1$s"
+msgstr "檢查檔案大小失敗：%1$s"
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:505
+msgid "Could not open file"
+msgstr "無法開啟檔案"
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:521
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:756
+#, php-format
+msgid "Encryption not ready: %1$s"
+msgstr "尚未準備好加密：%1$s"
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:523
+#, php-format
+msgid "Failed to open file: %1$s"
+msgstr "開啟檔案失敗：%1$s"
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:548
+#, php-format
+msgid "Failed to unlink: %1$s"
+msgstr "解除連結失敗：%1$s"
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:602
+msgid "Invalid chunk name"
+msgstr "無效的區塊名稱"
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:670
+msgid "Could not rename part file assembled from chunks"
+msgstr "無法重新命名從區塊組合成的部份檔案"
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:759
+#, php-format
+msgid "Failed to write file contents: %1$s"
+msgstr "寫入檔案內容失敗：%1$s"
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/File.php:762
+#, php-format
+msgid "File not found: %1$s"
+msgstr "找不到檔案：%1$s"
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/MaintenancePlugin.php:86
+msgid "System is in maintenance mode."
+msgstr "系統處於維護模式。"
+
+#: /var/www/html/apps/dav/lib/Connector/Sabre/MaintenancePlugin.php:89
+msgid "Upgrade needed"
+msgstr "需要升級"
+
+#: /var/www/html/apps/dav/lib/Provisioning/Apple/AppleProvisioningPlugin.php:122
+#, php-format
+msgid ""
+"Your %s needs to be configured to use HTTPS in order to use CalDAV and "
+"CardDAV with iOS/macOS."
+msgstr "您的 %s 必須要設定 HTTPS ，才能在 iOS/macOS 上使用 CalDAV 和 CardDAV。"
+
+#: /var/www/html/apps/dav/lib/Provisioning/Apple/AppleProvisioningPlugin.php:149
+msgid "Configures a CalDAV account"
+msgstr "設定一個 CalDAV 帳號"
+
+#: /var/www/html/apps/dav/lib/Provisioning/Apple/AppleProvisioningPlugin.php:151
+msgid "Configures a CardDAV account"
+msgstr "設定一個 CardDAV 帳號"
+
+#: /var/www/html/apps/dav/lib/Search/EventsSearchProvider.php:86
+msgid "Events"
+msgstr "活動"
+
+#: /var/www/html/apps/dav/lib/Search/TasksSearchProvider.php:74
+msgid "Tasks"
+msgstr "工作項目"
+
+#: /var/www/html/apps/dav/lib/Search/TasksSearchProvider.php:118
+msgid "Untitled task"
+msgstr "未命名工作項目"
+
+#: /var/www/html/apps/dav/lib/Search/TasksSearchProvider.php:155
+#, php-format
+msgid "Completed on %s"
+msgstr "完成於 %s"
+
+#: /var/www/html/apps/dav/lib/Search/TasksSearchProvider.php:164
+#, php-format
+msgid "Due on %s by %s"
+msgstr "到期於 %s 由 %s"
+
+#: /var/www/html/apps/dav/lib/Search/TasksSearchProvider.php:167
+#, php-format
+msgid "Due on %s"
+msgstr "到期於 %s"
+
+#: /var/www/html/apps/dav/lib/SetupChecks/NeedsSystemAddressBookSync.php:43
+msgid "DAV system address book"
+msgstr "DAV 系統通訊錄"
+
+#: /var/www/html/apps/dav/lib/SetupChecks/NeedsSystemAddressBookSync.php:52
+msgid "No outstanding DAV system address book sync."
+msgstr "沒有未完成的 DAV 系統通訊錄同步。"
+
+#: /var/www/html/apps/dav/lib/SetupChecks/NeedsSystemAddressBookSync.php:54
+msgid ""
+"The DAV system address book sync has not run yet as your instance has more "
+"than 1000 users or because an error occurred. Please run it manually by "
+"calling \"occ dav:sync-system-addressbook\"."
+msgstr ""
+"DAV 系統通訊錄同步尚未執行，因為您的站台有超過 1000 個使用者，或是因為遇到錯誤。請透過呼叫「occ dav:sync-system-"
+"addressbook」手動執行。"
+
+#: /var/www/html/apps/dav/lib/UserMigration/CalendarMigrator.php:369
+#, php-format
+msgid "Migrated calendar (%1$s)"
+msgstr "已導入的行事曆 (%1$s)"
+
+#: /var/www/html/apps/dav/lib/UserMigration/CalendarMigrator.php:508
+msgid "Calendars including events, details and attendees"
+msgstr "行事曆，包含事件、詳細資訊及參與者"
+
+#: /var/www/html/apps/dav/lib/UserMigration/ContactsMigrator.php:409
+msgid "Contacts and groups"
+msgstr "聯絡人與群組"
+
+#: /var/www/html/apps/dav/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "WebDAV"
+msgstr "WebDAV"
+
+#: /var/www/html/apps/dav/specialAppInfoFakeDummyForL10nScript.php:3
+msgid "WebDAV endpoint"
+msgstr "WebDAV 端點"
+
+#. TRANSLATORS src/components/AbsenceForm.vue:28
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:2
+msgid "First day"
+msgstr "第一天"
+
+#. TRANSLATORS src/components/AbsenceForm.vue:33
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:4
+msgid "Last day (inclusive)"
+msgstr "最後一天（含）"
+
+#. TRANSLATORS src/components/AbsenceForm.vue:37
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:6
+msgid "Short absence status"
+msgstr "短暫缺席狀態"
+
+#. TRANSLATORS src/components/AbsenceForm.vue:38
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:8
+msgid "Long absence Message"
+msgstr "長期缺席訊息"
+
+#. TRANSLATORS src/components/AbsenceForm.vue:44
+#. TRANSLATORS src/components/AvailabilityForm.vue:35
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:10
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:52
+#: /var/www/html/apps/dav/templates/schedule-response-options.php:29
+msgid "Save"
+msgstr "儲存"
+
+#. TRANSLATORS src/components/AbsenceForm.vue:49
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:12
+msgid "Disable absence"
+msgstr "停用缺席"
+
+#. TRANSLATORS src/components/AbsenceForm.vue:126
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:14
+msgid "Absence saved"
+msgstr "缺席時段已儲存"
+
+#. TRANSLATORS src/components/AbsenceForm.vue:128
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:16
+msgid "Failed to save your absence settings"
+msgstr "儲存您的缺席設定失敗"
+
+#. TRANSLATORS src/components/AbsenceForm.vue:139
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:18
+msgid "Absence cleared"
+msgstr "缺席時段已清除"
+
+#. TRANSLATORS src/components/AbsenceForm.vue:141
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:20
+msgid "Failed to clear your absence settings"
+msgstr "清除您的缺席設定失敗"
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:5
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:22
+msgid "Time zone:"
+msgstr "時區："
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:14
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:24
+msgid "to"
+msgstr "到"
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:15
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:26
+msgid "Delete slot"
+msgstr "刪除欄位"
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:16
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:28
+msgid "No working hours set"
+msgstr "未設定工作時間"
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:17
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:30
+msgid "Add slot"
+msgstr "新增欄位"
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:18
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:32
+msgid "Monday"
+msgstr "週一"
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:19
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:34
+msgid "Tuesday"
+msgstr "週二"
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:20
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:36
+msgid "Wednesday"
+msgstr "週三"
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:21
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:38
+msgid "Thursday"
+msgstr "週四"
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:22
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:40
+msgid "Friday"
+msgstr "週五"
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:23
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:42
+msgid "Saturday"
+msgstr "週六"
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:24
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:44
+msgid "Sunday"
+msgstr "週日"
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:25
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:46
+msgid "Pick a start time for {dayName}"
+msgstr "為 {dayName} 挑選開始時間"
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:26
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:48
+msgid "Pick a end time for {dayName}"
+msgstr "為 {dayName} 挑選結束時間"
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:29
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:50
+msgid ""
+"Automatically set user status to \"Do not disturb\" outside of availability "
+"to mute all notifications."
+msgstr "在忙碌時，自動將使用者狀態設定為「請勿打擾」以靜音所有通知。"
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:102
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:54
+msgid "Failed to load availability"
+msgstr "載入可用性失敗"
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:119
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:56
+msgid "Saved availability"
+msgstr "已儲存可用性"
+
+#. TRANSLATORS src/components/AvailabilityForm.vue:123
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:58
+msgid "Failed to save availability"
+msgstr "儲存可用性失敗"
+
+#. TRANSLATORS src/views/Availability.vue:3
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:60
+msgid "Availability"
+msgstr "可用性"
+
+#. TRANSLATORS src/views/Availability.vue:4
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:62
+msgid ""
+"If you configure your working hours, other users will see when you are out "
+"of office when they book a meeting."
+msgstr "若您設定了您的工作時間，其他使用者在預約會議時就會知道您何時不在辦公室。"
+
+#. TRANSLATORS src/views/Availability.vue:8
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:64
+msgid "Absence"
+msgstr "缺席"
+
+#. TRANSLATORS src/views/Availability.vue:9
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:66
+msgid "Configure your next absence period."
+msgstr "設定您的下一個缺席時段。"
+
+#. TRANSLATORS src/views/CalDavSettings.vue:2
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:68
+msgid "Calendar server"
+msgstr "日曆伺服器"
+
+#. TRANSLATORS src/views/CalDavSettings.vue:13
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:70
+msgid "Send invitations to attendees"
+msgstr "發送邀請函給參加者"
+
+#. TRANSLATORS src/views/CalDavSettings.vue:26
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:72
+msgid "Automatically generate a birthday calendar"
+msgstr "自動生成生日日曆"
+
+#. TRANSLATORS src/views/CalDavSettings.vue:29
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:74
+msgid "Birthday calendars will be generated by a background job."
+msgstr "生日日曆將由背景作業生成。"
+
+#. TRANSLATORS src/views/CalDavSettings.vue:33
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:76
+msgid ""
+"Hence they will not be available immediately after enabling but will show up"
+" after some time."
+msgstr "因此，啟用後不會立即可用，但會在一段時間後顯示。"
+
+#. TRANSLATORS src/views/CalDavSettings.vue:40
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:78
+msgid "Send notifications for events"
+msgstr "傳送活動通知"
+
+#. TRANSLATORS src/views/CalDavSettings.vue:49
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:80
+msgid ""
+"Notifications are sent via background jobs, so these must occur often "
+"enough."
+msgstr "通知會透過背景作業傳送，因此這些會經常發生。"
+
+#. TRANSLATORS src/views/CalDavSettings.vue:57
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:82
+msgid "Send reminder notifications to calendar sharees as well"
+msgstr "也向共享行事曆傳送提醒通知"
+
+#. TRANSLATORS src/views/CalDavSettings.vue:60
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:84
+msgid "Reminders are always sent to organizers and attendees."
+msgstr "一律傳送提醒給舉辦者與參與者。"
+
+#. TRANSLATORS src/views/CalDavSettings.vue:68
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:86
+msgid "Enable notifications for events via push"
+msgstr "啟用推播活動通知"
+
+#. TRANSLATORS src/views/CalDavSettings.vue:96
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:88
+msgid ""
+"Also install the {calendarappstoreopen}Calendar app{linkclose}, or "
+"{calendardocopen}connect your desktop & mobile for syncing ↗{linkclose}."
+msgstr ""
+"也安裝{calendarappstoreopen}日曆應用程式{linkclose}，或{calendardocopen}連結您的電腦或行動裝置以供同步"
+" ↗{linkclose}。"
+
+#. TRANSLATORS src/views/CalDavSettings.vue:106
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:90
+#: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:92
+msgid ""
+"Please make sure to properly set up {emailopen}the email server{linkclose}."
+msgstr "請確定您正確設定了{emailopen}電子郵件伺服器{linkclose}。"
+
+#: /var/www/html/apps/dav/templates/schedule-response-error.php:9
+msgid "There was an error updating your attendance status."
+msgstr "更新您的參與狀態時發生錯誤。"
+
+#: /var/www/html/apps/dav/templates/schedule-response-error.php:10
+msgid "Please contact the organizer directly."
+msgstr "請直接聯絡主辦人。"
+
+#: /var/www/html/apps/dav/templates/schedule-response-options.php:10
+msgid "Are you accepting the invitation?"
+msgstr "您接受邀請嗎？"
+
+#: /var/www/html/apps/dav/templates/schedule-response-options.php:19
+msgid "Tentative"
+msgstr "暫定"
+
+#: /var/www/html/apps/dav/templates/schedule-response-success.php:8
+msgid "Your attendance was updated successfully."
+msgstr "您的參與狀態成功更新。"

@@ -1,0 +1,296 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2023-12-26 02:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /var/www/html/apps/updatenotification/js/legacy-notification.js:17
+msgid "{version} is available. Get more information on how to update."
+msgstr ""
+
+#: /var/www/html/apps/updatenotification/lib/Controller/AdminController.php:89
+msgid "Channel updated"
+msgstr ""
+
+#: /var/www/html/apps/updatenotification/lib/Controller/AdminController.php:97
+msgid "Web updater is disabled"
+msgstr ""
+
+#: /var/www/html/apps/updatenotification/lib/Notification/Notifier.php:101
+msgid "Update notifications"
+msgstr ""
+
+#: /var/www/html/apps/updatenotification/lib/Notification/Notifier.php:125
+#, php-format
+msgid ""
+"The update server could not be reached since %d days to check for new "
+"updates."
+msgstr ""
+
+#: /var/www/html/apps/updatenotification/lib/Notification/Notifier.php:126
+msgid "Please check the Nextcloud and server log files for errors."
+msgstr ""
+
+#: /var/www/html/apps/updatenotification/lib/Notification/Notifier.php:131
+#, php-format
+msgid "Update to %1$s is available."
+msgstr ""
+
+#: /var/www/html/apps/updatenotification/lib/Notification/Notifier.php:132
+msgid "Update to {serverAndVersion} is available."
+msgstr ""
+
+#: /var/www/html/apps/updatenotification/lib/Notification/Notifier.php:151
+#, php-format
+msgid "Update for {app} to version %s is available."
+msgstr ""
+
+#: /var/www/html/apps/updatenotification/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "Update notification"
+msgstr ""
+
+#: /var/www/html/apps/updatenotification/specialAppInfoFakeDummyForL10nScript.php:3
+msgid ""
+"Displays update notifications for Nextcloud and provides the SSO for the "
+"updater."
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:2
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:2
+msgid "Update"
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:6
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:4
+msgid ""
+"The version you are running is not maintained anymore. Please make sure to "
+"update to a supported version as soon as possible."
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:19
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:6
+msgid "Apps missing compatible version"
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:25
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:8
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:12
+msgid "View in store"
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:32
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:10
+msgid "Apps with compatible version"
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:45
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:14
+msgid ""
+"Please note that the web updater is not recommended with more than 100 "
+"users! Please use the command line updater instead!"
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:53
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:16
+msgid "Open updater"
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:57
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:18
+msgid "Download now"
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:59
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:20
+msgid "Please use the command line updater to update."
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:63
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:22
+msgid "What's new?"
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:74
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:24
+msgid "View changelog"
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:84
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:26
+msgid "The update check is not yet finished. Please refresh the page."
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:87
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:28
+msgid "Your version is up to date."
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:93
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:30
+msgid "A non-default update server is in use to be checked for updates:"
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:98
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:32
+msgid "Update channel"
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:100
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:34
+msgid ""
+"Changing the update channel also affects the apps management page. E.g. "
+"after switching to the beta channel, beta app updates will be offered to you "
+"in the apps management page."
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:103
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:36
+msgid "Current update channel:"
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:129
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:38
+msgid ""
+"You can always update to a newer version. But you can never downgrade to a "
+"more stable version."
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:134
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:40
+msgid "Notify members of the following groups about available updates:"
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:143
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:42
+msgid "No groups"
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:147
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:44
+msgid "Only notifications for app updates are available."
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:148
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:46
+msgid ""
+"The selected update channel makes dedicated notifications for the server "
+"obsolete."
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:149
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:48
+msgid "The selected update channel does not support updates of the server."
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:229
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:50
+msgid "A new version is available: <strong>{newVersionString}</strong>"
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:235
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:52
+msgid ""
+"Note that after a new release the update only shows up after the first minor "
+"release or later. We roll out new versions spread out over time to our users "
+"and sometimes skip a version when issues are found. Learn more about updates "
+"and release channels at {link}"
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:240
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:54
+msgid "Checked on {lastCheckedDate}"
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:247
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:56
+msgid "Checking apps for compatible versions"
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:251
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:58
+msgid ""
+"Please make sure your config.php does not set <samp>appstoreenabled</samp> "
+"to false."
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:255
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:60
+msgid ""
+"Could not connect to the App Store or no updates have been returned at all. "
+"Search manually for updates or make sure your server has access to the "
+"internet and can connect to the App Store."
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:259
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:62
+msgid ""
+"<strong>All</strong> apps have a compatible version for this Nextcloud "
+"version available."
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:267
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:64
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:76
+msgid "Enterprise"
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:268
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:66
+msgid ""
+"For enterprise use. Provides always the latest patch level, but will not "
+"update to the next major release immediately. That update happens once "
+"Nextcloud GmbH has done additional hardening and testing for large-scale and "
+"mission-critical deployments. This channel is only available to customers "
+"and provides the Nextcloud Enterprise package."
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:276
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:68
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:78
+msgid "Stable"
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:277
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:70
+msgid ""
+"The most recent stable version. It is suited for regular use and will always "
+"update to the latest major version."
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:284
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:72
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:80
+msgid "Beta"
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:285
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:74
+msgid ""
+"A pre-release version only for testing new features, not for production "
+"environments."
+msgstr ""
+
+#. TRANSLATORS src/components/UpdateNotification.vue:260
+#: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:82
+msgid ""
+"<strong>%n</strong> app has no compatible version for this Nextcloud version "
+"available."
+msgid_plural ""
+"<strong>%n</strong> apps have no compatible version for this Nextcloud "
+"version available."
+msgstr[0] ""
+msgstr[1] ""
