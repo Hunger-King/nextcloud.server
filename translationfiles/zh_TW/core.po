@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-01-11 13:08+0000\n"
+"PO-Revision-Date: 2024-01-12 14:08+0000\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/core/zh_Hant/>\n"
@@ -1812,13 +1812,13 @@ msgstr "您選擇了 SQLite 作為資料庫。"
 msgid ""
 "SQLite should only be used for minimal and development instances. For "
 "production we recommend a different database backend."
-msgstr "SQLite 只適用於小型或是開發用站台，針對上線服務我們建議使用其他資料庫後端。"
+msgstr "SQLite 只適用於小型或開發用站台。對於正式站台，我們建議使用其他資料庫後端。"
 
 #: /var/www/html/core/templates/installation.php:153
 msgid ""
 "If you use clients for file syncing, the use of SQLite is highly "
 "discouraged."
-msgstr "若使用桌面版或是手機版客戶端同步檔案，不建議使用 SQLite"
+msgstr "若使用桌面版或是手機版客戶端同步檔案，不建議使用 SQLite。"
 
 #: /var/www/html/core/templates/installation.php:159
 msgid "Install"
@@ -1849,14 +1849,14 @@ msgstr ""
 msgid ""
 "Could not remove CAN_INSTALL from the config folder. Please remove this file"
 " manually."
-msgstr "無法從您的 config 目錄中移除 CAN_INSTALL 檔案。請手動移除他。"
+msgstr "無法從您的 config 目錄中移除 CAN_INSTALL 檔案。請手動移除此檔案。"
 
 #: /var/www/html/core/templates/layout.noscript.warning.php:7
 msgid ""
 "This application requires JavaScript for correct operation. Please "
 "{linkstart}enable JavaScript{linkend} and reload the page."
-msgstr ""
-"這個應用程式需要啟用 Javascript 才能正常運作，請{linkstart}啟用 Javascript{linkend} 然後重新整理頁面。"
+msgstr "此應用程式需要 JavaScript 才能正常運作。請{linkstart}啟用 JavaScript{linkend}"
+" 然後重新載入頁面。"
 
 #: /var/www/html/core/templates/layout.public.php:35
 #: /var/www/html/core/templates/layout.user.php:55
@@ -1881,7 +1881,7 @@ msgstr "取得免費帳號"
 
 #: /var/www/html/core/templates/layout.user.php:82
 msgid "This action requires you to confirm your password"
-msgstr "這個動作需要您再次確認密碼"
+msgstr "此動作需要您再次確認密碼"
 
 #: /var/www/html/core/templates/layout.user.php:84
 msgid "Confirm your password"
@@ -1900,7 +1900,7 @@ msgstr "連結您的帳號"
 #: /var/www/html/core/templates/loginflowv2/authpicker.php:33
 #, php-format
 msgid "Please log in before granting %1$s access to your %2$s account."
-msgstr "請登入後再授權「%1$s」存取您的 %2$s 帳號"
+msgstr "請登入後再授權「%1$s」存取您的 %2$s 帳號。"
 
 #: /var/www/html/core/templates/loginflow/authpicker.php:42
 #: /var/www/html/core/templates/loginflowv2/authpicker.php:42
@@ -1950,11 +1950,11 @@ msgstr "已連結帳號"
 
 #: /var/www/html/core/templates/loginflowv2/done.php:33
 msgid "Your client should now be connected!"
-msgstr "客戶端應該已完成連線"
+msgstr "客戶端應該已完成連線！"
 
 #: /var/www/html/core/templates/loginflowv2/done.php:34
 msgid "You can close this window."
-msgstr "可以關閉此視窗"
+msgstr "可以關閉此視窗。"
 
 #: /var/www/html/core/templates/publicshareauth.php:18
 msgid "This share is password-protected"
@@ -1995,7 +1995,7 @@ msgstr "您的帳號已啟用進階安全機制，請選擇一個雙因素驗證
 msgid ""
 "Could not load at least one of your enabled two-factor auth methods. Please "
 "contact your admin."
-msgstr "無法載入任何一個雙因素認證方法，請聯絡管理員"
+msgstr "無法載入任何一個雙因素認證方法。請聯絡管理員。"
 
 #: /var/www/html/core/templates/twofactorselectchallenge.php:19
 msgid ""
@@ -2024,7 +2024,7 @@ msgstr "雙因素驗證已被強制要求啟用，您的帳號目前還沒設定
 #: /var/www/html/core/templates/twofactorselectchallenge.php:70
 #: /var/www/html/core/templates/twofactorshowchallenge.php:32
 msgid "Use backup code"
-msgstr "使用備用認證碼"
+msgstr "使用備用驗證碼"
 
 #: /var/www/html/core/templates/twofactorselectchallenge.php:75
 #: /var/www/html/core/templates/twofactorsetupchallenge.php:14
@@ -2037,7 +2037,7 @@ msgstr "取消登入"
 msgid ""
 "Enhanced security is enforced for your account. Choose which provider to set"
 " up:"
-msgstr "您的帳號已啟用進階安全機制，請選擇一個提供者："
+msgstr "您的帳號已啟用進階安全機制。請選擇提供者："
 
 #: /var/www/html/core/templates/twofactorshowchallenge.php:20
 msgid "Error while validating your second factor"
@@ -2053,8 +2053,8 @@ msgid ""
 "\"trusted_domains\" setting in config/config.php like the example in "
 "config.sample.php."
 msgstr ""
-"請聯絡您的管理員。如果您就是管理員，請模仿 config.sample.php 範例編輯 config/config.php 的 "
-"\"trusted_domains\" 設定。"
+"請聯絡您的管理員。如果您就是管理員，請模仿 config.sample.php 範例編輯 config/"
+"config.php 的「trusted_domains」設定。"
 
 #: /var/www/html/core/templates/untrustedDomain.php:11
 #, php-format
@@ -2074,16 +2074,16 @@ msgstr "%1$s 將會更新至版本 %2$s"
 
 #: /var/www/html/core/templates/update.admin.php:11
 msgid "The following apps will be updated:"
-msgstr "將更新以下的 APP："
+msgstr "將更新以下的應用程式："
 
 #: /var/www/html/core/templates/update.admin.php:21
 msgid "These incompatible apps will be disabled:"
-msgstr "將會停用這些不相容的應用程式"
+msgstr "將會停用這些不相容的應用程式："
 
 #: /var/www/html/core/templates/update.admin.php:31
 #, php-format
 msgid "The theme %s has been disabled."
-msgstr "主題 %s 已經被停用"
+msgstr "佈景主題 %s 已經被停用。"
 
 #: /var/www/html/core/templates/update.admin.php:35
 msgid ""
@@ -2145,10 +2145,10 @@ msgstr "這個 %s 安裝目前處於維護模式，需要一段時間恢復。"
 
 #: /var/www/html/core/templates/update.user.php:4
 msgid "This page will refresh itself when the instance is available again."
-msgstr "安裝恢復可用之後，本頁會自動重新整理"
+msgstr "站台恢復可用之後，本頁會自動重新整理。"
 
 #: /var/www/html/core/templates/update.user.php:5
 msgid ""
 "Contact your system administrator if this message persists or appeared "
 "unexpectedly."
-msgstr "若這個訊息持續出現，請聯絡系統管理員"
+msgstr "若這個訊息持續出現，請聯絡系統管理員。"
