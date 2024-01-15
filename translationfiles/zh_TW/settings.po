@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-01-11 13:09+0000\n"
+"PO-Revision-Date: 2024-01-16 13:09+0000\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/settings/zh_Hant/>\n"
@@ -34,7 +34,7 @@ msgstr "僅對在手機上的 Talk 透過電話號碼整合符合的人們可見
 #: /var/www/html/apps/settings/js/federationscopemenu.js:40
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:174
 msgid "Local"
-msgstr "本地"
+msgstr "本機"
 
 #: /var/www/html/apps/settings/js/federationscopemenu.js:41
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:175
@@ -2618,7 +2618,7 @@ msgstr "電子郵件（必填）"
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:55
 #: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:111
 msgid "Email"
-msgstr "信箱"
+msgstr "電子郵件"
 
 #. TRANSLATORS src/components/Users/NewUserModal.vue:87
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:576
@@ -3276,7 +3276,7 @@ msgstr "此應用程式未被標記為與您的 Nextcloud 版本相容。如果�
 
 #: /var/www/html/apps/settings/src/mixins/UserRowMixin.js:151
 msgid "Never"
-msgstr "從不"
+msgstr "永不"
 
 #: /var/www/html/apps/settings/src/store/apps.js:42
 #: /var/www/html/apps/settings/src/store/index.js:40
