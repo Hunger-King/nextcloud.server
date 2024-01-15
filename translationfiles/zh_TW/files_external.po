@@ -3,19 +3,21 @@
 # This file is distributed under the same license as the Nextcloud package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2024-01-16 13:09+0000\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
+"nextcloud-server/files_external/zh_Hant/>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #: /var/www/html/apps/files_external/js/settings.js:94
 msgid "Type to select user or group."
@@ -37,12 +39,12 @@ msgstr "啟用加密"
 #: /var/www/html/apps/files_external/js/settings.js:500
 #: /var/www/html/apps/files_external/templates/settings.php:12
 msgid "Enable previews"
-msgstr "啟動預覽"
+msgstr "啟用預覽"
 
 #: /var/www/html/apps/files_external/js/settings.js:501
 #: /var/www/html/apps/files_external/templates/settings.php:13
 msgid "Enable sharing"
-msgstr "啟動分享"
+msgstr "啟用分享"
 
 #: /var/www/html/apps/files_external/js/settings.js:502
 #: /var/www/html/apps/files_external/templates/settings.php:14
@@ -122,7 +124,7 @@ msgstr "禁止管理本機掛載"
 #: /var/www/html/apps/files_external/lib/Controller/UserStoragesController.php:213
 #, php-format
 msgid "Storage with ID \"%d\" not found"
-msgstr "沒有找到 ID 為「%d」的儲存空間 "
+msgstr "沒有找到 ID 為「%d」的儲存空間"
 
 #: /var/www/html/apps/files_external/lib/Controller/StoragesController.php:123
 msgid "Invalid backend or authentication mechanism class"
@@ -431,7 +433,7 @@ msgstr "分享"
 
 #: /var/www/html/apps/files_external/lib/Lib/Backend/SMB.php:59
 msgid "Show hidden files"
-msgstr "顯示隱藏的檔案"
+msgstr "顯示隱藏檔"
 
 #: /var/www/html/apps/files_external/lib/Lib/Backend/SMB.php:62
 msgid "Case sensitive file system"
@@ -610,7 +612,7 @@ msgstr "未設定外部儲存空間，或您沒有權限設定它們"
 
 #: /var/www/html/apps/files_external/templates/settings.php:110
 msgid "Open documentation"
-msgstr "開啟文件"
+msgstr "開啟說明文件"
 
 #: /var/www/html/apps/files_external/templates/settings.php:111
 msgid ""
