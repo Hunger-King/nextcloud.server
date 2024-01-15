@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the Nextcloud package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:19+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2024-01-16 13:09+0000\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
+"nextcloud-server/files/zh_Hant/>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #: /var/www/html/apps/files/js/app.js:63
 msgid "File could not be found"
@@ -79,7 +80,7 @@ msgstr "無法建立資料夾「{dir}」"
 
 #: /var/www/html/apps/files/js/file-upload.js:637
 msgid "This will stop your current uploads."
-msgstr "這會終止目前任何的上傳。"
+msgstr "這會停止您目前的上傳。"
 
 #: /var/www/html/apps/files/js/file-upload.js:731
 msgid "Upload cancelled."
@@ -443,7 +444,7 @@ msgstr "{used}%"
 #: /var/www/html/apps/files/js/files.js:109
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:104
 msgid "{used} of {quota} used"
-msgstr "已使用 {quota} 當中的 {used}"
+msgstr "已使用 {used}，共 {quota}"
 
 #: /var/www/html/apps/files/js/files.js:111
 msgid "{used} used"
@@ -453,7 +454,7 @@ msgstr "已使用 {used}"
 #: /var/www/html/apps/files/js/files.js:145
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:32
 msgid "\"{name}\" is an invalid file name."
-msgstr "{name} 是無效的檔名。"
+msgstr "「{name}」是無效的檔名。"
 
 #. TRANSLATORS src/components/FileEntry/FileEntryName.vue:210
 #: /var/www/html/apps/files/js/files.js:147
@@ -610,7 +611,7 @@ msgstr "您已從您的最愛移除 {file}"
 #: /var/www/html/apps/files/lib/Activity/Filter/Favorites.php:78
 #: /var/www/html/apps/files/src/views/favorites.ts:66
 msgid "Favorites"
-msgstr "最愛"
+msgstr "我的最愛"
 
 #: /var/www/html/apps/files/lib/Activity/Filter/FileChanges.php:60
 msgid "File changes"
@@ -949,7 +950,7 @@ msgstr "取消全選"
 #. TRANSLATORS src/components/FilesListTableHeaderActions.vue:188
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:80
 msgid "\"{displayName}\" failed on some elements "
-msgstr "「{displayName}」在某些元素上失敗"
+msgstr "「{displayName}」在某些元素上失敗 "
 
 #. TRANSLATORS src/components/FilesListTableHeaderActions.vue:193
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:82
@@ -1055,7 +1056,7 @@ msgstr "轉移 {path} 給 {userid}"
 #. TRANSLATORS src/components/TransferOwnershipDialogue.vue:140
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:126
 msgid "Invalid path selected"
-msgstr "所選的路徑無效"
+msgstr "選取的路徑無效"
 
 #. TRANSLATORS src/components/TransferOwnershipDialogue.vue:148
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:128
@@ -1332,7 +1333,7 @@ msgstr "在「檔案」應用程式中開啟"
 
 #: /var/www/html/apps/files/src/actions/sidebarAction.ts:32
 msgid "Open details"
-msgstr "開啟細節"
+msgstr "開啟詳細資訊"
 
 #: /var/www/html/apps/files/src/init-templates.ts:79
 msgid "Create new templates folder"
@@ -1428,7 +1429,7 @@ msgstr "切換 %1$s 子列表"
 #: /var/www/html/apps/files/templates/list.php:32
 #: /var/www/html/apps/files/templates/simplelist.php:9
 msgid "No entries found in this folder"
-msgstr "在此資料夾中沒有任何項目"
+msgstr "此資料夾中沒有任何項目"
 
 #: /var/www/html/apps/files/templates/list.php:76
 msgid "Upload too large"
@@ -1438,7 +1439,7 @@ msgstr "上傳過大"
 msgid ""
 "The files you are trying to upload exceed the maximum size for file uploads "
 "on this server."
-msgstr "您試圖上傳的檔案大小超過伺服器的限制"
+msgstr "您試圖上傳的檔案大小超過伺服器的限制。"
 
 #: /var/www/html/apps/files/tests/js/newfilemenuSpec.js:114
 msgid "Text file"
