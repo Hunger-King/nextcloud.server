@@ -3,19 +3,21 @@
 # This file is distributed under the same license as the Nextcloud package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2024-01-17 14:09+0000\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
+"nextcloud-server/sharebymail/zh_Hant/>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #: /var/www/html/apps/sharebymail/lib/Activity.php:116
 msgid "Shared with {email}"
@@ -112,7 +114,7 @@ msgstr "點擊下方的按鈕將其打開。"
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:482
 #, php-format
 msgid "Open »%s«"
-msgstr "開啟 »%s«"
+msgstr "開啟 %s"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:360
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:431
@@ -141,13 +143,13 @@ msgstr "%1$s 與您分享了 %2$s。您應該已經收到一封包含了可以�
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:412
 #, php-format
 msgid "Password to access »%1$s« shared to you by %2$s"
-msgstr "存取 »%1$s« 的密碼已透過 %2$s 與您分享"
+msgstr "存取 %1$s 的密碼已透過 %2$s 與您分享"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:414
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:543
 #, php-format
 msgid "Password to access »%s«"
-msgstr "存取 »%s« 的密碼"
+msgstr "存取 %s 的密碼"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:416
 msgid "It is protected with the following password:"
@@ -162,17 +164,17 @@ msgstr "密碼將於 %s 到期"
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:467
 #, php-format
 msgid "%1$s shared »%2$s« with you and wants to add:"
-msgstr "%1$s 與您分享了 »%2$s«，且想要新增："
+msgstr "%1$s 與您分享了 %2$s ，且想要新增："
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:468
 #, php-format
 msgid "%1$s shared »%2$s« with you and wants to add"
-msgstr "%1$s 與您分享了 »%2$s«，且想要新增"
+msgstr "%1$s 與您分享了 %2$s ，且想要新增"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:474
 #, php-format
 msgid "»%s« added a note to a file shared with you"
-msgstr "»%s« 在與您分享的檔案新增了註記"
+msgstr "%s 在與您分享的檔案中加入了註記"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:530
 #, php-format
@@ -183,13 +185,14 @@ msgid ""
 "the password directly to the recipient. Therefore you need to forward the "
 "password manually to the recipient."
 msgstr ""
-"您剛與 %2$s 分享了 »%1$s«。分享已寄送給收件者。由於管理員定義的安全策略 "
-"%3$s，每個分享都需要使用密碼保護，且不允許將密碼直接傳送給收件者。因此，您必須手動將密碼轉寄給收件者。"
+"您剛與 %2$s 分享了 %1$s。分享已寄送給收件者。由於管理員定義的安全策略 %3$s，"
+"每個分享都需要使用密碼保護，且不允許將密碼直接傳送給收件者。因此，您必須手動"
+"將密碼轉寄給收件者。"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:541
 #, php-format
 msgid "Password to access »%1$s« shared by you with %2$s"
-msgstr "用於存取 %2$s 分享給您的 »%1$s« 的密碼"
+msgstr "用於存取 %2$s 分享給您的 %1$s 的密碼"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:545
 msgid "This is the password:"
