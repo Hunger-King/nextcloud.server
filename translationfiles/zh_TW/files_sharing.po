@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the Nextcloud package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2024-01-16 13:09+0000\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
+"nextcloud-server/files_sharing/zh_Hant/>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #: /var/www/html/apps/files_sharing/js/files_drop.js:96
 msgid "Waiting…"
@@ -287,7 +288,7 @@ msgstr "{actor} 分享了 {file} 給 {user}"
 
 #: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:108
 msgid "{actor} removed {user} from {file}"
-msgstr "{actor} 移除 {user} 從 {file}"
+msgstr "{actor} 從 {file} 移除 {user}"
 
 #: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:110
 msgid "{actor} shared {file} with you"
@@ -602,7 +603,7 @@ msgstr "允許上傳及編輯"
 #. TRANSLATORS src/components/SharePermissionsEditor.vue:54
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:26
 msgid "File drop (upload only)"
-msgstr "檔案投放（僅上傳）"
+msgstr "檔案投遞箱（僅上傳）"
 
 #. TRANSLATORS src/components/SharePermissionsEditor.vue:58
 #. TRANSLATORS src/components/SharingEntryQuickShareSelect.vue:78
@@ -838,7 +839,7 @@ msgstr "分享連結 ({label})"
 #. TRANSLATORS src/components/SharingEntryLink.vue:286
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:118
 msgid "Share link ({index})"
-msgstr "分享連結˙ ({index})"
+msgstr "分享連結 ({index})"
 
 #. TRANSLATORS src/components/SharingEntryLink.vue:288
 #. TRANSLATORS src/views/SharingDetailsTab.vue:312
@@ -889,7 +890,7 @@ msgstr "可以編輯"
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:140
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:182
 msgid "File drop"
-msgstr "檔案投放"
+msgstr "檔案投遞箱"
 
 #. TRANSLATORS src/components/SharingInput.vue:25
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:144
@@ -949,7 +950,7 @@ msgstr "電子郵件"
 #. TRANSLATORS src/components/SharingInput.vue:407
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:166
 msgid "Circle"
-msgstr "圈子"
+msgstr "小圈圈"
 
 #. TRANSLATORS src/components/SharingInput.vue:412
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:168
@@ -1068,7 +1069,7 @@ msgstr "刪除分享"
 #. TRANSLATORS src/views/SharingDetailsTab.vue:308
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:234
 msgid "Share with "
-msgstr "分享者"
+msgstr "分享者 "
 
 #. TRANSLATORS src/views/SharingDetailsTab.vue:491
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:248
@@ -1180,11 +1181,11 @@ msgstr "建立分享時發生錯誤"
 
 #: /var/www/html/apps/files_sharing/src/mixins/ShareRequests.js:94
 msgid "Error deleting the share: {errorMessage}"
-msgstr ""
+msgstr "刪除分享時發生錯誤：{errorMessage}"
 
 #: /var/www/html/apps/files_sharing/src/mixins/ShareRequests.js:94
 msgid "Error deleting the share"
-msgstr ""
+msgstr "刪除分享時發生錯誤"
 
 #: /var/www/html/apps/files_sharing/src/mixins/ShareRequests.js:121
 msgid "Error updating the share: {errorMessage}"
@@ -1192,7 +1193,7 @@ msgstr "更新分享時發生錯誤：{errorMessage}"
 
 #: /var/www/html/apps/files_sharing/src/mixins/ShareRequests.js:121
 msgid "Error updating the share"
-msgstr "更新分享時發生錯誤："
+msgstr "更新分享時發生錯誤"
 
 #: /var/www/html/apps/files_sharing/src/mixins/SharesMixin.js:269
 msgid "File \"{path}\" has been unshared"
@@ -1338,7 +1339,7 @@ msgstr "您收到但尚未核准的分享將會在此顯示"
 
 #: /var/www/html/apps/files_sharing/templates/list.php:7
 msgid "No entries found in this folder"
-msgstr "在此資料夾中沒有任何項目"
+msgstr "此資料夾中沒有任何項目"
 
 #: /var/www/html/apps/files_sharing/templates/list.php:15
 msgid "Name"
@@ -1374,7 +1375,7 @@ msgstr "要取得更多資訊，請詢問傳送此連結給您的人。"
 
 #: /var/www/html/apps/files_sharing/templates/public.php:38
 msgid "Share note"
-msgstr "分享訊息"
+msgstr "分享筆記"
 
 #: /var/www/html/apps/files_sharing/templates/public.php:99
 #: /var/www/html/apps/files_sharing/templates/public.php:103
