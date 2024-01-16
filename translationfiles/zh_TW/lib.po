@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:19+0000\n"
-"PO-Revision-Date: 2024-01-16 13:09+0000\n"
+"PO-Revision-Date: 2024-01-17 14:09+0000\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/lib/zh_Hant/>\n"
@@ -628,22 +628,22 @@ msgid ""
 "the open_basedir has been configured in php.ini. This will lead to problems "
 "with files over 4 GB and is highly discouraged."
 msgstr ""
-"看起來 %s 是在 32 位元的 PHP 環境運行，並且 php.ini 中被設置了 open_basedir 參數，這將讓超過 4GB "
-"的檔案操作發生問題，強烈建議您更改設定。"
+"%s 站台似乎是在 32 位元 PHP 環境執行，且似乎設定了 php.ini 中的 "
+"open_basedir。這將導致超過 4 GB 的檔案出現問題，因此強烈建議不要這麼做。"
 
 #: /var/www/html/lib/private/Setup.php:259
 msgid ""
 "Please remove the open_basedir setting within your php.ini or switch to "
 "64-bit PHP."
-msgstr "請移除 php.ini 中的 open_basedir 設定，或是改用 64 位元的 PHP"
+msgstr "請移除 php.ini 中的 open_basedir 設定，或是改用 64 位元的 PHP。"
 
 #: /var/www/html/lib/private/Setup.php:286
 msgid "Set an admin username."
-msgstr "設定管理員帳號"
+msgstr "設定管理員使用者名稱。"
 
 #: /var/www/html/lib/private/Setup.php:289
 msgid "Set an admin password."
-msgstr "設定管理員密碼"
+msgstr "設定管理員密碼。"
 
 #: /var/www/html/lib/private/Setup.php:310
 #, php-format
@@ -668,23 +668,23 @@ msgstr "找不到 %s 的分享後端"
 #: /var/www/html/lib/private/Share20/DefaultShareProvider.php:1492
 #, php-format
 msgid "%1$s shared »%2$s« with you and wants to add:"
-msgstr "%1$s 與您分享了 %2$s ，且想要加入："
+msgstr "%1$s 與您分享了 %2$s ，且想要新增："
 
 #: /var/www/html/lib/private/Share20/DefaultShareProvider.php:1493
 #, php-format
 msgid "%1$s shared »%2$s« with you and wants to add"
-msgstr "%1$s 與您分享了 %2$s ，且想要加入"
+msgstr "%1$s 與您分享了 %2$s ，且想要新增"
 
 #: /var/www/html/lib/private/Share20/DefaultShareProvider.php:1498
 #, php-format
 msgid "»%s« added a note to a file shared with you"
-msgstr "%s 在與您分享的檔案中加入了註解"
+msgstr "%s 在與您分享的檔案中加入了註記"
 
 #: /var/www/html/lib/private/Share20/DefaultShareProvider.php:1505
 #: /var/www/html/lib/private/Share20/Manager.php:916
 #, php-format
 msgid "Open »%s«"
-msgstr "開啟 »%s«"
+msgstr "開啟 %s"
 
 #: /var/www/html/lib/private/Share20/DefaultShareProvider.php:1513
 #: /var/www/html/lib/private/Share20/Manager.php:925
@@ -741,11 +741,11 @@ msgstr "%1$s 與您分享了 %2$s"
 #: /var/www/html/lib/private/Share20/Manager.php:905
 #, php-format
 msgid "%1$s shared »%2$s« with you."
-msgstr "%1$s 與您分享了 %2$s"
+msgstr "%1$s 與您分享了 %2$s。"
 
 #: /var/www/html/lib/private/Share20/Manager.php:912
 msgid "Click the button below to open it."
-msgstr "點下方連結開啟"
+msgstr "點擊下方的按鈕將其打開。"
 
 #: /var/www/html/lib/private/Share20/Manager.php:1531
 #: /var/www/html/lib/private/Share20/Manager.php:1555
@@ -765,7 +765,7 @@ msgstr "未建立使用者，因為已達使用者上限。請檢查您的通知
 #: /var/www/html/lib/private/Tags.php:240
 #, php-format
 msgid "Could not find category \"%s\""
-msgstr "找不到分類：\"%s\""
+msgstr "找不到分類：「%s」"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:197
 msgid "Sunday"
@@ -967,11 +967,11 @@ msgstr "使用者名稱僅允許以下字元：\"a-z\"、\"A-Z\"、\"0-9\"、空
 
 #: /var/www/html/lib/private/User/Manager.php:743
 msgid "A valid username must be provided"
-msgstr "必須提供一個有效的用戶名"
+msgstr "必須提供有效的使用者名稱"
 
 #: /var/www/html/lib/private/User/Manager.php:748
 msgid "Username contains whitespace at the beginning or at the end"
-msgstr "用戶名的開頭或結尾有空白"
+msgstr "使用者名稱名的開頭或結尾有空白"
 
 #: /var/www/html/lib/private/User/Manager.php:753
 msgid "Username must not consist of dots only"
@@ -995,7 +995,7 @@ msgstr "應用程式取消了登入"
 msgid ""
 "App \"%1$s\" cannot be installed because the following dependencies are not "
 "fulfilled: %2$s"
-msgstr "應用程式 \"%1$s\" 無法被安裝，缺少下列所需元件： %2$s"
+msgstr "無法安裝應用程式「%1$s」，因為未滿足以下依賴關係：%2$s"
 
 #: /var/www/html/lib/private/legacy/OC_Defaults.php:241
 msgid "a safe home for all your data"
@@ -1021,11 +1021,11 @@ msgstr "認證錯誤"
 
 #: /var/www/html/lib/private/legacy/OC_JSON.php:74
 msgid "Token expired. Please reload page."
-msgstr "Token 過期，請重新整理頁面。"
+msgstr "權杖過期。請重新載入頁面。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:531
 msgid "No database drivers (sqlite, mysql, or postgresql) installed."
-msgstr "沒有安裝資料庫驅動程式 (sqlite, mysql, 或 postgresql)"
+msgstr "未安裝資料庫驅動程式（sqlite、mysql 或 postgresql）。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:541
 msgid "Cannot write into \"config\" directory."
@@ -1036,7 +1036,7 @@ msgstr "無法寫入「config」目錄。"
 msgid ""
 "This can usually be fixed by giving the web server write access to the "
 "config directory. See %s"
-msgstr "允許網頁伺服器寫入 config 目錄通常可以解決這個問題，詳見 %s"
+msgstr "允許網頁伺服器寫入 config 目錄通常可以解決這個問題。請見 %s"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:544
 #, php-format
@@ -1044,11 +1044,12 @@ msgid ""
 "Or, if you prefer to keep config.php file read only, set the option "
 "\"config_is_read_only\" to true in it. See %s"
 msgstr ""
-"或者，如果您比較希望保留 config.php 的唯讀狀態，請在該設定檔中將 \"config_is_read_only\" 設定為 true。見%s"
+"或者，如果您比較希望保留 config.php 的唯讀狀態，請在該設定檔中將 "
+"\"config_is_read_only\" 設定為 true。請見 %s"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:557
 msgid "Cannot write into \"apps\" directory."
-msgstr "無法寫入「apps」目錄"
+msgstr "無法寫入「apps」目錄。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:558
 msgid ""
@@ -1065,14 +1066,14 @@ msgstr "無法建立「data」目錄。"
 msgid ""
 "This can usually be fixed by giving the web server write access to the root "
 "directory. See %s"
-msgstr "開放網頁伺服器存取根目錄通常就可以修正這個問題，詳見 %s"
+msgstr "開放網頁伺服器存取根目錄通常就可以修正這個問題。請見 %s"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:581
 #, php-format
 msgid ""
 "Permissions can usually be fixed by giving the web server write access to "
 "the root directory. See %s."
-msgstr "開放網頁伺服器存取根目錄通常就可以修正權限問題，詳見 %s。"
+msgstr "開放網頁伺服器存取根目錄通常就可以修正權限問題。請見 %s。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:584
 msgid "Your data directory is not writable."
@@ -1092,16 +1093,16 @@ msgstr "請在您的系統上安裝這些地區設定中的其中一個，然後
 #: /var/www/html/lib/private/legacy/OC_Util.php:666
 #, php-format
 msgid "PHP module %s not installed."
-msgstr "未安裝 PHP 模組 %s"
+msgstr "未安裝 PHP 模組 %s。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:667
 msgid "Please ask your server administrator to install the module."
-msgstr "請詢問系統管理員來安裝這些模組"
+msgstr "請要求您的伺服器管理員安裝模組。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:673
 #, php-format
 msgid "PHP setting \"%s\" is not set to \"%s\"."
-msgstr "PHP 設定值 \"%s\" 沒有被設定為 \"%s\""
+msgstr "PHP 設定值「%s」未被設定為「%s」。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:674
 msgid "Adjusting this setting in php.ini will make Nextcloud run again"
@@ -1128,13 +1129,13 @@ msgstr ""
 msgid ""
 "PHP is apparently set up to strip inline doc blocks. This will make several "
 "core apps inaccessible."
-msgstr "PHP 已經設定成「剪除 inline doc block」模式，這將會使幾個核心應用程式無法使用"
+msgstr "PHP 顯然設定為剪除內嵌文件區塊。這會讓多個核心應用程式無法運作。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:698
 msgid ""
 "This is probably caused by a cache/accelerator such as Zend OPcache or "
 "eAccelerator."
-msgstr "這大概是由快取或是加速器像是 Zend OPcache, eAccelerator 造成的"
+msgstr "這可能是由快取或加速程式（如 Zend OPcache 或 eAccelerator）造成的。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:704
 msgid "PHP modules have been installed, but they are still listed as missing?"
@@ -1142,7 +1143,7 @@ msgstr "你已經安裝了指定的 PHP 模組，可是還是顯示為找不到�
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:705
 msgid "Please ask your server administrator to restart the web server."
-msgstr "請聯絡您的系統管理員重新啟動網頁伺服器"
+msgstr "請要求您的伺服器管理員重新啟動網頁伺服器。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:712
 #, php-format
@@ -1157,13 +1158,13 @@ msgstr "請聯絡您的伺服器管理員檢查 Nextcloud 設定。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:743
 msgid "Your data directory is readable by other users."
-msgstr "您的 data 目錄可被其他使用讀取。"
+msgstr "您的 data 目錄可被其他使用者讀取。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:744
 msgid ""
 "Please change the permissions to 0770 so that the directory cannot be listed"
 " by other users."
-msgstr "請將該目錄權限設定為 0770 ，以免其他使用者讀取目錄列表"
+msgstr "請將該目錄權限設定為 0770 ，以免其他使用者讀取目錄列表。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:763
 msgid "Your data directory must be an absolute path."
@@ -1180,12 +1181,12 @@ msgstr "您的 data 目錄無效。"
 #: /var/www/html/lib/private/legacy/OC_Util.php:770
 msgid ""
 "Ensure there is a file called \".ocdata\" in the root of the data directory."
-msgstr "請確保資料目錄最上層有一個 \".ocdata\" 檔案"
+msgstr "請確保資料目錄最上層有一個「.ocdata」檔案。"
 
 #: /var/www/html/lib/public/Federation/Exceptions/ActionNotSupportedException.php:43
 #, php-format
 msgid "Action \"%s\" not supported or implemented."
-msgstr "操作 \"%s\" 並未支援，或是尚未實作"
+msgstr "並不支援動作「%s」，或是尚未實作。"
 
 #: /var/www/html/lib/public/Federation/Exceptions/AuthenticationFailedException.php:43
 msgid "Authentication failed, wrong token or provider ID given"
@@ -1196,12 +1197,12 @@ msgstr "認證失敗，提供了錯誤的 token 或是 provider ID"
 msgid ""
 "Parameters missing in order to complete the request. Missing Parameters: "
 "\"%s\""
-msgstr "欠缺完成請求所需的參數： \"%s\""
+msgstr "欠缺完成請求所需的參數：「%s」"
 
 #: /var/www/html/lib/public/Federation/Exceptions/ProviderAlreadyExistsException.php:47
 #, php-format
 msgid "ID \"%1$s\" already used by cloud federation provider \"%2$s\""
-msgstr "ID \"%1$s\" 已經被另一個雲端聯盟供應者 \"%2$s\" 所使用"
+msgstr "ID「%1$s」已經被另一個雲端聯盟提供者「%2$s」所使用"
 
 #: /var/www/html/lib/public/Federation/Exceptions/ProviderDoesNotExistsException.php:44
 #, php-format
@@ -1211,7 +1212,7 @@ msgstr "ID 為「%s」的雲端聯盟提供者不存在。"
 #: /var/www/html/lib/public/Files/LockNotAcquiredException.php:46
 #, php-format
 msgid "Could not obtain lock type %d on \"%s\"."
-msgstr "無法取得鎖定：類型 %d ，檔案 %s"
+msgstr "無法取得鎖定：類型 %d ，檔案 %s。"
 
 #: /var/www/html/lib/public/Files/StorageAuthException.php:40
 #, php-format
@@ -1221,7 +1222,7 @@ msgstr "儲存空間未經授權。%s"
 #: /var/www/html/lib/public/Files/StorageBadConfigException.php:40
 #, php-format
 msgid "Storage incomplete configuration. %s"
-msgstr "儲存空間配置尚未完成。%s"
+msgstr "儲存空間設定尚未完成。%s"
 
 #: /var/www/html/lib/public/Files/StorageConnectionException.php:40
 #, php-format
