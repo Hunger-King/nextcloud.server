@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the Nextcloud package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:19+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2024-01-16 13:09+0000\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
+"nextcloud-server/lib/zh_Hant/>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #: /var/www/html/lib/base.php:258 /var/www/html/lib/base.php:266
 msgid "Cannot write into \"config\" directory!"
@@ -94,7 +95,7 @@ msgstr "%1$s 和 %2$s"
 #: /var/www/html/lib/private/Activity/EventMerger.php:212
 #, php-format
 msgid "%1$s, %2$s and %3$s"
-msgstr "%1$s, %2$s 和 %3$s"
+msgstr "%1$s、%2$s 和 %3$s"
 
 #: /var/www/html/lib/private/Activity/EventMerger.php:218
 #, php-format
@@ -124,22 +125,22 @@ msgstr "Hub 套裝"
 
 #: /var/www/html/lib/private/App/AppStore/Bundles/SocialSharingBundle.php:31
 msgid "Social sharing bundle"
-msgstr "社交網絡組合包"
+msgstr "社交分享組合包"
 
 #: /var/www/html/lib/private/App/DependencyAnalyzer.php:158
 #, php-format
 msgid "PHP %s or higher is required."
-msgstr "需要 PHP %s 或更高版本"
+msgstr "需要 PHP %s 或更高版本。"
 
 #: /var/www/html/lib/private/App/DependencyAnalyzer.php:164
 #, php-format
 msgid "PHP with a version lower than %s is required."
-msgstr "需要 PHP 版本低於 %s "
+msgstr "需要 PHP 版本低於 %s。"
 
 #: /var/www/html/lib/private/App/DependencyAnalyzer.php:170
 #, php-format
 msgid "%sbit or higher PHP required."
-msgstr "%s 或需要更高階版本的php"
+msgstr "需要 %s 位元或更高的 PHP。"
 
 #: /var/www/html/lib/private/App/DependencyAnalyzer.php:194
 #, php-format
@@ -159,21 +160,21 @@ msgstr "找不到命令列工具指令 %s"
 #: /var/www/html/lib/private/App/DependencyAnalyzer.php:277
 #, php-format
 msgid "The library %s is not available."
-msgstr "套件庫 %s 無法使用"
+msgstr "函式庫 %s 無法使用。"
 
 #: /var/www/html/lib/private/App/DependencyAnalyzer.php:285
 #, php-format
 msgid ""
 "Library %1$s with a version higher than %2$s is required - available version"
 " %3$s."
-msgstr "需要使用 %2$s 版以上的 %1$s 函式庫，目前可用的版本是 %3$s"
+msgstr "需要使用 %2$s 版以上的 %1$s 函式庫，目前可用的版本是 %3$s。"
 
 #: /var/www/html/lib/private/App/DependencyAnalyzer.php:292
 #, php-format
 msgid ""
 "Library %1$s with a version lower than %2$s is required - available version "
 "%3$s."
-msgstr "需要使用 %2$s 版以下的 %1$s 函式庫，目前可用的版本是 %3$s"
+msgstr "需要使用 %2$s 版以下的 %1$s 函式庫，目前可用的版本是 %3$s。"
 
 #: /var/www/html/lib/private/App/DependencyAnalyzer.php:324
 #, php-format
@@ -183,12 +184,12 @@ msgstr "支援下列平台：%s"
 #: /var/www/html/lib/private/App/DependencyAnalyzer.php:350
 #, php-format
 msgid "Server version %s or higher is required."
-msgstr "需要伺服器版本 %s 或更高"
+msgstr "需要伺服器版本 %s 或更高。"
 
 #: /var/www/html/lib/private/App/DependencyAnalyzer.php:355
 #, php-format
 msgid "Server version %s or lower is required."
-msgstr "需要伺服器版本 %s 或更低"
+msgstr "需要伺服器版本 %s 或更低。"
 
 #: /var/www/html/lib/private/AppFramework/Middleware/Security/SecurityMiddleware.php:183
 msgid ""
@@ -207,7 +208,7 @@ msgstr "登入的使用者必須有管理員權限"
 #: /var/www/html/lib/private/Authentication/Listeners/RemoteWipeEmailListener.php:121
 #, php-format
 msgid "Wiping of device %s has started"
-msgstr "已開始抹除裝置 %s "
+msgstr "已開始抹除裝置 %s"
 
 #: /var/www/html/lib/private/Authentication/Listeners/RemoteWipeEmailListener.php:122
 #, php-format
@@ -224,7 +225,7 @@ msgstr "「%s」開始遠端抹除"
 msgid ""
 "Device or application »%s« has started the remote wipe process. You will "
 "receive another email once the process has finished"
-msgstr "裝置或應用程式「%s」已開始遠端抹除的程序，完成後您將會收到另一封通知信"
+msgstr "裝置或應用程式「%s」已開始遠端抹除的流程。完成後您將會收到另一封通知信"
 
 #: /var/www/html/lib/private/Authentication/Listeners/RemoteWipeEmailListener.php:149
 #, php-format
@@ -244,7 +245,7 @@ msgstr "裝置「%s」完成遠端抹除"
 #: /var/www/html/lib/private/Authentication/Listeners/RemoteWipeEmailListener.php:165
 #, php-format
 msgid "Device or application »%s« has finished the remote wipe process."
-msgstr "裝置或應用程式「%s」已完成遠端抹除"
+msgstr "裝置或應用程式「%s」已完成遠端抹除。"
 
 #: /var/www/html/lib/private/Authentication/Notifications/Notifier.php:57
 msgid "Remote wipe started"
@@ -266,7 +267,7 @@ msgstr "%s 的遠端抹除已經完成"
 
 #: /var/www/html/lib/private/Authentication/Notifications/Notifier.php:94
 msgid "Authentication"
-msgstr "認證"
+msgstr "驗證"
 
 #: /var/www/html/lib/private/Avatar/UserAvatar.php:155
 msgid "Unknown filetype"
@@ -310,14 +311,12 @@ msgstr "昨天"
 #: /var/www/html/lib/private/DateTimeFormatter.php:170
 msgid "in %n day"
 msgid_plural "in %n days"
-msgstr[0] "在 %n 天內"
-msgstr[1] "在 %n 天內"
+msgstr[0] "在%n天內"
 
 #: /var/www/html/lib/private/DateTimeFormatter.php:172
 msgid "%n day ago"
 msgid_plural "%n days ago"
-msgstr[0] "%n 天前"
-msgstr[1] "%n 天前"
+msgstr[0] "%n天前"
 
 #: /var/www/html/lib/private/DateTimeFormatter.php:176
 msgid "next month"
@@ -330,14 +329,12 @@ msgstr "上個月"
 #: /var/www/html/lib/private/DateTimeFormatter.php:182
 msgid "in %n month"
 msgid_plural "in %n months"
-msgstr[0] "在 %n 月內"
-msgstr[1] "在 %n 月內"
+msgstr[0] "在%n個月內"
 
 #: /var/www/html/lib/private/DateTimeFormatter.php:184
 msgid "%n month ago"
 msgid_plural "%n months ago"
-msgstr[0] "%n 個月前"
-msgstr[1] "%n 個月前"
+msgstr[0] "%n個月前"
 
 #: /var/www/html/lib/private/DateTimeFormatter.php:188
 msgid "next year"
@@ -350,38 +347,32 @@ msgstr "去年"
 #: /var/www/html/lib/private/DateTimeFormatter.php:194
 msgid "in %n year"
 msgid_plural "in %n years"
-msgstr[0] "%n 年後"
-msgstr[1] "%n 年後"
+msgstr[0] "在%n年內"
 
 #: /var/www/html/lib/private/DateTimeFormatter.php:196
 msgid "%n year ago"
 msgid_plural "%n years ago"
-msgstr[0] "%n 年前"
-msgstr[1] "%n 年前"
+msgstr[0] "%n年前"
 
 #: /var/www/html/lib/private/DateTimeFormatter.php:248
 msgid "in %n hour"
 msgid_plural "in %n hours"
-msgstr[0] "%n 小時後"
-msgstr[1] "%n 小時後"
+msgstr[0] "%n小時後"
 
 #: /var/www/html/lib/private/DateTimeFormatter.php:250
 msgid "%n hour ago"
 msgid_plural "%n hours ago"
-msgstr[0] "%n 小時前"
-msgstr[1] "%n 小時前"
+msgstr[0] "%n小時前"
 
 #: /var/www/html/lib/private/DateTimeFormatter.php:254
 msgid "in %n minute"
 msgid_plural "in %n minutes"
-msgstr[0] "%n 分鐘後"
-msgstr[1] "%n 分鐘後"
+msgstr[0] "在%n分鐘內"
 
 #: /var/www/html/lib/private/DateTimeFormatter.php:256
 msgid "%n minute ago"
 msgid_plural "%n minutes ago"
-msgstr[0] "%n 分鐘前"
-msgstr[1] "%n 分鐘前"
+msgstr[0] "%n分鐘前"
 
 #: /var/www/html/lib/private/DateTimeFormatter.php:260
 msgid "in a few seconds"
@@ -400,7 +391,7 @@ msgstr "空檔案"
 msgid ""
 "Module with ID: %s does not exist. Please enable it in your apps settings or"
 " contact your administrator."
-msgstr "名為 %s 的模組不存在，請在應用程式設定中啟用，或是聯絡系統管理員"
+msgstr "名為 %s 的模組不存在，請在應用程式設定中啟用，或是聯絡系統管理員。"
 
 #: /var/www/html/lib/private/Files/Template/TemplateManager.php:154
 msgid "File already exists"
@@ -604,7 +595,7 @@ msgstr "MySQL 使用者名稱或密碼不正確"
 #: /var/www/html/lib/private/Setup/MySQL.php:77
 #: /var/www/html/lib/private/Setup/PostgreSQL.php:118
 msgid "You need to enter details of an existing account."
-msgstr "您必須輸入現有帳號的資訊"
+msgstr "您必須輸入現有帳號的資訊。"
 
 #: /var/www/html/lib/private/Setup/OCI.php:71
 msgid "Oracle connection could not be established"
@@ -612,23 +603,23 @@ msgstr "無法建立 Oracle 資料庫連線"
 
 #: /var/www/html/lib/private/Setup/OCI.php:78
 msgid "Oracle username and/or password not valid"
-msgstr "Oracle 用戶名和/或密碼無效"
+msgstr "Oracle 使用者名稱或或密碼無效"
 
 #: /var/www/html/lib/private/Setup/PostgreSQL.php:117
 msgid "PostgreSQL username and/or password not valid"
-msgstr "PostgreSQL 用戶名和/或密碼無效"
+msgstr "PostgreSQL 使用者名稱或或密碼無效"
 
 #: /var/www/html/lib/private/Setup.php:244
 #, php-format
 msgid ""
 "Mac OS X is not supported and %s will not work properly on this platform. "
 "Use it at your own risk! "
-msgstr "不支援 Mac OS X 而且 %s 在這個平台上面無法正常運作，請自行衡量風險後使用！"
+msgstr "不支援 Mac OS X 而且 %s 在這個平台上面無法正常運作，請自行衡量風險後使用！ "
 
 #: /var/www/html/lib/private/Setup.php:248
 msgid ""
 "For the best results, please consider using a GNU/Linux server instead."
-msgstr "請考慮使用 GNU/Linux 伺服器以獲得最佳體驗"
+msgstr "請考慮使用 GNU/Linux 伺服器以獲得最佳體驗。"
 
 #: /var/www/html/lib/private/Setup.php:255
 #, php-format
