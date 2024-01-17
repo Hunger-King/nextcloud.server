@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the Nextcloud package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2024-01-17 14:09+0000\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
+"nextcloud-server/user_ldap/zh_Hant/>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #: /var/www/html/apps/user_ldap/ajax/clearMappings.php:54
 msgid "Failed to clear the mappings."
@@ -38,7 +39,7 @@ msgstr "有效的設定，連線已建立！"
 msgid ""
 "Valid configuration, but binding failed. Please check the server settings "
 "and credentials."
-msgstr "有效的設定，但是綁定失敗。請檢查伺服器設定和證書。"
+msgstr "有效的設定，但是綁定失敗。請檢查伺服器設定與憑證。"
 
 #: /var/www/html/apps/user_ldap/ajax/testConfiguration.php:82
 msgid ""
@@ -64,7 +65,7 @@ msgstr "指定了無效的資料"
 #: /var/www/html/apps/user_ldap/ajax/wizard.php:123
 #, php-format
 msgid " Could not set configuration %s"
-msgstr "無法設定 %s"
+msgstr " 無法設定 %s"
 
 #: /var/www/html/apps/user_ldap/ajax/wizard.php:133
 msgid "Action does not exist"
@@ -116,11 +117,11 @@ msgstr "設定完成"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabAbstractFilter.js:47
 msgid "Select groups"
-msgstr "選擇群組"
+msgstr "選取群組"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabAbstractFilter.js:51
 msgid "Select object classes"
-msgstr "選擇物件"
+msgstr "選取物件類別"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:191
 msgid "Please check the credentials, they seem to be wrong."
@@ -146,7 +147,7 @@ msgstr "{nthServer}. 伺服器"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:285
 msgid "No object found in the given Base DN. Please revise."
-msgstr "在 Base DN 中找不到物件。請修改"
+msgstr "在 Base DN 中找不到物件。請修改。"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:287
 msgid "More than 1,000 directory entries available."
@@ -206,7 +207,7 @@ msgstr "模式切換"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabLoginFilter.js:61
 msgid "Select attributes"
-msgstr "選擇屬性"
+msgstr "選取屬性"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabLoginFilter.js:146
 msgid ""
@@ -258,7 +259,7 @@ msgstr "因為 LDAP/AD 伺服器不支援 memberOf，所以停用群組盒。"
 
 #: /var/www/html/apps/user_ldap/lib/Access.php:357
 msgid "Password change rejected. Hint: "
-msgstr "密碼變更被拒絕。提示："
+msgstr "密碼變更被拒絕。提示： "
 
 #: /var/www/html/apps/user_ldap/lib/Controller/RenewPasswordController.php:146
 msgid "Please login with the new password"
@@ -460,7 +461,7 @@ msgstr "允許使用電子郵件屬性登入。允許使用 “mail” 與 “ma
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:34
 msgid "Other Attributes:"
-msgstr "其他屬性:"
+msgstr "其他屬性："
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:53
 #: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:56
