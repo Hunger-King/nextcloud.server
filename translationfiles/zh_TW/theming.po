@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-01-11 13:09+0000\n"
+"PO-Revision-Date: 2024-01-17 14:09+0000\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/theming/zh_Hant/>\n"
@@ -239,7 +239,7 @@ msgstr "調整 Nextcloud 佈景主題"
 msgid ""
 "Theming makes it possible to easily customize the look and feel of your "
 "instance and supported clients. This will be visible for all users."
-msgstr "使用佈景主題來客製化網頁界面和客戶端程式的外觀（並非所有客戶端程式都支援佈景主題），外觀將會套用至所有使用者。"
+msgstr "佈景主題讓您可以輕鬆自訂站台與支援客戶端的外觀與感覺。這對所有使用者都可見。"
 
 #. TRANSLATORS src/AdminTheming.vue:73
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:6
@@ -391,8 +391,10 @@ msgid ""
 "Accessibility Guidelines{linkend} 2.1 on AA level, with the high contrast "
 "theme even on AAA level."
 msgstr ""
-"我們非常重視無障礙存取。我們遵循網路標準，並透過檢查來確保所有內容皆可在沒有滑鼠或輔助軟體（例如螢幕閱讀器）的情況下使用。我們目標是能達到{guidelines}網頁內容可及性指引{linkend}"
-" 2.1 版的 AA 等級，加上高對比度主題甚至還能到 AAA 等級。"
+"我們非常重視無障礙存取。我們遵循網路標準，並透過檢查來確保所有內容皆可在沒有"
+"滑鼠或輔助軟體（例如螢幕閱讀器）的情況下使用。我們目標是能達到{guidelines}網"
+"頁內容無障礙指引{linkend} 2.1 版的 AA 等級，加上高對比度主題甚至還能到 AAA "
+"等級。"
 
 #. TRANSLATORS src/UserThemes.vue:151
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:66
@@ -554,7 +556,7 @@ msgstr "選取自訂色彩"
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:124
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:128
 msgid "Reset to default"
-msgstr "恢復預設值"
+msgstr "重設為預設值"
 
 #. TRANSLATORS src/components/admin/FileInputField.vue:35
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:126
