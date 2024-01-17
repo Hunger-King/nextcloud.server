@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-01-16 13:09+0000\n"
+"PO-Revision-Date: 2024-01-17 14:09+0000\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/systemtags/zh_Hant/>\n"
@@ -27,21 +27,21 @@ msgstr "系統標籤 %1$s 已被系統新增"
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:116
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:123
 msgid "Added system tag {systemtag}"
-msgstr "已加入系統標籤 {systemtag}"
+msgstr "已新增系統標籤 {systemtag}"
 
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:120
 #, php-format
 msgid "Added system tag %1$s"
-msgstr "已加入系統標籤 %1$s"
+msgstr "已新增系統標籤 %1$s"
 
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:127
 #, php-format
 msgid "%1$s added system tag %2$s"
-msgstr "%1$s 已加入系統標籤 %2$s"
+msgstr "%1$s 已新增系統標籤 %2$s"
 
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:131
 msgid "{actor} added system tag {systemtag}"
-msgstr "{actor} 已加入系統標籤 {systemtag}"
+msgstr "{actor} 已新增系統標籤 {systemtag}"
 
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:138
 #, php-format
@@ -70,20 +70,20 @@ msgstr "{actor} 已移除系統標籤 {systemtag}"
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:185
 #, php-format
 msgid "You created system tag %1$s"
-msgstr "您新增了系統標籤 %1$s"
+msgstr "您建立了系統標籤 %1$s"
 
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:188
 msgid "You created system tag {systemtag}"
-msgstr "您新增了系統標籤 {systemtag}"
+msgstr "您建立了系統標籤 {systemtag}"
 
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:190
 #, php-format
 msgid "%1$s created system tag %2$s"
-msgstr "%1$s 新增了系統標籤 %2$s"
+msgstr "%1$s 建立了系統標籤 %2$s"
 
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:194
 msgid "{actor} created system tag {systemtag}"
-msgstr "{actor} 新增了系統標籤 {systemtag}"
+msgstr "{actor} 建立了系統標籤 {systemtag}"
 
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:198
 #, php-format
@@ -97,7 +97,7 @@ msgstr "您刪除了系統標籤 {systemtag}"
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:203
 #, php-format
 msgid "%1$s deleted system tag %2$s"
-msgstr "%1$s刪除了系統標籤 %2$s"
+msgstr "%1$s 刪除了系統標籤 %2$s"
 
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:207
 msgid "{actor} deleted system tag {systemtag}"
@@ -106,20 +106,20 @@ msgstr "{actor} 刪除了系統標籤 {systemtag}"
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:211
 #, php-format
 msgid "You updated system tag %2$s to %1$s"
-msgstr "您更新了系統標籤 %2$s 為 %1$s"
+msgstr "您將系統標籤 %2$s 更新為 %1$s"
 
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:215
 msgid "You updated system tag {oldsystemtag} to {newsystemtag}"
-msgstr "您更新了系統標籤 {oldsystemtag} 為 {newsystemtag}"
+msgstr "您將系統標籤 {oldsystemtag} 更新為 {newsystemtag}"
 
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:217
 #, php-format
 msgid "%1$s updated system tag %3$s to %2$s"
-msgstr "%1$s 更新了系統標籤 %3$s 為 %2$s"
+msgstr "%1$s 將系統標籤 %3$s 更新為 %2$s"
 
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:222
 msgid "{actor} updated system tag {oldsystemtag} to {newsystemtag}"
-msgstr "{actor} 更新了系統標籤 {oldsystemtag} 為 {newsystemtag}"
+msgstr "{actor} 將系統標籤 {oldsystemtag} 更新為 {newsystemtag}"
 
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:227
 #, php-format
