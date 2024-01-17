@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-01-16 13:09+0000\n"
+"PO-Revision-Date: 2024-01-17 14:09+0000\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/settings/zh_Hant/>\n"
@@ -428,7 +428,7 @@ msgstr "Nextcloud 說明概覽"
 
 #: /var/www/html/apps/settings/lib/Controller/MailSettingsController.php:131
 msgid "Invalid SMTP password."
-msgstr "無效的 SMTP 密碼"
+msgstr "無效的 SMTP 密碼。"
 
 #: /var/www/html/apps/settings/lib/Controller/MailSettingsController.php:159
 msgid "Email setting test"
@@ -512,8 +512,8 @@ msgid ""
 "root at '.well-known/CloudIdVerificationCode.txt' (please make sure that the"
 " complete text is in one line):"
 msgstr ""
-"為了驗證您的網站，請將下列內容存至您網站的根目錄下路徑為「.well-"
-"known/CloudIdVerificationCode.txt」的檔案（請確保全文以一行的格式儲存）"
+"為了驗證您的網站，請將下列內容存至您網站的根目錄下路徑為「.well-known/"
+"CloudIdVerificationCode.txt」的檔案（請確保全文以一行的格式儲存）："
 
 #: /var/www/html/apps/settings/lib/Hooks.php:110
 #, php-format
@@ -548,17 +548,17 @@ msgstr "%s 的密碼已變更"
 #: /var/www/html/apps/settings/lib/Hooks.php:143
 #: /var/www/html/apps/settings/lib/Hooks.php:212
 msgid "If you did not request this, please contact an administrator."
-msgstr "如果你未發送此請求 ，請聯絡系統管理員"
+msgstr "如果你未傳送此請求 ，請聯絡系統管理員。"
 
 #: /var/www/html/apps/settings/lib/Hooks.php:187
 #, php-format
 msgid "Your email address on %s was changed."
-msgstr "您在 %s 的電子郵件地址已變更"
+msgstr "您在 %s 的電子郵件地址已變更。"
 
 #: /var/www/html/apps/settings/lib/Hooks.php:195
 #, php-format
 msgid "Your email address on %s was changed by an administrator."
-msgstr "您在 %s 的電子郵件地址已被管理員變更"
+msgstr "您在 %s 的電子郵件地址已被管理員變更。"
 
 #: /var/www/html/apps/settings/lib/Hooks.php:209
 #, php-format
@@ -741,7 +741,7 @@ msgstr "舊的使用者匯入憑證"
 msgid ""
 "A background job is pending that checks for user imported SSL certificates. "
 "Please check back later."
-msgstr "背景作業正在檢查使用者匯入的 SSL 證書。請稍後再檢查。"
+msgstr "背景作業正在檢查使用者匯入的 SSL 憑證。請稍後再檢查。"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/CheckUserCertificates.php:60
 msgid ""
@@ -750,8 +750,9 @@ msgid ""
 "\"occ security:certificates:import\" command. Their paths inside the data "
 "directory are shown below."
 msgstr ""
-"有一些使用者匯入的 SSL 證書，這些在 Nextcloud 21 不再能運作。它們可以透過命令列執行 \"occ "
-"security:certificates:import\" 指令來匯入。它們在資料目錄中的路徑如下所示。"
+"有一些使用者匯入的 SSL 憑證，這些在 Nextcloud 21 "
+"不再能運作。它們可以透過命令列執行「occ "
+"security:certificates:import」指令來匯入。它們在資料目錄中的路徑如下所示。"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/DatabaseHasMissingColumns.php:50
 msgid "Database missing columns"
@@ -791,8 +792,9 @@ msgid ""
 "manually while the instance keeps running. Once the indexes are added "
 "queries to those tables are usually much faster."
 msgstr ""
-"資料庫缺少了某些索引值。由於在一個龐大的表中新增索引需要一些時間，因此它們並不會被自動新增。您可執行 \"occ db:add-missing-"
-"indices\" 來手動新增那些缺少的索引值。當索引值新增完成後，查詢的速度通常會變得快許多"
+"資料庫缺少了某些索引。由於在一個龐大的表中新增索引需要一些時間，因此它們並不"
+"會被自動新增。您可以執行「occ db:add-missing-indices」來手動新增那些缺少的索"
+"值。當索值新增完成後，查詢的速度通常會變得快許多。"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/DatabaseHasMissingPrimaryKeys.php:50
 msgid "Database missing primary keys"
@@ -810,8 +812,9 @@ msgid ""
 "automatically. By running \"occ db:add-missing-primary-keys\" those missing "
 "primary keys could be added manually while the instance keeps running."
 msgstr ""
-"資料庫缺少了一些主鍵，然而新增主鍵這個動作將在龐大的表中花費許多時間，因此它們並不會被自動新增。藉由執行 \"occ db:add-missing-"
-"primary-keys\" 手動新增主鍵將能在系統持續運作時修復這個問題。"
+"資料庫缺少了一些主鍵，然而新增主鍵這個動作將在龐大的表中花費許多時間，因此它"
+"們並不會被自動新增。藉由執行「occ db:add-missing-primary-"
+"keys」手動新增主鍵將能在系統持續運作時修復這個問題。"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/DefaultPhoneRegionSet.php:41
 msgid "Default phone region"
@@ -851,15 +854,14 @@ msgid ""
 "Transactional file locking is disabled, this might lead to issues with race "
 "conditions. Enable \"filelocking.enabled\" in config.php to avoid these "
 "problems."
-msgstr ""
-"事務型文件鎖定的功能已經取消，這可能會造成競態條件，請在 config.php 中啟用 \"filelocking.enabled\" "
-"以避免出現這樣的問題。"
+msgstr "交易式檔案鎖定已停用，這可能會導致競爭條件問題。在 config.php "
+"中啟用「filelocking.enabled」可以避免這些問題。"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/FileLocking.php:71
 msgid ""
 "The database is used for transactional file locking. To enhance performance,"
 " please configure memcache, if available."
-msgstr "資料庫用於交易檔案鎖定。要強化效能，請設定 memcache（若可用）。"
+msgstr "資料庫用於交易檔案鎖定。要強化效能，請設定記憶體快取（若可用）。"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/ForwardedForHeaders.php:50
 msgid "Forwarded for headers"
@@ -974,7 +976,8 @@ msgstr "PHP getenv"
 msgid ""
 "PHP does not seem to be setup properly to query system environment "
 "variables. The test with getenv(\"PATH\") only returns an empty response."
-msgstr "PHP 設定似乎不完整，導致無法正確取得系統環境變數，因為偵測到 getenv(\"PATH\") 回傳資料為空值"
+msgstr "PHP 設定似乎不完整，導致無法正確取得系統環境變數，因為偵測到 getenv(\"PATH\")"
+" 回傳資料為空值。"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/PhpMemoryLimit.php:47
 msgid "PHP memory limit"
@@ -1117,7 +1120,8 @@ msgid ""
 "Your database does not run with \"READ COMMITTED\" transaction isolation "
 "level. This can cause problems when multiple actions are executed in "
 "parallel."
-msgstr "您的資料庫並未使用 \"READ COMMITTED\" 的交易隔離等級。當有多個行為平行進行時，這可能會造成問題。"
+msgstr "您的資料庫並未使用「READ "
+"COMMITTED」的交易隔離等級。當有多個行為平行進行時，這可能會造成問題。"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/TransactionIsolation.php:71
 #, php-format
@@ -1878,12 +1882,12 @@ msgstr "建立新的應用程式密碼"
 #. TRANSLATORS src/components/AuthTokenSetupDialogue.vue:40
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:304
 msgid "Use the credentials below to configure your app or device."
-msgstr "請使用下方的登入資訊來設定您的應用程式或是裝置"
+msgstr "請使用下方的登入資訊來設定您的應用程式或是裝置。"
 
 #. TRANSLATORS src/components/AuthTokenSetupDialogue.vue:41
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:306
 msgid "For security reasons this password will only be shown once."
-msgstr "基於安全性考量，這個密碼只會顯示一次"
+msgstr "基於安全性考量，這個密碼只會顯示一次。"
 
 #. TRANSLATORS src/components/AuthTokenSetupDialogue.vue:43
 #. TRANSLATORS src/components/Users/UserListHeader.vue:39
@@ -2014,7 +2018,7 @@ msgstr "個人檔案"
 #. TRANSLATORS src/components/BasicSettings/ProfileSettings.vue:31
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:354
 msgid "Enable or disable profile by default for new users."
-msgstr "預設情況下為新使用者啟用或停用個人檔案"
+msgstr "預設情況下為新使用者啟用或停用個人檔案。"
 
 #. TRANSLATORS src/components/BasicSettings/ProfileSettings.vue:37
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:356
@@ -2090,12 +2094,12 @@ msgstr "這是最後的警告：請問您真的要開啟加密模式？"
 msgid ""
 "No encryption module loaded, please enable an encryption module in the app "
 "menu."
-msgstr "沒有載入加密模組，請您在應用程式選單中啟用加密模組"
+msgstr "沒有載入加密模組，請您在應用程式選單中啟用加密模組。"
 
 #. TRANSLATORS src/components/Encryption.vue:58
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:380
 msgid "Select default encryption module:"
-msgstr "選擇預設的加密模組："
+msgstr "選取預設的加密模組："
 
 #. TRANSLATORS src/components/Encryption.vue:118
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:382
@@ -2104,13 +2108,13 @@ msgid ""
 "<= 8.0) to the new one. Please enable the \"Default encryption module\" and "
 "run {command}"
 msgstr ""
-"您必須將您的加密金鑰從舊的加密 (ownCloud <= 8.0) 轉換成新的。請啟用 \"Default encryption module\" "
-"並執行 {command}"
+"您必須將您的加密金鑰從舊的加密 (ownCloud <= 8.0) 轉換成新的。請啟用「Default "
+"encryption module」並執行 {command}"
 
 #. TRANSLATORS src/components/Encryption.vue:150
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:384
 msgid "Unable to update server side encryption config"
-msgstr "無法升級伺服器端加密設定"
+msgstr "無法更新伺服器端加密設定"
 
 #. TRANSLATORS src/components/GroupListItem.vue:29
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:386
@@ -2413,7 +2417,7 @@ msgstr "無法更新語系"
 #. TRANSLATORS src/components/PersonalInfo/LocaleSection/LocaleSection.vue:36
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:506
 msgid "No locale set"
-msgstr "未設定語系"
+msgstr "未設定地區設定"
 
 #. TRANSLATORS src/components/PersonalInfo/LocationSection.vue:26
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:508
@@ -2538,7 +2542,7 @@ msgstr "刪除"
 #. TRANSLATORS src/components/SelectSharingPermissions.vue:34
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:550
 msgid "Reshare"
-msgstr "重新分享"
+msgstr "轉分享"
 
 #. TRANSLATORS src/components/UserList.vue:34
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:552
@@ -3002,7 +3006,7 @@ msgstr "嘗試新增 WebAuthn 裝置時發生伺服器錯誤"
 #. TRANSLATORS src/components/WebAuthn/AddDevice.vue:196
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:762
 msgid "Server error while trying to complete WebAuthn device registration"
-msgstr "嘗試完成 WebAuthn 裝置註冊時發生伺服器錯誤。"
+msgstr "嘗試完成 WebAuthn 裝置註冊時發生伺服器錯誤"
 
 #. TRANSLATORS src/components/WebAuthn/Device.vue:25
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:764
@@ -3019,7 +3023,7 @@ msgstr "無密碼驗證"
 msgid ""
 "Set up your account for passwordless authentication following the FIDO2 "
 "standard."
-msgstr "按照 FIDO2 標準設定您帳號的無密碼驗證"
+msgstr "按照 FIDO2 標準設定您帳號的無密碼驗證。"
 
 #. TRANSLATORS src/components/WebAuthn/Section.vue:29
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:772
@@ -3029,7 +3033,7 @@ msgstr "未設定裝置。"
 #. TRANSLATORS src/components/WebAuthn/Section.vue:32
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:774
 msgid "The following devices are configured for your account:"
-msgstr "為您的帳號設定了以下裝置。"
+msgstr "為您的帳號設定了以下裝置："
 
 #. TRANSLATORS src/components/WebAuthn/Section.vue:40
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:776
@@ -3197,7 +3201,7 @@ msgstr "地區設定"
 msgid ""
 "Not available as this property is required for core functionality including "
 "file sharing and calendar invitations"
-msgstr "無法使用，因為此屬性是核心功能（包括檔案分享和日曆邀請）所必需的。"
+msgstr "無法使用，因為此屬性是核心功能（包括檔案分享和日曆邀請）所必需的"
 
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:183
 msgid ""
