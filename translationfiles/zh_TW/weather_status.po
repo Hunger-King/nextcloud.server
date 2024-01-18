@@ -3,19 +3,21 @@
 # This file is distributed under the same license as the Nextcloud package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2024-01-19 05:52+0000\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
+"nextcloud-server/weather_status/zh_Hant/>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #: /var/www/html/apps/weather_status/lib/Service/WeatherStatusService.php:136
 msgid "Unknown address"
@@ -23,7 +25,7 @@ msgstr "未知的地址"
 
 #: /var/www/html/apps/weather_status/lib/Service/WeatherStatusService.php:275
 msgid "No result."
-msgstr "無結果"
+msgstr "無結果。"
 
 #: /var/www/html/apps/weather_status/lib/Service/WeatherStatusService.php:335
 msgid "Malformed JSON data."
@@ -70,7 +72,7 @@ msgstr "我的最愛"
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:8
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:12
 msgid "{temperature} {unit} clear sky later today"
-msgstr "{temperature} {unit} 今日稍後晴朗"
+msgstr "{temperature} {unit} 今日稍晚晴朗"
 
 #. TRANSLATORS src/App.vue:103
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:10
@@ -81,7 +83,7 @@ msgstr "{temperature} {unit} 晴朗"
 #. TRANSLATORS src/App.vue:114
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:16
 msgid "{temperature} {unit} cloudy later today"
-msgstr "{temperature} {unit} 今日稍後多雲"
+msgstr "{temperature} {unit} 今日稍晚多雲"
 
 #. TRANSLATORS src/App.vue:115
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:18
@@ -92,7 +94,7 @@ msgstr "{temperature} {unit} 多雲"
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:20
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:24
 msgid "{temperature} {unit} fair weather later today"
-msgstr "{temperature} {unit} 今日稍後好天氣"
+msgstr "{temperature} {unit} 今日稍晚好天氣"
 
 #. TRANSLATORS src/App.vue:121
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:22
@@ -104,18 +106,18 @@ msgstr "{temperature} {unit} 好天氣"
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:28
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:32
 msgid "{temperature} {unit} partly cloudy later today"
-msgstr "{temperature} {unit} 今日稍後局部多雲"
+msgstr "{temperature} {unit} 今日稍晚多雲"
 
 #. TRANSLATORS src/App.vue:133
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:30
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:34
 msgid "{temperature} {unit} partly cloudy"
-msgstr "{temperature} {unit} 局部多雲"
+msgstr "{temperature} {unit} 多雲"
 
 #. TRANSLATORS src/App.vue:144
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:36
 msgid "{temperature} {unit} foggy later today"
-msgstr "{temperature} {unit} 今日稍後有霧"
+msgstr "{temperature} {unit} 今日稍晚有霧"
 
 #. TRANSLATORS src/App.vue:145
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:38
@@ -125,7 +127,7 @@ msgstr "{temperature} {unit} 有霧"
 #. TRANSLATORS src/App.vue:150
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:40
 msgid "{temperature} {unit} light rainfall later today"
-msgstr "{temperature} {unit} 今日稍後小雨"
+msgstr "{temperature} {unit} 今日稍晚小雨"
 
 #. TRANSLATORS src/App.vue:151
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:42
@@ -135,7 +137,7 @@ msgstr "{temperature} {unit} 小雨"
 #. TRANSLATORS src/App.vue:156
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:44
 msgid "{temperature} {unit} rainfall later today"
-msgstr "{temperature} {unit} 今日稍後有雨"
+msgstr "{temperature} {unit} 今日稍晚有雨"
 
 #. TRANSLATORS src/App.vue:157
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:46
@@ -145,7 +147,7 @@ msgstr "{temperature} {unit} 有雨"
 #. TRANSLATORS src/App.vue:162
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:48
 msgid "{temperature} {unit} heavy rainfall later today"
-msgstr "{temperature} {unit} 今日稍後大雨"
+msgstr "{temperature} {unit} 今日稍晚大雨"
 
 #. TRANSLATORS src/App.vue:163
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:50
@@ -156,7 +158,7 @@ msgstr "{temperature} {unit} 大雨"
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:52
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:56
 msgid "{temperature} {unit} rainfall showers later today"
-msgstr "{temperature} {unit} 今日稍後陣雨"
+msgstr "{temperature} {unit} 今日稍晚陣雨"
 
 #. TRANSLATORS src/App.vue:169
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:54
@@ -168,7 +170,7 @@ msgstr "{temperature} {unit} 陣雨"
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:60
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:64
 msgid "{temperature} {unit} light rainfall showers later today"
-msgstr "{temperature} {unit} 今日稍後小陣雨"
+msgstr "{temperature} {unit} 今日稍晚小陣雨"
 
 #. TRANSLATORS src/App.vue:181
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:62
@@ -180,7 +182,7 @@ msgstr "{temperature} {unit} 小陣雨"
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:68
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:72
 msgid "{temperature} {unit} heavy rainfall showers later today"
-msgstr "{temperature} {unit} 今日稍後強陣雨"
+msgstr "{temperature} {unit} 今日稍晚強陣雨"
 
 #. TRANSLATORS src/App.vue:193
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:70
@@ -216,7 +218,7 @@ msgstr "新增為最愛"
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:102
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:106
 msgid "You are not logged in."
-msgstr "您未登入"
+msgstr "您未登入。"
 
 #. TRANSLATORS src/App.vue:329
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:88
