@@ -3,19 +3,21 @@
 # This file is distributed under the same license as the Nextcloud package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2024-01-19 05:52+0000\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
+"nextcloud-server/workflowengine/zh_Hant/>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #: /var/www/html/apps/workflowengine/lib/Check/AbstractStringCheck.php:89
 #: /var/www/html/apps/workflowengine/lib/Check/FileSize.php:84
@@ -263,7 +265,7 @@ msgstr "圖片"
 #. TRANSLATORS src/components/Checks/FileMimeType.vue:87
 #: /var/www/html/apps/workflowengine/specialVueFakeDummyForL10nScript.js:16
 msgid "Office documents"
-msgstr "辦公室文件"
+msgstr "Office 文件"
 
 #. TRANSLATORS src/components/Checks/FileMimeType.vue:92
 #: /var/www/html/apps/workflowengine/specialVueFakeDummyForL10nScript.js:18
@@ -330,7 +332,7 @@ msgstr "Thunderbird 與 Outlook 附加元件"
 #: /var/www/html/apps/workflowengine/specialVueFakeDummyForL10nScript.js:44
 #: /var/www/html/apps/workflowengine/specialVueFakeDummyForL10nScript.js:46
 msgid "Custom user agent"
-msgstr "自訂使用者字串"
+msgstr "自訂使用者代理字串"
 
 #. TRANSLATORS src/components/Event.vue:58
 #: /var/www/html/apps/workflowengine/specialVueFakeDummyForL10nScript.js:48
@@ -480,7 +482,7 @@ msgstr "檔案大小（上傳）"
 
 #: /var/www/html/apps/workflowengine/src/components/Checks/file.js:62
 msgid "less"
-msgstr "更少"
+msgstr "小於"
 
 #: /var/www/html/apps/workflowengine/src/components/Checks/file.js:63
 msgid "less or equals"
@@ -492,7 +494,7 @@ msgstr "大於或等於"
 
 #: /var/www/html/apps/workflowengine/src/components/Checks/file.js:65
 msgid "greater"
-msgstr "更大"
+msgstr "大於"
 
 #: /var/www/html/apps/workflowengine/src/components/Checks/file.js:73
 msgid "Request remote address"
