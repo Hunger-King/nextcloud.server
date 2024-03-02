@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-01-17 14:09+0000\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"PO-Revision-Date: 2024-03-03 08:52+0000\n"
+"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/settings/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -2674,7 +2674,7 @@ msgstr "設定預設語言"
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:592
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:638
 msgid "Manager"
-msgstr "管理者"
+msgstr "管理員"
 
 #. TRANSLATORS src/components/Users/NewUserModal.vue:169
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:594
@@ -2686,7 +2686,7 @@ msgstr "新增使用者"
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:596
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:678
 msgid "Set user manager"
-msgstr "設定使用者管理者"
+msgstr "設定使用者管理員"
 
 #. TRANSLATORS src/components/Users/NewUserModal.vue:229
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:598
@@ -3085,7 +3085,7 @@ msgstr "活躍使用者"
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:828
 #: /var/www/html/apps/settings/src/router.js:71
 msgid "Admins"
-msgstr "管理者"
+msgstr "管理員"
 
 #. TRANSLATORS src/views/Users.vue:71
 #. TRANSLATORS src/views/Users.vue:221
@@ -3302,7 +3302,8 @@ msgstr "錯誤：此應用程序無法啟用，因為它造成伺服器不穩定
 msgid ""
 "There were too many requests from your network. Retry later or contact your "
 "administrator if this is an error."
-msgstr "有太多請求來自你的網路，請稍後再試，若你認為這不該發生，請回報系統管理員這項錯誤。"
+msgstr "有太多請求來自您的網路，請稍後再試，若您認為這不該發生，請回報系統管理員這項"
+"錯誤。"
 
 #: /var/www/html/apps/settings/templates/help.php:37
 msgid "Documentation"
