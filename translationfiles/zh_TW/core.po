@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-01-12 14:08+0000\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"PO-Revision-Date: 2024-03-03 08:52+0000\n"
+"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/core/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -352,7 +352,7 @@ msgstr "已完成程式碼完整性檢查"
 #: /var/www/html/core/ajax/update.php:200
 #, php-format
 msgid "%s (incompatible)"
-msgstr "%s （不相容）"
+msgstr "%s（不相容）"
 
 #: /var/www/html/core/ajax/update.php:204
 #, php-format
@@ -361,7 +361,7 @@ msgstr "以下應用程式已經被停用：%s"
 
 #: /var/www/html/core/ajax/update.php:207
 msgid "Already up to date"
-msgstr "此版本為最新版本"
+msgstr "已是最新版本"
 
 #: /var/www/html/core/js/setupchecks.js:29
 msgid ""
@@ -373,7 +373,8 @@ msgstr "WebDAV 介面似乎為故障狀態，導致您的網頁伺服器無法�
 msgid ""
 "Your web server is not properly set up to resolve \"{url}\". Further "
 "information can be found in the {linkstart}documentation ↗{linkend}."
-msgstr "您的網頁伺服器設定不正確，因此無法解析「{url}」。更多資訊可在{linkstart}文件 ↗{linkend}中找到。"
+msgstr "您的網頁伺服器設定不正確，因此無法解析「{url}」。更多資訊可在 {linkstart} "
+"文件 ↗{linkend} 中找到。"
 
 #: /var/www/html/core/js/setupchecks.js:121
 msgid ""
@@ -386,8 +387,8 @@ msgid ""
 "an update."
 msgstr ""
 "您的伺服器並未正確的設定解析「{url}」。這可能與伺服器的設定未更新為直接傳送此"
-"資料夾有關。請檢查 Apache 的「.htaccess」檔案，或在 Nginx 中的{linkstart}"
-"文件頁面 ↗{linkend}中查閱重寫規則。在 Nginx 環境中，通常是在由「location "
+"資料夾有關。請檢查 Apache 的「.htaccess」檔案，或在 Nginx 中的 {linkstart} "
+"文件頁面 ↗{linkend} 中查閱重寫規則。在 Nginx 環境中，通常是在由「location "
 "~」開始的那行需要調整。"
 
 #: /var/www/html/core/js/setupchecks.js:155
@@ -400,8 +401,8 @@ msgid ""
 msgstr ""
 "您的伺服器並未正確的設定，因此無法傳遞 .woff2 的檔案。這通常是因為 Nginx "
 "的設定問題所導致。在 Nextcloud 15 中，需要一些調整才能一並傳遞 .woff2 "
-"的檔案。請檢查您的 Nginx 設定，和 Nextcloud {linkstart}說明文件 "
-"↗{linkend}中提到的建議設定。"
+"的檔案。請檢查您的 Nginx 設定，和 Nextcloud {linkstart} 說明文件 ↗{linkend} "
+"中提到的建議設定。"
 
 #: /var/www/html/core/js/setupchecks.js:185
 msgid ""
@@ -429,7 +430,9 @@ msgid ""
 "Last background job execution ran {relativeTime}. Something seems wrong. "
 "{linkstart}Check the background job settings ↗{linkend}."
 msgstr ""
-"上次背景工作是於 {relativeTime} 前執行，似乎很久沒有執行了，有點問題。{linkstart}請檢查背景工作設定 ↗{linkend}。"
+"上次背景工作是於 {relativeTime} "
+"前執行，似乎很久沒有執行了，有點問題。{linkstart} 請檢查背景工作設定 "
+"↗{linkend}。"
 
 #: /var/www/html/core/js/setupchecks.js:213
 msgid ""
@@ -451,7 +454,7 @@ msgid ""
 msgstr ""
 "Memcached 設定為分散式快取，但是安裝了錯誤的 PHP 模組「memcache」。\\OC"
 "\\Memcache\\Memcached 僅支援「memcached」而非「memcache」。請參閱 {linkstart}"
-"memcached wiki了解兩種模組的資訊 ↗{linkend}。"
+"memcached wiki 了解兩種模組的資訊 ↗{linkend}。"
 
 #: /var/www/html/core/js/setupchecks.js:235
 msgid ""
@@ -460,14 +463,16 @@ msgid ""
 "↗{linkend}. ({linkstart2}List of invalid files…{linkend} / "
 "{linkstart3}Rescan…{linkend})"
 msgstr ""
-"部份檔案未通過完整性檢查。更多關於如何解決此問題的資訊可在{linkstart1}文件 "
-"↗{linkend}中找到。（{linkstart2}無效檔案列表……{linkend} / {linkstart3}重新掃描……{linkend}）"
+"部份檔案未通過完整性檢查。更多關於如何解決此問題的資訊可在 {linkstart1} 文件 "
+"↗{linkend} 中找到。（{linkstart2} 無效檔案列表……{linkend} / "
+"{linkstart3}重新掃描……{linkend}）"
 
 #: /var/www/html/core/js/setupchecks.js:249
 msgid ""
 "The PHP OPcache module is not properly configured. See the "
 "{linkstart}documentation ↗{linkend} for more information."
-msgstr "PHP OPcache 模組設定不正確。請檢視{linkstart}說明文件 ↗{linkend}以取得更多資訊。"
+msgstr "PHP OPcache 模組設定不正確。請檢視{linkstart}說明文件 ↗{linkend} "
+"以取得更多資訊。"
 
 #: /var/www/html/core/js/setupchecks.js:257
 msgid ""
@@ -508,7 +513,8 @@ msgstr ""
 "資料庫的有些欄位缺少 big int "
 "格式轉換。因為欄位格式轉換需要一些時間，所以沒有自動轉換。您可以執行「occ db"
 ":convert-filecache-bigint」手動完成轉換，轉換時 Nextcloud "
-"服務必須處於離線狀態。詳情請參閱{linkstart}關於此問題的文件頁面 ↗{linkend}。"
+"服務必須處於離線狀態。詳情請參閱 {linkstart} 關於此問題的文件頁面 "
+"↗{linkend}。"
 
 #: /var/www/html/core/js/setupchecks.js:299
 msgid ""
@@ -527,8 +533,8 @@ msgid ""
 "To migrate to another database use the command line tool: \"occ db:convert-"
 "type\", or see the {linkstart}documentation ↗{linkend}."
 msgstr ""
-"若要轉移至另一個資料庫，請使用命令列工具：「occ db:convert-"
-"type」，或是查閱{linkstart}文件 ↗{linkend}。"
+"若要轉移至另一個資料庫，請使用命令列工具：「occ db:convert-type」，或是查閱 "
+"{linkstart} 文件 ↗{linkend}。"
 
 #: /var/www/html/core/js/setupchecks.js:315
 msgid ""
@@ -577,7 +583,7 @@ msgid ""
 "↗{linkend}."
 msgstr ""
 "你經由安全的連線存取系統，但系統卻生成了不安全的 URL。這很有可能是因為你使用"
-"了反向代理伺服器，但反向代理伺服器的改寫規則並未正常運作，請閱讀{linkstart}"
+"了反向代理伺服器，但反向代理伺服器的改寫規則並未正常運作，請閱讀 {linkstart} "
 "關於此問題的文件頁面 ↗{linkend}。"
 
 #: /var/www/html/core/js/setupchecks.js:352
@@ -594,7 +600,7 @@ msgstr "檢查伺服器設定時發生錯誤"
 
 #: /var/www/html/core/js/setupchecks.js:395
 msgid "For more details see the {linkstart}documentation ↗{linkend}."
-msgstr "更多詳細資訊請見{linkstart}文件 ↗{linkend}。"
+msgstr "更多詳細資訊請見 {linkstart} 文件 ↗{linkend}。"
 
 #: /var/www/html/core/js/setupchecks.js:453
 msgid ""
@@ -637,7 +643,7 @@ msgid ""
 " the {linkstart}W3C Recommendation ↗{linkend}."
 msgstr ""
 "目前 HTTP 的「{header}」標頭設定並不是「{val1}」、「{val2}」、「{val3}」、「{"
-"val4}」或「{val5}」，這將會洩漏一些資訊。{linkstart}請參考 W3C 建議文件 "
+"val4}」或「{val5}」，這將會洩漏一些資訊。{linkstart} 請參考 W3C 建議文件 "
 "↗{linkend}。"
 
 #: /var/www/html/core/js/setupchecks.js:564
@@ -646,8 +652,9 @@ msgid ""
 "\"{seconds}\" seconds. For enhanced security, it is recommended to enable "
 "HSTS as described in the {linkstart}security tips ↗{linkend}."
 msgstr ""
-"HTTP「Strict-Transport-Security」標頭並未被設定持續至少{seconds}秒。為了強化"
-"安全性，我們在{linkstart}安全建議 ↗{linkend}中有詳述並建議啟用 HSTS。"
+"HTTP「Strict-Transport-Security」標頭並未被設定持續至少 {seconds} "
+"秒。為了強化安全性，我們在 {linkstart} 安全建議 ↗{linkend} "
+"中有詳述並建議啟用 HSTS。"
 
 #: /var/www/html/core/js/setupchecks.js:572
 msgid ""
@@ -656,8 +663,9 @@ msgid ""
 "tips ↗{linkend}. Without it some important web functionality like \"copy to "
 "clipboard\" or \"service workers\" will not work!"
 msgstr ""
-"您正在透過不安全的 HTTP 存取網站，強烈建議您設定您的伺服器啟用 HTTPS，更多資訊請查閱{linkstart}安全建議 "
-"↗{linkend}。若不將伺服器設定為以 HTTPS 運作，部份重要的網站功能，如「複製到剪貼簿」或「Service Worker」將無法運作！"
+"您正在透過不安全的 HTTP 存取網站，強烈建議您設定您的伺服器啟用 HTTPS，"
+"更多資訊請查閱 {linkstart} 安全建議 ↗{linkend}。若不將伺服器設定為以 HTTPS "
+"運作，部份重要的網站功能，如「複製到剪貼簿」或「Service Worker」將無法運作！"
 
 #: /var/www/html/core/js/tests/specs/l10nSpec.js:33
 #: /var/www/html/core/js/tests/specs/l10nSpec.js:36
@@ -973,7 +981,7 @@ msgstr "由於您已啟用檔案加密，重設密碼後，您的資料將無法
 #. TRANSLATORS src/components/login/UpdatePassword.vue:48
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:84
 msgid "I know what I'm doing"
-msgstr "我知道我在幹嘛"
+msgstr "我知道我在做什麼"
 
 #. TRANSLATORS src/components/login/UpdatePassword.vue:54
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:88
@@ -988,7 +996,7 @@ msgstr "推薦的應用程式"
 #. TRANSLATORS src/components/setup/RecommendedApps.vue:26
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:94
 msgid "Loading apps …"
-msgstr "正在載入應用程式…"
+msgstr "正在載入應用程式……"
 
 #. TRANSLATORS src/components/setup/RecommendedApps.vue:29
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:96
@@ -1040,7 +1048,7 @@ msgstr "將您的同事和朋友放在同一處，且不洩漏他們的個人資
 #. TRANSLATORS src/components/setup/RecommendedApps.vue:96
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:114
 msgid "Simple email app nicely integrated with Files, Contacts and Calendar."
-msgstr "簡潔的電子郵件應用程式，與檔案瀏覽器、通訊錄、行事曆完美整合"
+msgstr "簡潔的電子郵件應用程式，與檔案瀏覽器、通訊錄、行事曆完美整合。"
 
 #. TRANSLATORS src/components/setup/RecommendedApps.vue:100
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:116
@@ -1186,7 +1194,7 @@ msgstr "載入更多結果"
 #. TRANSLATORS src/views/GlobalSearchModal.vue:111
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:172
 msgid "Search in"
-msgstr "搜尋"
+msgstr "搜尋於"
 
 #. TRANSLATORS src/views/GlobalSearchModal.vue:121
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:174
@@ -1212,8 +1220,8 @@ msgid ""
 "Between ${this.dateFilter.startFrom.toLocaleDateString()} and "
 "${this.dateFilter.endAt.toLocaleDateString()}"
 msgstr ""
-"介於 ${this.dateFilter.startFrom.toLocaleDateString()} 到 "
-"${this.dateFilter.endAt.toLocaleDateString()} 間"
+"介於 ${this.dateFilter.startFrom.toLocaleDateString()} 和 ${this.dateFilter."
+"endAt.toLocaleDateString()}"
 
 #. TRANSLATORS src/views/Login.vue:40
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:190
@@ -1428,7 +1436,7 @@ msgstr "您要保留哪一個檔案？"
 msgid ""
 "If you select both versions, the copied file will have a number added to its"
 " name."
-msgstr "如果您同時選擇兩個版本，複製的那個檔案名稱後面會加上編號。"
+msgstr "如果您同時選擇兩個版本，複製的檔案名稱後面會加上編號。"
 
 #: /var/www/html/core/src/OC/dialogs.js:726
 msgid "Cancel"
@@ -1552,11 +1560,11 @@ msgstr "不存在的標籤 #{tag}"
 
 #: /var/www/html/core/src/systemtags/systemtags.js:59
 msgid "Restricted"
-msgstr "受限"
+msgstr "受限的"
 
 #: /var/www/html/core/src/systemtags/systemtags.js:63
 msgid "Invisible"
-msgstr "隱藏"
+msgstr "隱藏的"
 
 #: /var/www/html/core/src/systemtags/systemtagsinputfield.js:131
 msgid "Delete"
@@ -1631,7 +1639,8 @@ msgstr "太多請求"
 msgid ""
 "There were too many requests from your network. Retry later or contact your "
 "administrator if this is an error."
-msgstr "有太多請求來自你的網路，請稍後再試，若你認為這不該發生，請回報系統管理員這項錯誤。"
+msgstr "有太多請求來自您的網路，請稍後再試，若您認為這不該發生，請回報系統管理員這項"
+"錯誤。"
 
 #: /var/www/html/core/templates/error.php:2
 #: /var/www/html/core/templates/installation.php:12
@@ -1728,7 +1737,7 @@ msgstr ""
 
 #: /var/www/html/core/templates/installation.php:36
 msgid "Create an <strong>admin account</strong>"
-msgstr "建立<strong>管理者帳號</strong>"
+msgstr "建立<strong>管理員帳號</strong>"
 
 #: /var/www/html/core/templates/installation.php:38
 #: /var/www/html/core/templates/loginflow/authpicker.php:56
@@ -1855,8 +1864,9 @@ msgstr "無法從您的 config 目錄中移除 CAN_INSTALL 檔案。請手動移
 msgid ""
 "This application requires JavaScript for correct operation. Please "
 "{linkstart}enable JavaScript{linkend} and reload the page."
-msgstr "此應用程式需要 JavaScript 才能正常運作。請{linkstart}啟用 JavaScript{linkend}"
-" 然後重新載入頁面。"
+msgstr ""
+"此應用程式需要 JavaScript 才能正常運作。請 {linkstart} 啟用 "
+"JavaScript{linkend} 然後重新載入頁面。"
 
 #: /var/www/html/core/templates/layout.public.php:35
 #: /var/www/html/core/templates/layout.user.php:55
@@ -1954,7 +1964,7 @@ msgstr "客戶端應該已完成連線！"
 
 #: /var/www/html/core/templates/loginflowv2/done.php:34
 msgid "You can close this window."
-msgstr "可以關閉此視窗。"
+msgstr "您可以關閉此視窗。"
 
 #: /var/www/html/core/templates/publicshareauth.php:18
 msgid "This share is password-protected"
@@ -2053,7 +2063,7 @@ msgid ""
 "\"trusted_domains\" setting in config/config.php like the example in "
 "config.sample.php."
 msgstr ""
-"請聯絡您的管理員。如果您就是管理員，請模仿 config.sample.php 範例編輯 config/"
+"請聯絡您的管理員。如果您就是管理員，請參考 config.sample.php 範例編輯 config/"
 "config.php 的「trusted_domains」設定。"
 
 #: /var/www/html/core/templates/untrustedDomain.php:11
@@ -2120,7 +2130,9 @@ msgstr "因為您有超過 50 名使用者，服務規模較大，請透過命�
 msgid ""
 "For help, see the  <a target=\"_blank\" rel=\"noreferrer noopener\" "
 "href=\"%s\">documentation</a>."
-msgstr "若需要協助，請參閱<a target=\"_blank\" rel=\"noreferrer noopener\" href=\"%s\">說明文件</a>"
+msgstr ""
+"若需要協助，請參閱<a target=\"_blank\" rel=\"noreferrer noopener\" href=\"%"
+"s\">說明文件</a>。"
 
 #: /var/www/html/core/templates/update.use-cli.php:21
 msgid ""
@@ -2131,7 +2143,7 @@ msgstr "若我繼續透過網頁介面更新，我已了解有其風險，若請
 
 #: /var/www/html/core/templates/update.use-cli.php:22
 msgid "Upgrade via web on my own risk"
-msgstr "願意承擔風險透過網頁更新"
+msgstr "願意承擔透過網頁更新的風險"
 
 #: /var/www/html/core/templates/update.user.php:3
 msgid "Maintenance mode"
