@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-01-17 14:09+0000\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"PO-Revision-Date: 2024-03-03 08:52+0000\n"
+"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/systemtags/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -289,12 +289,12 @@ msgstr "公開"
 #. TRANSLATORS src/components/SystemTagForm.vue:131
 #: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:26
 msgid "Restricted"
-msgstr "受限"
+msgstr "受限的"
 
 #. TRANSLATORS src/components/SystemTagForm.vue:135
 #: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:28
 msgid "Invisible"
-msgstr "隱藏"
+msgstr "隱藏的"
 
 #. TRANSLATORS src/components/SystemTagForm.vue:255
 #: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:30
