@@ -3,19 +3,21 @@
 # This file is distributed under the same license as the Nextcloud package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:16+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2024-03-06 01:52+0000\n"
+"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
+"nextcloud-server/dashboard/zh_Hant/>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #: /var/www/html/apps/dashboard/specialAppInfoFakeDummyForL10nScript.php:2
 msgid "Dashboard"
@@ -31,9 +33,11 @@ msgid ""
 "\n"
 "The Nextcloud Dashboard is your starting point of the day, giving you an overview of your upcoming appointments, urgent emails, chat messages, incoming tickets, latest tweets and much more! Users can add the widgets they like and change the background to their liking."
 msgstr ""
-"開始您新的一天\n"
+"開始每日資訊縱覽\n"
 "\n"
-"Nextcloud 儀表板是您一天的起點，為您提供您即將到來的約會概覽、緊急電子郵件、聊天訊息、到來的工單、最新的推文以及更多！使用者可以新增他們喜愛的小工具與變更他們喜愛的背景。"
+"Nextcloud 儀表板是您一天的起點，為您提供您即將到來的行程概覽、緊急電子郵件、"
+"聊天訊息、到來的工單、最新的推文以及更多！使用者可以新增他們喜愛的小工具與變"
+"更他們喜愛的背景。"
 
 #. TRANSLATORS src/DashboardApp.vue:30
 #: /var/www/html/apps/dashboard/specialVueFakeDummyForL10nScript.js:2
