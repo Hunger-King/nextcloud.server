@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:19+0000\n"
-"PO-Revision-Date: 2024-01-17 14:09+0000\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"PO-Revision-Date: 2024-03-06 01:52+0000\n"
+"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/lib/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -653,7 +653,7 @@ msgstr "無法建立或寫入資料目錄 %s"
 #: /var/www/html/lib/private/Share/Share.php:269
 #, php-format
 msgid "Sharing backend %s must implement the interface OCP\\Share_Backend"
-msgstr "分享後端 %s 必須實作 OCP\\Share_Backend 界面"
+msgstr "分享後端 %s 必須實作 OCP\\Share_Backend 介面"
 
 #: /var/www/html/lib/private/Share/Share.php:276
 #, php-format
@@ -695,7 +695,7 @@ msgstr "%1$s 由 %2$s"
 #: /var/www/html/lib/private/Share20/Manager.php:285
 #, php-format
 msgid "You are not allowed to share %s"
-msgstr "你不被允許分享 %s"
+msgstr "您不被允許分享 %s"
 
 #: /var/www/html/lib/private/Share20/Manager.php:344
 #, php-format
@@ -1139,7 +1139,7 @@ msgstr "這可能是由快取或加速程式（如 Zend OPcache 或 eAccelerator
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:704
 msgid "PHP modules have been installed, but they are still listed as missing?"
-msgstr "你已經安裝了指定的 PHP 模組，可是還是顯示為找不到嗎？"
+msgstr "您已經安裝了指定的 PHP 模組，可是還是顯示為找不到嗎？"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:705
 msgid "Please ask your server administrator to restart the web server."
