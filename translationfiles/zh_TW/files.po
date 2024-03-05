@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:19+0000\n"
-"PO-Revision-Date: 2024-01-16 13:09+0000\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"PO-Revision-Date: 2024-03-06 01:52+0000\n"
+"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/files/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -102,7 +102,7 @@ msgstr "因為 {filename} 是個目錄或是大小為零，所以無法上傳"
 #: /var/www/html/apps/files/js/file-upload.js:1065
 msgid ""
 "Not enough free space, you are uploading {size1} but only {size2} is left"
-msgstr "可用空間不足，你正要上傳 {size1} 可是只剩下 {size2}"
+msgstr "可用空間不足，您正要上傳 {size1} 可是只剩下 {size2}"
 
 #: /var/www/html/apps/files/js/file-upload.js:1141
 msgid "Target folder \"{dir}\" does not exist any more"
@@ -358,7 +358,7 @@ msgstr "在其他資料夾中沒有找到 {tag}{filter}{endtag}"
 
 #: /var/www/html/apps/files/js/filelist.js:3426
 msgid "Enter more than two characters to search in other folders"
-msgstr "輸入兩個字元以上以便在其他資料夾搜尋"
+msgstr "輸入兩個字元以上 ，以便在其他資料夾搜尋"
 
 #. TRANSLATORS src/components/FilesListTableHeader.vue:42
 #: /var/www/html/apps/files/js/filelist.js:3458
@@ -660,7 +660,7 @@ msgstr "{user} 建立了 {file}"
 
 #: /var/www/html/apps/files/lib/Activity/Provider.php:194
 msgid "{user} created an encrypted file in {file}"
-msgstr "{user} 在 {file} 裡建立了一個加密的檔案"
+msgstr "{user} 在 {file} 裡建立了一個加密檔案"
 
 #: /var/www/html/apps/files/lib/Activity/Provider.php:198
 msgid "{file} was created in a public folder"
@@ -917,7 +917,7 @@ msgstr "已將「{oldName}」重新命名為「{newName}」"
 #. TRANSLATORS src/components/FileEntry/FileEntryName.vue:314
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:50
 msgid "Could not rename \"{oldName}\", it does not exist any more"
-msgstr "無法命名檔案「{oldName}」，因為此檔案已經不存在"
+msgstr "無法命名檔案「{oldName}」，此檔案已經不存在"
 
 #. TRANSLATORS src/components/FileEntry/FileEntryName.vue:317
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:52
@@ -970,7 +970,7 @@ msgstr "檔案與資料夾清單。"
 #. TRANSLATORS src/components/FilesListVirtual.vue:185
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:90
 msgid "Column headers with buttons are sortable."
-msgstr "帶有按鈕的欄位標題是可排序的。"
+msgstr "帶有按鈕的欄位標題為可排序。"
 
 #. TRANSLATORS src/components/FilesListVirtual.vue:186
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:92
@@ -1433,7 +1433,7 @@ msgstr "此資料夾中沒有任何項目"
 
 #: /var/www/html/apps/files/templates/list.php:76
 msgid "Upload too large"
-msgstr "上傳過大"
+msgstr "上傳檔案過大"
 
 #: /var/www/html/apps/files/templates/list.php:78
 msgid ""
