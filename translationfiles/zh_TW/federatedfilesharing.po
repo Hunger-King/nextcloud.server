@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-01-16 13:08+0000\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"PO-Revision-Date: 2024-03-06 01:52+0000\n"
+"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/federatedfilesharing/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -67,7 +67,7 @@ msgstr "已傳送聯盟式分享請求，您將會收到邀請。請檢查您的
 msgid ""
 "Couldn't establish a federated share, it looks like the server to federate "
 "with is too old (Nextcloud <= 9)."
-msgstr "無法建立聯盟式分享，看來是要聯盟的伺服器太舊了 (Nextcloud <= 9)。"
+msgstr "無法建立聯盟式分享，看來是聯盟的伺服器太舊了（Nextcloud <= 9）。"
 
 #: /var/www/html/apps/federatedfilesharing/lib/FederatedShareProvider.php:123
 msgid "It is not allowed to send federated group shares from this server."
@@ -165,7 +165,7 @@ msgstr "允許此伺服器上的使用者接收來自其他伺服器的分享"
 #. TRANSLATORS src/components/AdminSettings.vue:43
 #: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:10
 msgid "Allow users on this server to send shares to groups on other servers"
-msgstr "允許此伺服器上的使用者傳送分享在其他伺服器上的群組"
+msgstr "允許此伺服器上的使用者傳送分享到其他伺服器上的群組"
 
 #. TRANSLATORS src/components/AdminSettings.vue:50
 #: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:12
@@ -199,8 +199,9 @@ msgid ""
 "Mesh (OCM) compatible servers and services! Just put their Federated Cloud "
 "ID in the share dialog. It looks like person@cloud.example.com"
 msgstr ""
-"您可以與任何使用 Nextcloud 伺服器或其他相容於 Open Cloud Mesh (OCM) 的伺服器與服務分享！只要把他們的雲端聯盟 ID "
-"放在分享對話框中。看起來會像是 person@cloud.example.com"
+"您可以與任何使用 Nextcloud 伺服器或其他相容於 Open Cloud "
+"Mesh（OCM）的伺服器與服務分享！只要把他們的雲端聯盟 ID 放在分享對話框中。"
+"看起來會像是 person@cloud.example.com"
 
 #. TRANSLATORS src/components/PersonalSettings.vue:24
 #: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:24
