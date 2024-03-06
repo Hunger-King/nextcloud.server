@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:19+0000\n"
-"PO-Revision-Date: 2024-03-06 01:52+0000\n"
+"PO-Revision-Date: 2024-03-07 02:52+0000\n"
 "Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/lib/zh_Hant/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: /var/www/html/lib/base.php:258 /var/www/html/lib/base.php:266
 msgid "Cannot write into \"config\" directory!"
-msgstr "無法寫入 \"config\" 目錄！"
+msgstr "無法寫入「config」 目錄！"
 
 #: /var/www/html/lib/base.php:259 /var/www/html/lib/base.php:267
 msgid ""
@@ -33,7 +33,8 @@ msgstr "允許網頁伺服器寫入 config 目錄通常可以解決這個問題�
 msgid ""
 "But, if you prefer to keep config.php file read only, set the option "
 "\"config_is_read_only\" to true in it."
-msgstr "但如果您比較希望保留 config.php 的唯讀狀態，請在該設定檔中將 \"config_is_read_only\" 設定為 true。"
+msgstr "但如果您比較希望保留 config.php "
+"的唯讀狀態，請在該設定檔中將「config_is_read_only」設定為 true。"
 
 #: /var/www/html/lib/base.php:262 /var/www/html/lib/base.php:269
 #, php-format
@@ -195,7 +196,7 @@ msgstr "需要伺服器版本 %s 或更低。"
 msgid ""
 "Logged in user must be an admin, a sub admin or gotten special right to "
 "access this setting"
-msgstr "登入使用者必須為管理員、子管理員或有可存取此設定的特殊權限的使用者"
+msgstr "登入使用者必須為管理員、子管理員或有可存取此設定的特殊權限使用者"
 
 #: /var/www/html/lib/private/AppFramework/Middleware/Security/SecurityMiddleware.php:190
 msgid "Logged in user must be an admin or sub admin"
@@ -254,7 +255,7 @@ msgstr "遠端抹除已開始"
 #: /var/www/html/lib/private/Authentication/Notifications/Notifier.php:59
 #, php-format
 msgid "A remote wipe was started on device %s"
-msgstr "遠端抹除已經在裝置 %s 開始"
+msgstr "遠端抹除已在裝置 %s 開始"
 
 #: /var/www/html/lib/private/Authentication/Notifications/Notifier.php:65
 msgid "Remote wipe finished"
@@ -263,7 +264,7 @@ msgstr "遠端抹除已完成"
 #: /var/www/html/lib/private/Authentication/Notifications/Notifier.php:67
 #, php-format
 msgid "The remote wipe on %s has finished"
-msgstr "%s 的遠端抹除已經完成"
+msgstr "%s 的遠端抹除已完成"
 
 #: /var/www/html/lib/private/Authentication/Notifications/Notifier.php:94
 msgid "Authentication"
@@ -311,12 +312,12 @@ msgstr "昨天"
 #: /var/www/html/lib/private/DateTimeFormatter.php:170
 msgid "in %n day"
 msgid_plural "in %n days"
-msgstr[0] "在%n天內"
+msgstr[0] "在 %n 天內"
 
 #: /var/www/html/lib/private/DateTimeFormatter.php:172
 msgid "%n day ago"
 msgid_plural "%n days ago"
-msgstr[0] "%n天前"
+msgstr[0] "%n 天前"
 
 #: /var/www/html/lib/private/DateTimeFormatter.php:176
 msgid "next month"
@@ -329,12 +330,12 @@ msgstr "上個月"
 #: /var/www/html/lib/private/DateTimeFormatter.php:182
 msgid "in %n month"
 msgid_plural "in %n months"
-msgstr[0] "在%n個月內"
+msgstr[0] "在 %n 個月內"
 
 #: /var/www/html/lib/private/DateTimeFormatter.php:184
 msgid "%n month ago"
 msgid_plural "%n months ago"
-msgstr[0] "%n個月前"
+msgstr[0] "%n 個月前"
 
 #: /var/www/html/lib/private/DateTimeFormatter.php:188
 msgid "next year"
@@ -347,32 +348,32 @@ msgstr "去年"
 #: /var/www/html/lib/private/DateTimeFormatter.php:194
 msgid "in %n year"
 msgid_plural "in %n years"
-msgstr[0] "在%n年內"
+msgstr[0] "在 %n 年內"
 
 #: /var/www/html/lib/private/DateTimeFormatter.php:196
 msgid "%n year ago"
 msgid_plural "%n years ago"
-msgstr[0] "%n年前"
+msgstr[0] "%n 年前"
 
 #: /var/www/html/lib/private/DateTimeFormatter.php:248
 msgid "in %n hour"
 msgid_plural "in %n hours"
-msgstr[0] "%n小時後"
+msgstr[0] "%n 小時後"
 
 #: /var/www/html/lib/private/DateTimeFormatter.php:250
 msgid "%n hour ago"
 msgid_plural "%n hours ago"
-msgstr[0] "%n小時前"
+msgstr[0] "%n 小時前"
 
 #: /var/www/html/lib/private/DateTimeFormatter.php:254
 msgid "in %n minute"
 msgid_plural "in %n minutes"
-msgstr[0] "在%n分鐘內"
+msgstr[0] "在 %n 分鐘內"
 
 #: /var/www/html/lib/private/DateTimeFormatter.php:256
 msgid "%n minute ago"
 msgid_plural "%n minutes ago"
-msgstr[0] "%n分鐘前"
+msgstr[0] "%n 分鐘前"
 
 #: /var/www/html/lib/private/DateTimeFormatter.php:260
 msgid "in a few seconds"
@@ -432,14 +433,14 @@ msgstr "不允許空白的檔名"
 #: /var/www/html/lib/private/Installer.php:122
 #, php-format
 msgid "App \"%s\" cannot be installed because appinfo file cannot be read."
-msgstr "應用程式 \"%s\" 無法安裝，因為無法讀取 appinfo 檔案。"
+msgstr "應用程式「%s」無法安裝，因為無法讀取 appinfo 檔案。"
 
 #: /var/www/html/lib/private/Installer.php:135
 #, php-format
 msgid ""
 "App \"%s\" cannot be installed because it is not compatible with this "
 "version of the server."
-msgstr "應用程式 \"%s\" 無法安裝，因為該應用程式不相容於目前版本的伺服器。"
+msgstr "應用程式「%s」無法安裝，因為該應用程式不相容於目前版本的伺服器。"
 
 #. TRANSLATORS this is the language name for the language switcher in the
 #. personal settings and should be the localized version
@@ -603,18 +604,18 @@ msgstr "無法建立 Oracle 資料庫連線"
 
 #: /var/www/html/lib/private/Setup/OCI.php:78
 msgid "Oracle username and/or password not valid"
-msgstr "Oracle 使用者名稱或或密碼無效"
+msgstr "Oracle 使用者名稱和/或密碼無效"
 
 #: /var/www/html/lib/private/Setup/PostgreSQL.php:117
 msgid "PostgreSQL username and/or password not valid"
-msgstr "PostgreSQL 使用者名稱或或密碼無效"
+msgstr "PostgreSQL 使用者名稱和/或密碼無效"
 
 #: /var/www/html/lib/private/Setup.php:244
 #, php-format
 msgid ""
 "Mac OS X is not supported and %s will not work properly on this platform. "
 "Use it at your own risk! "
-msgstr "不支援 Mac OS X 而且 %s 在這個平台上面無法正常運作，請自行衡量風險後使用！ "
+msgstr "不支援 Mac OS X 而且 %s 在這個平台上面無法正常運作，請自行衡量風險後使用。 "
 
 #: /var/www/html/lib/private/Setup.php:248
 msgid ""
@@ -719,8 +720,7 @@ msgstr "到期日為過去的日期"
 #: /var/www/html/lib/private/Share20/Manager.php:512
 msgid "Cannot set expiration date more than %n day in the future"
 msgid_plural "Cannot set expiration date more than %n days in the future"
-msgstr[0] "無法設定到期日超過未來%n天"
-msgstr[1] "無法設定到期日超過未來%n天"
+msgstr[0] "無法設定到期日超過未來 %n 天"
 
 #: /var/www/html/lib/private/Share20/Manager.php:552
 msgid "Sharing is only allowed with group members"
@@ -750,7 +750,7 @@ msgstr "點擊下方的按鈕將其打開。"
 #: /var/www/html/lib/private/Share20/Manager.php:1531
 #: /var/www/html/lib/private/Share20/Manager.php:1555
 msgid "The requested share does not exist anymore"
-msgstr "該分享已經不存在"
+msgstr "該分享已不存在"
 
 #: /var/www/html/lib/private/Share20/Manager.php:1562
 msgid "The requested share comes from a disabled user"
@@ -797,59 +797,59 @@ msgstr "週六"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:206
 msgid "Sun."
-msgstr "日"
+msgstr "週日"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:207
 msgid "Mon."
-msgstr "一"
+msgstr "週一"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:208
 msgid "Tue."
-msgstr "二"
+msgstr "週二"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:209
 msgid "Wed."
-msgstr "三"
+msgstr "週三"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:210
 msgid "Thu."
-msgstr "四"
+msgstr "週四"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:211
 msgid "Fri."
-msgstr "五"
+msgstr "週五"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:212
 msgid "Sat."
-msgstr "六"
+msgstr "週六"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:215
 msgid "Su"
-msgstr "日"
+msgstr "週日"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:216
 msgid "Mo"
-msgstr "一"
+msgstr "週一"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:217
 msgid "Tu"
-msgstr "二"
+msgstr "週二"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:218
 msgid "We"
-msgstr "三"
+msgstr "週三"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:219
 msgid "Th"
-msgstr "四"
+msgstr "週四"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:220
 msgid "Fr"
-msgstr "五"
+msgstr "週五"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:221
 msgid "Sa"
-msgstr "六"
+msgstr "週六"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:224
 msgid "January"
@@ -953,7 +953,7 @@ msgstr "須提供有效的密碼"
 
 #: /var/www/html/lib/private/User/Manager.php:459
 msgid "The username is already being used"
-msgstr "這個使用者名稱已經有人使用了"
+msgstr "這個使用者名稱已有人使用"
 
 #: /var/www/html/lib/private/User/Manager.php:467
 msgid "Could not create user"
@@ -963,7 +963,7 @@ msgstr "無法建立使用者"
 msgid ""
 "Only the following characters are allowed in a username: \"a-z\", \"A-Z\", "
 "\"0-9\", spaces and \"_.@-'\""
-msgstr "使用者名稱僅允許以下字元：\"a-z\"、\"A-Z\"、\"0-9\"、空格與 \"_.@-'\""
+msgstr "使用者名稱僅允許以下字元：「a-z」、「A-Z」、「0-9」、空格與「_.@-'」"
 
 #: /var/www/html/lib/private/User/Manager.php:743
 msgid "A valid username must be provided"
@@ -971,7 +971,7 @@ msgstr "必須提供有效的使用者名稱"
 
 #: /var/www/html/lib/private/User/Manager.php:748
 msgid "Username contains whitespace at the beginning or at the end"
-msgstr "使用者名稱名的開頭或結尾有空白"
+msgstr "使用者名稱的開頭或結尾有空白"
 
 #: /var/www/html/lib/private/User/Manager.php:753
 msgid "Username must not consist of dots only"
@@ -979,7 +979,7 @@ msgstr "使用者名稱不能只包含小數點"
 
 #: /var/www/html/lib/private/User/Manager.php:757
 msgid "Username is invalid because files already exist for this user"
-msgstr "使用者名稱無效，因為使用者的檔案已經存在"
+msgstr "使用者名稱無效，因為使用者的檔案已存在"
 
 #: /var/www/html/lib/private/User/Session.php:370
 #: /var/www/html/lib/private/legacy/OC_User.php:181
@@ -1045,7 +1045,7 @@ msgid ""
 "\"config_is_read_only\" to true in it. See %s"
 msgstr ""
 "或者，如果您比較希望保留 config.php 的唯讀狀態，請在該設定檔中將 "
-"\"config_is_read_only\" 設定為 true。請見 %s"
+"「config_is_read_only」設定為 true。請見 %s"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:557
 msgid "Cannot write into \"apps\" directory."
@@ -1066,14 +1066,14 @@ msgstr "無法建立「data」目錄。"
 msgid ""
 "This can usually be fixed by giving the web server write access to the root "
 "directory. See %s"
-msgstr "開放網頁伺服器存取根目錄通常就可以修正這個問題。請見 %s"
+msgstr "開放網頁伺服器存取根目錄通常可以修正這個問題。請見 %s"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:581
 #, php-format
 msgid ""
 "Permissions can usually be fixed by giving the web server write access to "
 "the root directory. See %s."
-msgstr "開放網頁伺服器存取根目錄通常就可以修正權限問題。請見 %s。"
+msgstr "開放網頁伺服器存取根目錄通常可以修正權限問題。請見 %s。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:584
 msgid "Your data directory is not writable."
@@ -1135,11 +1135,11 @@ msgstr "PHP 顯然設定為剪除內嵌文件區塊。這會讓多個核心應�
 msgid ""
 "This is probably caused by a cache/accelerator such as Zend OPcache or "
 "eAccelerator."
-msgstr "這可能是由快取或加速程式（如 Zend OPcache 或 eAccelerator）造成的。"
+msgstr "這可能是快取或加速程式（如 Zend OPcache 或 eAccelerator）所造成。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:704
 msgid "PHP modules have been installed, but they are still listed as missing?"
-msgstr "您已經安裝了指定的 PHP 模組，可是還是顯示為找不到嗎？"
+msgstr "您已安裝指定的 PHP 模組，可是還是顯示為找不到嗎？"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:705
 msgid "Please ask your server administrator to restart the web server."
@@ -1190,7 +1190,7 @@ msgstr "並不支援動作「%s」，或是尚未實作。"
 
 #: /var/www/html/lib/public/Federation/Exceptions/AuthenticationFailedException.php:43
 msgid "Authentication failed, wrong token or provider ID given"
-msgstr "認證失敗，提供了錯誤的 token 或是 provider ID"
+msgstr "認證失敗，提供了錯誤的權杖或提供者 ID"
 
 #: /var/www/html/lib/public/Federation/Exceptions/BadRequestException.php:52
 #, php-format
@@ -1202,7 +1202,7 @@ msgstr "欠缺完成請求所需的參數：「%s」"
 #: /var/www/html/lib/public/Federation/Exceptions/ProviderAlreadyExistsException.php:47
 #, php-format
 msgid "ID \"%1$s\" already used by cloud federation provider \"%2$s\""
-msgstr "ID「%1$s」已經被另一個雲端聯盟提供者「%2$s」所使用"
+msgstr "ID「%1$s」已被另一個雲端聯盟提供者「%2$s」所使用"
 
 #: /var/www/html/lib/public/Federation/Exceptions/ProviderDoesNotExistsException.php:44
 #, php-format
