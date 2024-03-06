@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-01-19 05:52+0000\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"PO-Revision-Date: 2024-03-07 02:52+0000\n"
+"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/user_ldap/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -73,7 +73,7 @@ msgstr "動作不存在"
 
 #: /var/www/html/apps/user_ldap/js/renewPassword.js:28
 msgid "Renewing …"
-msgstr "正在更新……"
+msgstr "正在更新…"
 
 #: /var/www/html/apps/user_ldap/js/renewPassword.js:42
 msgid "Very weak password"
@@ -101,7 +101,7 @@ msgstr "Base DN 出現問題"
 
 #: /var/www/html/apps/user_ldap/js/wizard/view.js:379
 msgid "Testing configuration…"
-msgstr "正在測試設定……"
+msgstr "正在測試設定…"
 
 #: /var/www/html/apps/user_ldap/js/wizard/view.js:387
 msgid "Configuration incorrect"
@@ -125,7 +125,7 @@ msgstr "選取物件類別"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:191
 msgid "Please check the credentials, they seem to be wrong."
-msgstr "請檢查您的憑證，它們似乎是錯的。"
+msgstr "請檢查您的憑證，它們似乎為錯誤。"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:193
 msgid "Please specify the port, it could not be auto-detected."
@@ -233,7 +233,7 @@ msgstr "發生不明錯誤。請檢查紀錄檔與設定。"
 msgid ""
 "The search filter is invalid, probably due to syntax issues like uneven "
 "number of opened and closed brackets. Please revise."
-msgstr "搜尋過濾條件無效，可能是語法問題引起的，如括號不對稱等。請修改。"
+msgstr "搜尋過濾條件無效，可能是語法問題引起，如括號不對稱等。請修改。"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabLoginFilter.js:162
 msgid ""
@@ -280,8 +280,7 @@ msgstr "您的密碼將於今天到期。"
 #: /var/www/html/apps/user_ldap/lib/Notification/Notifier.php:90
 msgid "Your password will expire within %n day."
 msgid_plural "Your password will expire within %n days."
-msgstr[0] "您的密碼將於%n天後到期。"
-msgstr[1] "您的密碼將於%n天後到期。"
+msgstr[0] "您的密碼將於 %n 天後到期。"
 
 #: /var/www/html/apps/user_ldap/lib/Settings/Section.php:64
 #: /var/www/html/apps/user_ldap/templates/settings.php:57
@@ -446,7 +445,7 @@ msgstr "LDAP/AD 使用者名稱："
 msgid ""
 "Allows login against the LDAP/AD username, which is either \"uid\" or "
 "\"sAMAccountName\" and will be detected."
-msgstr "允許使用 LDAP/AD 使用者名稱登入，可以是 \"uid\" 或 \"sAMAccountName\"。"
+msgstr "允許使用 LDAP/AD 使用者名稱登入，可以是「uid」或「sAMAccountName」。"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:21
 msgid "LDAP/AD Email Address:"
@@ -469,7 +468,8 @@ msgstr "其他屬性："
 msgid ""
 "Defines the filter to apply, when login is attempted. \"%%uid\" replaces the"
 " username in the login action. Example: \"uid=%%uid\""
-msgstr "定義要套用的過濾條件，試圖登入時。\"%%uid\" 會在登入動作時取代使用者名稱。範例：\"uid=%%uid\""
+msgstr "定義要套用的過濾條件，試圖登入時。「%%uid」會在登入動作時取代使用者名稱。範例"
+"：「uid=%%uid」"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:64
 msgid "Test Loginname"
@@ -582,7 +582,7 @@ msgstr "手動輸入 LDAP 過濾條件（建議用於大型目錄）"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:4
 msgid "Listing and searching for users is constrained by these criteria:"
-msgstr "列出和搜索用戶受到以下條件的約束："
+msgstr "列出和搜索受到以下條件約束的用戶："
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:17
 msgid ""
@@ -804,7 +804,7 @@ msgstr "群組搜尋屬性"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:98
 msgid "Group-Member association"
-msgstr "Group-Member 組合"
+msgstr "群組與成員關聯"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:109
 msgid "Dynamic Group Member URL"
@@ -869,8 +869,8 @@ msgid ""
 "handling. Works only when LDAP password changes per user are enabled and is "
 "only supported by OpenLDAP. Leave empty to disable password expiry handling."
 msgstr ""
-"預設密碼策略的 DN，其將用於密碼過期處理。僅當啟用了每個使用者的 LDAP 密碼變更且 OpenLDAP "
-"支援時才能正常運作。保留為空將停用密碼過期處理。"
+"預設密碼策略的 DN，其將用於密碼過期處理。僅當啟用了每個使用者的 LDAP "
+"密碼變更且 OpenLDAP 支援時才能正常運作。保留空白將停用密碼過期處理。"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:116
 msgid "Special Attributes"
@@ -917,7 +917,7 @@ msgstr "使用者名稱留空（預設值）。否則請指定 LDAP/AD 屬性。
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:122
 msgid "\"$home\" Placeholder Field"
-msgstr "\"$home\" 佔位字串欄位"
+msgstr "「$home」佔位字串欄位"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:122
 msgid ""
