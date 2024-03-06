@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-01-17 14:09+0000\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"PO-Revision-Date: 2024-03-07 02:52+0000\n"
+"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/twofactor_backupcodes/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -38,7 +38,7 @@ msgid ""
 "You enabled two-factor authentication but did not generate backup codes yet."
 " They are needed to restore access to your account in case you lose your "
 "second factor."
-msgstr "您已啟用兩步驟驗證，但尚未產生備用驗證碼。如果您失去第二步驟的驗證方式，則必"
+msgstr "您已啟用兩階段驗證，但尚未產生備用驗證碼。如果您失去第二階段的驗證方式，則必"
 "須使用它們來恢復對您帳號的存取權。"
 
 #: /var/www/html/apps/twofactor_backupcodes/lib/Provider/BackupCodesProvider.php:90
@@ -52,17 +52,17 @@ msgstr "使用備用驗證碼"
 
 #: /var/www/html/apps/twofactor_backupcodes/specialAppInfoFakeDummyForL10nScript.php:2
 msgid "Two factor backup codes"
-msgstr "兩步驟備用驗證碼"
+msgstr "兩階段驗證備用驗證碼"
 
 #: /var/www/html/apps/twofactor_backupcodes/specialAppInfoFakeDummyForL10nScript.php:3
 msgid "A two-factor auth backup codes provider"
-msgstr "兩步驟驗證備用驗證碼提供者"
+msgstr "兩階段驗證備用驗證碼提供者"
 
 #. TRANSLATORS src/views/PersonalSettings.vue:13
 #: /var/www/html/apps/twofactor_backupcodes/specialVueFakeDummyForL10nScript.js:4
 msgid ""
 "Backup codes have been generated. {used} of {total} codes have been used."
-msgstr "備用驗證碼已經建立，共 {total} 組備用驗證碼中有 {used} 組已經使用。"
+msgstr "備用驗證碼已建立，共 {total} 組備用驗證碼中有 {used} 組已使用。"
 
 #. TRANSLATORS src/views/PersonalSettings.vue:16
 #: /var/www/html/apps/twofactor_backupcodes/specialVueFakeDummyForL10nScript.js:6
@@ -106,7 +106,7 @@ msgstr "{name} 備用驗證碼"
 msgid ""
 "Use one of the backup codes you saved when setting up two-factor "
 "authentication."
-msgstr "設定啟用兩步驟驗證時，可輸入其中一個您已儲存的備用驗證碼。"
+msgstr "設定啟用兩階段驗證時，可輸入其中一個您已儲存的備用驗證碼。"
 
 #: /var/www/html/apps/twofactor_backupcodes/templates/challenge.php:15
 msgid "Submit"
