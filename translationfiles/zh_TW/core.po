@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-06 01:52+0000\n"
+"PO-Revision-Date: 2024-03-07 02:52+0000\n"
 "Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/core/zh_Hant/>\n"
@@ -357,7 +357,7 @@ msgstr "%s（不相容）"
 #: /var/www/html/core/ajax/update.php:204
 #, php-format
 msgid "The following apps have been disabled: %s"
-msgstr "以下應用程式已經被停用：%s"
+msgstr "以下應用程式已被停用：%s"
 
 #: /var/www/html/core/ajax/update.php:207
 msgid "Already up to date"
@@ -464,8 +464,8 @@ msgid ""
 "{linkstart3}Rescan…{linkend})"
 msgstr ""
 "部份檔案未通過完整性檢查。更多關於如何解決此問題的資訊可在 {linkstart1} 文件 "
-"↗{linkend} 中找到。（{linkstart2} 無效檔案列表……{linkend} / "
-"{linkstart3}重新掃描……{linkend}）"
+"↗{linkend} 中找到。（{linkstart2} 無效檔案列表…{linkend} / "
+"{linkstart3}重新掃描…{linkend}）"
 
 #: /var/www/html/core/js/setupchecks.js:249
 msgid ""
@@ -493,7 +493,8 @@ msgstr "雖然已啟用佈景主題應用程式，但並未啟用 PHP 模組「i
 msgid ""
 "The PHP modules \"gmp\" and/or \"bcmath\" are not enabled. If you use "
 "WebAuthn passwordless authentication, these modules are required."
-msgstr "未啟用 PHP 模組「gmp」與「bcmath」。若您要使用 WebAuthn 免密碼驗證，這些模組就是必要的。"
+msgstr "未啟用 PHP 模組「gmp」與「bcmath」。若您要使用 WebAuthn "
+"免密碼驗證，這些模組為必要。"
 
 #: /var/www/html/core/js/setupchecks.js:281
 msgid ""
@@ -815,7 +816,7 @@ msgstr "登入"
 #. TRANSLATORS src/components/login/LoginButton.vue:52
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:24
 msgid "Logging in …"
-msgstr "正在登入……"
+msgstr "正在登入…"
 
 #. TRANSLATORS src/components/login/LoginForm.vue:31
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:26
@@ -886,7 +887,7 @@ msgstr "使用者已停用"
 msgid ""
 "We have detected multiple invalid login attempts from your IP. Therefore "
 "your next login is throttled up to 30 seconds."
-msgstr "您的 IP 多次嘗試登入無效。因此下一次登入將會被延時30秒。"
+msgstr "您的 IP 多次嘗試登入無效。因此下一次登入將會被延時 30 秒。"
 
 #. TRANSLATORS src/components/login/PasswordLessLoginForm.vue:7
 #. TRANSLATORS src/views/Login.vue:57
@@ -996,7 +997,7 @@ msgstr "推薦的應用程式"
 #. TRANSLATORS src/components/setup/RecommendedApps.vue:26
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:94
 msgid "Loading apps …"
-msgstr "正在載入應用程式……"
+msgstr "正在載入應用程式…"
 
 #. TRANSLATORS src/components/setup/RecommendedApps.vue:29
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:96
@@ -1006,7 +1007,7 @@ msgstr "無法從應用程式商店擷取應用程式清單。"
 #. TRANSLATORS src/components/setup/RecommendedApps.vue:32
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:98
 msgid "Installing apps …"
-msgstr "正在安裝應用程式……"
+msgstr "正在安裝應用程式…"
 
 #. TRANSLATORS src/components/setup/RecommendedApps.vue:46
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:100
@@ -1086,7 +1087,7 @@ msgstr "重設搜尋"
 #. TRANSLATORS src/views/ContactsMenu.vue:39
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:128
 msgid "Search contacts …"
-msgstr "搜尋聯絡人……"
+msgstr "搜尋聯絡人…"
 
 #. TRANSLATORS src/views/ContactsMenu.vue:45
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:130
@@ -1111,12 +1112,12 @@ msgstr "安裝「通訊錄」應用程式"
 #. TRANSLATORS src/views/ContactsMenu.vue:135
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:138
 msgid "Loading your contacts …"
-msgstr "正在載入聯絡人……"
+msgstr "正在載入聯絡人…"
 
 #. TRANSLATORS src/views/ContactsMenu.vue:137
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:140
 msgid "Looking for {term} …"
-msgstr "搜尋 {term}……"
+msgstr "搜尋 {term}…"
 
 #. TRANSLATORS src/views/GlobalSearch.vue:24
 #. TRANSLATORS src/views/GlobalSearchModal.vue:14
@@ -1150,13 +1151,13 @@ msgstr "今天"
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:154
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:180
 msgid "Last 7 days"
-msgstr "過去7天"
+msgstr "過去 7 天"
 
 #. TRANSLATORS src/views/GlobalSearchModal.vue:44
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:156
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:182
 msgid "Last 30 days"
-msgstr "過去30天"
+msgstr "過去 30 天"
 
 #. TRANSLATORS src/views/GlobalSearchModal.vue:47
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:158
@@ -1205,7 +1206,7 @@ msgstr "目前檢視裡的篩選條件"
 #. TRANSLATORS src/views/GlobalSearchModal.vue:220
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:176
 msgid "Searching …"
-msgstr "正在搜尋……"
+msgstr "正在搜尋…"
 
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:176
 msgid "Start typing in search"
@@ -1361,7 +1362,7 @@ msgstr "{displayName} 的大頭照"
 #. TRANSLATORS src/views/UnifiedSearch.vue:48
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:218
 msgid "Search {types} …"
-msgstr "搜尋 {types} 中……"
+msgstr "搜尋 {types} 中…"
 
 #: /var/www/html/core/src/OC/dialogs.js:201
 #: /var/www/html/core/src/OC/dialogs.js:385
@@ -1427,7 +1428,7 @@ msgstr "新檔案"
 
 #: /var/www/html/core/src/OC/dialogs.js:713
 msgid "Already existing files"
-msgstr "已經存在的檔案"
+msgstr "已存在的檔案"
 
 #: /var/www/html/core/src/OC/dialogs.js:715
 msgid "Which files do you want to keep?"
@@ -1463,7 +1464,7 @@ msgstr "載入已存在的範本時發生錯誤"
 
 #: /var/www/html/core/src/OC/msg.js:41
 msgid "Saving …"
-msgstr "正在儲存……"
+msgstr "正在儲存…"
 
 #: /var/www/html/core/src/OC/util.js:143
 msgid "seconds ago"
@@ -1476,7 +1477,7 @@ msgstr "伺服器連線中斷"
 #: /var/www/html/core/src/OC/xhr-error.js:62
 msgid "Problem loading page, reloading in %n second"
 msgid_plural "Problem loading page, reloading in %n seconds"
-msgstr[0] "載入頁面時發生問題，%n秒後重新整理"
+msgstr[0] "載入頁面時發生問題，%n 秒後重新整理"
 
 #: /var/www/html/core/src/OCP/collaboration.js:46
 msgid "Add to a project"
@@ -1565,7 +1566,7 @@ msgstr "受限的"
 
 #: /var/www/html/core/src/systemtags/systemtags.js:63
 msgid "Invisible"
-msgstr "隱藏的"
+msgstr "隱藏"
 
 #: /var/www/html/core/src/systemtags/systemtagsinputfield.js:131
 msgid "Delete"
@@ -1836,7 +1837,7 @@ msgstr "安裝"
 
 #: /var/www/html/core/templates/installation.php:159
 msgid "Installing …"
-msgstr "正在安裝……"
+msgstr "正在安裝…"
 
 #: /var/www/html/core/templates/installation.php:163
 msgid "Need help?"
@@ -2094,7 +2095,7 @@ msgstr "將會停用這些不相容的應用程式："
 #: /var/www/html/core/templates/update.admin.php:31
 #, php-format
 msgid "The theme %s has been disabled."
-msgstr "佈景主題 %s 已經被停用。"
+msgstr "佈景主題 %s 已被停用。"
 
 #: /var/www/html/core/templates/update.admin.php:35
 msgid ""
