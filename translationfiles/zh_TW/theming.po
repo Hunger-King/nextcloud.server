@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-01-17 14:09+0000\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"PO-Revision-Date: 2024-03-07 02:52+0000\n"
+"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/theming/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -73,7 +73,7 @@ msgstr "指定了無效的應用程式"
 
 #: /var/www/html/apps/theming/lib/Controller/ThemingController.php:202
 msgid "Invalid type for setting \"defaultApp\" given"
-msgstr "設定「defaultApp」指定了無效的類型"
+msgstr "設定「defaultApp」時指定了無效的類型"
 
 #: /var/www/html/apps/theming/lib/Controller/ThemingController.php:206
 msgid "Invalid setting key"
@@ -129,7 +129,7 @@ msgstr "清除舊的管理影像資料夾失敗"
 msgid ""
 "You are already using a custom theme. Theming app settings might be "
 "overwritten by that."
-msgstr "您已經在使用自訂佈景主題。佈景主題應用程式設定可能會被覆寫。"
+msgstr "您已在使用自訂佈景主題。佈景主題應用程式設定可能會被覆寫。"
 
 #. TRANSLATORS src/AdminTheming.vue:25
 #: /var/www/html/apps/theming/lib/Settings/AdminSection.php:57
@@ -239,7 +239,8 @@ msgstr "調整 Nextcloud 佈景主題"
 msgid ""
 "Theming makes it possible to easily customize the look and feel of your "
 "instance and supported clients. This will be visible for all users."
-msgstr "佈景主題讓您可以輕鬆自訂站台與支援客戶端的外觀與感覺。這對所有使用者都可見。"
+msgstr "佈景主題讓您可以輕鬆自訂站台與支援客戶端的外觀與感覺。這對所有使用者都為可見"
+"。"
 
 #. TRANSLATORS src/AdminTheming.vue:73
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:6
@@ -392,9 +393,9 @@ msgid ""
 "theme even on AAA level."
 msgstr ""
 "我們非常重視無障礙存取。我們遵循網路標準，並透過檢查來確保所有內容皆可在沒有"
-"滑鼠或輔助軟體（例如螢幕閱讀器）的情況下使用。我們目標是能達到{guidelines}網"
-"頁內容無障礙指引{linkend} 2.1 版的 AA 等級，加上高對比度主題甚至還能到 AAA "
-"等級。"
+"滑鼠或輔助軟體（例如螢幕閱讀器）的情況下使用。我們目標是能達到 "
+"{guidelines}網頁內容無障礙指引{linkend} 2.1 版的 AA 等級，"
+"加上高對比度主題甚至還能到 AAA 等級。"
 
 #. TRANSLATORS src/UserThemes.vue:151
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:66
@@ -403,7 +404,8 @@ msgid ""
 "issue tracker{linkend}. And if you want to get involved, come join "
 "{designteam}our design team{linkend}!"
 msgstr ""
-"如果您發現任何一個問題，請不要猶豫並請在{issuetracker}我們的問題追蹤系統{linkend}回報。而如果您想參與，歡迎加入{designteam}我們的設計團隊{linkend}！"
+"如果您發現任何一個問題，請不要猶豫並請在 {issuetracker} 我們的問題追蹤系統{li"
+"nkend}回報。而如果您想參與，歡迎加入{designteam}我們的設計團隊{linkend}！"
 
 #. TRANSLATORS src/components/AppOrderSelector.vue:163
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:68
@@ -512,7 +514,7 @@ msgstr "預設應用程式"
 msgid ""
 "The default app is the app that is e.g. opened after login or when the logo "
 "in the menu is clicked."
-msgstr "預設應用程式是，例如登入後或點擊選單中的標誌時開啟的應用程式。"
+msgstr "預設應用程式是，（例如）登入後或點擊選單中的標誌時開啟的應用程式。"
 
 #. TRANSLATORS src/components/admin/AppMenuSection.vue:9
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:110
