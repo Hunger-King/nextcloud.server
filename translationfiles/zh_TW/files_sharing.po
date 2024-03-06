@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-03-06 01:52+0000\n"
+"PO-Revision-Date: 2024-03-07 02:52+0000\n"
 "Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/files_sharing/zh_Hant/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: /var/www/html/apps/files_sharing/js/files_drop.js:96
 msgid "Waiting…"
-msgstr "正在等待……"
+msgstr "正在等待…"
 
 #: /var/www/html/apps/files_sharing/js/files_drop.js:113
 msgid "error"
@@ -861,7 +861,7 @@ msgstr "將「{title}」的公開連結複製到剪貼簿"
 #. TRANSLATORS src/components/SharingEntryLink.vue:516
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:128
 msgid "Error, please enter proper password and/or expiration date"
-msgstr "錯誤，請輸入正確的密碼及／或到期日"
+msgstr "錯誤，請輸入正確的密碼及/或到期日"
 
 #. TRANSLATORS src/components/SharingEntryLink.vue:607
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:130
@@ -910,17 +910,17 @@ msgstr "不允許重新分享"
 #. TRANSLATORS src/components/SharingInput.vue:128
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:150
 msgid "Name or email …"
-msgstr "名稱或電子郵件……"
+msgstr "名稱或電子郵件…"
 
 #. TRANSLATORS src/components/SharingInput.vue:131
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:152
 msgid "Name, email, or Federated Cloud ID …"
-msgstr "名稱、電子郵件或雲端聯盟 ID……"
+msgstr "名稱、電子郵件或雲端聯盟 ID…"
 
 #. TRANSLATORS src/components/SharingInput.vue:147
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:154
 msgid "Searching …"
-msgstr "正在搜尋……"
+msgstr "正在搜尋…"
 
 #. TRANSLATORS src/components/SharingInput.vue:149
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:156
@@ -1099,7 +1099,7 @@ msgstr "切換有權存取此目錄的其他人列表"
 #. TRANSLATORS src/views/SharingInherited.vue:103
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:268
 msgid "Toggle list of others with access to this file"
-msgstr "切換有權存取此檔案的其他人的列表"
+msgstr "切換有權存取此檔案的其他人列表"
 
 #. TRANSLATORS src/views/SharingInherited.vue:141
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:270
@@ -1125,7 +1125,7 @@ msgstr "此分享剛過期。"
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:278
 #: /var/www/html/apps/files_sharing/src/utils/SharedWithMe.js:75
 msgid "Shared with you by {owner}"
-msgstr "{owner} 已經和您分享"
+msgstr "{owner} 已和您分享"
 
 #: /var/www/html/apps/files_sharing/src/actions/acceptShareAction.ts:35
 msgid "Accept share"
@@ -1359,7 +1359,7 @@ msgstr "可能的原因："
 
 #: /var/www/html/apps/files_sharing/templates/part.404.php:6
 msgid "the item was removed"
-msgstr "項目已經移除"
+msgstr "項目已移除"
 
 #: /var/www/html/apps/files_sharing/templates/part.404.php:7
 msgid "the link expired"
@@ -1402,7 +1402,7 @@ msgstr "已上傳的檔案："
 #: /var/www/html/apps/files_sharing/templates/public.php:120
 #, php-format
 msgid "By uploading files, you agree to the %1$sterms of service%2$s."
-msgstr "上傳檔案即表示您同意%1$s服務條款%2$s。"
+msgstr "上傳檔案即表示您同意 %1$s服務條款%2$s。"
 
 #: /var/www/html/apps/files_sharing/tests/Controller/ShareControllerTest.php:391
 #: /var/www/html/apps/files_sharing/tests/Controller/ShareControllerTest.php:549
