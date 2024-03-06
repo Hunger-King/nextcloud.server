@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:19+0000\n"
-"PO-Revision-Date: 2024-03-06 01:52+0000\n"
+"PO-Revision-Date: 2024-03-07 02:52+0000\n"
 "Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/files/zh_Hant/>\n"
@@ -88,12 +88,12 @@ msgstr "上傳已取消。"
 
 #: /var/www/html/apps/files/js/file-upload.js:878
 msgid "Processing files …"
-msgstr "正在處理檔案……"
+msgstr "正在處理檔案…"
 
 #: /var/www/html/apps/files/js/file-upload.js:878
 #: /var/www/html/apps/files/js/file-upload.js:1216
 msgid "…"
-msgstr "……"
+msgstr "…"
 
 #: /var/www/html/apps/files/js/file-upload.js:1038
 msgid "Unable to upload {filename} as it is a directory or has 0 bytes"
@@ -124,7 +124,7 @@ msgstr "檔案無法上傳"
 #: /var/www/html/apps/files/js/file-upload.js:1216
 #: /var/www/html/apps/files/js/file-upload.js:1293
 msgid "Uploading …"
-msgstr "正在上傳……"
+msgstr "正在上傳…"
 
 #: /var/www/html/apps/files/js/file-upload.js:1283
 msgid "{remainingTime} ({currentNumber}/{total})"
@@ -132,7 +132,7 @@ msgstr "{remainingTime} ({currentNumber}/{total})"
 
 #: /var/www/html/apps/files/js/file-upload.js:1291
 msgid "Uploading … ({currentNumber}/{total})"
-msgstr "正在上傳…… ({currentNumber}/{total})"
+msgstr "正在上傳… ({currentNumber}/{total})"
 
 #: /var/www/html/apps/files/js/file-upload.js:1304
 msgid "{loadedSize} of {totalSize} ({bitrate})"
@@ -144,7 +144,7 @@ msgstr "不支援上傳該項目"
 
 #: /var/www/html/apps/files/js/file-upload.js:1424
 msgid "Target folder does not exist any more"
-msgstr "目標資料夾已經不存在了"
+msgstr "目標資料夾已不存在了"
 
 #: /var/www/html/apps/files/js/file-upload.js:1426
 msgid "Operation is blocked by access control"
@@ -278,7 +278,7 @@ msgstr "儲存空間暫時無法使用"
 
 #: /var/www/html/apps/files/js/filelist.js:2620
 msgid "Could not move \"{file}\", target exists"
-msgstr "無法移動「{file}」，目標已經存在"
+msgstr "無法移動「{file}」，目標已存在"
 
 #: /var/www/html/apps/files/js/filelist.js:2624
 msgid "Could not move \"{file}\""
@@ -315,17 +315,17 @@ msgstr "重新導向到客戶端失敗"
 #: /var/www/html/apps/files/js/filelist.js:2893
 #: /var/www/html/apps/files/js/newfilemenu.js:143
 msgid "{newName} already exists"
-msgstr "{newName} 已經存在"
+msgstr "{newName} 已存在"
 
 #: /var/www/html/apps/files/js/filelist.js:2946
 msgid "Could not rename \"{fileName}\", it does not exist any more"
-msgstr "無法命名檔案「{fileName}」，因為此檔案已經不存在"
+msgstr "無法命名檔案「{fileName}」，因為此檔案已不存在"
 
 #: /var/www/html/apps/files/js/filelist.js:2955
 msgid ""
 "The name \"{targetName}\" is already used in the folder \"{dir}\". Please "
 "choose a different name."
-msgstr "此名稱「{targetName}」在這資料夾「{dir}」已經被使用。請選擇其他名稱。"
+msgstr "此名稱「{targetName}」在這資料夾「{dir}」已被使用。請選擇其他名稱。"
 
 #: /var/www/html/apps/files/js/filelist.js:2966
 msgid "Could not rename \"{fileName}\""
@@ -466,7 +466,7 @@ msgstr "檔名不能為空。"
 #: /var/www/html/apps/files/js/files.js:149
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:36
 msgid "\"/\" is not allowed inside a file name."
-msgstr "不允許檔名中出現 \"/\"。"
+msgstr "不允許檔名中出現「/」。"
 
 #: /var/www/html/apps/files/js/files.js:151
 msgid "\"{name}\" is not an allowed filetype"
@@ -806,11 +806,11 @@ msgstr "所有權轉移完成"
 
 #: /var/www/html/apps/files/lib/Notification/Notifier.php:220
 msgid "Your ownership transfer of {path} to {user} has completed."
-msgstr "您將 {path} 的所有權轉移給 {user} 已經完成。"
+msgstr "您將 {path} 的所有權轉移給 {user} 已完成。"
 
 #: /var/www/html/apps/files/lib/Notification/Notifier.php:244
 msgid "The ownership transfer of {path} from {user} has completed."
-msgstr "來自 {user} 的 {path} 所有權轉移已經完成。"
+msgstr "來自 {user} 的 {path} 所有權轉移已完成。"
 
 #: /var/www/html/apps/files/lib/Search/FilesSearchProvider.php:231
 #, php-format
@@ -892,7 +892,7 @@ msgstr "「{name}」是不允許的檔案類型。"
 #. TRANSLATORS src/components/FileEntry/FileEntryName.vue:216
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:40
 msgid "{newName} already exists."
-msgstr "{newName} 已經存在。"
+msgstr "{newName} 已存在。"
 
 #. TRANSLATORS src/components/FileEntry/FileEntryName.vue:222
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:42
@@ -917,7 +917,7 @@ msgstr "已將「{oldName}」重新命名為「{newName}」"
 #. TRANSLATORS src/components/FileEntry/FileEntryName.vue:314
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:50
 msgid "Could not rename \"{oldName}\", it does not exist any more"
-msgstr "無法命名檔案「{oldName}」，此檔案已經不存在"
+msgstr "無法命名檔案「{oldName}」，此檔案已不存在"
 
 #. TRANSLATORS src/components/FileEntry/FileEntryName.vue:317
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:52
