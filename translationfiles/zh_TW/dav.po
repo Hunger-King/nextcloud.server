@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-03-06 01:52+0000\n"
+"PO-Revision-Date: 2024-03-07 02:52+0000\n"
 "Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/dav/zh_Hant/>\n"
@@ -283,32 +283,27 @@ msgstr "描述："
 #: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:158
 msgid "%n year"
 msgid_plural "%n years"
-msgstr[0] "%n年"
-msgstr[1] "%n年"
+msgstr[0] "%n 年"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:161
 msgid "%n month"
 msgid_plural "%n months"
-msgstr[0] "%n月"
-msgstr[1] "%n月"
+msgstr[0] "%n 月"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:164
 msgid "%n day"
 msgid_plural "%n days"
-msgstr[0] "%n天"
-msgstr[1] "%n天"
+msgstr[0] "%n 天"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:167
 msgid "%n hour"
 msgid_plural "%n hours"
-msgstr[0] "%n小時"
-msgstr[1] "%n小時"
+msgstr[0] "%n 小時"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:170
 msgid "%n minute"
 msgid_plural "%n minutes"
-msgstr[0] "%n分鐘"
-msgstr[1] "%n分鐘"
+msgstr[0] "%n 分鐘"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:180
 #, php-format
@@ -444,7 +439,7 @@ msgstr "拒絕"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:659
 msgid "More options …"
-msgstr "更多選項……"
+msgstr "更多選項…"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Schedule/IMipService.php:661
 #, php-format
