@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-03 08:52+0000\n"
+"PO-Revision-Date: 2024-03-06 01:52+0000\n"
 "Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/core/zh_Hant/>\n"
@@ -582,7 +582,7 @@ msgid ""
 "correctly. Please read {linkstart}the documentation page about this "
 "↗{linkend}."
 msgstr ""
-"你經由安全的連線存取系統，但系統卻生成了不安全的 URL。這很有可能是因為你使用"
+"您經由安全的連線存取系統，但系統卻生成了不安全的 URL。這很有可能是因為您使用"
 "了反向代理伺服器，但反向代理伺服器的改寫規則並未正常運作，請閱讀 {linkstart} "
 "關於此問題的文件頁面 ↗{linkend}。"
 
@@ -905,7 +905,7 @@ msgstr "使用者名稱或電子郵件"
 #. TRANSLATORS src/components/login/PasswordLessLoginForm.vue:15
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:56
 msgid "Your account is not setup for passwordless login."
-msgstr "你的帳號尚未設定免密碼登入。"
+msgstr "您的帳號尚未設定免密碼登入。"
 
 #. TRANSLATORS src/components/login/PasswordLessLoginForm.vue:25
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:58
@@ -915,7 +915,7 @@ msgstr "不支援的瀏覽器"
 #. TRANSLATORS src/components/login/PasswordLessLoginForm.vue:27
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:60
 msgid "Passwordless authentication is not supported in your browser."
-msgstr "無密碼身份驗證不支援你使用的瀏覽器。"
+msgstr "無密碼身份驗證不支援您使用的瀏覽器。"
 
 #. TRANSLATORS src/components/login/PasswordLessLoginForm.vue:32
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:62
@@ -1048,14 +1048,15 @@ msgstr "將您的同事和朋友放在同一處，且不洩漏他們的個人資
 #. TRANSLATORS src/components/setup/RecommendedApps.vue:96
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:114
 msgid "Simple email app nicely integrated with Files, Contacts and Calendar."
-msgstr "簡潔的電子郵件應用程式，與檔案瀏覽器、通訊錄、行事曆完美整合。"
+msgstr "簡潔的電子郵件應用程式，與檔案瀏覽器、通訊錄、日曆完美整合。"
 
 #. TRANSLATORS src/components/setup/RecommendedApps.vue:100
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:116
 msgid ""
 "Chatting, video calls, screensharing, online meetings and web conferencing –"
 " in your browser and with mobile apps."
-msgstr "對話、視訊電話、螢幕分享、線上會議與網路研討會 - 實現於你的瀏覽器與手機應用程式之中。"
+msgstr "對話、視訊電話、螢幕分享、線上會議與網路研討會 - "
+"實現於您的瀏覽器與手機應用程式之中。"
 
 #. TRANSLATORS src/components/setup/RecommendedApps.vue:105
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:118
@@ -1659,7 +1660,7 @@ msgstr "內部伺服器錯誤"
 
 #: /var/www/html/core/templates/exception.php:25
 msgid "The server was unable to complete your request."
-msgstr "伺服器無法完成你的請求。"
+msgstr "伺服器無法完成您的請求。"
 
 #: /var/www/html/core/templates/exception.php:26
 msgid ""
@@ -2109,7 +2110,7 @@ msgstr "開始升級"
 msgid ""
 "To avoid timeouts with larger installations, you can instead run the "
 "following command from your installation directory:"
-msgstr "在大型安裝上，為了避免升級請求逾時，你也可以在安裝目錄執行下列指令："
+msgstr "在大型安裝上，為了避免升級請求逾時，您也可以在安裝目錄執行下列指令："
 
 #: /var/www/html/core/templates/update.admin.php:50
 msgid "Detailed logs"
