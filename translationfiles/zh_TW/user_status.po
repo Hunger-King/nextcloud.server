@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-03 08:52+0000\n"
+"PO-Revision-Date: 2024-03-07 02:52+0000\n"
 "Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/user_status/zh_Hant/>\n"
@@ -37,7 +37,7 @@ msgstr "通勤中"
 
 #: /var/www/html/apps/user_status/lib/Service/PredefinedStatusService.php:187
 msgid "Out sick"
-msgstr "生病"
+msgstr "病假"
 
 #: /var/www/html/apps/user_status/lib/Service/PredefinedStatusService.php:190
 msgid "Vacationing"
@@ -62,7 +62,7 @@ msgstr "使用者狀態"
 #. TRANSLATORS src/components/ClearAtSelect.vue:25
 #: /var/www/html/apps/user_status/specialVueFakeDummyForL10nScript.js:2
 msgid "Clear status after"
-msgstr "清空狀態於……之後"
+msgstr "清空狀態才"
 
 #. TRANSLATORS src/components/CustomMessageInput.vue:25
 #: /var/www/html/apps/user_status/specialVueFakeDummyForL10nScript.js:4
@@ -189,7 +189,7 @@ msgstr "請勿打擾"
 #: /var/www/html/apps/user_status/src/mixins/OnlineStatusMixin.js:62
 #: /var/www/html/apps/user_status/src/services/statusOptionsService.js:48
 msgid "Invisible"
-msgstr "隱藏的"
+msgstr "隱藏"
 
 #: /var/www/html/apps/user_status/src/mixins/OnlineStatusMixin.js:65
 msgid "Offline"
