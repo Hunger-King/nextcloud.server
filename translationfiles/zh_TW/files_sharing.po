@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-01-16 13:09+0000\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"PO-Revision-Date: 2024-03-06 01:52+0000\n"
+"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/files_sharing/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -136,11 +136,11 @@ msgstr "群組 {group} 的分享已過期"
 
 #: /var/www/html/apps/files_sharing/lib/Activity/Providers/Groups.php:109
 msgid "You shared {file} with group {group}"
-msgstr "你分享了 {file} 給群組 {group}"
+msgstr "您分享了 {file} 給群組 {group}"
 
 #: /var/www/html/apps/files_sharing/lib/Activity/Providers/Groups.php:111
 msgid "You removed group {group} from {file}"
-msgstr "你將群組 {group} 從 {file} 移除"
+msgstr "您將群組 {group} 從 {file} 移除"
 
 #: /var/www/html/apps/files_sharing/lib/Activity/Providers/Groups.php:113
 msgid "{actor} shared {file} with group {group}"
@@ -224,7 +224,7 @@ msgstr "{user} 拒絕了檔案 {file} 的遠端分享"
 
 #: /var/www/html/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:96
 msgid "{user} unshared {file} from you"
-msgstr "{user} 取消與你分享檔案 {file}"
+msgstr "{user} 取消與您分享檔案 {file}"
 
 #: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:54
 msgid "Shared with {user}"
@@ -268,11 +268,11 @@ msgstr "分享已過期"
 
 #: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:98
 msgid "You shared {file} with {user}"
-msgstr "你與 {user} 分享了 {file}"
+msgstr "您與 {user} 分享了 {file}"
 
 #: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:100
 msgid "You removed {user} from {file}"
-msgstr "你將 {user} 從 {file} 移除"
+msgstr "您將 {user} 從 {file} 移除"
 
 #: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:102
 msgid "You removed yourself from {file}"
@@ -292,7 +292,7 @@ msgstr "{actor} 從 {file} 移除 {user}"
 
 #: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:110
 msgid "{actor} shared {file} with you"
-msgstr "{actor} 與你分享了 {file}"
+msgstr "{actor} 與您分享了 {file}"
 
 #: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:112
 msgid "{actor} removed you from the share named {file}"
@@ -1094,7 +1094,7 @@ msgstr "找不到其他有存取權的使用者"
 #. TRANSLATORS src/views/SharingInherited.vue:102
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:266
 msgid "Toggle list of others with access to this directory"
-msgstr "切換有權存取此目錄的其他人的列表"
+msgstr "切換有權存取此目錄的其他人列表"
 
 #. TRANSLATORS src/views/SharingInherited.vue:103
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:268
