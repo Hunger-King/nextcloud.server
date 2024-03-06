@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-03 08:52+0000\n"
+"PO-Revision-Date: 2024-03-06 01:52+0000\n"
 "Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/settings/zh_Hant/>\n"
@@ -223,7 +223,7 @@ msgstr "安全性"
 #: /var/www/html/apps/settings/lib/Activity/SecurityProvider.php:64
 #, php-format
 msgid "You successfully logged in using two-factor authentication (%1$s)"
-msgstr "你已成功使用兩步驟驗證進行登入 (%1$s)"
+msgstr "您已成功使用兩步驟驗證進行登入 (%1$s)"
 
 #: /var/www/html/apps/settings/lib/Activity/SecurityProvider.php:75
 #, php-format
@@ -523,7 +523,7 @@ msgstr "%1$s 在 %2$s 時更改了您的密碼。"
 #: /var/www/html/apps/settings/lib/Hooks.php:115
 #, php-format
 msgid "Your password on %s was changed."
-msgstr "你在 %s 的密碼已變更。"
+msgstr "您在 %s 的密碼已變更。"
 
 #: /var/www/html/apps/settings/lib/Hooks.php:122
 #, php-format
@@ -548,7 +548,7 @@ msgstr "%s 的密碼已變更"
 #: /var/www/html/apps/settings/lib/Hooks.php:143
 #: /var/www/html/apps/settings/lib/Hooks.php:212
 msgid "If you did not request this, please contact an administrator."
-msgstr "如果你未傳送此請求 ，請聯絡系統管理員。"
+msgstr "如果您未傳送此請求 ，請聯絡系統管理員。"
 
 #: /var/www/html/apps/settings/lib/Hooks.php:187
 #, php-format
@@ -966,7 +966,7 @@ msgstr "支援"
 msgid ""
 "Your PHP does not have FreeType support, resulting in breakage of profile "
 "pictures and the settings interface."
-msgstr "您的 PHP 並未啟用 FreeType 支援，導致大頭貼產生器和設定界面無法使用。"
+msgstr "您的 PHP 並未啟用 FreeType 支援，導致大頭貼產生器和設定介面無法使用。"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/PhpGetEnv.php:41
 msgid "PHP getenv"
@@ -2274,7 +2274,7 @@ msgstr "詳細資料"
 #. TRANSLATORS src/components/PersonalInfo/DetailsSection.vue:31
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:446
 msgid "You are a member of the following groups:"
-msgstr "你是下列群組的成員︰"
+msgstr "您是下列群組的成員︰"
 
 #. TRANSLATORS src/components/PersonalInfo/DetailsSection.vue:84
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:448
