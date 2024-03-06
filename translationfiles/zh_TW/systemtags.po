@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-03 08:52+0000\n"
+"PO-Revision-Date: 2024-03-07 02:52+0000\n"
 "Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/systemtags/zh_Hant/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:113
 #, php-format
 msgid "System tag %1$s added by the system"
-msgstr "系統標籤 %1$s 已被系統新增"
+msgstr "系統已新增系統標籤 %1$s"
 
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:116
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:123
@@ -46,7 +46,7 @@ msgstr "{actor} 已新增系統標籤 {systemtag}"
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:138
 #, php-format
 msgid "System tag %1$s removed by the system"
-msgstr "系統標籤 %1$s 已被系統移除"
+msgstr "系統已移除系統標籤 %1$s"
 
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:141
 #: /var/www/html/apps/systemtags/lib/Activity/Provider.php:148
@@ -187,7 +187,7 @@ msgstr "%s（隱藏）"
 
 #: /var/www/html/apps/systemtags/lib/Activity/Setting.php:53
 msgid "<strong>System tags</strong> for a file have been modified"
-msgstr "一個檔案的<strong>系統標籤</strong>已經被修改"
+msgstr "一個檔案的<strong>系統標籤</strong>已被修改"
 
 #: /var/www/html/apps/systemtags/lib/Search/TagSearchProvider.php:98
 #: /var/www/html/apps/systemtags/lib/Search/TagSearchProvider.php:117
@@ -199,7 +199,7 @@ msgstr "標籤"
 #: /var/www/html/apps/systemtags/lib/Search/TagSearchProvider.php:146
 #, php-format
 msgid "All tagged %s …"
-msgstr "全部標記為 %s……"
+msgstr "全部標記為 %s…"
 
 #: /var/www/html/apps/systemtags/lib/Search/TagSearchProvider.php:208
 #, php-format
@@ -239,7 +239,7 @@ msgstr "搜尋要編輯的標籤"
 #: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:6
 #: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:46
 msgid "Collaborative tags …"
-msgstr "協作標籤……"
+msgstr "協作標籤…"
 
 #. TRANSLATORS src/components/SystemTagForm.vue:43
 #: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:8
@@ -279,7 +279,7 @@ msgstr "重設"
 #. TRANSLATORS src/components/SystemTagForm.vue:89
 #: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:22
 msgid "Loading …"
-msgstr "正在載入……"
+msgstr "正在載入…"
 
 #. TRANSLATORS src/components/SystemTagForm.vue:127
 #: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:24
@@ -294,7 +294,7 @@ msgstr "受限的"
 #. TRANSLATORS src/components/SystemTagForm.vue:135
 #: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:28
 msgid "Invisible"
-msgstr "隱藏的"
+msgstr "隱藏"
 
 #. TRANSLATORS src/components/SystemTagForm.vue:255
 #: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:30
@@ -341,7 +341,7 @@ msgstr "刪除標籤失敗"
 #: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:42
 #: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:64
 msgid "Loading collaborative tags …"
-msgstr "正在載入協作標籤……"
+msgstr "正在載入協作標籤…"
 
 #. TRANSLATORS src/components/SystemTags.vue:29
 #: /var/www/html/apps/systemtags/specialVueFakeDummyForL10nScript.js:44
