@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-07 02:52+0000\n"
-"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
+"PO-Revision-Date: 2024-03-11 16:52+0000\n"
+"Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/core/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -42,13 +42,13 @@ msgstr "檔案已上傳"
 
 #: /var/www/html/core/Controller/AvatarController.php:215
 msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
-msgstr "上傳的檔案大小超過 php.ini 當中 upload_max_filesize 選項的限制"
+msgstr "上傳的檔案大小超過 php.ini 中 upload_max_filesize 條目指定的限制"
 
 #: /var/www/html/core/Controller/AvatarController.php:216
 msgid ""
 "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
 "the HTML form"
-msgstr "上傳的檔案大小超過 HTML 表單中 MAX_FILE_SIZE 的限制"
+msgstr "上傳的檔案大小超過 HTML 表單中 MAX_FILE_SIZE 條目指定的限制"
 
 #: /var/www/html/core/Controller/AvatarController.php:217
 msgid "The file was only partially uploaded"
@@ -68,7 +68,7 @@ msgstr "無法將檔案寫入硬碟"
 
 #: /var/www/html/core/Controller/AvatarController.php:221
 msgid "A PHP extension stopped the file upload"
-msgstr "一個 PHP 擴充功能終止檔案的上傳"
+msgstr "有個 PHP 擴充功能停止檔案的上傳"
 
 #: /var/www/html/core/Controller/AvatarController.php:223
 msgid "Invalid file provided"
@@ -113,7 +113,7 @@ msgstr "剪裁設定不是正方形"
 #: /var/www/html/core/Controller/ClientFlowLoginController.php:103
 #: /var/www/html/core/Controller/ClientFlowLoginV2Controller.php:337
 msgid "State token does not match"
-msgstr "狀態權杖不相符"
+msgstr "狀態代符不相符"
 
 #: /var/www/html/core/Controller/ClientFlowLoginController.php:341
 #: /var/www/html/core/Controller/ClientFlowLoginV2Controller.php:221
@@ -126,11 +126,11 @@ msgstr "嘗試登入時發生錯誤"
 
 #: /var/www/html/core/Controller/ClientFlowLoginV2Controller.php:324
 msgid "State token missing"
-msgstr "狀態權杖遺失"
+msgstr "狀態代符遺失"
 
 #: /var/www/html/core/Controller/ClientFlowLoginV2Controller.php:363
 msgid "Your login token is invalid or has expired"
-msgstr "您的登入權杖無效或已過期"
+msgstr "您的登入代符無效或已過期"
 
 #: /var/www/html/core/Controller/LoginController.php:136
 msgid ""
@@ -149,11 +149,11 @@ msgstr "密碼重設已停用"
 
 #: /var/www/html/core/Controller/LostController.php:156
 msgid "Could not reset password because the token is expired"
-msgstr "無法重設密碼，因為權杖已過期"
+msgstr "無法重設密碼，因為代符已過期"
 
 #: /var/www/html/core/Controller/LostController.php:157
 msgid "Could not reset password because the token is invalid"
-msgstr "無法重設密碼，因為權杖無效"
+msgstr "無法重設密碼，因為代符無效"
 
 #: /var/www/html/core/Controller/LostController.php:229
 msgid "Password is too long. Maximum allowed length is 469 characters."
@@ -1925,7 +1925,7 @@ msgstr "若您並未嘗試設定新裝置或應用程式，那麼某人可能正
 #: /var/www/html/core/templates/loginflow/authpicker.php:60
 #: /var/www/html/core/templates/loginflowv2/authpicker.php:60
 msgid "App token"
-msgstr "應用程式權杖"
+msgstr "應用程式代符"
 
 #: /var/www/html/core/templates/loginflow/authpicker.php:68
 #: /var/www/html/core/templates/loginflow/grant.php:57
@@ -1937,7 +1937,7 @@ msgstr "允許存取"
 #: /var/www/html/core/templates/loginflow/authpicker.php:72
 #: /var/www/html/core/templates/loginflowv2/authpicker.php:69
 msgid "Alternative log in using app token"
-msgstr "使用應用程式權杖來登入"
+msgstr "使用應用程式代符來登入"
 
 #: /var/www/html/core/templates/loginflow/grant.php:31
 #: /var/www/html/core/templates/loginflowv2/grant.php:31
