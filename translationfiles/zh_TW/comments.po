@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:16+0000\n"
-"PO-Revision-Date: 2024-03-03 08:52+0000\n"
-"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
+"PO-Revision-Date: 2024-03-11 16:52+0000\n"
+"Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/comments/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -70,7 +70,7 @@ msgstr "{user} 在「{file}」的留言中提到您"
 
 #: /var/www/html/apps/comments/specialAppInfoFakeDummyForL10nScript.php:3
 msgid "Files app plugin to add comments to files"
-msgstr "用於對檔案加入留言的檔案應用程式擴充元件"
+msgstr "用於對檔案加入留言的檔案應用程式插入元件"
 
 #. TRANSLATORS src/components/Comment.vue:46
 #: /var/www/html/apps/comments/specialVueFakeDummyForL10nScript.js:2
@@ -95,7 +95,7 @@ msgstr "張貼留言"
 #. TRANSLATORS src/components/Comment.vue:95
 #: /var/www/html/apps/comments/specialVueFakeDummyForL10nScript.js:10
 msgid "@ for mentions, : for emoji, / for smart picker"
-msgstr "@ 表示提及、: 表示表情符號、/ 表示智慧型選取程式"
+msgstr "@ 表示提及，: 表示表情符號，/ 表示智慧型選取"
 
 #. TRANSLATORS src/views/ActivityCommentAction.vue:59
 #: /var/www/html/apps/comments/specialVueFakeDummyForL10nScript.js:12
@@ -110,7 +110,7 @@ msgstr "尚無留言，開始討論！"
 #. TRANSLATORS src/views/Comments.vue:65
 #: /var/www/html/apps/comments/specialVueFakeDummyForL10nScript.js:16
 msgid "No more messages"
-msgstr "沒有更多訊息"
+msgstr "沒有其他訊息"
 
 #. TRANSLATORS src/views/Comments.vue:79
 #: /var/www/html/apps/comments/specialVueFakeDummyForL10nScript.js:18
@@ -139,7 +139,7 @@ msgstr "留言"
 
 #: /var/www/html/apps/comments/src/mixins/CommentMixin.js:75
 msgid "An error occurred while trying to edit the comment"
-msgstr "嘗試編輯此留言時錯誤"
+msgstr "嘗試編輯留言時發生錯誤"
 
 #: /var/www/html/apps/comments/src/mixins/CommentMixin.js:86
 msgid "Comment deleted"
