@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-07 02:52+0000\n"
-"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
+"PO-Revision-Date: 2024-03-12 12:22+0000\n"
+"Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/user_ldap/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -626,7 +626,7 @@ msgstr "發生內部錯誤。"
 
 #: /var/www/html/apps/user_ldap/templates/renewpassword.php:20
 msgid "Please try again or contact your administrator."
-msgstr "請重試或聯絡您的系統管理員。"
+msgstr "請重試，或聯絡您的系統管理員。"
 
 #: /var/www/html/apps/user_ldap/templates/renewpassword.php:32
 #: /var/www/html/apps/user_ldap/templates/renewpassword.php:34
