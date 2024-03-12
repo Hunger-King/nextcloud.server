@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-03-12 12:22+0000\n"
+"PO-Revision-Date: 2024-03-13 14:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/files_sharing/zh_Hant/>\n"
@@ -79,7 +79,7 @@ msgstr "顯示清單檢視"
 #: /var/www/html/apps/files_sharing/js/public.js:383
 #: /var/www/html/apps/files_sharing/templates/public.php:54
 msgid "Show grid view"
-msgstr "顯示網格檢視"
+msgstr "顯示格狀檢視"
 
 #: /var/www/html/apps/files_sharing/js/public.js:436
 msgid "No compatible server found at {remote}"
@@ -405,7 +405,7 @@ msgstr "分享 %1$s 失敗，因為後端不允許來自 %2$s 類型的分享"
 
 #: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:777
 msgid "Please specify a valid federated user ID"
-msgstr "請指定有效的聯盟使用者 ID"
+msgstr "請指定有效的聯邦使用者 ID"
 
 #: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:787
 #: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:808
@@ -415,7 +415,7 @@ msgstr "無效的日期，需為 YYYY-MM-DD 格式"
 
 #: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:798
 msgid "Please specify a valid federated group ID"
-msgstr "請指定有效的聯盟群組 ID"
+msgstr "請指定有效的聯邦群組 ID"
 
 #: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:813
 msgid "You cannot share to a Circle if the app is not enabled"
@@ -915,7 +915,7 @@ msgstr "名稱或電子郵件…"
 #. TRANSLATORS src/components/SharingInput.vue:131
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:152
 msgid "Name, email, or Federated Cloud ID …"
-msgstr "名稱、電子郵件或雲端聯盟 ID…"
+msgstr "名稱、電子郵件或雲端聯邦 ID…"
 
 #. TRANSLATORS src/components/SharingInput.vue:147
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:154
