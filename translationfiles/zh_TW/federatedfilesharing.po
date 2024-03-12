@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-03-12 13:51+0000\n"
+"PO-Revision-Date: 2024-03-12 13:55+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/federatedfilesharing/zh_Hant/>\n"
@@ -51,27 +51,27 @@ msgstr "伺服器對伺服器共享在這台伺服器上面並未啟用"
 
 #: /var/www/html/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:184
 msgid "Couldn't establish a federated share."
-msgstr "無法建立聯邦式分享。"
+msgstr "無法建立聯邦分享。"
 
 #: /var/www/html/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:186
 msgid "Couldn't establish a federated share, maybe the password was wrong."
-msgstr "無法建立聯邦式分享，可能是密碼錯誤。"
+msgstr "無法建立聯邦分享，可能是密碼錯誤。"
 
 #: /var/www/html/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:195
 msgid ""
 "Federated Share request sent, you will receive an invitation. Check your "
 "notifications."
-msgstr "已傳送聯邦式分享請求，您將會收到邀請。請檢查您的通知。"
+msgstr "已傳送聯邦分享請求，您將會收到邀請。請檢查您的通知。"
 
 #: /var/www/html/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:200
 msgid ""
 "Couldn't establish a federated share, it looks like the server to federate "
 "with is too old (Nextcloud <= 9)."
-msgstr "無法建立聯邦式分享，看來是聯邦的伺服器太舊了（Nextcloud <= 9）。"
+msgstr "無法建立聯邦分享，看來是聯邦的伺服器太舊了（Nextcloud <= 9）。"
 
 #: /var/www/html/apps/federatedfilesharing/lib/FederatedShareProvider.php:123
 msgid "It is not allowed to send federated group shares from this server."
-msgstr "不允許從此伺服器傳送聯邦式群組分享。"
+msgstr "不允許從此伺服器傳送聯邦群組分享。"
 
 #: /var/www/html/apps/federatedfilesharing/lib/FederatedShareProvider.php:135
 #, php-format
@@ -81,11 +81,11 @@ msgstr "分享 %1$s 失敗，因為此項目已與使用者 %2$s 分享"
 
 #: /var/www/html/apps/federatedfilesharing/lib/FederatedShareProvider.php:147
 msgid "Not allowed to create a federated share with the same user"
-msgstr "不允許與同一個使用者建立聯邦式分享"
+msgstr "不允許與同一個使用者建立聯邦分享"
 
 #: /var/www/html/apps/federatedfilesharing/lib/FederatedShareProvider.php:155
 msgid "Federated shares require read permissions"
-msgstr "聯邦式分享需要讀取權"
+msgstr "聯邦分享需要讀取權"
 
 #: /var/www/html/apps/federatedfilesharing/lib/FederatedShareProvider.php:187
 #, php-format
@@ -106,7 +106,7 @@ msgstr "找不到分享"
 
 #: /var/www/html/apps/federatedfilesharing/lib/Notifier.php:81
 msgid "Federated sharing"
-msgstr "聯邦式分享"
+msgstr "聯邦分享"
 
 #: /var/www/html/apps/federatedfilesharing/lib/Notifier.php:113
 msgid ""
@@ -129,7 +129,7 @@ msgstr "拒絕"
 #: /var/www/html/apps/federatedfilesharing/lib/Settings/Admin.php:96
 #: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:2
 msgid "Federated Cloud Sharing"
-msgstr "聯邦式雲端分享"
+msgstr "聯邦雲端分享"
 
 #: /var/www/html/apps/federatedfilesharing/lib/Settings/PersonalSection.php:70
 msgid "Sharing"
@@ -137,11 +137,11 @@ msgstr "分享"
 
 #: /var/www/html/apps/federatedfilesharing/specialAppInfoFakeDummyForL10nScript.php:2
 msgid "Federated file sharing"
-msgstr "聯邦式檔案分享"
+msgstr "聯邦檔案分享"
 
 #: /var/www/html/apps/federatedfilesharing/specialAppInfoFakeDummyForL10nScript.php:3
 msgid "Provide federated file sharing across servers"
-msgstr "提供跨伺服器的聯邦式檔案分享"
+msgstr "提供跨伺服器的聯邦檔案分享"
 
 #. TRANSLATORS src/components/AdminSettings.vue:25
 #: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:4
@@ -149,7 +149,7 @@ msgid ""
 "Adjust how people can share between servers. This includes shares between "
 "users on this server as well if they are using federated sharing."
 msgstr "調整人們如何在伺服器間分享。這也包含此伺服器上使用者間的分享，如果他們使用聯"
-"邦式分享的話。"
+"邦分享的話。"
 
 #. TRANSLATORS src/components/AdminSettings.vue:30
 #: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:6
@@ -186,12 +186,12 @@ msgstr "允許使用者將其資料發佈到全域且公開的通訊錄"
 #. TRANSLATORS src/components/AdminSettings.vue:117
 #: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:18
 msgid "Unable to update federated files sharing config"
-msgstr "無法更新聯邦式檔案分享設定"
+msgstr "無法更新聯邦檔案分享設定"
 
 #. TRANSLATORS src/components/PersonalSettings.vue:20
 #: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:20
 msgid "Federated Cloud"
-msgstr "聯邦式雲端"
+msgstr "聯邦雲端"
 
 #. TRANSLATORS src/components/PersonalSettings.vue:21
 #: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:22
