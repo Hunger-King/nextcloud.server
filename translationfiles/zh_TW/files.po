@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:19+0000\n"
-"PO-Revision-Date: 2024-03-12 12:22+0000\n"
+"PO-Revision-Date: 2024-03-13 14:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/files/zh_Hant/>\n"
@@ -59,7 +59,7 @@ msgstr "顯示清單檢視"
 #: /var/www/html/apps/files/js/app.js:388
 #: /var/www/html/apps/files/js/app.js:389
 msgid "Show grid view"
-msgstr "顯示網格檢視"
+msgstr "顯示格狀檢視"
 
 #. TRANSLATORS src/components/BreadCrumbs.vue:93
 #: /var/www/html/apps/files/js/breadcrumb.js:225
@@ -191,7 +191,7 @@ msgstr "設定提醒"
 #: /var/www/html/apps/files/js/fileactions.js:735
 #: /var/www/html/apps/files/src/actions/editLocallyAction.ts:49
 msgid "Edit locally"
-msgstr "本機編輯"
+msgstr "在本機編輯"
 
 #: /var/www/html/apps/files/js/fileactions.js:776
 msgid "Open"
@@ -256,7 +256,7 @@ msgstr "選取檔案「{fileName}」"
 #: /var/www/html/apps/files/js/filesummary.js:266
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:56
 msgid "Pending"
-msgstr "等候中"
+msgstr "待處理中"
 
 #: /var/www/html/apps/files/js/filelist.js:1856
 msgid "Unable to determine date"
@@ -264,13 +264,13 @@ msgstr "無法確定日期"
 
 #: /var/www/html/apps/files/js/filelist.js:2246
 msgid "This operation is forbidden"
-msgstr "此動作被禁止"
+msgstr "此操作被禁止"
 
 #: /var/www/html/apps/files/js/filelist.js:2254
 msgid ""
 "This directory is unavailable, please check the logs or contact the "
 "administrator"
-msgstr "這個目錄無法存取，請檢查伺服器記錄檔或聯絡管理員"
+msgstr "這個目錄無法取用，請檢查伺服器紀錄檔或聯絡管理員"
 
 #: /var/www/html/apps/files/js/filelist.js:2265
 msgid "Storage is temporarily not available"
@@ -301,11 +301,11 @@ msgstr "無法複製「{file}」"
 #: /var/www/html/apps/files/js/filelist.js:2790
 #: /var/www/html/apps/files/js/filelist.js:2797
 msgid "Copied {origin} inside {destination}"
-msgstr "已複製 {origin} 至 {destination}"
+msgstr "已將 {origin} 複製到 {destination}"
 
 #: /var/www/html/apps/files/js/filelist.js:2804
 msgid "Copied {origin} and {nbfiles} other files inside {destination}"
-msgstr "已複製 {origin} 和其他 {nbfiles} 個檔案至 {destination}"
+msgstr "已將 {origin} 和其他 {nbfiles} 個檔案複製到 {destination}"
 
 #: /var/www/html/apps/files/js/filelist.js:2838
 #: /var/www/html/apps/files/src/actions/editLocallyAction.ts:43
@@ -319,13 +319,13 @@ msgstr "{newName} 已存在"
 
 #: /var/www/html/apps/files/js/filelist.js:2946
 msgid "Could not rename \"{fileName}\", it does not exist any more"
-msgstr "無法命名檔案「{fileName}」，因為此檔案已不存在"
+msgstr "無法命名檔案「{fileName}」，因為檔案已不存在"
 
 #: /var/www/html/apps/files/js/filelist.js:2955
 msgid ""
 "The name \"{targetName}\" is already used in the folder \"{dir}\". Please "
 "choose a different name."
-msgstr "此名稱「{targetName}」在這資料夾「{dir}」已被使用。請選擇其他名稱。"
+msgstr "此名稱「{targetName}」在這資料夾「{dir}」中已被使用。請改用其他名稱。"
 
 #: /var/www/html/apps/files/js/filelist.js:2966
 msgid "Could not rename \"{fileName}\""
@@ -1139,7 +1139,7 @@ msgstr "切換至列表檢視"
 #. TRANSLATORS src/views/FilesList.vue:359
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:160
 msgid "Switch to grid view"
-msgstr "切換到網格檢視"
+msgstr "切換到格狀檢視"
 
 #. TRANSLATORS src/views/Navigation.vue:61
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:164
@@ -1183,7 +1183,7 @@ msgstr "圖片裁剪預覽"
 #. TRANSLATORS src/views/Settings.vue:43
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:182
 msgid "Enable the grid view"
-msgstr "啟用網格檢視"
+msgstr "啟用格狀檢視"
 
 #. TRANSLATORS src/views/Settings.vue:50
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:184
