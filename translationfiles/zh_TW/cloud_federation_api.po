@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:16+0000\n"
-"PO-Revision-Date: 2024-03-11 16:52+0000\n"
+"PO-Revision-Date: 2024-03-13 14:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/cloud_federation_api/zh_Hant/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: /var/www/html/apps/cloud_federation_api/specialAppInfoFakeDummyForL10nScript.php:2
 msgid "Cloud Federation API"
-msgstr "雲端聯盟 API"
+msgstr "雲端聯邦 API"
 
 #: /var/www/html/apps/cloud_federation_api/specialAppInfoFakeDummyForL10nScript.php:3
 msgid "Enable clouds to communicate with each other and exchange data"
@@ -31,4 +31,4 @@ msgstr "讓雲端可互相通訊並交換資料"
 msgid ""
 "The Cloud Federation API enables various Nextcloud instances to communicate "
 "with each other and to exchange data."
-msgstr "雲端聯盟 API 能讓多個 Nextcloud 實體之間，可以互相通訊並交換資料。"
+msgstr "雲端聯邦 API 能讓多個 Nextcloud 實體之間，可以互相通訊並交換資料。"
