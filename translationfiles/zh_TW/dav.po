@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-03-07 02:52+0000\n"
-"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
+"PO-Revision-Date: 2024-03-12 12:22+0000\n"
+"Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/dav/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -23,7 +23,7 @@ msgstr ""
 #: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:93
 #: /var/www/html/apps/dav/lib/UserMigration/CalendarMigrator.php:501
 msgid "Calendar"
-msgstr "日曆"
+msgstr "行事曆"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Filter/Todo.php:55
 msgid "To-dos"
@@ -37,41 +37,41 @@ msgstr "個人"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:100
 msgid "{actor} created calendar {calendar}"
-msgstr "{actor} 建立了日曆 {calendar}"
+msgstr "{actor} 建立了行事曆 {calendar}"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:102
 msgid "You created calendar {calendar}"
-msgstr "您建立了日曆 {calendar}"
+msgstr "您建立了行事曆 {calendar}"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:104
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:112
 msgid "{actor} deleted calendar {calendar}"
-msgstr "{actor} 刪除了日曆 {calendar}"
+msgstr "{actor} 刪除了行事曆 {calendar}"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:106
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:114
 msgid "You deleted calendar {calendar}"
-msgstr "您刪除了日曆 {calendar}"
+msgstr "您刪除了行事曆 {calendar}"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:108
 msgid "{actor} updated calendar {calendar}"
-msgstr "{actor} 更新了日曆 {calendar}"
+msgstr "{actor} 更新了行事曆 {calendar}"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:110
 msgid "You updated calendar {calendar}"
-msgstr "您更新了日曆 {calendar}"
+msgstr "您更新了行事曆 {calendar}"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:116
 msgid "{actor} restored calendar {calendar}"
-msgstr "{actor} 復原了日曆 {calendar}"
+msgstr "{actor} 復原了行事曆 {calendar}"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:118
 msgid "You restored calendar {calendar}"
-msgstr "您復原了日曆 {calendar}"
+msgstr "您復原了行事曆 {calendar}"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:120
 msgid "You shared calendar {calendar} as public link"
-msgstr "您已將 {calendar} 日曆以公開連結分享"
+msgstr "您已將 {calendar} 行事曆以公開連結分享"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:122
 msgid "You removed public link for calendar {calendar}"
@@ -79,47 +79,47 @@ msgstr "您刪除了 {calendar} 的公開分享連結"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:124
 msgid "{actor} shared calendar {calendar} with you"
-msgstr "{actor} 與您分享了 {calendar} 日曆"
+msgstr "{actor} 與您分享了 {calendar} 行事曆"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:126
 msgid "You shared calendar {calendar} with {user}"
-msgstr "您與 {user} 分享了 {calendar} 日曆"
+msgstr "您與 {user} 分享了 {calendar} 行事曆"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:128
 msgid "{actor} shared calendar {calendar} with {user}"
-msgstr "{actor} 與 {user} 分享了日曆 {calendar}"
+msgstr "{actor} 與 {user} 分享了行事曆 {calendar}"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:130
 msgid "{actor} unshared calendar {calendar} from you"
-msgstr "{actor} 已停止分享您的日曆 {calendar}"
+msgstr "{actor} 已停止分享您的行事曆 {calendar}"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:132
 msgid "You unshared calendar {calendar} from {user}"
-msgstr "您已停止分享 {user} 的日曆 {calendar}"
+msgstr "您已停止分享 {user} 的行事曆 {calendar}"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:134
 msgid "{actor} unshared calendar {calendar} from {user}"
-msgstr "{actor} 已停止分享 {user} 的日曆 {calendar}"
+msgstr "{actor} 已停止分享 {user} 的行事曆 {calendar}"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:136
 msgid "{actor} unshared calendar {calendar} from themselves"
-msgstr "{actor} 已停止分享他們自己的日曆 {calendar}"
+msgstr "{actor} 已停止分享他們自己的行事曆 {calendar}"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:138
 msgid "You shared calendar {calendar} with group {group}"
-msgstr "您已與群組 {group} 分享了日曆 {calendar}"
+msgstr "您已與群組 {group} 分享了行事曆 {calendar}"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:140
 msgid "{actor} shared calendar {calendar} with group {group}"
-msgstr "{actor} 已與群組 {group} 分享了日曆 {calendar}"
+msgstr "{actor} 已與群組 {group} 分享了行事曆 {calendar}"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:142
 msgid "You unshared calendar {calendar} from group {group}"
-msgstr "您已停止與群組 {group} 分享日曆 {calendar}"
+msgstr "您已停止與群組 {group} 分享行事曆 {calendar}"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:144
 msgid "{actor} unshared calendar {calendar} from group {group}"
-msgstr "{actor} 已停止與群組 {group} 分享日曆 {calendar}"
+msgstr "{actor} 已停止與群組 {group} 分享行事曆 {calendar}"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:92
 #: /var/www/html/apps/dav/lib/CalDAV/Reminder/NotificationProvider/EmailProvider.php:463
@@ -132,49 +132,50 @@ msgstr "未命名活動"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:138
 msgid "{actor} created event {event} in calendar {calendar}"
-msgstr "{actor} 在日曆 {calendar} 中建立了 {event} 活動"
+msgstr "{actor} 在行事曆 {calendar} 中建立了 {event} 活動"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:140
 msgid "You created event {event} in calendar {calendar}"
-msgstr "您在日曆 {calendar} 中建立了 {event} 活動"
+msgstr "您在行事曆 {calendar} 中建立了 {event} 活動"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:142
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:154
 msgid "{actor} deleted event {event} from calendar {calendar}"
-msgstr "{actor} 在日曆 {calendar} 中刪除了 {event} 活動"
+msgstr "{actor} 在行事曆 {calendar} 中刪除了 {event} 活動"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:144
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:156
 msgid "You deleted event {event} from calendar {calendar}"
-msgstr "您在日曆 {calendar} 中刪除了 {event} 活動"
+msgstr "您在行事曆 {calendar} 中刪除了 {event} 活動"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:146
 msgid "{actor} updated event {event} in calendar {calendar}"
-msgstr "{actor} 在日曆 {calendar} 中更新了 {event} 活動"
+msgstr "{actor} 在行事曆 {calendar} 中更新了 {event} 活動"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:148
 msgid "You updated event {event} in calendar {calendar}"
-msgstr "您在日曆 {calendar} 中刪除了 {event} 活動"
+msgstr "您在行事曆 {calendar} 中刪除了 {event} 活動"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:150
 msgid ""
 "{actor} moved event {event} from calendar {sourceCalendar} to calendar "
 "{targetCalendar}"
-msgstr "{actor} 將事件 {event} 從日曆 {sourceCalendar} 移動至日曆 {targetCalendar}"
+msgstr "{actor} 將事件 {event} 從行事曆 {sourceCalendar} 移動至行事曆 "
+"{targetCalendar}"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:152
 msgid ""
 "You moved event {event} from calendar {sourceCalendar} to calendar "
 "{targetCalendar}"
-msgstr "您將事件 {event} 從日曆 {sourceCalendar} 移動至日曆 {targetCalendar}"
+msgstr "您將事件 {event} 從行事曆 {sourceCalendar} 移動至行事曆 {targetCalendar}"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:158
 msgid "{actor} restored event {event} of calendar {calendar}"
-msgstr "{actor} 復原了日曆 {calendar} 中的活動 {event}"
+msgstr "{actor} 復原了行事曆 {calendar} 中的活動 {event}"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:160
 msgid "You restored event {event} of calendar {calendar}"
-msgstr "您復原了日曆 {calendar} 中的活動 {event}"
+msgstr "您復原了行事曆 {calendar} 中的活動 {event}"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Provider/Event.php:253
 #: /var/www/html/apps/dav/lib/CalDAV/CalendarObject.php:125
@@ -234,19 +235,19 @@ msgstr "您將待辦事項 {todo} 從清單 {sourceCalendar} 移動到清單 {ta
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Setting/CalDAVSetting.php:48
 msgid "Calendar, contacts and tasks"
-msgstr "日曆、通訊錄與工作項目"
+msgstr "行事曆、聯絡人與工作事項"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Setting/Calendar.php:40
 msgid "A <strong>calendar</strong> was modified"
-msgstr "一個<strong>日曆</strong>被更動"
+msgstr "一個<strong>行事曆</strong>被更動"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Setting/Event.php:40
 msgid "A calendar <strong>event</strong> was modified"
-msgstr "一個日曆<strong>活動</strong>被更動"
+msgstr "一個行事曆<strong>活動</strong>被更動"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Activity/Setting/Todo.php:41
 msgid "A calendar <strong>to-do</strong> was modified"
-msgstr "已修改一個日曆<strong>待辦事項</strong>"
+msgstr "已修改一個行事曆<strong>待辦事項</strong>"
 
 #: /var/www/html/apps/dav/lib/CalDAV/BirthdayService.php:150
 #: /var/www/html/apps/dav/lib/CalDAV/Calendar.php:70
@@ -261,11 +262,11 @@ msgstr "%s 逝世"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Reminder/NotificationProvider/AbstractProvider.php:190
 msgid "Untitled calendar"
-msgstr "未命名日曆"
+msgstr "未命名行事曆"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Reminder/NotificationProvider/EmailProvider.php:168
 msgid "Calendar:"
-msgstr "日曆："
+msgstr "行事曆："
 
 #: /var/www/html/apps/dav/lib/CalDAV/Reminder/NotificationProvider/EmailProvider.php:171
 msgid "Date:"
@@ -318,7 +319,7 @@ msgstr "%s（%s 前）"
 #: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:210
 #, php-format
 msgid "Calendar: %s"
-msgstr "日曆：%s"
+msgstr "行事曆：%s"
 
 #: /var/www/html/apps/dav/lib/CalDAV/Reminder/Notifier.php:211
 #, php-format
@@ -681,11 +682,11 @@ msgstr "活動"
 
 #: /var/www/html/apps/dav/lib/Search/TasksSearchProvider.php:74
 msgid "Tasks"
-msgstr "工作項目"
+msgstr "工作事項"
 
 #: /var/www/html/apps/dav/lib/Search/TasksSearchProvider.php:118
 msgid "Untitled task"
-msgstr "未命名工作項目"
+msgstr "未命名工作事項"
 
 #: /var/www/html/apps/dav/lib/Search/TasksSearchProvider.php:155
 #, php-format
@@ -722,11 +723,11 @@ msgstr ""
 #: /var/www/html/apps/dav/lib/UserMigration/CalendarMigrator.php:369
 #, php-format
 msgid "Migrated calendar (%1$s)"
-msgstr "已導入的日曆 (%1$s)"
+msgstr "已導入的行事曆 (%1$s)"
 
 #: /var/www/html/apps/dav/lib/UserMigration/CalendarMigrator.php:508
 msgid "Calendars including events, details and attendees"
-msgstr "日曆，包含事件、詳細資訊及參與者"
+msgstr "行事曆，包含事件、詳細資訊及參與者"
 
 #: /var/www/html/apps/dav/lib/UserMigration/ContactsMigrator.php:409
 msgid "Contacts and groups"
@@ -910,7 +911,7 @@ msgstr "設定您的下一個缺席時段。"
 #. TRANSLATORS src/views/CalDavSettings.vue:2
 #: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:68
 msgid "Calendar server"
-msgstr "日曆伺服器"
+msgstr "行事曆伺服器"
 
 #. TRANSLATORS src/views/CalDavSettings.vue:13
 #: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:70
@@ -920,12 +921,12 @@ msgstr "發送邀請函給參加者"
 #. TRANSLATORS src/views/CalDavSettings.vue:26
 #: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:72
 msgid "Automatically generate a birthday calendar"
-msgstr "自動生成生日日曆"
+msgstr "自動生成生日行事曆"
 
 #. TRANSLATORS src/views/CalDavSettings.vue:29
 #: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:74
 msgid "Birthday calendars will be generated by a background job."
-msgstr "生日日曆將由背景作業生成。"
+msgstr "生日行事曆將由背景作業生成。"
 
 #. TRANSLATORS src/views/CalDavSettings.vue:33
 #: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:76
@@ -949,7 +950,7 @@ msgstr "通知會透過背景作業傳送，因此這些會經常發生。"
 #. TRANSLATORS src/views/CalDavSettings.vue:57
 #: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:82
 msgid "Send reminder notifications to calendar sharees as well"
-msgstr "也向共享日曆傳送提醒通知"
+msgstr "也向共享行事曆傳送提醒通知"
 
 #. TRANSLATORS src/views/CalDavSettings.vue:60
 #: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:84
@@ -967,8 +968,8 @@ msgid ""
 "Also install the {calendarappstoreopen}Calendar app{linkclose}, or "
 "{calendardocopen}connect your desktop & mobile for syncing ↗{linkclose}."
 msgstr ""
-"也安裝{calendarappstoreopen}日曆應用程式{linkclose}，或{calendardocopen}連結您的電腦或行動裝置以供同步"
-" ↗{linkclose}。"
+"也安裝{calendarappstoreopen}行事曆應用程式{linkclose}，或{calendardocopen}"
+"連結您的電腦或行動裝置以供同步 ↗{linkclose}。"
 
 #. TRANSLATORS src/views/CalDavSettings.vue:106
 #: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:90
