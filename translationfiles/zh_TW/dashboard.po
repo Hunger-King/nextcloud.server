@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:16+0000\n"
-"PO-Revision-Date: 2024-03-06 01:52+0000\n"
-"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
+"PO-Revision-Date: 2024-03-12 12:22+0000\n"
+"Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/dashboard/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -33,11 +33,11 @@ msgid ""
 "\n"
 "The Nextcloud Dashboard is your starting point of the day, giving you an overview of your upcoming appointments, urgent emails, chat messages, incoming tickets, latest tweets and much more! Users can add the widgets they like and change the background to their liking."
 msgstr ""
-"開始每日資訊縱覽\n"
+"從每日資訊總覽開始\n"
 "\n"
 "Nextcloud 儀表板是您一天的起點，為您提供您即將到來的行程概覽、緊急電子郵件、"
-"聊天訊息、到來的工單、最新的推文以及更多！使用者可以新增他們喜愛的小工具與變"
-"更他們喜愛的背景。"
+"聊天訊息、到來的工單、最新的推文⋯⋯等等！使用者可以加入他們喜愛的小工具，還有"
+"更換他們喜愛的背景。"
 
 #. TRANSLATORS src/DashboardApp.vue:30
 #: /var/www/html/apps/dashboard/specialVueFakeDummyForL10nScript.js:2
@@ -70,7 +70,8 @@ msgstr "天氣服務"
 msgid ""
 "For your privacy, the weather data is requested by your Nextcloud server on "
 "your behalf so the weather service receives no personal information."
-msgstr "為了保護您的隱私，Nextcloud 會代您請求氣象資料，因此天氣服務不會收到您的個人資訊。"
+msgstr "為了保護您的隱私，Nextcloud "
+"伺服器會代您請求氣象資料，因此天氣服務不會收到您的個人資訊。"
 
 #. TRANSLATORS src/DashboardApp.vue:109
 #: /var/www/html/apps/dashboard/specialVueFakeDummyForL10nScript.js:16
@@ -80,12 +81,12 @@ msgstr "氣象資訊來自 Met.no"
 #. TRANSLATORS src/DashboardApp.vue:110
 #: /var/www/html/apps/dashboard/specialVueFakeDummyForL10nScript.js:18
 msgid "geocoding with Nominatim"
-msgstr "使用 Nominatim 來進行地理編碼"
+msgstr "地理編碼使用 Nominatim"
 
 #. TRANSLATORS src/DashboardApp.vue:111
 #: /var/www/html/apps/dashboard/specialVueFakeDummyForL10nScript.js:20
 msgid "elevation data from OpenTopoData"
-msgstr "來自 OpenTopoData 的海拔資料"
+msgstr "海拔資料來自 OpenTopoData"
 
 #. TRANSLATORS src/DashboardApp.vue:138
 #: /var/www/html/apps/dashboard/specialVueFakeDummyForL10nScript.js:22
