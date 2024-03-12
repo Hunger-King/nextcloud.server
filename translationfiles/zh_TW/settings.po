@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-12 13:51+0000\n"
+"PO-Revision-Date: 2024-03-12 13:55+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/settings/zh_Hant/>\n"
@@ -310,7 +310,7 @@ msgstr "透過應用程式商店或是聯盟式雲端分享來安裝、更新應
 
 #: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:216
 msgid "Federated Cloud Sharing"
-msgstr "聯邦式雲端分享"
+msgstr "聯邦雲端分享"
 
 #: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:229
 #, php-format
