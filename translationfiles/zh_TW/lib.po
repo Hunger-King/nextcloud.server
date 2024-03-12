@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:19+0000\n"
-"PO-Revision-Date: 2024-03-12 12:22+0000\n"
+"PO-Revision-Date: 2024-03-12 13:51+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/lib/zh_Hant/>\n"
@@ -691,7 +691,7 @@ msgstr "開啟 %s"
 #: /var/www/html/lib/private/Share20/Manager.php:925
 #, php-format
 msgid "%1$s via %2$s"
-msgstr "%1$s 由 %2$s"
+msgstr "%1$s 經由 %2$s"
 
 #: /var/www/html/lib/private/Share20/Manager.php:285
 #, php-format
