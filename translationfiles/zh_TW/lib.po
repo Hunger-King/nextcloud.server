@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:19+0000\n"
-"PO-Revision-Date: 2024-03-12 13:51+0000\n"
+"PO-Revision-Date: 2024-03-13 14:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/lib/zh_Hant/>\n"
@@ -1202,12 +1202,12 @@ msgstr "欠缺完成請求所需的參數：「%s」"
 #: /var/www/html/lib/public/Federation/Exceptions/ProviderAlreadyExistsException.php:47
 #, php-format
 msgid "ID \"%1$s\" already used by cloud federation provider \"%2$s\""
-msgstr "ID「%1$s」已被另一個雲端聯盟提供者「%2$s」所使用"
+msgstr "ID「%1$s」已被另一個雲端聯邦提供者「%2$s」所使用"
 
 #: /var/www/html/lib/public/Federation/Exceptions/ProviderDoesNotExistsException.php:44
 #, php-format
 msgid "Cloud Federation Provider with ID: \"%s\" does not exist."
-msgstr "ID 為「%s」的雲端聯盟提供者不存在。"
+msgstr "ID 為「%s」的雲端聯邦提供者不存在。"
 
 #: /var/www/html/lib/public/Files/LockNotAcquiredException.php:46
 #, php-format
