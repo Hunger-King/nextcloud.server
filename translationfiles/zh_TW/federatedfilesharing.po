@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-03-12 13:55+0000\n"
+"PO-Revision-Date: 2024-03-13 14:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/federatedfilesharing/zh_Hant/>\n"
@@ -81,7 +81,7 @@ msgstr "分享 %1$s 失敗，因為此項目已與使用者 %2$s 分享"
 
 #: /var/www/html/apps/federatedfilesharing/lib/FederatedShareProvider.php:147
 msgid "Not allowed to create a federated share with the same user"
-msgstr "不允許與同一個使用者建立聯邦分享"
+msgstr "不允許與同一位使用者建立聯邦分享"
 
 #: /var/www/html/apps/federatedfilesharing/lib/FederatedShareProvider.php:155
 msgid "Federated shares require read permissions"
@@ -97,7 +97,7 @@ msgstr "檔案已與 %s 分享"
 msgid ""
 "Sharing %1$s failed, could not find %2$s, maybe the server is currently "
 "unreachable or uses a self-signed certificate."
-msgstr "分享 %1$s 失敗，找不到 %2$s，或許伺服器目前無法存取或使用自行簽署的憑證。"
+msgstr "分享 %1$s 失敗，找不到 %2$s，可能伺服器目前無法存取，或使用了自行簽署的憑證。"
 
 #: /var/www/html/apps/federatedfilesharing/lib/FederatedShareProvider.php:794
 #: /var/www/html/apps/federatedfilesharing/lib/FederatedShareProvider.php:800
@@ -186,7 +186,7 @@ msgstr "允許使用者將其資料發佈到全域且公開的通訊錄"
 #. TRANSLATORS src/components/AdminSettings.vue:117
 #: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:18
 msgid "Unable to update federated files sharing config"
-msgstr "無法更新聯邦檔案分享設定"
+msgstr "無法更新聯邦檔案分享組態設定"
 
 #. TRANSLATORS src/components/PersonalSettings.vue:20
 #: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:20
@@ -200,9 +200,9 @@ msgid ""
 "Mesh (OCM) compatible servers and services! Just put their Federated Cloud "
 "ID in the share dialog. It looks like person@cloud.example.com"
 msgstr ""
-"您可以與任何使用 Nextcloud 伺服器或其他相容於 Open Cloud Mesh (OCM) "
-"的伺服器與服務分享！只要把他們的聯邦雲端 ID 放在分享對話框中。看起來會像是 "
-"person@cloud.example.com"
+"您可以與任何使用 Nextcloud 伺服器，或其他相容於 Open Cloud Mesh (OCM) "
+"的伺服器與服務分享！只要把他們的聯邦雲端 ID 放在分享對話方塊中。ID "
+"看起來會像 person@cloud.example.com"
 
 #. TRANSLATORS src/components/PersonalSettings.vue:24
 #: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:24
@@ -212,7 +212,7 @@ msgstr "您的聯邦雲端 ID："
 #. TRANSLATORS src/components/PersonalSettings.vue:39
 #: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:26
 msgid "Share it so your friends can share files with you:"
-msgstr "分享它，然後您的朋友就能與您分享檔案："
+msgstr "分享 ID，然後您的朋友就能透過它與您分享檔案："
 
 #. TRANSLATORS src/components/PersonalSettings.vue:41
 #: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:28
@@ -249,12 +249,12 @@ msgstr "HTML 程式碼："
 #. TRANSLATORS src/components/PersonalSettings.vue:124
 #: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:40
 msgid "Share with me through my #Nextcloud Federated Cloud ID, see {url}"
-msgstr "可透過我的 #Nextcloud 聯邦雲端 ID 與我分享，請見 {url}"
+msgstr "透過我的 #Nextcloud 聯邦雲端 ID 與我分享，請見 {url}"
 
 #. TRANSLATORS src/components/PersonalSettings.vue:127
 #: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:42
 msgid "Share with me through my #Nextcloud Federated Cloud ID"
-msgstr "可透過我的 #Nextcloud 聯邦雲端 ID 與我分享"
+msgstr "透過我的 #Nextcloud 聯邦雲端 ID 與我分享"
 
 #. TRANSLATORS src/components/PersonalSettings.vue:154
 #: /var/www/html/apps/federatedfilesharing/specialVueFakeDummyForL10nScript.js:46
