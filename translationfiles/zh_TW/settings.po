@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-07 02:52+0000\n"
-"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
+"PO-Revision-Date: 2024-03-12 12:22+0000\n"
+"Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/settings/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -325,8 +325,8 @@ msgid ""
 "error happened during the HTTPS request against https://nextcloud.com. "
 "Please check the Nextcloud log file for more details."
 msgstr ""
-"對於 https://nextcloud.com 的 HTTPS 請求發生錯誤，因此無法確定 cURL 的 TLS 是否過舊。請檢查 Nextcloud"
-" 的紀錄檔以取得更多資訊。"
+"對於 https://nextcloud.com 的 HTTPS 請求發生錯誤，因此無法確定 cURL 的 TLS "
+"是否過舊。請檢查 Nextcloud 的紀錄檔以了解更多細節。"
 
 #: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:350
 msgid ""
@@ -673,7 +673,7 @@ msgstr "可用性"
 
 #: /var/www/html/apps/settings/lib/Sections/Personal/Calendar.php:49
 msgid "Calendar"
-msgstr "日曆"
+msgstr "行事曆"
 
 #: /var/www/html/apps/settings/lib/Sections/Personal/PersonalInfo.php:54
 #: /var/www/html/apps/settings/templates/settings/personal/personal.info.php:47
@@ -1441,7 +1441,7 @@ msgstr "無法設定免責聲明文字"
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:114
 #: /var/www/html/apps/settings/templates/settings/personal/security/twofactor.php:28
 msgid "Two-Factor Authentication"
-msgstr "雙因素驗證"
+msgstr "雙因素認證"
 
 #. TRANSLATORS src/components/AdminTwoFactor.vue:3
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:116
@@ -1449,13 +1449,14 @@ msgid ""
 "Two-factor authentication can be enforced for all users and specific groups."
 " If they do not have a two-factor provider configured, they will be unable "
 "to log into the system."
-msgstr "可對所有使用者與特定群組強制啟用雙因素驗證。如果他們沒有設定雙因素驗證提供者，那麼他們就會無法登入系統。"
+msgstr "可對所有使用者與特定群組強制啟用雙因素認證。如果他們沒有設定雙因素認證提供者"
+"，那麼他們就會無法登入系統。"
 
 #. TRANSLATORS src/components/AdminTwoFactor.vue:7
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:118
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:120
 msgid "Enforce two-factor authentication"
-msgstr "強制雙因素驗證"
+msgstr "強制雙因素認證"
 
 #. TRANSLATORS src/components/AdminTwoFactor.vue:16
 #. TRANSLATORS src/components/AppDetails.vue:33
@@ -1468,14 +1469,14 @@ msgstr "限制給特定群組"
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:124
 msgid ""
 "Enforcement of two-factor authentication can be set for certain groups only."
-msgstr "強制雙因素驗證可僅為某些群組設定。"
+msgstr "強制雙因素認證可僅為某些群組設定。"
 
 #. TRANSLATORS src/components/AdminTwoFactor.vue:19
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:126
 msgid ""
 "Two-factor authentication is enforced for all members of the following "
 "groups."
-msgstr "對以下群組的所有成員強制開啟雙因素驗證。"
+msgstr "對以下群組的所有成員強制開啟雙因素認證。"
 
 #. TRANSLATORS src/components/AdminTwoFactor.vue:23
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:128
@@ -1487,7 +1488,7 @@ msgstr "已強制的群組"
 msgid ""
 "Two-factor authentication is not enforced for members of the following "
 "groups."
-msgstr "以下群組的成員不強制開啟雙因素驗證。"
+msgstr "以下群組的成員不強制開啟雙因素認證。"
 
 #. TRANSLATORS src/components/AdminTwoFactor.vue:39
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:132
@@ -1503,10 +1504,10 @@ msgid ""
 "is enabled for all members of these. If a user is both in a selected and "
 "excluded group, the selected takes precedence and 2FA is enforced."
 msgstr ""
-"選取/排除群組時，其使用以下邏輯來確定使用者是否強制啟用雙因素驗證：如果沒有選"
-"取群組，雙因素驗證對所有除了排除群組以外的成員啟用。若選取了群組，則雙因素驗"
+"選取/排除群組時，其使用以下邏輯來確定使用者是否強制啟用雙因素認證：如果沒有選"
+"取群組，雙因素認證對所有除了排除群組以外的成員啟用。若選取了群組，則雙因素認"
 "證會對所有該群組的成員啟用。如果某個使用者同時位在選取與排除的群組，則被選取"
-"的群組優先程度較高，因此會強制啟用雙因素驗證。"
+"的群組優先程度較高，因此會強制啟用雙因素認證。"
 
 #. TRANSLATORS src/components/AdminTwoFactor.vue:62
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:136
@@ -1749,7 +1750,7 @@ msgstr "抹除裝置"
 msgid ""
 "Revoking this token might prevent the wiping of your device if it has not "
 "started the wipe yet."
-msgstr "若尚未開始抹除，則撤銷此權杖可能會無法抹除您的裝置。"
+msgstr "若尚未開始抹除，則撤銷此代符可能會無法抹除您的裝置。"
 
 #. TRANSLATORS src/components/AuthToken.vue:121
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:248
@@ -1856,27 +1857,27 @@ msgstr "確認抹除"
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:288
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:320
 msgid "Error while creating device token"
-msgstr "建立裝置權杖時發生錯誤"
+msgstr "建立裝置代符時發生錯誤"
 
 #. TRANSLATORS src/components/AuthTokenSection.vue:117
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:290
 msgid "Error while updating device token scope"
-msgstr "更新裝置權杖範圍時發生錯誤"
+msgstr "更新裝置代符範圍時發生錯誤"
 
 #. TRANSLATORS src/components/AuthTokenSection.vue:135
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:292
 msgid "Error while updating device token name"
-msgstr "更新裝置權杖名稱時發生錯誤"
+msgstr "更新裝置代符名稱時發生錯誤"
 
 #. TRANSLATORS src/components/AuthTokenSection.vue:156
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:294
 msgid "Error while deleting the token"
-msgstr "刪除權杖時發生錯誤"
+msgstr "刪除代符時發生錯誤"
 
 #. TRANSLATORS src/components/AuthTokenSection.vue:179
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:296
 msgid "Error while wiping the device with the token"
-msgstr "使用權杖抹除裝置時發生錯誤"
+msgstr "使用代符抹除裝置時發生錯誤"
 
 #. TRANSLATORS src/components/AuthTokenSetupDialogue.vue:30
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:298
@@ -2012,7 +2013,8 @@ msgstr "cron.php 必須由系統使用者「{user}」執行。"
 msgid ""
 "The PHP POSIX extension is required. See {linkstart}PHP "
 "documentation{linkend} for more details."
-msgstr "PHP POSIX 擴充元件為必須。請檢視 {linkstart}PHP 文件{linkend}以取得更多資訊。"
+msgstr "PHP POSIX 擴充功能為必須。請檢視 {linkstart} PHP 文件 {linkend} "
+"以了解更多細節。"
 
 #. TRANSLATORS src/components/BasicSettings/BackgroundJob.vue:161
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:350
@@ -2082,7 +2084,7 @@ msgid ""
 "documentation for more information about how the encryption app works, and "
 "the supported use cases."
 msgstr "單獨加密不能保證系統安全性。請參考加密應用程式運作原理，及支援使用案例的文件"
-"，以取得更多資訊。"
+"，以了解更多資訊。"
 
 #. TRANSLATORS src/components/Encryption.vue:39
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:372
@@ -3213,7 +3215,7 @@ msgstr "地區設定"
 msgid ""
 "Not available as this property is required for core functionality including "
 "file sharing and calendar invitations"
-msgstr "無法使用，因為此屬性是核心功能（包括檔案分享和日曆邀請）所必需的"
+msgstr "無法使用，因為此屬性是核心功能（包括檔案分享和行事曆邀請）所必需的"
 
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:183
 msgid ""
@@ -3314,7 +3316,7 @@ msgstr "錯誤：此應用程序無法啟用，因為它造成伺服器不穩定
 msgid ""
 "There were too many requests from your network. Retry later or contact your "
 "administrator if this is an error."
-msgstr "有太多請求來自您的網路，請稍後再試，若您認為這不該發生，請回報系統管理員這項"
+msgstr "有太多請求來自您的網路，請稍後再試。若您認為這不該發生，請聯絡系統管理員這是"
 "錯誤。"
 
 #: /var/www/html/apps/settings/templates/help.php:37
@@ -3423,7 +3425,8 @@ msgid ""
 "It's important for the security and performance of your instance that "
 "everything is configured correctly. To help you with that we are doing some "
 "automatic checks. Please see the linked documentation for more information."
-msgstr "正確設定每樣東西對您的站台的安全性與效能來說非常重要。為了協助您，我們正在進行一些自動檢查。請參閱連結資訊以取得更多資訊。"
+msgstr "正確設定每樣東西對您的站台的安全性與效能來說非常重要。為了協助您，我們正在進"
+"行一些自動檢查。請參閱連結資訊以了解更多資訊。"
 
 #: /var/www/html/apps/settings/templates/settings/admin/overview.php:38
 msgid "All checks passed."
@@ -3510,4 +3513,5 @@ msgid ""
 "If you use third party applications to connect to Nextcloud, please make "
 "sure to create and configure an app password for each before enabling second"
 " factor authentication."
-msgstr "如果您使用第三方應用程式來連線到 Nextcloud，請確保在啟用雙因素驗證前為每個應用程式設定應用程式密碼。"
+msgstr "如果您使用第三方應用程式來連線到 "
+"Nextcloud，請確保在啟用雙因素認證前為每個應用程式設定應用程式密碼。"
