@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-03-06 01:52+0000\n"
-"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
+"PO-Revision-Date: 2024-03-12 13:51+0000\n"
+"Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/encryption/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -32,7 +32,7 @@ msgstr "請再次輸入還原金鑰密碼"
 msgid ""
 "Repeated recovery key password does not match the provided recovery key "
 "password"
-msgstr "輸入的還原金鑰密碼與設定的不相符"
+msgstr "再次輸入的還原金鑰密碼與提供的不相符"
 
 #: /var/www/html/apps/encryption/lib/Controller/RecoveryController.php:97
 msgid "Recovery key successfully enabled"
@@ -100,7 +100,7 @@ msgstr "舊密碼不正確，請再試一次。"
 
 #: /var/www/html/apps/encryption/lib/Controller/SettingsController.php:139
 msgid "The current log-in password was not correct, please try again."
-msgstr "目前登入的密碼不正確，請再試一次。"
+msgstr "目前的登入密碼不正確，請再試一次。"
 
 #: /var/www/html/apps/encryption/lib/Controller/SettingsController.php:145
 msgid "Private key password successfully updated."
@@ -133,7 +133,7 @@ msgstr "加密應用程式已啟用並準備就緒"
 
 #: /var/www/html/apps/encryption/lib/Crypto/Crypt.php:483
 msgid "Bad Signature"
-msgstr "錯誤簽章"
+msgstr "不良簽章"
 
 #: /var/www/html/apps/encryption/lib/Crypto/Crypt.php:551
 #: /var/www/html/apps/encryption/lib/Crypto/Crypt.php:556
@@ -169,7 +169,7 @@ msgid ""
 "password into the \"Old login password\" field and your current login "
 "password."
 msgstr "請登入網頁介面，請到個人設定中的「安全」區塊，透過輸入此密碼至「舊登入密碼」"
-"欄位與您目前的登入密碼來更新您的加密密碼。"
+"欄位與您目前的登入密碼，來更新您的加密密碼。"
 
 #: /var/www/html/apps/encryption/lib/Crypto/Encryption.php:349
 msgid ""
@@ -269,11 +269,11 @@ msgstr "基本加密模組"
 
 #: /var/www/html/apps/encryption/templates/settings-personal.php:17
 msgid "Your private key password no longer matches your log-in password."
-msgstr "您的私鑰密碼不符合您的登入密碼。"
+msgstr "您的私鑰密碼與您的登入密碼不相符。"
 
 #: /var/www/html/apps/encryption/templates/settings-personal.php:20
 msgid "Set your old private key password to your current log-in password:"
-msgstr "將您的舊私鑰密碼射為為您現在的登入密碼："
+msgstr "將您的舊私鑰密碼設為您現在的登入密碼："
 
 #: /var/www/html/apps/encryption/templates/settings-personal.php:22
 msgid ""
@@ -287,7 +287,7 @@ msgstr "舊登入密碼"
 
 #: /var/www/html/apps/encryption/templates/settings-personal.php:35
 msgid "Current log-in password"
-msgstr "目前的登入密碼"
+msgstr "目前登入密碼"
 
 #: /var/www/html/apps/encryption/templates/settings-personal.php:40
 msgid "Update Private Key Password"
@@ -301,7 +301,7 @@ msgstr "啟用密碼還原："
 msgid ""
 "Enabling this option will allow you to reobtain access to your encrypted "
 "files in case of password loss"
-msgstr "啟用此選項讓您可以在忘記密碼的情況下取回對您已加密檔案的存取權"
+msgstr "啟用此選項，讓您可以在忘記密碼的情況下，取回對您已加密檔案的存取權"
 
 #: /var/www/html/apps/encryption/templates/settings-personal.php:60
 msgid "Enabled"
