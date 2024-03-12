@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-11 16:52+0000\n"
+"PO-Revision-Date: 2024-03-12 12:22+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/theming/zh_Hant/>\n"
@@ -252,7 +252,8 @@ msgstr "進階選項"
 msgid ""
 "Install the ImageMagick PHP extension with support for SVG images to "
 "automatically generate favicons based on the uploaded logo and color."
-msgstr "安裝支援 SVG 圖片的 PHP ImageMagick 擴充元件，以上傳的圖示與顏色為基礎生成 favicons。"
+msgstr "安裝支援 SVG 圖片的 PHP ImageMagick 擴充功能，以上傳的圖示與顏色為基礎生成 "
+"favicons。"
 
 #. TRANSLATORS src/AdminTheming.vue:150
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:10
