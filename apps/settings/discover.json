@@ -1,0 +1,73 @@
+[
+	{
+		"type": "post",
+		"id": "1d41a08e-4aa6-49b3-ad1b-ff2e83bcdc88",
+		"media": {
+			"alignment": "center",
+			"content": {
+				"en": {
+					"src": [
+						{ "src": "https://github.com/nextcloud/firstrunwizard/raw/master/img/Nextcloud.webm", "mime": "video/webm"},
+						{ "src": "https://github.com/nextcloud/firstrunwizard/raw/master/img/Nextcloud.mp4", "mime": "video/mp4"}
+					],
+					"alt": "HUB Update",
+					"link": "https://example.com/wallpapers"
+				}
+			}
+		}
+	},
+	{
+		"type": "carousel",
+		"id": "1d41a08e-4aa6-49b3-ad1b-ff2e83bcdf96",
+		"headline": {
+			"en": "A carousel",
+			"de": "Ein Karussel"
+		},
+		"content": [
+			{
+				"type": "post",
+				"id": "1d41a08e-4aa6-49b4-ad1b-ff2e83bcdc96",
+				"headline": {
+					"en": "Dashboard"
+				},
+				"text": {
+					"en": "Dashboard is installed thus this will just open dashboard."
+				},
+				"link": "app://dashboard"
+			},
+			{
+				"type": "post",
+				"id": "1d41a08e-f-49b5-ad1b-ff2e83bcdc96",
+				"headline": {
+					"en": "Forms"
+				},
+				"text": {
+					"en": "Forms is not installed thus the appstore page will be shown."
+				},
+				"link": "app://forms"
+			},
+			{
+				"type": "post",
+				"id": "1d41a08e-s-49b6-ad1b-ff2e83bcdc96",
+				"headline": {
+					"en": "Trash"
+				},
+				"text": {
+					"en": "Also app routes are supported, in this case the trashbin of the files app should be shown."
+				},
+				"link": "app://files/trashbin"
+			},
+			{
+				"type": "post",
+				"id": "1d41a08e-a-49b6-ad1b-ff2e83bcdc96",
+				"headline": {
+					"en": "External"
+				},
+				"text": {
+					"en": "Normal external link opens in new tab"
+				},
+				"link": "http://example.com"
+			}
+		]
+	}
+]
