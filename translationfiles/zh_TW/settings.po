@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-12 13:55+0000\n"
+"PO-Revision-Date: 2024-03-13 14:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/settings/zh_Hant/>\n"
@@ -44,7 +44,7 @@ msgstr "僅讓此站台上的人們與訪客看見"
 #: /var/www/html/apps/settings/js/federationscopemenu.js:47
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:181
 msgid "Federated"
-msgstr "已聯盟"
+msgstr "已聯邦"
 
 #: /var/www/html/apps/settings/js/federationscopemenu.js:48
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:182
@@ -306,7 +306,7 @@ msgstr "後端不支援密碼變更，但使用者的加密金鑰已更新。"
 #: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:214
 msgid ""
 "installing and updating apps via the App Store or Federated Cloud Sharing"
-msgstr "透過應用程式商店或是聯盟式雲端分享來安裝、更新應用程式"
+msgstr "透過應用程式商店或是聯邦式雲端分享來安裝、更新應用程式"
 
 #: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:216
 msgid "Federated Cloud Sharing"
@@ -669,7 +669,7 @@ msgstr "分享"
 
 #: /var/www/html/apps/settings/lib/Sections/Personal/Availability.php:52
 msgid "Availability"
-msgstr "可見時間"
+msgstr "可用時間"
 
 #: /var/www/html/apps/settings/lib/Sections/Personal/Calendar.php:49
 msgid "Calendar"
@@ -2517,12 +2517,12 @@ msgstr "變更 {property} 的範圍層級，目前的範圍是 {scope}"
 #. TRANSLATORS src/components/PersonalInfo/shared/FederationControl.vue:163
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:536
 msgid "Unable to update federation scope of the primary {property}"
-msgstr "無法更新主要 {property} 的聯盟範圍"
+msgstr "無法更新主要 {property} 的聯邦範圍"
 
 #. TRANSLATORS src/components/PersonalInfo/shared/FederationControl.vue:178
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:538
 msgid "Unable to update federation scope of additional {property}"
-msgstr "無法更新額外 {property} 的聯盟範圍"
+msgstr "無法更新額外 {property} 的聯邦範圍"
 
 #. TRANSLATORS src/components/PersonalInfo/shared/HeaderBar.vue:44
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:540
@@ -3221,7 +3221,7 @@ msgstr "無法使用，因為此屬性是核心功能（包括檔案分享和行
 msgid ""
 "Not available as federation has been disabled for your account, contact your"
 " system administrator if you have any questions"
-msgstr "因為您的帳號已停用聯盟分享，因此不可用，若您有任何問題，請聯絡您的系統管理員"
+msgstr "因為您的帳號已停用聯邦分享，因此不可用，若您有任何問題，請聯絡您的系統管理員"
 
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:190
 msgid ""
