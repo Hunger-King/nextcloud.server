@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-03-07 02:52+0000\n"
-"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
+"PO-Revision-Date: 2024-03-12 13:51+0000\n"
+"Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/federation/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -29,7 +29,7 @@ msgstr "伺服器已在信任清單內。"
 
 #: /var/www/html/apps/federation/lib/Controller/SettingsController.php:90
 msgid "No server to federate with found"
-msgstr "沒有找到可聯盟的伺服器"
+msgstr "沒有找到可聯邦的伺服器"
 
 #: /var/www/html/apps/federation/lib/DbHandler.php:84
 msgid "Could not add server"
@@ -42,13 +42,13 @@ msgstr "信任的伺服器"
 
 #: /var/www/html/apps/federation/specialAppInfoFakeDummyForL10nScript.php:2
 msgid "Federation"
-msgstr "聯盟"
+msgstr "聯邦"
 
 #: /var/www/html/apps/federation/specialAppInfoFakeDummyForL10nScript.php:3
 msgid ""
 "Federation allows you to connect with other trusted servers to exchange the "
 "user directory."
-msgstr "聯盟功能允許您與信任的伺服器連結，以交換使用者列表。"
+msgstr "聯邦功能允許您與信任的伺服器連結，以交換使用者列表。"
 
 #: /var/www/html/apps/federation/specialAppInfoFakeDummyForL10nScript.php:4
 msgid ""
@@ -56,7 +56,7 @@ msgid ""
 "user directory. For example this will be used to auto-complete external "
 "users for federated sharing."
 msgstr ""
-"聯盟功能允許您與信任的伺服器連結，以交換使用者列表。舉例來說，與其他雲端聯盟"
+"聯邦功能允許您與信任的伺服器連結，以交換使用者列表。舉例來說，與其他雲端聯邦"
 "的使用者分享檔案時，有了這一份列表，就可以在輸入框搜尋他們的使用者名稱。"
 
 #: /var/www/html/apps/federation/templates/settings-admin.php:11
@@ -66,7 +66,9 @@ msgid ""
 "users for federated sharing. It is not necessary to add a server as trusted "
 "server in order to create a federated share."
 msgstr ""
-"聯盟功能允許您與信任的伺服器連結，交換使用者列表。舉例來說，與其他雲端聯盟的使用者分享檔案時，有了這一份列表，就可以在輸入框搜尋他們的使用者名稱。不必將伺服器新增為受信任的伺服器就可以建立聯盟分享。"
+"聯邦功能允許您與信任的伺服器連結，交換使用者列表。舉例來說，與其他雲端聯邦的"
+"使用者分享檔案時，有了這一份列表，就可以在輸入框搜尋他們的使用者名稱。不必將"
+"伺服器新增為受信任的伺服器就可以建立聯邦分享。"
 
 #: /var/www/html/apps/federation/templates/settings-admin.php:33
 msgid "+ Add trusted server"
