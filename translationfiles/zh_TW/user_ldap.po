@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-12 12:22+0000\n"
+"PO-Revision-Date: 2024-03-16 03:43+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/user_ldap/zh_Hant/>\n"
@@ -499,12 +499,12 @@ msgstr "建立一個新的設定"
 #: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:26
 #: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:28
 msgid "Copy current configuration into new directory binding"
-msgstr "複製目前的設定檔到新目錄綁定"
+msgstr "複製目前的組態設定檔到新目錄綁定"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:33
 #: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:35
 msgid "Delete the current configuration"
-msgstr "刪除目前的設定檔"
+msgstr "刪除目前的組態設定檔"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:46
 msgid "Host"
