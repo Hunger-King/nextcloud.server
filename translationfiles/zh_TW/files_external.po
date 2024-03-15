@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-03-07 02:52+0000\n"
-"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
+"PO-Revision-Date: 2024-03-16 03:43+0000\n"
+"Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/files_external/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -400,11 +400,11 @@ msgstr "安全 ftps://"
 
 #: /var/www/html/apps/files_external/lib/Lib/Backend/Local.php:40
 msgid "Local"
-msgstr "本機"
+msgstr "本站"
 
 #: /var/www/html/apps/files_external/lib/Lib/Backend/Local.php:42
 msgid "Location"
-msgstr "路徑"
+msgstr "位置"
 
 #: /var/www/html/apps/files_external/lib/Lib/Backend/OwnCloud.php:38
 msgid "Nextcloud"
@@ -532,7 +532,7 @@ msgstr ""
 "\n"
 "可以使用圖形使用者介面或命令列設定外部儲存空間。後者提供了進階使用者更大的彈"
 "性，可用於設定大容量儲存空間的掛載並設定掛載屬性。更多資訊可在外部儲存空間圖"
-"形化使用者介面的文件與外部儲存空間設定檔文件中檢視。"
+"形化使用者介面的文件與外部儲存空間組態設定檔文件中檢視。"
 
 #: /var/www/html/apps/files_external/src/actions/enterCredentialsAction.ts:54
 msgid "Enter missing credentials"
@@ -620,7 +620,7 @@ msgstr "未設定外部儲存空間，或您沒有權限設定它們"
 
 #: /var/www/html/apps/files_external/templates/settings.php:110
 msgid "Open documentation"
-msgstr "開啟說明文件"
+msgstr "開啟文件"
 
 #: /var/www/html/apps/files_external/templates/settings.php:111
 msgid ""
