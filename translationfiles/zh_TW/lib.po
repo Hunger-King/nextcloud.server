@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:19+0000\n"
-"PO-Revision-Date: 2024-03-13 14:52+0000\n"
+"PO-Revision-Date: 2024-03-16 03:43+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/lib/zh_Hant/>\n"
@@ -34,7 +34,7 @@ msgid ""
 "But, if you prefer to keep config.php file read only, set the option "
 "\"config_is_read_only\" to true in it."
 msgstr "但如果您比較希望保留 config.php "
-"的唯讀狀態，請在該設定檔中將「config_is_read_only」設定為 true。"
+"的唯讀狀態，請在該組態設定檔中將「config_is_read_only」設定為 true。"
 
 #: /var/www/html/lib/base.php:262 /var/www/html/lib/base.php:269
 #, php-format
@@ -548,11 +548,11 @@ msgstr "顯示名稱"
 
 #: /var/www/html/lib/private/Profile/ProfileManager.php:409
 msgid "Headline"
-msgstr "標題"
+msgstr "重要經歷"
 
 #: /var/www/html/lib/private/Profile/ProfileManager.php:413
 msgid "Organisation"
-msgstr "組織"
+msgstr "組織單位"
 
 #: /var/www/html/lib/private/Profile/ProfileManager.php:417
 msgid "Role"
@@ -1044,7 +1044,7 @@ msgid ""
 "Or, if you prefer to keep config.php file read only, set the option "
 "\"config_is_read_only\" to true in it. See %s"
 msgstr ""
-"或者，如果您比較希望保留 config.php 的唯讀狀態，請在該設定檔中將 "
+"或者，如果您比較希望保留 config.php 的唯讀狀態，請在該組態設定檔中將 "
 "「config_is_read_only」設定為 true。請見 %s"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:557
@@ -1055,7 +1055,8 @@ msgstr "無法寫入「apps」目錄。"
 msgid ""
 "This can usually be fixed by giving the web server write access to the apps "
 "directory or disabling the App Store in the config file."
-msgstr "允許網頁伺服器寫入 apps 目錄或是在設定檔中停用應用程式商店通常可以解決這個問題。"
+msgstr "允許網頁伺服器寫入 apps "
+"目錄，或是在組態設定檔中停用應用程式商店，通常可以解決這個問題。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:571
 msgid "Cannot create \"data\" directory."
@@ -1172,7 +1173,7 @@ msgstr "您的 data 目錄必須是絕對路徑。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:764
 msgid "Check the value of \"datadirectory\" in your configuration."
-msgstr "請檢查您設定檔中「datadirectory」的值。"
+msgstr "請檢查您組態設定檔中「datadirectory」的值。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:769
 msgid "Your data directory is invalid."
