@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-03-13 14:52+0000\n"
+"PO-Revision-Date: 2024-03-16 09:17+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/federatedfilesharing/zh_Hant/>\n"
@@ -77,7 +77,7 @@ msgstr "不允許從此伺服器傳送聯邦群組分享。"
 #, php-format
 msgid ""
 "Sharing %1$s failed, because this item is already shared with user %2$s"
-msgstr "分享 %1$s 失敗，因為此項目已與使用者 %2$s 分享"
+msgstr "此項目已經與使用者 %2$s 分享，%1$s 分享失敗"
 
 #: /var/www/html/apps/federatedfilesharing/lib/FederatedShareProvider.php:147
 msgid "Not allowed to create a federated share with the same user"
