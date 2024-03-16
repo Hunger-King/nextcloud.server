@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-03-16 03:43+0000\n"
+"PO-Revision-Date: 2024-03-16 06:10+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/files_external/zh_Hant/>\n"
@@ -78,7 +78,7 @@ msgstr "管理員自訂"
 msgid ""
 "Automatic status checking is disabled due to the large number of configured "
 "storages, click to check status"
-msgstr "因為設定的儲存空間數量過多，自動狀態檢查被停用，點擊以檢查狀態"
+msgstr "因為組態設定的儲存空間數量過多，自動狀態檢查被停用，點擊以檢查狀態"
 
 #: /var/www/html/apps/files_external/js/settings.js:1223
 msgid ""
@@ -151,7 +151,7 @@ msgstr "不允許使用後端「%s」"
 #: /var/www/html/apps/files_external/lib/Controller/StoragesController.php:189
 #, php-format
 msgid "Not permitted to use authentication mechanism \"%s\""
-msgstr "不允許使用驗證機制「%s」"
+msgstr "不允許使用認證機制「%s」"
 
 #: /var/www/html/apps/files_external/lib/Controller/StoragesController.php:201
 msgid "Unsatisfied backend parameters"
@@ -159,7 +159,7 @@ msgstr "無法滿足後端所需的參數條件"
 
 #: /var/www/html/apps/files_external/lib/Controller/StoragesController.php:210
 msgid "Unsatisfied authentication mechanism parameters"
-msgstr "無法滿足驗證機制所需的參數條件"
+msgstr "無法滿足認證機制所需的參數條件"
 
 #: /var/www/html/apps/files_external/lib/Controller/StoragesController.php:256
 #, php-format
@@ -183,7 +183,7 @@ msgstr "存取金鑰"
 
 #: /var/www/html/apps/files_external/lib/Lib/Auth/AmazonS3/AccessKey.php:44
 msgid "Secret key"
-msgstr "私鑰"
+msgstr "私密金鑰"
 
 #: /var/www/html/apps/files_external/lib/Lib/Auth/Builtin.php:35
 msgid "Builtin"
@@ -203,7 +203,7 @@ msgstr "應用程式金鑰"
 
 #: /var/www/html/apps/files_external/lib/Lib/Auth/OAuth1/OAuth1.php:43
 msgid "App secret"
-msgstr "應用程式密碼"
+msgstr "應用程式密鑰"
 
 #: /var/www/html/apps/files_external/lib/Lib/Auth/OAuth2/OAuth2.php:38
 msgid "OAuth2"
@@ -215,7 +215,7 @@ msgstr "客戶端 ID"
 
 #: /var/www/html/apps/files_external/lib/Lib/Auth/OAuth2/OAuth2.php:43
 msgid "Client secret"
-msgstr "客戶端密碼"
+msgstr "客戶端密鑰"
 
 #: /var/www/html/apps/files_external/lib/Lib/Auth/OpenStack/OpenStackV2.php:39
 msgid "OpenStack v2"
@@ -271,7 +271,7 @@ msgstr "API 金鑰"
 #: /var/www/html/apps/files_external/lib/Lib/Auth/Password/GlobalAuth.php:51
 #: /var/www/html/apps/files_external/templates/settings.php:226
 msgid "Global credentials"
-msgstr "全域認證資訊"
+msgstr "全域憑證資訊"
 
 #: /var/www/html/apps/files_external/lib/Lib/Auth/Password/LoginCredentials.php:80
 msgid "Log-in credentials, save in database"
@@ -283,11 +283,11 @@ msgstr "使用者名稱和密碼"
 
 #: /var/www/html/apps/files_external/lib/Lib/Auth/Password/SessionCredentials.php:50
 msgid "Log-in credentials, save in session"
-msgstr "登入資訊，儲存於工作階段"
+msgstr "登入憑證資訊，儲存於工作階段"
 
 #: /var/www/html/apps/files_external/lib/Lib/Auth/Password/UserGlobalAuth.php:55
 msgid "Global credentials, user entered"
-msgstr "全域認證資訊，使用者輸入"
+msgstr "全域憑證資訊，使用者輸入"
 
 #: /var/www/html/apps/files_external/lib/Lib/Auth/Password/UserProvided.php:53
 msgid "User entered, store in database"
@@ -319,7 +319,7 @@ msgstr "Kerberos 票證 Apache 模式"
 
 #: /var/www/html/apps/files_external/lib/Lib/Auth/SMB/KerberosAuth.php:33
 msgid "Kerberos ticket"
-msgstr "Kerberos 票據"
+msgstr "Kerberos 票證"
 
 #: /var/www/html/apps/files_external/lib/Lib/Backend/AmazonS3.php:41
 msgid "Amazon S3"
@@ -345,7 +345,7 @@ msgstr "地區"
 
 #: /var/www/html/apps/files_external/lib/Lib/Backend/AmazonS3.php:50
 msgid "Storage Class"
-msgstr "儲存類型"
+msgstr "儲存類別"
 
 #: /var/www/html/apps/files_external/lib/Lib/Backend/AmazonS3.php:52
 msgid "Enable SSL"
@@ -357,7 +357,7 @@ msgstr "啟用路徑樣式"
 
 #: /var/www/html/apps/files_external/lib/Lib/Backend/AmazonS3.php:57
 msgid "Legacy (v2) authentication"
-msgstr "舊版認證 (v2)"
+msgstr "舊式認證 (v2)"
 
 #: /var/www/html/apps/files_external/lib/Lib/Backend/DAV.php:40
 msgid "WebDAV"
@@ -454,7 +454,8 @@ msgid ""
 "Check the ACL's of each file or folder inside a directory to filter out "
 "items where the user has no read permissions, comes with a performance "
 "penalty"
-msgstr "檢查目錄中每個檔案或資料夾的 ACL，以過濾掉使用者沒有讀取權限的項目，但可能會影響效能"
+msgstr "檢查目錄中每個檔案或資料夾的 "
+"ACL，以過濾掉使用者沒有讀取權的項目，但可能會影響效能"
 
 #: /var/www/html/apps/files_external/lib/Lib/Backend/SMB.php:71
 msgid "Timeout"
@@ -485,21 +486,21 @@ msgstr "請求逾時（秒）"
 msgid ""
 "The cURL support in PHP is not enabled or installed. Mounting of %s is not "
 "possible. Please ask your system administrator to install it."
-msgstr "PHP 的 cURL 支援未啟用或安裝。無法掛載 %s。請要求您的系統管理員安裝它。"
+msgstr "PHP 的 cURL 支援未啟用或安裝。無法掛載 %s。請要求您的系統管理員安裝。"
 
 #: /var/www/html/apps/files_external/lib/MountConfig.php:188
 #, php-format
 msgid ""
 "The FTP support in PHP is not enabled or installed. Mounting of %s is not "
 "possible. Please ask your system administrator to install it."
-msgstr "PHP 的 FTP 支援未啟用或安裝。無法掛載 %s。請要求您的系統管理員安裝它。"
+msgstr "PHP 的 FTP 支援未啟用或安裝。無法掛載 %s。請要求您的系統管理員安裝。"
 
 #: /var/www/html/apps/files_external/lib/MountConfig.php:190
 #, php-format
 msgid ""
 "\"%1$s\" is not installed. Mounting of %2$s is not possible. Please ask your"
 " system administrator to install it."
-msgstr "「%1$s」未安裝。無法掛載 %2$s。請要求您的系統管理員安裝它。"
+msgstr "「%1$s」未安裝。無法掛載 %2$s。請要求您的系統管理員安裝。"
 
 #: /var/www/html/apps/files_external/lib/Settings/Section.php:63
 #: /var/www/html/apps/files_external/src/init.ts:38
@@ -523,16 +524,16 @@ msgid ""
 "External storage can be configured using the GUI or at the command line. This second option provides the advanced user with more flexibility for configuring bulk external storage mounts and setting mount priorities. More information is available in the external storage GUI documentation and the external storage Configuration File documentation."
 msgstr ""
 "此應用程式讓管理員可以設定外部儲存空間提供者的連線，如 FTP 伺服器、S3 或 "
-"SWIFT 物件儲存、其他 Nextcloud 伺服器、WebDAV 伺服器與更多。管理員可以選擇要"
+"SWIFT 物件儲存、其他 Nextcloud 伺服器、WebDAV 伺服器⋯⋯等等。管理員可以選擇要"
 "啟用的儲存空間類型，並可以為使用者、群組或整個系統掛載這些儲存位置。"
 "使用者將會在他們的 Nextcloud 根目錄看到一個新的資料夾，他們可以像其他 "
 "Nextcloud 資料夾那樣存取並使用該資料夾。外部儲存空間也允許使用者分享儲存在這"
 "些外部空間的檔案。在這種情況下，當收件者從外部儲存空間請求檔案時，將使用檔案"
 "擁有者的憑證來確保收件者可以存取被分享的檔案。\n"
 "\n"
-"可以使用圖形使用者介面或命令列設定外部儲存空間。後者提供了進階使用者更大的彈"
-"性，可用於設定大容量儲存空間的掛載並設定掛載屬性。更多資訊可在外部儲存空間圖"
-"形化使用者介面的文件與外部儲存空間組態設定檔文件中檢視。"
+"可以使用圖形使用者介面或命令列設定外部儲存空間。後者為進階使用者提供更大的彈"
+"性，可用於設定大容量儲存空間的掛載並設定掛載優先序。更多資訊可參閱外部儲存空"
+"間圖形化使用者介面的文件，與外部儲存空間組態設定檔的文件。"
 
 #: /var/www/html/apps/files_external/src/actions/enterCredentialsAction.ts:54
 msgid "Enter missing credentials"
@@ -540,11 +541,11 @@ msgstr "輸入缺少的憑證"
 
 #: /var/www/html/apps/files_external/src/actions/enterCredentialsAction.ts:92
 msgid "Unable to update this external storage config. {statusMessage}"
-msgstr "無法更新此外部儲存空間設定。{statusMessage}"
+msgstr "無法更新此外部儲存空間組態設定。{statusMessage}"
 
 #: /var/www/html/apps/files_external/src/actions/enterCredentialsAction.ts:99
 msgid "New configuration successfully saved"
-msgstr "已成功儲存新設定"
+msgstr "已成功儲存新組態設定"
 
 #: /var/www/html/apps/files_external/src/actions/inlineStorageCheckAction.ts:59
 msgid "There was an error with this external storage."
@@ -556,7 +557,7 @@ msgstr "我們無法檢查外部儲存空間 {basename}"
 
 #: /var/www/html/apps/files_external/src/actions/openInFilesAction.ts:36
 msgid "Examine this faulty external storage configuration"
-msgstr "檢查此錯誤的外部儲存空間設定"
+msgstr "檢查此錯誤的外部儲存空間組態設定"
 
 #: /var/www/html/apps/files_external/src/actions/openInFilesAction.ts:38
 msgid "Open in Files"
@@ -566,7 +567,7 @@ msgstr "在「檔案」應用程式中開啟"
 msgid ""
 "There was an error with this external storage. Do you want to review this "
 "mount point config in the settings page?"
-msgstr "此外部儲存空間有錯誤。您想要在設定頁面中審閱此掛載點的設定嗎？"
+msgstr "此外部儲存空間有錯誤。您想要在設定頁面中檢閱此掛載點的組態設定嗎？"
 
 #: /var/www/html/apps/files_external/src/actions/openInFilesAction.ts:49
 msgid "External mount error"
@@ -580,13 +581,13 @@ msgstr "外部儲存空間清單。"
 msgid ""
 "There is no external storage configured. You can configure them in your "
 "Personal settings."
-msgstr "未設定外部儲存空間。您可以在「個人設定」中設定它們。"
+msgstr "未設定外部儲存空間組態。您可以在「個人設定」中設定它們。"
 
 #: /var/www/html/apps/files_external/src/init.ts:43
 msgid ""
 "There is no external storage configured and you don't have the permission to"
 " configure them."
-msgstr "沒有設定外部儲存空間，且您沒有設定它們的權限。"
+msgstr "未設定外部儲存空間組態，而且您無權設定。"
 
 #: /var/www/html/apps/files_external/src/init.ts:44
 msgid "No external storage"
@@ -616,7 +617,7 @@ msgstr "系統"
 msgid ""
 "No external storage configured or you don't have the permission to configure"
 " them"
-msgstr "未設定外部儲存空間，或您沒有權限設定它們"
+msgstr "未設定外部儲存空間組態，或您無權設定"
 
 #: /var/www/html/apps/files_external/templates/settings.php:110
 msgid "Open documentation"
@@ -636,19 +637,19 @@ msgstr "資料夾名稱"
 
 #: /var/www/html/apps/files_external/templates/settings.php:121
 msgid "Authentication"
-msgstr "驗證"
+msgstr "認證"
 
 #: /var/www/html/apps/files_external/templates/settings.php:122
 msgid "Configuration"
-msgstr "設定"
+msgstr "組態設定"
 
 #: /var/www/html/apps/files_external/templates/settings.php:124
 msgid "Available for"
-msgstr "可用的"
+msgstr "可使用者"
 
 #: /var/www/html/apps/files_external/templates/settings.php:143
 msgid "Click to recheck the configuration"
-msgstr "點擊以重新檢查設定"
+msgstr "點擊以重新檢查組態設定"
 
 #: /var/www/html/apps/files_external/templates/settings.php:152
 msgid "Add storage"
@@ -670,4 +671,4 @@ msgstr "允許使用者自行掛載外部儲存空間"
 msgid ""
 "Global credentials can be used to authenticate with multiple external "
 "storages that have the same credentials."
-msgstr "全域憑證可用於驗證多個有相同憑證的外部儲存空間。"
+msgstr "全域憑證可用於認證多個有相同憑證的外部儲存空間。"
