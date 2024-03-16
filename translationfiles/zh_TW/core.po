@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-16 09:17+0000\n"
+"PO-Revision-Date: 2024-03-17 15:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/core/zh_Hant/>\n"
@@ -42,7 +42,7 @@ msgstr "檔案已上傳"
 
 #: /var/www/html/core/Controller/AvatarController.php:215
 msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
-msgstr "上傳的檔案大小超過 php.ini 中 upload_max_filesize 條目指定的限制"
+msgstr "上傳的檔案大小超過 php.ini 中 upload_max_filesize 條目設定的限制"
 
 #: /var/www/html/core/Controller/AvatarController.php:216
 msgid ""
@@ -56,7 +56,7 @@ msgstr "檔案僅部份上傳"
 
 #: /var/www/html/core/Controller/AvatarController.php:218
 msgid "No file was uploaded"
-msgstr "沒有檔案被上傳"
+msgstr "沒有檔案上傳"
 
 #: /var/www/html/core/Controller/AvatarController.php:219
 msgid "Missing a temporary folder"
@@ -64,7 +64,7 @@ msgstr "找不到暫存資料夾"
 
 #: /var/www/html/core/Controller/AvatarController.php:220
 msgid "Could not write file to disk"
-msgstr "無法將檔案寫入硬碟"
+msgstr "無法將檔案寫入磁碟"
 
 #: /var/www/html/core/Controller/AvatarController.php:221
 msgid "A PHP extension stopped the file upload"
@@ -256,8 +256,8 @@ msgid ""
 " limit. This does also grant you all additional benefits that Nextcloud "
 "Enterprise offers and is highly recommended for the operation in companies."
 msgstr ""
-"請在支援應用程式中輸入您的訂閱金鑰，以提高使用者限制。這也能賦予您 Nextcloud "
-"企業版提供的所有其他好處，特別是可用於公司營運上的項目，強烈推薦。"
+"請在支援應用程式中輸入您的訂閱方案金鑰，以提高使用者限制。這也能賦予您 "
+"Nextcloud 企業版提供的所有其他好處，特別是可用於公司營運上的項目，十分推薦。"
 
 #: /var/www/html/core/Notification/CoreNotifier.php:84
 msgid "Learn more ↗"
