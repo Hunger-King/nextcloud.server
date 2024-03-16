@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-16 06:10+0000\n"
+"PO-Revision-Date: 2024-03-16 08:17+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/settings/zh_Hant/>\n"
@@ -652,7 +652,7 @@ msgstr "人工智慧"
 #: /var/www/html/apps/settings/lib/Sections/Admin/Delegation.php:58
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:26
 msgid "Administration privileges"
-msgstr "管理員權限"
+msgstr "管理員職權"
 
 #: /var/www/html/apps/settings/lib/Sections/Admin/Groupware.php:54
 msgid "Groupware"
@@ -977,7 +977,7 @@ msgstr "支援"
 msgid ""
 "Your PHP does not have FreeType support, resulting in breakage of profile "
 "pictures and the settings interface."
-msgstr "您的 PHP 並未啟用 FreeType 支援，導致大頭貼產生器和設定介面無法使用。"
+msgstr "您的 PHP 並未啟用 FreeType 支援，導致頭像產生器和設定介面無法使用。"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/PhpGetEnv.php:41
 msgid "PHP getenv"
@@ -1030,8 +1030,8 @@ msgid ""
 "officially supported PHP versions provided by the PHP Group as soon as "
 "possible."
 msgstr ""
-"您正在執行 PHP %s。Nextcloud 27 已棄用 PHP 8.0。Nextcloud 28 需要 PHP 8.1 或更新版本。請盡快升級至 "
-"PHP Group 提供官方支援的其中一個版本。"
+"您正在執行 PHP %s。Nextcloud 27 已棄用 PHP 8.0。Nextcloud 28 需要 PHP 8.1 "
+"或更高版本。請盡快升級至 PHP Group 提供官方支援的其中一個版本。"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/PhpOutdated.php:52
 #, php-format
@@ -1085,7 +1085,8 @@ msgstr "資料庫版本"
 msgid ""
 "MariaDB version \"%s\" is used. Nextcloud 21 and higher do not support this "
 "version and require MariaDB 10.2 or higher."
-msgstr "正在使用 MariaDB 版本「%s」。Nextcloud 21 或更新版本不支援此版本，並需要 MariaDB 10.2 或更新版本。"
+msgstr "正在使用 MariaDB 版本「%s」。Nextcloud 21 或更高版本不支援此版本，並需要 "
+"MariaDB 10.2 或更高版本。"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/SupportedDatabase.php:70
 #, php-format
@@ -1093,8 +1094,8 @@ msgid ""
 "MySQL version \"%s\" is used. Nextcloud 21 and higher do not support this "
 "version and require MySQL 8.0 or MariaDB 10.2 or higher."
 msgstr ""
-"正在使用 MySQL 版本「%s」。Nextcloud 21 或更新版本不支援此版本，並需要 MySQL 8.0 或 MariaDB 10.2 "
-"或更新版本。"
+"正在使用 MySQL 版本「%s」。Nextcloud 21 或更高版本不支援此版本，並需要 MySQL "
+"8.0 或 MariaDB 10.2 或更高版本。"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/SupportedDatabase.php:79
 #, php-format
@@ -1102,7 +1103,8 @@ msgid ""
 "PostgreSQL version \"%s\" is used. Nextcloud 21 and higher do not support "
 "this version and require PostgreSQL 9.6 or higher."
 msgstr ""
-"正在使用 PostgreSQL 版本「%s」。Nextcloud 21 或更新版本不支援此版本，並需要 PostgreSQL 9.6 或更新版本。"
+"正在使用 PostgreSQL 版本「%s」。Nextcloud 21 或更高版本不支援此版本，並需要 "
+"PostgreSQL 9.6 或更高版本。"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/SupportedDatabase.php:86
 msgid "Unknown database platform"
@@ -1148,7 +1150,7 @@ msgstr "個人檔案資訊"
 msgid ""
 "Profile picture, full name, email, phone number, address, website, Twitter, "
 "organisation, role, headline, biography, and whether your profile is enabled"
-msgstr "個人檔案圖片、全名、電子郵件、電話號碼、地址、網站、Twitter、組織、角色、經歷"
+msgstr "個人檔案圖片、全名、電子郵件、電話號碼、地址、網站、Twitter、單位、職位、經歷"
 "、自傳，以及您的個人檔案是否啟用"
 
 #: /var/www/html/apps/settings/specialAppInfoFakeDummyForL10nScript.php:2
@@ -2498,7 +2500,7 @@ msgstr "無法更新 {displayId} 的能見度"
 #. TRANSLATORS src/components/PersonalInfo/RoleSection.vue:26
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:524
 msgid "Your role"
-msgstr "您的角色"
+msgstr "您的職位"
 
 #. TRANSLATORS src/components/PersonalInfo/TwitterSection.vue:25
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:526
@@ -2751,7 +2753,7 @@ msgstr[1] "{userCount} 個使用者"
 #. TRANSLATORS src/components/Users/UserListHeader.vue:29
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:616
 msgid "Avatar"
-msgstr "大頭照"
+msgstr "頭像"
 
 #. TRANSLATORS src/components/Users/UserListHeader.vue:62
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:626
@@ -3202,7 +3204,7 @@ msgstr "電話號碼"
 
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:60
 msgid "Role"
-msgstr "角色"
+msgstr "職位"
 
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:61
 msgid "X (formerly Twitter)"
