@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-13 14:52+0000\n"
+"PO-Revision-Date: 2024-03-16 03:43+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/settings/zh_Hant/>\n"
@@ -29,22 +29,22 @@ msgstr "私人"
 msgid ""
 "Only visible to people matched via phone number integration through Talk on "
 "mobile"
-msgstr "僅讓符合 Talk 透過電話號碼整合的人們看見"
+msgstr "僅讓手機版 Talk 上有電話號碼整合且有符合的人才看得見"
 
 #: /var/www/html/apps/settings/js/federationscopemenu.js:40
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:174
 msgid "Local"
-msgstr "本機"
+msgstr "本站"
 
 #: /var/www/html/apps/settings/js/federationscopemenu.js:41
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:175
 msgid "Only visible to people on this instance and guests"
-msgstr "僅讓此站台上的人們與訪客看見"
+msgstr "僅讓此站台上的人與訪客看得見"
 
 #: /var/www/html/apps/settings/js/federationscopemenu.js:47
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:181
 msgid "Federated"
-msgstr "已聯邦"
+msgstr "聯邦"
 
 #: /var/www/html/apps/settings/js/federationscopemenu.js:48
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:182
@@ -54,7 +54,7 @@ msgstr "僅同步至受信任的伺服器"
 #: /var/www/html/apps/settings/js/federationscopemenu.js:54
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:188
 msgid "Published"
-msgstr "已發佈"
+msgstr "公開發布"
 
 #: /var/www/html/apps/settings/js/federationscopemenu.js:55
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:189
@@ -111,7 +111,7 @@ msgstr "群組"
 
 #: /var/www/html/apps/settings/js/settings.js:98
 msgid "Group list is empty"
-msgstr "群組列表為空"
+msgstr "群組列表空白"
 
 #: /var/www/html/apps/settings/js/settings.js:103
 msgid "Unable to retrieve the group list"
@@ -119,27 +119,27 @@ msgstr "無法擷取群組列表"
 
 #: /var/www/html/apps/settings/lib/Activity/GroupProvider.php:88
 msgid "{actor} added you to group {group}"
-msgstr "{actor} 將您加入群組 {group}"
+msgstr "{actor} 已將您加入群組 {group}"
 
 #: /var/www/html/apps/settings/lib/Activity/GroupProvider.php:90
 msgid "You added {user} to group {group}"
-msgstr "您已將 {user} 加入至群組 {group}"
+msgstr "您已將 {user} 加入群組 {group}"
 
 #: /var/www/html/apps/settings/lib/Activity/GroupProvider.php:92
 msgid "{actor} added {user} to group {group}"
-msgstr "{actor} 將 {user} 加入至群組 {group}"
+msgstr "{actor} 將 {user} 加入群組 {group}"
 
 #: /var/www/html/apps/settings/lib/Activity/GroupProvider.php:95
 msgid "An administrator added you to group {group}"
-msgstr "管理員已將您新增至群組 {group}"
+msgstr "管理員已將您加入群組 {group}"
 
 #: /var/www/html/apps/settings/lib/Activity/GroupProvider.php:97
 msgid "An administrator added {user} to group {group}"
-msgstr "管理員已將 {user} 新增至群組 {group}"
+msgstr "管理員已將 {user} 加入群組 {group}"
 
 #: /var/www/html/apps/settings/lib/Activity/GroupProvider.php:103
 msgid "{actor} removed you from group {group}"
-msgstr "{actor} 將您從 {group} 群組中移除"
+msgstr "{actor} 將您從 {group} 群組移除"
 
 #: /var/www/html/apps/settings/lib/Activity/GroupProvider.php:105
 msgid "You removed {user} from group {group}"
@@ -207,11 +207,11 @@ msgstr "您已將應用程式密碼「{token}」重新命名為「{newToken}」"
 
 #: /var/www/html/apps/settings/lib/Activity/Provider.php:124
 msgid "You granted filesystem access to app password \"{token}\""
-msgstr "您授予了應用程式密碼「{token}」檔案系統的存取權限"
+msgstr "您授予了應用程式密碼「{token}」檔案系統的存取權"
 
 #: /var/www/html/apps/settings/lib/Activity/Provider.php:126
 msgid "You revoked filesystem access from app password \"{token}\""
-msgstr "您撤銷了應用程式密碼「{token}」檔案系統的存取權限"
+msgstr "您撤銷了應用程式密碼「{token}」檔案系統的存取權"
 
 #: /var/www/html/apps/settings/lib/Activity/SecurityFilter.php:59
 #: /var/www/html/apps/settings/lib/Activity/SecuritySetting.php:50
@@ -223,12 +223,12 @@ msgstr "安全性"
 #: /var/www/html/apps/settings/lib/Activity/SecurityProvider.php:64
 #, php-format
 msgid "You successfully logged in using two-factor authentication (%1$s)"
-msgstr "您已成功使用兩階段驗證進行登入 (%1$s)"
+msgstr "您已成功使用兩階段認證登入 (%1$s)"
 
 #: /var/www/html/apps/settings/lib/Activity/SecurityProvider.php:75
 #, php-format
 msgid "A login attempt using two-factor authentication failed (%1$s)"
-msgstr "使用兩階段驗證登入失敗 (%1$s)"
+msgstr "使用兩階段認證登入失敗 (%1$s)"
 
 #: /var/www/html/apps/settings/lib/Activity/SecurityProvider.php:86
 #, php-format
@@ -306,7 +306,7 @@ msgstr "後端不支援密碼變更，但使用者的加密金鑰已更新。"
 #: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:214
 msgid ""
 "installing and updating apps via the App Store or Federated Cloud Sharing"
-msgstr "透過應用程式商店或是聯邦式雲端分享來安裝、更新應用程式"
+msgstr "透過應用程式商店，或聯邦雲端分享，來安裝、更新應用程式"
 
 #: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:216
 msgid "Federated Cloud Sharing"
@@ -317,7 +317,8 @@ msgstr "聯邦雲端分享"
 msgid ""
 "cURL is using an outdated %1$s version (%2$s). Please update your operating "
 "system or features such as %3$s will not work reliably."
-msgstr "cURL 使用的版本 %1$s 過舊 (%2$s)。請更新您的作業系統，否則如 %3$s 等功能可能無法正常運作。"
+msgstr "cURL 使用的 %1$s 版本過舊 (%2$s)。請更新您的作業系統，否則如 %3$s "
+"等功能可能無法正常運作。"
 
 #: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:236
 msgid ""
@@ -325,20 +326,22 @@ msgid ""
 "error happened during the HTTPS request against https://nextcloud.com. "
 "Please check the Nextcloud log file for more details."
 msgstr ""
-"對於 https://nextcloud.com 的 HTTPS 請求發生錯誤，因此無法確定 cURL 的 TLS "
-"是否過舊。請檢查 Nextcloud 的紀錄檔以了解更多細節。"
+"對於 https://nextcloud.com 的 HTTPS 請求發生錯誤，因此無法判定 cURL 的 TLS "
+"版本是否過舊。請查閱 Nextcloud 的紀錄檔以了解更多細節。"
 
 #: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:350
 msgid ""
 "The PHP OPcache module is not loaded. For better performance it is "
 "recommended to load it into your PHP installation."
-msgstr "並未載入 PHP OPcache 模組。要得到更好的效能，建議將其載入到您的 PHP 安裝中。"
+msgstr "並未載入 PHP OPcache 模組。如果想取得更好的效能，建議將它載入您的 PHP "
+"安裝中。"
 
 #: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:363
 msgid ""
 "OPcache is disabled. For better performance, it is recommended to apply "
 "<code>opcache.enable=1</code> to your PHP configuration."
-msgstr "已停用 OPcache。要得到更好的效能，建議在您的 PHP 設定中套用 <code>opcache.enable=1</code>。"
+msgstr "已停用 OPcache。如果要取得更好的效能，建議在您的 PHP 組態設定中套用 "
+"<code>opcache.enable=1</code>。"
 
 #: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:367
 msgid ""
@@ -355,9 +358,9 @@ msgid ""
 "<code>opcache.restrict_api</code> or unset this setting to disable OPcache "
 "API restrictions, to prevent errors during Nextcloud core or app upgrades."
 msgstr ""
-"Nextcloud 不被允許使用 OPcache API。啟用 OPcache 後，強烈建議使用 "
-"<code>opcache.restrict_api</code> 包含所有 Nextcloud 目錄，或是關閉此設定以停用 OPcache API "
-"限制，以避免在 Nextcloud 核心或應用程式升級期間發生錯誤。"
+"Nextcloud 不允許使用 OPcache API。若啟用 OPcache，強烈建議以 <code>opcache."
+"restrict_api</code> 涵蓋所有 Nextcloud 目錄，或是取消停用 OPcache API "
+"限制的這個設定，以避免在 Nextcloud 核心或應用程式升級期間發生錯誤。"
 
 #: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:374
 msgid ""
@@ -366,8 +369,9 @@ msgid ""
 " unset this setting to disable OPcache API restrictions, to prevent errors "
 "during Nextcloud core or app upgrades."
 msgstr ""
-"Nextcloud 不被允許使用 OPcache API。強烈建議使用 <code>opcache.restrict_api</code> 包含所有 "
-"Nextcloud 目錄，或是關閉此設定以停用 OPcache API 限制，以避免在 Nextcloud 核心或應用程式升級期間發生錯誤。"
+"Nextcloud 不允許使用 OPcache API。強烈建議使用 <code>opcache.restrict_api</"
+"code> 涵蓋所有 Nextcloud 目錄，或是取消停用 OPcache API 限制的這個設定，"
+"以避免在 Nextcloud 核心或應用程式升級期間發生錯誤。"
 
 #: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:376
 msgid ""
@@ -375,8 +379,9 @@ msgid ""
 "recommended to apply <code>opcache.file_cache_only=0</code> to your PHP "
 "configuration and use the file cache as second level cache only."
 msgstr ""
-"以共享記憶體為基礎的 OPcache 已停用。為了取得更好的效能，建議套用 <code>opcache.file_cache_only=0</code>"
-" 至您的 PHP 設定中，並僅使用檔案快取作為第二級快取。"
+"以共享記憶體為基礎的 OPcache 已停用。如果要有更好的效能，建議套用 "
+"<code>opcache.file_cache_only=0</code> 到您的 PHP "
+"組態設定中，並僅將檔案快取作為第二級快取。"
 
 #: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:391
 #, php-format
@@ -386,9 +391,9 @@ msgid ""
 "<code>opcache.max_accelerated_files</code> to your PHP configuration with a "
 "value higher than <code>%s</code>."
 msgstr ""
-"幾乎超過了 OPcache 鍵的最大數量。為確保幾乎所有指令腳本都可以保留在快取中，"
-"建議在您 PHP 設定中的 <code>opcache.max_accelerated_files</code> 套用高於 "
-"<code>%s</code> 的值。"
+"幾乎超過了 OPcache 鍵的最大數量。為確保幾乎所有命令稿都可以保留在快取中，"
+"建議在您 PHP 組態設定中的 <code>opcache.max_accelerated_files</code> "
+"套用高於 <code>%s</code> 的值。"
 
 #: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:398
 #, php-format
@@ -397,9 +402,9 @@ msgid ""
 " cache, it is recommended to apply <code>opcache.memory_consumption</code> "
 "to your PHP configuration with a value higher than <code>%s</code>."
 msgstr ""
-"OPcache 緩衝區幾乎快滿了。為確保所有指令腳本都可以保留在快取中，建議在您 PHP "
-"設定中的 <code>opcache.memory_consumption</code> 套用高於 <code>%s</code> "
-"的值。"
+"OPcache 緩衝區幾乎快滿了。為確保所有命令稿都可以保留在快取中，建議在您 PHP "
+"組態設定中的 <code>opcache.memory_consumption</code> 套用高於 <code>%s</"
+"code> 的值。"
 
 #: /var/www/html/apps/settings/lib/Controller/CheckSetupController.php:409
 #, php-format
@@ -410,24 +415,24 @@ msgid ""
 "a value higher than <code>%s</code>."
 msgstr ""
 "OPcache 內部字串緩衝區幾乎快滿了。為確保可以有效快取重複字串，建議在您 PHP "
-"設定中的 <code>opcache.interned_strings_buffer</code> 套用高於 <code>%s</"
+"組態設定中的 <code>opcache.interned_strings_buffer</code> 套用高於 <code>%s</"
 "code> 的值。"
 
 #: /var/www/html/apps/settings/lib/Controller/HelpController.php:90
 #: /var/www/html/apps/settings/templates/help.php:28
 msgid "Administrator documentation"
-msgstr "管理員說明文件"
+msgstr "管理員文件"
 
 #. TRANSLATORS src/components/AppDetails.vue:133
 #: /var/www/html/apps/settings/lib/Controller/HelpController.php:92
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:164
 #: /var/www/html/apps/settings/templates/help.php:15
 msgid "User documentation"
-msgstr "使用者說明文件"
+msgstr "使用者文件"
 
 #: /var/www/html/apps/settings/lib/Controller/HelpController.php:105
 msgid "Nextcloud help overview"
-msgstr "Nextcloud 說明概覽"
+msgstr "Nextcloud 輔助說明概覽"
 
 #: /var/www/html/apps/settings/lib/Controller/MailSettingsController.php:131
 msgid "Invalid SMTP password."
@@ -521,7 +526,7 @@ msgstr ""
 #: /var/www/html/apps/settings/lib/Hooks.php:110
 #, php-format
 msgid "%1$s changed your password on %2$s."
-msgstr "%1$s 在 %2$s 時更改了您的密碼。"
+msgstr "%1$s 在 %2$s 更改了您的密碼。"
 
 #: /var/www/html/apps/settings/lib/Hooks.php:115
 #, php-format
@@ -651,7 +656,7 @@ msgstr "管理員權限"
 
 #: /var/www/html/apps/settings/lib/Sections/Admin/Groupware.php:54
 msgid "Groupware"
-msgstr "協作應用程式"
+msgstr "協作應用"
 
 #: /var/www/html/apps/settings/lib/Sections/Admin/Overview.php:54
 msgid "Overview"
@@ -669,7 +674,7 @@ msgstr "分享"
 
 #: /var/www/html/apps/settings/lib/Sections/Personal/Availability.php:52
 msgid "Availability"
-msgstr "可用時間"
+msgstr "可約時間"
 
 #: /var/www/html/apps/settings/lib/Sections/Personal/Calendar.php:49
 msgid "Calendar"
@@ -698,7 +703,7 @@ msgstr "安全及設定警告"
 #: /var/www/html/apps/settings/lib/Settings/Admin/Server.php:125
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:324
 msgid "Background jobs"
-msgstr "背景工作"
+msgstr "背景作業"
 
 #. TRANSLATORS src/components/Users/UserRow.vue:461
 #: /var/www/html/apps/settings/lib/Settings/Personal/PersonalInfo.php:133
@@ -729,7 +734,8 @@ msgid ""
 " the moment slowing down the performance of various requests. If the remote "
 "address is not your address this can be an indication that a proxy is not "
 "configured correctly."
-msgstr "您的遠端地址被識別為「%s」，且目前正受到強力限制，導致降低了各種請求的效能。若遠端地址不是您的地址，可能代表代理伺服器設定不正確。"
+msgstr "您的遠端地址被識別為「%s」，且目前受到暴力攻擊對策限制，導致降低了各種請求的"
+"效能。若遠端地址不是您的地址，可能代表代理伺服器設定不正確。"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/BruteForceThrottler.php:70
 #, php-format
@@ -753,9 +759,9 @@ msgid ""
 "\"occ security:certificates:import\" command. Their paths inside the data "
 "directory are shown below."
 msgstr ""
-"有一些使用者匯入的 SSL 憑證，這些在 Nextcloud 21 "
-"不再能運作。它們可以透過命令列執行「occ "
-"security:certificates:import」指令來匯入。它們在資料目錄中的路徑如下所示。"
+"有一些使用者匯入了 SSL 憑證，而在 Nextcloud 21 "
+"中不再使用。它們可以透過在命令列執行「occ "
+"security:certificates:import」命令來匯入。它們在資料目錄中的路徑如下所示。"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/DatabaseHasMissingColumns.php:50
 msgid "Database missing columns"
@@ -831,8 +837,9 @@ msgid ""
 "allow numbers without a country code, please add \"default_phone_region\" "
 "with the respective ISO 3166-1 code of the region to your config file."
 msgstr ""
-"您並未設定手機國際冠碼。設定後使用者在個人檔案設定手機號碼時不必再輸入國際冠碼。若要這樣做，請新增「default_phone_region」至設定檔，允許的國家及地區請參閱"
-" ISO 3166-1 code 清單。"
+"您並未設定手機國際冠碼。設定後使用者在個人檔案設定手機號碼時不必再輸入國際冠"
+"碼。若要這樣做，請新增「default_phone_region」至組態設定檔，"
+"允許的國家及地區請參閱 ISO 3166-1 code 清單。"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/EmailTestSuccessful.php:44
 msgid "Email test"
@@ -904,7 +911,7 @@ msgstr "網際網路連線"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/InternetConnectivity.php:60
 msgid "Internet connectivity is disabled in configuration file."
-msgstr "已在設定檔中停用網際網路連線。"
+msgstr "已在組態設定檔中停用網際網路連線。"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/InternetConnectivity.php:72
 msgid ""
@@ -952,7 +959,7 @@ msgstr "PHP 預設字元集"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/PhpDefaultCharset.php:50
 msgid "PHP configuration option \"default_charset\" should be UTF-8"
-msgstr "PHP 設定選項「default_charset」應為 UTF-8"
+msgstr "PHP 組態設定選項「default_charset」應為 UTF-8"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/PhpFreetypeSupport.php:40
 msgid "Freetype"
@@ -980,7 +987,7 @@ msgstr "PHP getenv"
 msgid ""
 "PHP does not seem to be setup properly to query system environment "
 "variables. The test with getenv(\"PATH\") only returns an empty response."
-msgstr "PHP 設定似乎不完整，導致無法正確取得系統環境變數，因為偵測到 getenv(\"PATH\")"
+msgstr "PHP 設置似乎不完整，導致無法正確取得系統環境變數，因為偵測到 getenv(\"PATH\")"
 " 回傳資料為空值。"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/PhpMemoryLimit.php:47
@@ -1037,7 +1044,7 @@ msgstr "PHP「output_buffering」選項"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/PhpOutputBuffering.php:51
 msgid "PHP configuration option \"output_buffering\" must be disabled"
-msgstr "PHP 設定選項「output_buffering」必須停用"
+msgstr "PHP 組態設定選項「output_buffering」必須停用"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/RandomnessSecure.php:45
 msgid "Random generator"
@@ -1055,19 +1062,19 @@ msgstr "安全"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/ReadOnlyConfig.php:41
 msgid "Configuration file access rights"
-msgstr "設定檔存取權"
+msgstr "組態設定檔存取權"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/ReadOnlyConfig.php:50
 msgid ""
 "The read-only config has been enabled. This prevents setting some "
 "configurations via the web-interface. Furthermore, the file needs to be made"
 " writable manually for every update."
-msgstr "「唯讀設定檔」已啟用，這樣可以防止來自網頁端的設定操作，每次需要更改設定時，"
-"都需要手動將設定檔暫時改為可讀寫。"
+msgstr "「唯讀組態設定檔」已啟用，這樣可以防止來自網頁端的設定操作，每次需要更改設定"
+"時，都需要手動將組態設定檔暫時改為可讀寫。"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/ReadOnlyConfig.php:52
 msgid "Nextcloud configuration file is writable"
-msgstr "Nextcloud 設定檔為可寫"
+msgstr "Nextcloud 組態設定檔為可寫"
 
 #: /var/www/html/apps/settings/lib/SetupChecks/SupportedDatabase.php:51
 msgid "Database version"
@@ -1141,7 +1148,8 @@ msgstr "個人檔案資訊"
 msgid ""
 "Profile picture, full name, email, phone number, address, website, Twitter, "
 "organisation, role, headline, biography, and whether your profile is enabled"
-msgstr "個人檔案圖片、全名、電子郵件、電話號碼、地址、網站、Twitter、組織、角色、標題、自傳以及您的個人資料是否已啟用"
+msgstr "個人檔案圖片、全名、電子郵件、電話號碼、地址、網站、Twitter、組織、角色、經歷"
+"、自傳，以及您的個人檔案是否啟用"
 
 #: /var/www/html/apps/settings/specialAppInfoFakeDummyForL10nScript.php:2
 msgid "Nextcloud settings"
@@ -1280,26 +1288,26 @@ msgstr "強制密碼保護"
 #. TRANSLATORS src/components/AdminSettingsSharingForm.vue:59
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:50
 msgid "Exclude groups from password requirements"
-msgstr "從密碼要求中排除特定群組"
+msgstr "排除特定群組的密碼要求"
 
 #. TRANSLATORS src/components/AdminSettingsSharingForm.vue:65
 #. TRANSLATORS src/components/AdminSettingsSharingForm.vue:67
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:52
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:54
 msgid "Exclude groups from creating link shares"
-msgstr "禁止特定群組建立分享連結"
+msgstr "排除特定群組不能建立分享連結"
 
 #. TRANSLATORS src/components/AdminSettingsSharingForm.vue:73
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:56
 msgid "Exclude groups from sharing"
-msgstr "禁止特定群組分享檔案"
+msgstr "排除特定群組不能分享"
 
 #. TRANSLATORS src/components/AdminSettingsSharingForm.vue:77
 #. TRANSLATORS src/components/AdminSettingsSharingForm.vue:81
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:58
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:60
 msgid "Groups excluded from sharing"
-msgstr "排除分享的群組"
+msgstr "被排除而不能分享的群組"
 
 #. TRANSLATORS src/components/AdminSettingsSharingForm.vue:84
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:62
@@ -1369,7 +1377,7 @@ msgstr "分享的隱私設定"
 msgid ""
 "Allow username autocompletion in share dialog and allow access to the system"
 " address book"
-msgstr "允許在分享對話方塊中自動補齊使用者名稱並允許存取系統通訊錄"
+msgstr "允許在分享對話方塊中自動補齊使用者名稱，並允許存取系統通訊錄"
 
 #. TRANSLATORS src/components/AdminSettingsSharingForm.vue:148
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:92
@@ -1389,21 +1397,22 @@ msgstr "允許同一個群組內的使用者自動完成使用者名稱，並將
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:96
 msgid ""
 "Allow username autocompletion to users based on phone number integration"
-msgstr "允許以電話號碼整合為基礎的使用者名稱自動完成"
+msgstr "允許出自電話號碼整合的使用者自動完成使用者名稱"
 
 #. TRANSLATORS src/components/AdminSettingsSharingForm.vue:159
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:98
 msgid ""
 "Allow autocompletion when entering the full name or email address (ignoring "
 "missing phonebook match and being in the same group)"
-msgstr "輸入全名或電子郵件地址時，允許自動完成（忽略缺少的通訊錄相符，以及在同一個群組中的）"
+msgstr "輸入全名或電子郵件地址時，允許自動完成（忽略沒有電話簿相符，也不在同一個群組"
+"中的項目）"
 
 #. TRANSLATORS src/components/AdminSettingsSharingForm.vue:165
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:100
 msgid ""
 "Show disclaimer text on the public link upload page (only shown when the "
 "file list is hidden)"
-msgstr "在公開的檔案連結和上傳頁面顯示免責聲明（僅在檔案列表隱藏的時候才會顯示）"
+msgstr "在公開的檔案連結上傳頁面中顯示免責聲明（僅在檔案列表隱藏的時候才會顯示）"
 
 #. TRANSLATORS src/components/AdminSettingsSharingForm.vue:172
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:102
@@ -1415,7 +1424,7 @@ msgstr "免責聲明文字"
 msgid ""
 "This text will be shown on the public link upload page when the file list is"
 " hidden."
-msgstr "這段文字會在公開檔案上傳頁面檔案列表被隱藏的時候顯示。"
+msgstr "這段文字會在公開檔案上傳頁面中的檔案列表被隱藏時顯示。"
 
 #. TRANSLATORS src/components/AdminSettingsSharingForm.vue:182
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:106
@@ -1481,7 +1490,7 @@ msgstr "對以下群組的所有成員強制開啟雙因素認證。"
 #. TRANSLATORS src/components/AdminTwoFactor.vue:23
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:128
 msgid "Enforced groups"
-msgstr "已強制的群組"
+msgstr "強制的群組"
 
 #. TRANSLATORS src/components/AdminTwoFactor.vue:35
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:130
@@ -1567,7 +1576,7 @@ msgstr "此應用程式並未指定最高的 Nextcloud 版本。未來可能會�
 msgid ""
 "This app cannot be installed because the following dependencies are not "
 "fulfilled:"
-msgstr "無法安裝此應用程式，因為無法滿足下列的依賴關係："
+msgstr "無法滿足下列的依賴關係，故無法安裝此應用程式："
 
 #. TRANSLATORS src/components/AppDetails.vue:116
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:158
@@ -1587,14 +1596,14 @@ msgstr "回報問題"
 #. TRANSLATORS src/components/AppDetails.vue:138
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:166
 msgid "Admin documentation"
-msgstr "管理員說明文件"
+msgstr "管理員文件"
 
 #. TRANSLATORS src/components/AppDetails.vue:143
 #. TRANSLATORS src/views/Apps.vue:85
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:168
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:786
 msgid "Developer documentation"
-msgstr "開發者說明文件"
+msgstr "開發者文件"
 
 #. TRANSLATORS src/components/AppList/AppItem.vue:51
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:172
@@ -1607,7 +1616,7 @@ msgstr "顯示 {appName} 應用程式的詳細資訊"
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:176
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:788
 msgid "This app is supported via your current Nextcloud subscription."
-msgstr "您目前的 Nextcloud 訂閱支援此應用程式。"
+msgstr "您目前的 Nextcloud 訂閱方案支援此應用程式。"
 
 #. TRANSLATORS src/components/AppList/AppItem.vue:76
 #. TRANSLATORS src/views/Apps.vue:114
@@ -1691,7 +1700,7 @@ msgstr "全部停用"
 #. TRANSLATORS src/components/AppList.vue:248
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:222
 msgid "Download and enable all"
-msgstr "下載並啟用全部"
+msgstr "下載並全部啟用"
 
 #. TRANSLATORS src/components/AppList.vue:28
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:224
@@ -1950,12 +1959,13 @@ msgid ""
 "For the server to work properly, it's important to configure background jobs"
 " correctly. Cron is the recommended setting. Please see the documentation "
 "for more information."
-msgstr "為了讓伺服器正確運作，設定背景工作非常重要。建議使用 Cron 設定。請查閱說明文件以獲得更多資訊。"
+msgstr "為了讓伺服器正確運作，設定背景作業非常重要。建議使用 Cron "
+"設定。請查閱文件以獲得更多資訊。"
 
 #. TRANSLATORS src/components/BasicSettings/BackgroundJob.vue:29
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:328
 msgid "Last job execution ran {time}. Something seems wrong."
-msgstr "上次執行作業的時間是 {time}。似乎有些東西不太對勁。"
+msgstr "上次執行作業的時間是 {time}。似乎有些事不太對勁。"
 
 #. TRANSLATORS src/components/BasicSettings/BackgroundJob.vue:41
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:330
@@ -1965,7 +1975,7 @@ msgstr "上次工作執行於 {relativeTime}。"
 #. TRANSLATORS src/components/BasicSettings/BackgroundJob.vue:46
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:332
 msgid "Background job did not run yet!"
-msgstr "背景工作從未執行！"
+msgstr "背景作業尚未執行！"
 
 #. TRANSLATORS src/components/BasicSettings/BackgroundJob.vue:55
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:334
@@ -2019,7 +2029,7 @@ msgstr "PHP POSIX 擴充功能為必須。請檢視 {linkstart} PHP 文件 {link
 #. TRANSLATORS src/components/BasicSettings/BackgroundJob.vue:161
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:350
 msgid "Unable to update background job mode"
-msgstr "無法更新背景工作模式"
+msgstr "無法更新背景作業模式"
 
 #. TRANSLATORS src/components/BasicSettings/ProfileSettings.vue:27
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:352
@@ -2074,8 +2084,10 @@ msgid ""
 "to disable encryption at a later date if the active encryption module "
 "supports that function, and all pre-conditions (e.g. setting a recover key) "
 "are met."
-msgstr "一旦啟用加密，從那時開始上傳到伺服器的檔案都會被加密，若日後要停用加密，需要"
-"作用中的加密模組支援，而且要滿足所有設定條件（例如：還原金鑰）。"
+msgstr ""
+"一旦啟用加密，從那時開始上傳到伺服器的檔案都會被加密。若日後要停用加密，則需"
+"要作用中的加密模組有支援停用，而且要滿足所有事前設定條件（例如：有設定還原金"
+"鑰）。"
 
 #. TRANSLATORS src/components/Encryption.vue:38
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:370
@@ -2083,7 +2095,7 @@ msgid ""
 "Encryption alone does not guarantee security of the system. Please see "
 "documentation for more information about how the encryption app works, and "
 "the supported use cases."
-msgstr "單獨加密不能保證系統安全性。請參考加密應用程式運作原理，及支援使用案例的文件"
+msgstr "單獨加密不能保證系統安全性。請參考加密應用程式運作原理，及支援的使用案例文件"
 "，以了解更多資訊。"
 
 #. TRANSLATORS src/components/Encryption.vue:39
@@ -2096,7 +2108,7 @@ msgstr "請注意，加密一定會增加檔案的大小。"
 msgid ""
 "It is always good to create regular backups of your data, in case of "
 "encryption make sure to backup the encryption keys along with your data."
-msgstr "定時備份您的資料沒有壞處，若您有啟用加密，請確保您也有備份加密金鑰。"
+msgstr "定期備份您的資料常有幫助，若您有啟用加密，請確保您也有備份加密金鑰。"
 
 #. TRANSLATORS src/components/Encryption.vue:44
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:376
@@ -2128,7 +2140,7 @@ msgstr ""
 #. TRANSLATORS src/components/Encryption.vue:150
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:384
 msgid "Unable to update server side encryption config"
-msgstr "無法更新伺服器端加密設定"
+msgstr "無法更新伺服器端加密組態設定"
 
 #. TRANSLATORS src/components/GroupListItem.vue:29
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:386
@@ -2140,7 +2152,7 @@ msgstr "請確認移除群組"
 msgid ""
 "You are about to remove the group \"{group}\". The users will NOT be "
 "deleted."
-msgstr "您將要移除群組「{group}」。使用者將不會被刪除。"
+msgstr "您將要移除群組「{group}」。使用者將「不會」被刪除。"
 
 #. TRANSLATORS src/components/GroupListItem.vue:38
 #. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:84
@@ -2164,7 +2176,7 @@ msgstr "確認"
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:652
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:658
 msgid "Submit"
-msgstr "遞交"
+msgstr "提交"
 
 #. TRANSLATORS src/components/GroupListItem.vue:70
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:396
@@ -2204,12 +2216,12 @@ msgstr "您的個人檔案資訊"
 #. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:37
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:412
 msgid "Your profile picture"
-msgstr "您的個人資料圖片"
+msgstr "您的個人檔案圖片"
 
 #. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:45
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:414
 msgid "Upload profile picture"
-msgstr "上傳個人資料圖片"
+msgstr "上傳個人檔案圖片"
 
 #. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:51
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:416
@@ -2219,7 +2231,7 @@ msgstr "從檔案中選擇個人檔案圖片"
 #. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:58
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:418
 msgid "Remove profile picture"
-msgstr "移除個人資料圖片"
+msgstr "移除個人檔案圖片"
 
 #. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:65
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:420
@@ -2234,19 +2246,19 @@ msgstr "原始帳號提供的圖片"
 #. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:88
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:426
 msgid "Set as profile picture"
-msgstr "設定為個人資料圖片"
+msgstr "設定為個人檔案圖片"
 
 #. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:91
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:428
 msgid ""
 "Please note that it can take up to 24 hours for your profile picture to be "
 "updated everywhere."
-msgstr "請注意，您的個人資料圖片最常可能需要 24 小時才能在所有地方更新。"
+msgstr "請注意，您的個人檔案圖片最長可能需要 24 小時才能在所有地方更新。"
 
 #. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:122
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:430
 msgid "Choose your profile picture"
-msgstr "選擇您的個人資料圖片"
+msgstr "選擇您的個人檔案圖片"
 
 #. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:191
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:432
@@ -2256,22 +2268,22 @@ msgstr "請選取有效的 png 或 jpg 檔案"
 #. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:220
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:434
 msgid "Error setting profile picture"
-msgstr "設定個人資料圖片時發生錯誤"
+msgstr "設定個人檔案圖片時發生錯誤"
 
 #. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:234
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:436
 msgid "Error cropping profile picture"
-msgstr "裁剪個人資料圖片時發生錯誤"
+msgstr "裁剪個人檔案圖片時發生錯誤"
 
 #. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:245
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:438
 msgid "Error saving profile picture"
-msgstr "儲存個人資料圖片時發生錯誤"
+msgstr "儲存個人檔案圖片時發生錯誤"
 
 #. TRANSLATORS src/components/PersonalInfo/AvatarSection.vue:257
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:440
 msgid "Error removing profile picture"
-msgstr "移除個人資料圖片時發生錯誤"
+msgstr "移除個人檔案圖片時發生錯誤"
 
 #. TRANSLATORS src/components/PersonalInfo/BiographySection.vue:25
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:442
@@ -2383,7 +2395,7 @@ msgstr "無法刪除額外的電子郵件地址"
 #. TRANSLATORS src/components/PersonalInfo/EmailSection/EmailSection.vue:44
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:482
 msgid "No email address set"
-msgstr "未設定電子郵件信箱"
+msgstr "未設定電子郵件地址"
 
 #. TRANSLATORS src/components/PersonalInfo/EmailSection/EmailSection.vue:48
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:484
@@ -2393,12 +2405,12 @@ msgstr "額外的電子郵件"
 #. TRANSLATORS src/components/PersonalInfo/FediverseSection.vue:25
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:492
 msgid "Your handle"
-msgstr "您的帳號"
+msgstr "您的社交帳號"
 
 #. TRANSLATORS src/components/PersonalInfo/HeadlineSection.vue:25
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:494
 msgid "Your headline"
-msgstr "您的標題"
+msgstr "您的重要經歷"
 
 #. TRANSLATORS src/components/PersonalInfo/LanguageSection/Language.vue:46
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:496
@@ -2426,7 +2438,7 @@ msgstr "一週從 {firstDayOfWeek} 開始"
 #. TRANSLATORS src/components/PersonalInfo/LocaleSection/Locale.vue:137
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:504
 msgid "Unable to update locale"
-msgstr "無法更新語系"
+msgstr "無法更新地區設定"
 
 #. TRANSLATORS src/components/PersonalInfo/LocaleSection/LocaleSection.vue:36
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:506
@@ -2441,7 +2453,7 @@ msgstr "您的城市"
 #. TRANSLATORS src/components/PersonalInfo/OrganisationSection.vue:26
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:510
 msgid "Your organisation"
-msgstr "您的組織"
+msgstr "您的組織單位"
 
 #. TRANSLATORS src/components/PersonalInfo/PhoneSection.vue:25
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:512
@@ -2452,7 +2464,7 @@ msgstr "您的電話號碼"
 #. src/components/PersonalInfo/ProfileSection/EditProfileAnchorLink.vue:29
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:514
 msgid "Edit your Profile visibility"
-msgstr "編輯您的個人資料能見度"
+msgstr "編輯您的個人檔案能見度"
 
 #. TRANSLATORS
 #. src/components/PersonalInfo/ProfileSection/ProfileCheckbox.vue:29
@@ -2474,7 +2486,8 @@ msgid ""
 "your Profile. For example, if visibility is set to \"Show to everyone\" and "
 "scope is set to \"Private\", \"Private\" is respected."
 msgstr ""
-"將會遵循您個人檔案中「能見度」與「範圍」較嚴格的設定。舉例來說，當「能見度」設定為「對所有人顯示」，而「範圍」設定為「私人」時。將使用「私人」的設定。"
+"將會遵循您個人檔案中「能見度」與「範圍」中較嚴格的設定。舉例來說，當「能見度"
+"」設定為「對所有人顯示」，而「範圍」設定為「私人」時，將使用「私人」的設定。"
 
 #. TRANSLATORS
 #. src/components/PersonalInfo/ProfileVisibilitySection/VisibilityDropdown.vue:127
@@ -2599,7 +2612,7 @@ msgstr "其他語言"
 #. TRANSLATORS src/components/UserList.vue:275
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:564
 msgid "Password change is disabled because the master key is disabled"
-msgstr "已停用密碼變更，因為主控金鑰已停用"
+msgstr "由於主控金鑰已停用，已停用密碼變更"
 
 #. TRANSLATORS src/components/Users/NewUserModal.vue:31
 #. TRANSLATORS src/views/Users.vue:28
@@ -2668,7 +2681,7 @@ msgstr "容量限制"
 #. TRANSLATORS src/components/Users/NewUserModal.vue:128
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:586
 msgid "Set user quota"
-msgstr "設定使用者配額"
+msgstr "設定使用者容量限制"
 
 #. TRANSLATORS src/components/Users/NewUserModal.vue:138
 #. TRANSLATORS src/components/Users/UserListHeader.vue:73
@@ -2753,12 +2766,12 @@ msgstr "使用者資料後端"
 #. TRANSLATORS src/components/Users/UserListHeader.vue:84
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:634
 msgid "Storage location"
-msgstr "儲存位址"
+msgstr "儲存位置"
 
 #. TRANSLATORS src/components/Users/UserListHeader.vue:91
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:636
 msgid "Last login"
-msgstr "最後登入"
+msgstr "上次登入"
 
 #. TRANSLATORS src/components/Users/UserListHeader.vue:103
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:640
@@ -2768,7 +2781,7 @@ msgstr "使用者動作"
 #. TRANSLATORS src/components/Users/UserListHeader.vue:143
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:642
 msgid "Password or insufficient permissions message"
-msgstr "密碼或權限不足訊息"
+msgstr "密碼或超出權限訊息"
 
 #. TRANSLATORS src/components/Users/UserRow.vue:31
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:646
@@ -2788,7 +2801,7 @@ msgstr "設定新密碼"
 #. TRANSLATORS src/components/Users/UserRow.vue:90
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:656
 msgid "You do not have permissions to see the details of this user"
-msgstr "您沒有檢視此使用者詳細資料的權限"
+msgstr "您沒有檢視此使用者詳細資料的權能"
 
 #. TRANSLATORS src/components/Users/UserRow.vue:102
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:660
@@ -2814,7 +2827,7 @@ msgstr "將使用者設定為管理員"
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:670
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:672
 msgid "Select user quota"
-msgstr "選取使用者配額"
+msgstr "選取使用者容量限制"
 
 #. TRANSLATORS src/components/Users/UserRow.vue:217
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:674
@@ -2990,7 +3003,7 @@ msgstr "選取預設容量限制"
 #. TRANSLATORS src/components/WebAuthn/AddDevice.vue:24
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:748
 msgid "Passwordless authentication requires a secure connection."
-msgstr "無密碼身份驗證需要安全連線。"
+msgstr "無密碼身份認證需要安全連線。"
 
 #. TRANSLATORS src/components/WebAuthn/AddDevice.vue:29
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:750
@@ -3000,7 +3013,7 @@ msgstr "新增 WebAuthn 裝置"
 #. TRANSLATORS src/components/WebAuthn/AddDevice.vue:36
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:752
 msgid "Please authorize your WebAuthn device."
-msgstr "請驗證您的 WebAuthn 裝置。"
+msgstr "請授權您的 WebAuthn 裝置。"
 
 #. TRANSLATORS src/components/WebAuthn/AddDevice.vue:44
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:754
@@ -3030,19 +3043,19 @@ msgstr "未命名的裝置"
 #. TRANSLATORS src/components/WebAuthn/Section.vue:24
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:768
 msgid "Passwordless Authentication"
-msgstr "無密碼驗證"
+msgstr "無密碼認證"
 
 #. TRANSLATORS src/components/WebAuthn/Section.vue:26
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:770
 msgid ""
 "Set up your account for passwordless authentication following the FIDO2 "
 "standard."
-msgstr "按照 FIDO2 標準設定您帳號的無密碼驗證。"
+msgstr "按照 FIDO2 標準設定您帳號的無密碼認證。"
 
 #. TRANSLATORS src/components/WebAuthn/Section.vue:29
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:772
 msgid "No devices configured."
-msgstr "未設定裝置。"
+msgstr "未設定裝置組態。"
 
 #. TRANSLATORS src/components/WebAuthn/Section.vue:32
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:774
@@ -3059,7 +3072,7 @@ msgstr "您的瀏覽器不支援 WebAuthn。"
 msgid ""
 "As admin you can fine-tune the sharing behavior. Please see the "
 "documentation for more information."
-msgstr "系統管理員可以微調分享行為。請查閱說明文件以獲得更多資訊。"
+msgstr "系統管理員可以微調分享行為。請查閱文件以獲得更多資訊。"
 
 #. TRANSLATORS src/views/AdminSettingsSharing.vue:29
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:782
@@ -3157,7 +3170,7 @@ msgstr "電子郵件已寄出"
 
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:50
 msgid "Location"
-msgstr "路徑"
+msgstr "位置"
 
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:51
 msgid "Profile picture"
@@ -3177,11 +3190,11 @@ msgstr "額外的電子郵件"
 
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:56
 msgid "Headline"
-msgstr "標題"
+msgstr "重要經歷"
 
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:57
 msgid "Organisation"
-msgstr "組織"
+msgstr "組織單位"
 
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:58
 msgid "Phone number"
@@ -3197,7 +3210,7 @@ msgstr "X（前身為 Twitter）"
 
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:62
 msgid "Fediverse (e.g. Mastodon)"
-msgstr "Fediverse（例如 Mastodon）"
+msgstr "聯邦宇宙（例如 Mastodon）"
 
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:63
 msgid "Website"
@@ -3205,7 +3218,7 @@ msgstr "網站"
 
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:85
 msgid "Profile visibility"
-msgstr "個人資料能見度"
+msgstr "個人檔案能見度"
 
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:119
 msgid "Locale"
@@ -3215,7 +3228,7 @@ msgstr "地區設定"
 msgid ""
 "Not available as this property is required for core functionality including "
 "file sharing and calendar invitations"
-msgstr "無法使用，因為此屬性是核心功能（包括檔案分享和行事曆邀請）所必需的"
+msgstr "無法使用；因為此屬性是核心功能，包括檔案分享和行事曆邀請等的必要項目"
 
 #: /var/www/html/apps/settings/src/constants/AccountPropertyConstants.js:183
 msgid ""
@@ -3237,7 +3250,7 @@ msgstr "您的應用程式"
 
 #: /var/www/html/apps/settings/src/constants/AppsConstants.js:28
 msgid "Active apps"
-msgstr "已啟用應用程式"
+msgstr "啟用中應用程式"
 
 #: /var/www/html/apps/settings/src/constants/AppsConstants.js:29
 msgid "Disabled apps"
@@ -3249,7 +3262,7 @@ msgstr "更新"
 
 #: /var/www/html/apps/settings/src/constants/AppsConstants.js:31
 msgid "App bundles"
-msgstr "應用程式套裝"
+msgstr "應用程式套組"
 
 #: /var/www/html/apps/settings/src/constants/AppsConstants.js:32
 msgid "Featured apps"
@@ -3310,7 +3323,7 @@ msgstr "應用程式已啟用但是需要更新。您將會在 5 秒內被重新
 
 #: /var/www/html/apps/settings/src/store/apps.js:212
 msgid "Error: This app cannot be enabled because it makes the server unstable"
-msgstr "錯誤：此應用程序無法啟用，因為它造成伺服器不穩定"
+msgstr "錯誤：此應用程式無法啟用，可能是它造成伺服器不穩定"
 
 #: /var/www/html/apps/settings/src/utils/handlers.js:43
 msgid ""
@@ -3321,7 +3334,7 @@ msgstr "有太多請求來自您的網路，請稍後再試。若您認為這不
 
 #: /var/www/html/apps/settings/templates/help.php:37
 msgid "Documentation"
-msgstr "說明文件"
+msgstr "文件"
 
 #: /var/www/html/apps/settings/templates/help.php:44
 #: /var/www/html/apps/settings/templates/help.php:74
@@ -3330,7 +3343,7 @@ msgstr "論壇"
 
 #: /var/www/html/apps/settings/templates/help.php:59
 msgid "Nextcloud help resources"
-msgstr "Nextcloud 說明資源"
+msgstr "Nextcloud 輔助說明資源"
 
 #: /var/www/html/apps/settings/templates/help.php:64
 msgid "Account documentation"
@@ -3360,7 +3373,7 @@ msgstr "SSL"
 #: /var/www/html/apps/settings/templates/settings/admin/overview.php:33
 #: /var/www/html/apps/settings/templates/settings/personal/security/twofactor.php:30
 msgid "Open documentation"
-msgstr "開啟說明文件"
+msgstr "開啟文件"
 
 #: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:60
 msgid ""
@@ -3382,7 +3395,7 @@ msgstr "Sendmail 模式"
 
 #: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:110
 msgid "From address"
-msgstr "寄件地址"
+msgstr "寄件位址"
 
 #: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:120
 msgid "Server address"
@@ -3425,8 +3438,8 @@ msgid ""
 "It's important for the security and performance of your instance that "
 "everything is configured correctly. To help you with that we are doing some "
 "automatic checks. Please see the linked documentation for more information."
-msgstr "正確設定每樣東西對您的站台的安全性與效能來說非常重要。為了協助您，我們正在進"
-"行一些自動檢查。請參閱連結資訊以了解更多資訊。"
+msgstr "正確設定每項事物對您的站台安全性與效能來說非常重要。為了協助您，我們正在進行"
+"一些自動檢查。請參閱連結資訊以了解更多資訊。"
 
 #: /var/www/html/apps/settings/templates/settings/admin/overview.php:38
 msgid "All checks passed."
@@ -3434,11 +3447,11 @@ msgstr "所有檢查皆通過。"
 
 #: /var/www/html/apps/settings/templates/settings/admin/overview.php:41
 msgid "There are some errors regarding your setup."
-msgstr "您的設定有些錯誤。"
+msgstr "您的設置有些錯誤。"
 
 #: /var/www/html/apps/settings/templates/settings/admin/overview.php:44
 msgid "There are some warnings regarding your setup."
-msgstr "您的設定有些警告。"
+msgstr "您的設置有些警告。"
 
 #: /var/www/html/apps/settings/templates/settings/admin/overview.php:47
 msgid "Checking for system and security issues."
@@ -3465,7 +3478,7 @@ msgstr ""
 
 #: /var/www/html/apps/settings/templates/settings/personal/development.notice.php:3
 msgid "Reasons to use Nextcloud in your organization"
-msgstr "在您的組織中使用 Nextcloud 的原因"
+msgstr "在您的組織單位中使用 Nextcloud 的原因"
 
 #: /var/www/html/apps/settings/templates/settings/personal/development.notice.php:19
 msgid ""
@@ -3473,8 +3486,9 @@ msgid ""
 "{githubopen}source code{linkclose} is licensed under the "
 "{licenseopen}AGPL{linkclose}."
 msgstr ""
-"由 {communityopen}Nextcloud 社群{linkclose}開發，{githubopen}原始碼{linkclose}以 "
-"{licenseopen}AGPL 授權{linkclose}釋出。"
+"由 {communityopen}Nextcloud "
+"社群{linkclose}開發，{githubopen}原始碼{linkclose}採用 "
+"{licenseopen}AGPL{linkclose} 授權。"
 
 #: /var/www/html/apps/settings/templates/settings/personal/development.notice.php:55
 msgid "Like our Facebook page"
@@ -3506,12 +3520,12 @@ msgstr "不支援 Nextcloud 的這個社群版本，且即時通知不可用。"
 msgid ""
 "Use a second factor besides your password to increase security for your "
 "account."
-msgstr "使用密碼以外的第二因素來增強您帳號的安全性。"
+msgstr "使用密碼以外的第二因素來提升您帳號的安全性。"
 
 #: /var/www/html/apps/settings/templates/settings/personal/security/twofactor.php:33
 msgid ""
 "If you use third party applications to connect to Nextcloud, please make "
 "sure to create and configure an app password for each before enabling second"
 " factor authentication."
-msgstr "如果您使用第三方應用程式來連線到 "
-"Nextcloud，請確保在啟用雙因素認證前為每個應用程式設定應用程式密碼。"
+msgstr "如果您使用第三方應用程式連線到 "
+"Nextcloud，請確保在啟用雙因素認證前，已為每個應用程式設定應用程式密碼。"
