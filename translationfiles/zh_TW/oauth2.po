@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-03-16 06:10+0000\n"
+"PO-Revision-Date: 2024-03-16 09:17+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/oauth2/zh_Hant/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 msgid ""
 "Your client is not authorized to connect. Please inform the administrator of"
 " your client."
-msgstr "您的客戶端無權連線。請通知您客戶端的管理員。"
+msgstr "您的客戶端無連線授權。請通知您客戶端的管理員。"
 
 #: /var/www/html/apps/oauth2/lib/Controller/SettingsController.php:68
 msgid ""
@@ -37,14 +37,15 @@ msgstr "OAuth 2.0"
 
 #: /var/www/html/apps/oauth2/specialAppInfoFakeDummyForL10nScript.php:3
 msgid "Allows OAuth2 compatible authentication from other web applications."
-msgstr "允許來自其他網路應用程式的 OAuth2 相容身份驗證。"
+msgstr "允許來自其他網路應用程式的 OAuth2 相容身份認證。"
 
 #: /var/www/html/apps/oauth2/specialAppInfoFakeDummyForL10nScript.php:4
 msgid ""
 "The OAuth2 app allows administrators to configure the built-in "
 "authentication workflow to also allow OAuth2 compatible authentication from "
 "other web applications."
-msgstr "OAuth2 應用程式讓管理員可以設定內建的身份驗證工作流程，以讓其他網路應用程式可以進行相容於 OAuth2 的身份驗證。"
+msgstr "OAuth2 應用程式讓管理員可以設定內建的身份認證工作流程，"
+"以讓其他網路應用程式可以進行相容於 OAuth2 的身份認證。"
 
 #. TRANSLATORS src/App.vue:23
 #: /var/www/html/apps/oauth2/specialVueFakeDummyForL10nScript.js:2
@@ -55,7 +56,7 @@ msgstr "OAuth 2.0 客戶端"
 #: /var/www/html/apps/oauth2/specialVueFakeDummyForL10nScript.js:4
 msgid ""
 "OAuth 2.0 allows external services to request access to {instanceName}."
-msgstr "OAuth 2.0 讓外部服務請求存取 {instanceName}。"
+msgstr "OAuth 2.0 讓外部服務請求能存取 {instanceName}。"
 
 #. TRANSLATORS src/App.vue:30
 #. TRANSLATORS src/App.vue:63
