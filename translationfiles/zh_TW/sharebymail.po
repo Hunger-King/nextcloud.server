@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-16 08:17+0000\n"
+"PO-Revision-Date: 2024-03-16 09:17+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/sharebymail/zh_Hant/>\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: /var/www/html/apps/sharebymail/lib/Activity.php:116
 msgid "Shared with {email}"
-msgstr "已與 {email} 分享"
+msgstr "經由 {email} 分享"
 
 #: /var/www/html/apps/sharebymail/lib/Activity.php:125
 msgid "Shared with {email} by {actor}"
-msgstr "由 {actor} 與 {email} 分享"
+msgstr "{actor} 已經由 {email} 分享"
 
 #: /var/www/html/apps/sharebymail/lib/Activity.php:135
 msgid "Unshared from {email}"
@@ -33,7 +33,7 @@ msgstr "已取消 {email} 的分享"
 
 #: /var/www/html/apps/sharebymail/lib/Activity.php:144
 msgid "Unshared from {email} by {actor}"
-msgstr "已由 {actor} 取消 {email} 的分享"
+msgstr "{actor} 已取消 {email} 的分享"
 
 #: /var/www/html/apps/sharebymail/lib/Activity.php:154
 msgid "Password for mail share sent to {email}"
@@ -45,19 +45,19 @@ msgstr "郵件分享的密碼已寄送給您"
 
 #: /var/www/html/apps/sharebymail/lib/Activity.php:186
 msgid "You shared {file} with {email} by mail"
-msgstr "您已透過電子郵件與 {email} 分享 {file}"
+msgstr "您已經由電子郵件與 {email} 分享 {file}"
 
 #: /var/www/html/apps/sharebymail/lib/Activity.php:193
 msgid "{actor} shared {file} with {email} by mail"
-msgstr "{actor} 已透過電子郵件與 {email} 分享 {file}"
+msgstr "{actor} 已經由電子郵件與 {email} 分享 {file}"
 
 #: /var/www/html/apps/sharebymail/lib/Activity.php:200
 msgid "You unshared {file} from {email} by mail"
-msgstr "您已透過電子郵件取消 {email} 分享的 {file}"
+msgstr "您取消了經由電子郵件 {email} 分享的 {file}"
 
 #: /var/www/html/apps/sharebymail/lib/Activity.php:207
 msgid "{actor} unshared {file} from {email} by mail"
-msgstr "{actor} 已透過電子郵件取消{email}分享的 {file}"
+msgstr "{actor} 取消了經由電子郵件 {email} 分享的 {file}"
 
 #: /var/www/html/apps/sharebymail/lib/Activity.php:214
 msgid "Password to access {file} was sent to {email}"
@@ -72,13 +72,13 @@ msgstr "存取 {file} 的密碼已寄送給您"
 #: /var/www/html/apps/sharebymail/specialAppInfoFakeDummyForL10nScript.php:2
 #: /var/www/html/apps/sharebymail/specialVueFakeDummyForL10nScript.js:2
 msgid "Share by mail"
-msgstr "透過電子郵件分享"
+msgstr "經由電子郵件分享"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:120
 #, php-format
 msgid ""
 "Sharing %1$s failed, because this item is already shared with user %2$s"
-msgstr "分享 %1$s 失敗，因為此項目已與使用者 %2$s 分享"
+msgstr "此項目已經與使用者 %2$s 分享，%1$s 分享失敗"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:166
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:526
@@ -89,11 +89,11 @@ msgstr "我們無法將自動生成的密碼寄送給您。請在您的個人設
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:274
 msgid "Failed to send share by email. Got an invalid email address"
-msgstr "透過電子郵件傳送分享失敗。收到無效的電子郵件地址"
+msgstr "經由電子郵件傳送分享失敗。收到無效的電子郵件地址"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:306
 msgid "Failed to send share by email"
-msgstr "透過電子郵件寄送分享失敗"
+msgstr "經由電子郵件寄送分享失敗"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:336
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:338
@@ -130,7 +130,7 @@ msgid ""
 "%1$s shared »%2$s« with you.\n"
 "You should have already received a separate mail with a link to access it.\n"
 msgstr ""
-"%1$s 與您分享了 »%2$s«。\n"
+"%1$s 與您分享了「%2$s」。\n"
 "您應該已收到一封包含存取連結的單獨郵件。\n"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:400
@@ -138,22 +138,22 @@ msgstr ""
 msgid ""
 "%1$s shared »%2$s« with you. You should have already received a separate "
 "mail with a link to access it."
-msgstr "%1$s 與您分享了 %2$s。您應該已收到一封包含存取連結的單獨郵件。"
+msgstr "%1$s 與您分享了「%2$s」。您應該已收到一封包含存取連結的單獨郵件。"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:412
 #, php-format
 msgid "Password to access »%1$s« shared to you by %2$s"
-msgstr "存取 %1$s 的密碼已透過 %2$s 與您分享"
+msgstr "%2$s 已與您分享存取「%1$s」的密碼"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:414
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:543
 #, php-format
 msgid "Password to access »%s«"
-msgstr "存取 %s 的密碼"
+msgstr "存取「%s」的密碼"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:416
 msgid "It is protected with the following password:"
-msgstr "其受以下密碼保護："
+msgstr "受以下密碼保護："
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:423
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:552
@@ -174,7 +174,7 @@ msgstr "%1$s 與您分享了「%2$s」，且想要新增"
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:474
 #, php-format
 msgid "»%s« added a note to a file shared with you"
-msgstr "「%s」在與您分享的檔案中加入了註記"
+msgstr "「%s」在與您分享的檔案中加入了備註"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:530
 #, php-format
@@ -185,14 +185,14 @@ msgid ""
 "the password directly to the recipient. Therefore you need to forward the "
 "password manually to the recipient."
 msgstr ""
-"您剛與 %2$s 分享了 %1$s。分享已寄送給收件者。由於管理員定義的安全策略 %3$s，"
-"每個分享都需要使用密碼保護，且不允許將密碼直接傳送給收件者。因此，您必須手動"
-"將密碼轉寄給收件者。"
+"您剛與 %2$s 分享了「%1$s」。分享已寄送給收件者。由於管理員定義的安全策略 %3$s"
+"，每個分享都需要使用密碼保護，且不允許將密碼直接傳送給收件者。因此，您必須手"
+"動將密碼轉寄給收件者。"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:541
 #, php-format
 msgid "Password to access »%1$s« shared by you with %2$s"
-msgstr "用於存取 %2$s 分享給您的 %1$s 的密碼"
+msgstr "您與 %2$s 分享了存取「%1$s」的密碼"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:545
 msgid "This is the password:"
@@ -209,19 +209,19 @@ msgstr "找不到分享"
 
 #: /var/www/html/apps/sharebymail/specialAppInfoFakeDummyForL10nScript.php:3
 msgid "Share provider which allows you to share files by mail"
-msgstr "分享提供者，讓您可以透過電子郵件分享檔案"
+msgstr "分享提供者，讓您可以經由電子郵件分享檔案"
 
 #. TRANSLATORS src/components/AdminSettings.vue:25
 #: /var/www/html/apps/sharebymail/specialVueFakeDummyForL10nScript.js:4
 msgid ""
 "Allows users to share a personalized link to a file or folder by putting in "
 "an email address."
-msgstr "允許使用者透過輸入電子郵件地址來分享到檔案或資料夾的個人化連結。"
+msgstr "允許使用者透過輸入電子郵件地址，來分享檔案或資料夾的個人化連結。"
 
 #. TRANSLATORS src/components/AdminSettings.vue:29
 #: /var/www/html/apps/sharebymail/specialVueFakeDummyForL10nScript.js:6
 msgid "Send password by mail"
-msgstr "透過電子郵件寄送密碼"
+msgstr "經由電子郵件寄送密碼"
 
 #. TRANSLATORS src/components/AdminSettings.vue:35
 #: /var/www/html/apps/sharebymail/specialVueFakeDummyForL10nScript.js:8
@@ -231,4 +231,4 @@ msgstr "回覆給發起人"
 #. TRANSLATORS src/components/AdminSettings.vue:79
 #: /var/www/html/apps/sharebymail/specialVueFakeDummyForL10nScript.js:10
 msgid "Unable to update share by mail config"
-msgstr "無法更新透過郵件分享設定"
+msgstr "無法更新經由郵件分享組態設定"
