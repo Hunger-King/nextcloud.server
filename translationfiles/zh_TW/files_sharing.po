@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-03-16 08:17+0000\n"
+"PO-Revision-Date: 2024-03-16 09:17+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/files_sharing/zh_Hant/>\n"
@@ -156,7 +156,7 @@ msgstr "與群組 {group} 分享的檔案 {file} 已過期"
 
 #: /var/www/html/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:46
 msgid "Shared as public link"
-msgstr "以公開連結分享"
+msgstr "已公開連結分享"
 
 #: /var/www/html/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:48
 msgid "Removed public link"
@@ -310,11 +310,11 @@ msgstr "檔案 {file} 的分享已過期"
 msgid ""
 "A file or folder shared by mail or by public link was "
 "<strong>downloaded</strong>"
-msgstr "透過電子郵件或公開連結分享的檔案或資料夾<strong>已被下載</strong>"
+msgstr "透過電子郵件或公開連結分享的檔案或資料夾<strong>已下載</strong>"
 
 #: /var/www/html/apps/files_sharing/lib/Activity/Settings/RemoteShare.php:41
 msgid "A file or folder was shared from <strong>another server</strong>"
-msgstr "來自<strong>其他伺服器</strong>分享的檔案或資料夾"
+msgstr "<strong>其他伺服器</strong>分享的檔案或資料夾"
 
 #: /var/www/html/apps/files_sharing/lib/Activity/Settings/ShareActivitySettings.php:47
 msgid "Files"
@@ -322,7 +322,7 @@ msgstr "檔案"
 
 #: /var/www/html/apps/files_sharing/lib/Activity/Settings/Shared.php:41
 msgid "A file or folder has been <strong>shared</strong>"
-msgstr "檔案或資料夾已被<strong>分享</strong>"
+msgstr "檔案或資料夾已<strong>分享</strong>"
 
 #: /var/www/html/apps/files_sharing/lib/Controller/ShareAPIController.php:287
 msgid "Shared link"
