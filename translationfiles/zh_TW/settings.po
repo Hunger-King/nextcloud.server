@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-16 03:43+0000\n"
+"PO-Revision-Date: 2024-03-16 06:10+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/settings/zh_Hant/>\n"
@@ -3407,7 +3407,7 @@ msgstr "連接埠"
 
 #: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:130
 msgid "Authentication"
-msgstr "驗證"
+msgstr "認證"
 
 #: /var/www/html/apps/settings/templates/settings/admin/additional-mail.php:141
 msgid "Authentication required"
