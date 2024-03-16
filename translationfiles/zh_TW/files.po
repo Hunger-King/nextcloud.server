@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:19+0000\n"
-"PO-Revision-Date: 2024-03-16 08:17+0000\n"
+"PO-Revision-Date: 2024-03-16 09:55+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/files/zh_Hant/>\n"
@@ -580,7 +580,7 @@ msgstr "未加入至最愛"
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:198
 #: /var/www/html/apps/files/src/actions/favoriteAction.ts:80
 msgid "Remove from favorites"
-msgstr "從最愛中移除"
+msgstr "從喜愛中移除"
 
 #: /var/www/html/apps/files/js/tagsplugin.js:93
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:198
@@ -611,7 +611,7 @@ msgstr "您已從您的最愛移除 {file}"
 #: /var/www/html/apps/files/lib/Activity/Filter/Favorites.php:78
 #: /var/www/html/apps/files/src/views/favorites.ts:66
 msgid "Favorites"
-msgstr "我的最愛"
+msgstr "喜愛"
 
 #: /var/www/html/apps/files/lib/Activity/Filter/FileChanges.php:60
 msgid "File changes"
