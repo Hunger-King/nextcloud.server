@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-16 08:17+0000\n"
+"PO-Revision-Date: 2024-03-17 15:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/user_ldap/zh_Hant/>\n"
@@ -21,30 +21,30 @@ msgstr ""
 
 #: /var/www/html/apps/user_ldap/ajax/clearMappings.php:54
 msgid "Failed to clear the mappings."
-msgstr "清除映射失敗。"
+msgstr "無法清除映射。"
 
 #: /var/www/html/apps/user_ldap/ajax/deleteConfiguration.php:39
 msgid "Failed to delete the server configuration"
-msgstr "刪除伺服器設定失敗"
+msgstr "無法刪除伺服器組態設定"
 
 #: /var/www/html/apps/user_ldap/ajax/testConfiguration.php:70
 msgid "Invalid configuration: Anonymous binding is not allowed."
-msgstr "無效的設定：不允許匿名綁定。"
+msgstr "無效的組態設定：不允許匿名綁定。"
 
 #: /var/www/html/apps/user_ldap/ajax/testConfiguration.php:75
 msgid "Valid configuration, connection established!"
-msgstr "有效的設定，連線已建立！"
+msgstr "有效的組態設定，連線已建立！"
 
 #: /var/www/html/apps/user_ldap/ajax/testConfiguration.php:78
 msgid ""
 "Valid configuration, but binding failed. Please check the server settings "
 "and credentials."
-msgstr "有效的設定，但是綁定失敗。請檢查伺服器設定與憑證。"
+msgstr "有效的組態設定，但是綁定失敗。請檢查伺服器設定與憑證。"
 
 #: /var/www/html/apps/user_ldap/ajax/testConfiguration.php:82
 msgid ""
 "Invalid configuration. Please have a look at the logs for further details."
-msgstr "無效的設定。請檢查紀錄檔以取得更多詳細資訊。"
+msgstr "無效的組態設定。請檢查紀錄檔以取得更多詳細資訊。"
 
 #: /var/www/html/apps/user_ldap/ajax/wizard.php:37
 msgid "No action specified"
@@ -52,7 +52,7 @@ msgstr "未指定動作"
 
 #: /var/www/html/apps/user_ldap/ajax/wizard.php:42
 msgid "No configuration specified"
-msgstr "未指定設定"
+msgstr "未指定組態設定"
 
 #: /var/www/html/apps/user_ldap/ajax/wizard.php:111
 msgid "No data specified"
@@ -65,7 +65,7 @@ msgstr "指定了無效的資料"
 #: /var/www/html/apps/user_ldap/ajax/wizard.php:123
 #, php-format
 msgid " Could not set configuration %s"
-msgstr " 無法設定 %s"
+msgstr " 無法設定組態 %s"
 
 #: /var/www/html/apps/user_ldap/ajax/wizard.php:133
 msgid "Action does not exist"
@@ -101,19 +101,19 @@ msgstr "Base DN 出現問題"
 
 #: /var/www/html/apps/user_ldap/js/wizard/view.js:379
 msgid "Testing configuration…"
-msgstr "正在測試設定…"
+msgstr "正在測試組態設定…"
 
 #: /var/www/html/apps/user_ldap/js/wizard/view.js:387
 msgid "Configuration incorrect"
-msgstr "設定不正確"
+msgstr "組態設定不正確"
 
 #: /var/www/html/apps/user_ldap/js/wizard/view.js:395
 msgid "Configuration incomplete"
-msgstr "設定未完成"
+msgstr "組態設定未完成"
 
 #: /var/www/html/apps/user_ldap/js/wizard/view.js:402
 msgid "Configuration OK"
-msgstr "設定完成"
+msgstr "組態設定完成"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabAbstractFilter.js:47
 msgid "Select groups"
@@ -125,17 +125,17 @@ msgstr "選取物件類別"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:191
 msgid "Please check the credentials, they seem to be wrong."
-msgstr "請檢查您的憑證，它們似乎為錯誤。"
+msgstr "請檢查您的憑證，它們似乎有錯。"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:193
 msgid "Please specify the port, it could not be auto-detected."
-msgstr "請指定連接埠，其無法自動偵測。"
+msgstr "請指定連接埠，它無法自動偵測。"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:200
 msgid ""
 "Base DN could not be auto-detected, please revise credentials, host and "
 "port."
-msgstr "無法自動偵測 Base DN，請修改憑證、主機與連接埠。"
+msgstr "無法自動偵測 Base DN，請修改憑證、主機、連接埠等。"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:202
 msgid "Could not detect Base DN, please enter it manually."
@@ -147,27 +147,26 @@ msgstr "{nthServer}. 伺服器"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:285
 msgid "No object found in the given Base DN. Please revise."
-msgstr "在 Base DN 中找不到物件。請修改。"
+msgstr "在 Base DN 中找不到物件。請修正。"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:287
 msgid "More than 1,000 directory entries available."
-msgstr "超過 1,000 個目錄項目可用。"
+msgstr "有超過 1,000 個目錄條目可用。"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:291
 msgid "{objectsFound} entry available within the provided Base DN"
 msgid_plural "{objectsFound} entries available within the provided Base DN"
-msgstr[0] "提供的 Base DN 中有 {objectsFound} 個項目"
-msgstr[1] "提供的 Base DN 中有 {objectsFound} 個項目"
+msgstr[0] "提供的 Base DN 中有 {objectsFound} 個條目可用"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:300
 msgid ""
 "An error occurred. Please check the Base DN, as well as connection settings "
 "and credentials."
-msgstr "遇到錯誤。請檢查 Base DN、連線設定與憑證。"
+msgstr "遭遇錯誤。請檢查 Base DN、連線設定、憑證等。"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:366
 msgid "Do you really want to delete the current Server Configuration?"
-msgstr "您真的要刪除現在的伺服器設定嗎？"
+msgstr "您真的要刪除現在的伺服器組態設定嗎？"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabElementary.js:367
 msgid "Confirm Deletion"
@@ -207,7 +206,7 @@ msgstr "模式切換"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabLoginFilter.js:61
 msgid "Select attributes"
-msgstr "選取屬性"
+msgstr "選取特性"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabLoginFilter.js:146
 msgid ""
@@ -223,7 +222,7 @@ msgstr "使用者存在，設定值正確。"
 msgid ""
 "Consider narrowing your search, as it encompassed many users, only the first"
 " one of whom will be able to log in."
-msgstr "考慮縮小範圍，因為其涵蓋了許多使用者，但只有第一個才能登入。"
+msgstr "請考慮縮小搜尋範圍，目前涵蓋了許多使用者，但只有第一個才能登入。"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabLoginFilter.js:155
 msgid "An unspecified error occurred. Please check log and settings."
@@ -233,13 +232,13 @@ msgstr "發生不明錯誤。請檢查紀錄檔與設定。"
 msgid ""
 "The search filter is invalid, probably due to syntax issues like uneven "
 "number of opened and closed brackets. Please revise."
-msgstr "搜尋過濾條件無效，可能是語法問題引起，如括號不對稱等。請修改。"
+msgstr "搜尋過濾條件無效，可能是語法問題引起，如括號不對稱等。請修正。"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabLoginFilter.js:162
 msgid ""
 "A connection error to LDAP/AD occurred. Please check host, port and "
 "credentials."
-msgstr "發生 LDAP/AD 的連線錯誤。請檢查主機、連接埠與憑證。"
+msgstr "遭遇 LDAP/AD 的連線錯誤。請檢查主機、連接埠、憑證等。"
 
 #: /var/www/html/apps/user_ldap/js/wizard/wizardTabLoginFilter.js:164
 msgid ""
@@ -255,7 +254,7 @@ msgstr "請提供登入名稱以便再次測試"
 msgid ""
 "The group box was disabled, because the LDAP/AD server does not support "
 "memberOf."
-msgstr "因為 LDAP/AD 伺服器不支援 memberOf，所以停用群組盒。"
+msgstr "由於 LDAP/AD 伺服器不支援 memberOf，群組盒已停用。"
 
 #: /var/www/html/apps/user_ldap/lib/Access.php:357
 msgid "Password change rejected. Hint: "
@@ -280,7 +279,7 @@ msgstr "您的密碼將於今天到期。"
 #: /var/www/html/apps/user_ldap/lib/Notification/Notifier.php:90
 msgid "Your password will expire within %n day."
 msgid_plural "Your password will expire within %n days."
-msgstr[0] "您的密碼將於 %n 天後到期。"
+msgstr[0] "您的密碼將於 %n 天內到期。"
 
 #: /var/www/html/apps/user_ldap/lib/Settings/Section.php:64
 #: /var/www/html/apps/user_ldap/templates/settings.php:57
@@ -301,8 +300,9 @@ msgid ""
 "\"Override UUID detection\" settings in the Expert part of the LDAP "
 "configuration and use \"occ ldap:update-uuid\" to update them."
 msgstr ""
-"找到無效的 LDAP 使用者或群組 UUID。請審閱您在 LDAP 專家設定中的「覆寫 UUID 偵測」設定，並使用「occ ldap:update-"
-"uuid」來更新它們。"
+"找到無效的 LDAP 使用者或群組 UUID。請檢閱您在 LDAP "
+"組態設定中的「專家」部分，其中的「凌駕 UUID 偵測」設定，並使用「occ ldap"
+":update-uuid」來更新設定。"
 
 #: /var/www/html/apps/user_ldap/lib/Wizard.php:132
 #: /var/www/html/apps/user_ldap/lib/Wizard.php:151
@@ -329,7 +329,7 @@ msgstr[1] "找到 %n 個使用者"
 msgid ""
 "Could not detect user display name attribute. Please specify it yourself in "
 "advanced LDAP settings."
-msgstr "偵測不到使用者顯示名稱屬性。請在進階 LDAP 設定中自行指定。"
+msgstr "偵測不到使用者顯示名稱特性。請在進階 LDAP 設定中自行指定。"
 
 #: /var/www/html/apps/user_ldap/lib/Wizard.php:469
 #: /var/www/html/apps/user_ldap/lib/Wizard.php:1263
@@ -358,19 +358,20 @@ msgid ""
 "A user logs into Nextcloud with their LDAP or AD credentials, and is granted access based on an authentication request handled by the LDAP or AD server. Nextcloud does not store LDAP or AD passwords, rather these credentials are used to authenticate a user and then Nextcloud uses a session for the user ID. More information is available in the LDAP User and Group Backend documentation."
 msgstr ""
 "此應用程式讓管理員可以將 Nextcloud 連線到以 LDAP "
-"為基礎的使用者目錄來進行驗證與提供使用者、群組與使用者屬性。"
-"管理員可以設定此應用程式來連線到一個或更多個 LDAP 目錄，或是透過 LDAP 介面的 "
-"Active Directories。如使用者容量限制、電子郵件、頭像圖片、"
-"群組成員資格等屬性可以透過有適當查詢與過濾條件的目錄從 Nextcloud 拉取。\n"
+"為基礎的使用者目錄，來認證與供應使用者、群組與使用者特性。"
+"管理員可以設定此應用程式連線到一個或更多個 LDAP 目錄，或是透過 LDAP "
+"介面連線到 Active "
+"Directory。像是使用者容量限制、電子郵件、頭像圖片、群組成員資格等特性，"
+"可以透過適當查詢與過濾條件後的目錄從 Nextcloud 拉取。\n"
 "\n"
 "使用者以其 LDAP 或 AD 憑證登入 Nextcloud，並根據 LDAP 或 AD "
-"伺服器處理的身份驗證請求來授予存取權限。Nextcloud 並不儲存 LDAP 或 AD "
-"的密碼，而是使用這些憑證來對使用者進行身份驗證，然後 Nextcloud "
-"會使用工作階段作為使用者 ID。更多資訊在 LDAP 使用者與群組後端文件中提供。"
+"伺服器處理的身份認證請求來授予存取權。Nextcloud 並不儲存 LDAP 或 AD "
+"的密碼，而是使用這些憑證來對使用者進行身份認證，接著 Nextcloud "
+"會使用工作階段作為使用者 ID。更多資訊請參閱 LDAP 使用者與群組後端文件。"
 
 #: /var/www/html/apps/user_ldap/templates/part.settingcontrols.php:3
 msgid "Test Configuration"
-msgstr "測試設定"
+msgstr "測試組態設定"
 
 #: /var/www/html/apps/user_ldap/templates/part.settingcontrols.php:9
 #: /var/www/html/apps/user_ldap/templates/part.wizardcontrols.php:15
@@ -380,17 +381,17 @@ msgstr "說明"
 #: /var/www/html/apps/user_ldap/templates/part.wizard-groupfilter.php:4
 #, php-format
 msgid "Groups meeting these criteria are available in %s:"
-msgstr "符合這些條件的群組可在 %s 找到："
+msgstr "在 %s 中符合這些條件可用群組："
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-groupfilter.php:8
 #: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:8
 msgid "Only these object classes:"
-msgstr "只有這些物件類別："
+msgstr "僅限這些物件類別："
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-groupfilter.php:17
 #: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:21
 msgid "Only from these groups:"
-msgstr "僅從這些群組："
+msgstr "僅限這些群組："
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-groupfilter.php:20
 #: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:24
@@ -409,7 +410,7 @@ msgstr "可用的群組"
 #: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:44
 #: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:46
 msgid "Selected groups"
-msgstr "已選擇的群組"
+msgstr "已選取的群組"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-groupfilter.php:47
 #: /var/www/html/apps/user_ldap/templates/part.wizard-groupfilter.php:55
@@ -431,7 +432,7 @@ msgstr "LDAP 過濾條件："
 #, php-format
 msgid ""
 "The filter specifies which LDAP groups shall have access to the %s instance."
-msgstr "過濾條件指定哪些 LDAP 群組有存取 %s 的權限。"
+msgstr "過濾條件指定哪些 LDAP 群組應該具備 %s 站台的存取權。"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-groupfilter.php:69
 msgid "Verify settings and count the groups"
@@ -441,7 +442,7 @@ msgstr "驗證設定並計算群組"
 #, php-format
 msgid ""
 "When logging in, %s will find the user based on the following attributes:"
-msgstr "登入時，%s 將會根據以下屬性尋找使用者："
+msgstr "登入時，%s 將會根據以下特性尋找使用者："
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:8
 msgid "LDAP/AD Username:"
@@ -452,7 +453,8 @@ msgstr "LDAP/AD 使用者名稱："
 msgid ""
 "Allows login against the LDAP/AD username, which is either \"uid\" or "
 "\"sAMAccountName\" and will be detected."
-msgstr "允許使用 LDAP/AD 使用者名稱登入，可以是「uid」或「sAMAccountName」。"
+msgstr "允許使用 LDAP/AD "
+"使用者名稱登入，可以是「uid」或「sAMAccountName」，會自動偵測。"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:21
 msgid "LDAP/AD Email Address:"
@@ -463,11 +465,11 @@ msgstr "LDAP/AD 電子郵件地址："
 msgid ""
 "Allows login against an email attribute. \"mail\" and \"mailPrimaryAddress\""
 " allowed."
-msgstr "允許使用電子郵件屬性登入。允許使用 “mail” 與 “mailPrimaryAddress”。"
+msgstr "允許以電子郵件特性登入。允許使用「mail」與「mailPrimaryAddress」。"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:34
 msgid "Other Attributes:"
-msgstr "其他屬性："
+msgstr "其他特性："
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:53
 #: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:56
@@ -475,7 +477,7 @@ msgstr "其他屬性："
 msgid ""
 "Defines the filter to apply, when login is attempted. \"%%uid\" replaces the"
 " username in the login action. Example: \"uid=%%uid\""
-msgstr "定義要套用的過濾條件，試圖登入時。「%%uid」會在登入動作時取代使用者名稱。範例"
+msgstr "定義試圖登入時所要套用的過濾條件。「%%uid」會在登入動作時取代使用者名稱。範例"
 "：「uid=%%uid」"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:64
@@ -487,7 +489,7 @@ msgstr "測試登入名稱"
 msgid ""
 "Attempts to receive a DN for the given loginname and the current login "
 "filter"
-msgstr "嘗試接收指定登入名稱與目前登入過濾條件的 DN"
+msgstr "嘗試接收給定登入名稱與目前登入過濾條件的 DN"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-loginfilter.php:72
 msgid "Verify settings"
@@ -501,7 +503,7 @@ msgstr "%s. 伺服器："
 #: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:18
 #: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:20
 msgid "Add a new configuration"
-msgstr "建立一個新的設定"
+msgstr "建立新的組態設定"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:26
 #: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:28
@@ -511,7 +513,7 @@ msgstr "複製目前的組態設定檔到新目錄綁定"
 #: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:33
 #: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:35
 msgid "Delete the current configuration"
-msgstr "刪除目前的組態設定檔"
+msgstr "刪除目前的組態設定"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:46
 msgid "Host"
@@ -522,7 +524,7 @@ msgstr "主機"
 msgid ""
 "You can omit the protocol, unless you require SSL. If so, start with "
 "ldaps://"
-msgstr "除非您需要 SSL，否則您可以忽略通訊協定，反之則請以 ldaps:// 開頭"
+msgstr "除非您需要 SSL，否則您可以忽略通訊協定。如果需要，請以 ldaps:// 開頭"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:54
 msgid "Port"
@@ -530,7 +532,7 @@ msgstr "連接埠"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:56
 msgid "Detect Port"
-msgstr "偵測連接阜"
+msgstr "偵測連接埠"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:67
 msgid "User DN"
@@ -543,7 +545,7 @@ msgid ""
 "uid=agent,dc=example,dc=com. For anonymous access, leave DN and Password "
 "empty."
 msgstr "客戶端使用者的 DN "
-"的連結需要完成，例如：uid=agent,dc=example,dc=com。若是匿名存取，則將 DN "
+"綁定需要完成，例如：uid=agent,dc=example,dc=com。若是匿名存取，則請將 DN "
 "與密碼欄位留空。"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:79
@@ -553,7 +555,7 @@ msgstr "密碼"
 #: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:80
 #: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:83
 msgid "For anonymous access, leave DN and Password empty."
-msgstr "匿名存取時請將 DN 與密碼欄位留空。"
+msgstr "匿名存取時，請將 DN 與密碼欄位留空。"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:86
 msgid "Save Credentials"
@@ -581,7 +583,7 @@ msgstr "測試 Base DN"
 msgid ""
 "Avoids automatic LDAP requests. Better for bigger setups, but requires some "
 "LDAP knowledge."
-msgstr "避免自動 LDAP 請求。適合較大規模的安裝，但需要一些 LDAP 知識。"
+msgstr "避免自動 LDAP 請求。適合較大規模的安裝設置，但需要具備一些 LDAP 知識。"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-server.php:119
 msgid "Manually enter LDAP filters (recommended for large directories)"
@@ -589,7 +591,7 @@ msgstr "手動輸入 LDAP 過濾條件（建議用於大型目錄）"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:4
 msgid "Listing and searching for users is constrained by these criteria:"
-msgstr "列出和搜索受到以下條件約束的用戶："
+msgstr "列出和搜尋以下條件限定的使用者："
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:17
 msgid ""
@@ -597,19 +599,19 @@ msgid ""
 "user, and inetOrgPerson. If you are not sure which object class to select, "
 "please consult your directory admin."
 msgstr ""
-"使用者最常見的物件類別是 organizationalPerson、person、user 與 "
-"inetOrgPerson。如果不確定要選取哪個物件類別，請諮詢您的目錄管理員。"
+"使用者最常見的物件類別是 organizationalPerson、person、user、inetOrgPerson "
+"等。如果不確定要選取哪個物件類別，則請諮詢您的目錄管理員。"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:61
 #: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:64
 #, php-format
 msgid ""
 "The filter specifies which LDAP users shall have access to the %s instance."
-msgstr "過濾條件指定哪些 LDAP 使用者有存取 %s 的權限。"
+msgstr "過濾條件指定哪些 LDAP 使用者應具備 %s 站台的存取權。"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizard-userfilter.php:72
 msgid "Verify settings and count users"
-msgstr "驗證設定並計算使用者數"
+msgstr "驗證設定並計算使用者"
 
 #: /var/www/html/apps/user_ldap/templates/part.wizardcontrols.php:2
 msgid "Saving"
@@ -667,7 +669,7 @@ msgstr "使用者"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:63
 msgid "Login Attributes"
-msgstr "登入屬性"
+msgstr "登入特性"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:64
 msgid "Groups"
@@ -685,7 +687,8 @@ msgstr "進階"
 msgid ""
 "<b>Warning:</b> The PHP LDAP module is not installed, the backend will not "
 "work. Please ask your system administrator to install it."
-msgstr "<b>警告：</b>未安裝 PHP LDAP 模組，後端系統將無法運作。請要求您的系統管理員安裝它。"
+msgstr "<b>警告：</b>未安裝 PHP LDAP "
+"模組，後端系統將無法運作。請要求您的系統管理員安裝。"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:79
 msgid "Connection Settings"
@@ -693,25 +696,25 @@ msgstr "連線設定"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:81
 msgid "Configuration Active"
-msgstr "設定作用中"
+msgstr "組態設定作用中"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:81
 msgid "When unchecked, this configuration will be skipped."
-msgstr "沒有被勾選時，此設定會被略過。"
+msgstr "沒有勾選時，此組態設定會被略過。"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:82
 msgid "Backup (Replica) Host"
-msgstr "備用（複本）主機"
+msgstr "備援（複本）主機"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:82
 msgid ""
 "Give an optional backup host. It must be a replica of the main LDAP/AD "
 "server."
-msgstr "提供可選的備用主機。其必須為主要 LDAP/AD 伺服器的複本。"
+msgstr "提供可選的備援主機。這必須是主要 LDAP/AD 伺服器的複本。"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:83
 msgid "Backup (Replica) Port"
-msgstr "備用（複本）連接埠"
+msgstr "備援（複本）連接埠"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:84
 msgid "Disable Main Server"
@@ -723,14 +726,15 @@ msgstr "僅連線至複本伺服器。"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:85
 msgid "Turn off SSL certificate validation."
-msgstr "關閉 SSL 憑證檢查。"
+msgstr "關閉 SSL 憑證驗證。"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:85
 #, php-format
 msgid ""
 "Not recommended, use it for testing only! If connection only works with this"
 " option, import the LDAP server's SSL certificate in your %s server."
-msgstr "不建議，請僅在測試時使用！如果連線只能在此設定下運作，請匯入 LDAP 伺服器的 SSL 憑證到您的伺服器 %s 上。"
+msgstr "不建議，請僅在測試時使用！如果連線只能在此選項下運作，請匯入 LDAP 伺服器的 "
+"SSL 憑證到您的 %s 伺服器上。"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:86
 msgid "Cache Time-To-Live"
@@ -750,7 +754,7 @@ msgstr "使用者顯示名稱欄位"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:90
 msgid "The LDAP attribute to use to generate the user's display name."
-msgstr "用於生成使用者顯示名稱的 LDAP 屬性。"
+msgstr "用於生成使用者顯示名稱的 LDAP 特性。"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:91
 msgid "2nd User Display Name Field"
@@ -760,11 +764,12 @@ msgstr "第二個使用者顯示名稱欄位"
 msgid ""
 "Optional. An LDAP attribute to be added to the display name in brackets. "
 "Results in e.g. »John Doe (john.doe@example.org)«."
-msgstr "選填。要加進顯示名稱中括號的 LDAP 屬性。例如 »John Doe (john.doe@example.org)«。"
+msgstr "選填。要加進顯示名稱括號中的 LDAP 特性。例如 »John Doe (john.doe@example."
+"org)«。"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:92
 msgid "Base User Tree"
-msgstr "Base User Tree"
+msgstr "Base 使用者樹"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:92
 msgid "One User Base DN per line"
@@ -772,22 +777,22 @@ msgstr "一行一個使用者 Base DN"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:93
 msgid "User Search Attributes"
-msgstr "使用者搜尋屬性"
+msgstr "使用者搜尋特性"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:93
 #: /var/www/html/apps/user_ldap/templates/settings.php:97
 msgid "Optional; one attribute per line"
-msgstr "非必要，一行一項屬性"
+msgstr "選填；一行一項特性"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:94
 msgid "Disable users missing from LDAP"
-msgstr "停用 LDAP 中缺少的使用者"
+msgstr "停用 LDAP 中沒有的使用者"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:94
 msgid ""
 "When switched on, users imported from LDAP which are then missing will be "
 "disabled"
-msgstr "開啟後，從 LDAP 匯入但隨後遺失的使用者將被停用"
+msgstr "開啟後，從 LDAP 匯入但隨後消失的使用者將被停用"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:95
 msgid "Group Display Name Field"
@@ -795,19 +800,19 @@ msgstr "群組顯示名稱欄位"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:95
 msgid "The LDAP attribute to use to generate the groups's display name."
-msgstr "用於生成群組顯示名稱的 LDAP 屬性。"
+msgstr "用於生成群組顯示名稱的 LDAP 特性。"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:96
 msgid "Base Group Tree"
-msgstr "Base Group Tree"
+msgstr "Base 群組樹"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:96
 msgid "One Group Base DN per line"
-msgstr "一行一個 Group Base DN"
+msgstr "一行一個群組 Base DN"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:97
 msgid "Group Search Attributes"
-msgstr "群組搜尋屬性"
+msgstr "群組搜尋特性"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:98
 msgid "Group-Member association"
@@ -822,8 +827,8 @@ msgid ""
 "The LDAP attribute that on group objects contains an LDAP search URL that "
 "determines what objects belong to the group. (An empty setting disables "
 "dynamic group membership functionality.)"
-msgstr ""
-"群組物件上的 LDAP 屬性包含了一個 LDAP 搜尋 URL，該 URL 決定了哪些物件屬於群組。（空白設定將會停用動態群組成員資格功能。）"
+msgstr "群組物件上的 LDAP 特性包含了 LDAP 搜尋 URL，該 URL "
+"決定了哪些物件屬於該群組。（空白設定將會停用動態群組成員資格功能。）"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:110
 msgid "Nested Groups"
@@ -833,7 +838,7 @@ msgstr "巢狀群組"
 msgid ""
 "When switched on, groups that contain groups are supported. (Only works if "
 "the group member attribute contains DNs.)"
-msgstr "啟用後，將會支援包含群組的群組。（僅在群組成員屬性包含 DN 時可正常運作。）"
+msgstr "啟用後，將會支援包含群組的群組。（僅在群組成員特性包含 DN 時可正常運作。）"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:111
 msgid "Paging chunksize"
@@ -844,11 +849,12 @@ msgid ""
 "Chunksize used for paged LDAP searches that may return bulky results like "
 "user or group enumeration. (Setting it 0 disables paged LDAP searches in "
 "those situations.)"
-msgstr "分頁 LDAP 搜尋使用的區塊大小可能會回傳大量結果，如使用者或群組列舉。（在這種情況下，將其設定為 0 將會停用分頁 LDAP 搜尋。）"
+msgstr "分頁式 LDAP 搜尋所使用的區塊大小，可能會回傳大量結果，例如使用者或群組列舉。"
+"（在這種情況下，設定為 0 會停用分頁式 LDAP 搜尋。）"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:112
 msgid "Enable LDAP password changes per user"
-msgstr "啟用每個使用者的 LDAP 密碼"
+msgstr "啟用每個使用者的 LDAP 密碼變更"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:112
 msgid ""
@@ -858,9 +864,11 @@ msgid ""
 " As passwords are sent in plaintext to the LDAP server, transport encryption"
 " must be used and password hashing should be configured on the LDAP server."
 msgstr ""
-"允許 LDAP 使用者變更他們的密碼，並允許超級管理員與群組管理員變更其 LDAP 使用者的密碼。僅當在 LDAP "
-"伺服器上設定了對應的存取控制策略時，此選項才會有效。因為密碼以明文形式傳送到 LDAP 伺服器，因此必須使用傳輸加密，且必須在 LDAP "
-"伺服器上設定密碼雜湊。"
+"允許 LDAP 使用者變更他們的密碼，並允許超級管理員與群組管理員變更其 LDAP "
+"使用者的密碼。僅當在 LDAP "
+"伺服器上設定了對應的存取控制策略時，此選項才會生效。"
+"由於密碼會以明文形式傳送給 LDAP 伺服器，因此必須使用傳輸加密，且必須在 LDAP "
+"伺服器上設定密碼雜湊處理。"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:112
 msgid "(New password is sent as plain text to LDAP)"
@@ -876,32 +884,32 @@ msgid ""
 "handling. Works only when LDAP password changes per user are enabled and is "
 "only supported by OpenLDAP. Leave empty to disable password expiry handling."
 msgstr ""
-"預設密碼策略的 DN，其將用於密碼過期處理。僅當啟用了每個使用者的 LDAP "
-"密碼變更且 OpenLDAP 支援時才能正常運作。保留空白將停用密碼過期處理。"
+"預設密碼策略的 DN，用於密碼過期處理。僅當啟用了每個使用者的 LDAP "
+"密碼變更時才能正常運作，僅 OpenLDAP 有支援。保留空白將停用密碼過期處理。"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:116
 msgid "Special Attributes"
-msgstr "特殊屬性"
+msgstr "特殊特性"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:118
 msgid "Quota Field"
-msgstr "配額欄位"
+msgstr "容量限制欄位"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:118
 msgid ""
 "Leave empty for user's default quota. Otherwise, specify an LDAP/AD "
 "attribute."
-msgstr "留空將以使用者的預設配額為準。否則請指定 LDAP/AD 屬性。"
+msgstr "留空將以使用者的預設容量限制為準。否則，請指定 LDAP/AD 特性。"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:119
 msgid "Quota Default"
-msgstr "預設配額"
+msgstr "容量限制預設"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:119
 msgid ""
 "Override default quota for LDAP users who do not have a quota set in the "
 "Quota Field."
-msgstr "覆寫沒有在配額欄位中設定配額的 LDAP 使用者的預設配額。"
+msgstr "凌駕在容量限制欄位中沒有設定配額容量的 LDAP 使用者的預設配額。"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:120
 msgid "Email Field"
@@ -911,7 +919,7 @@ msgstr "電子郵件欄位"
 msgid ""
 "Set the user's email from their LDAP attribute. Leave it empty for default "
 "behaviour."
-msgstr "從 LDAP 屬性設定使用者的電子郵件。將其留空為預設行為。"
+msgstr "根據 LDAP 特性設定使用者的電子郵件。留空將採預設行為。"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:121
 msgid "User Home Folder Naming Rule"
@@ -920,7 +928,7 @@ msgstr "使用者家目錄的命名規則"
 #: /var/www/html/apps/user_ldap/templates/settings.php:121
 msgid ""
 "Leave empty for username (default). Otherwise, specify an LDAP/AD attribute."
-msgstr "使用者名稱留空（預設值）。否則請指定 LDAP/AD 屬性。"
+msgstr "留空將採用使用者名稱（預設值）。否則，請指定 LDAP/AD 特性。"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:122
 msgid "\"$home\" Placeholder Field"
@@ -930,11 +938,11 @@ msgstr "「$home」佔位字串欄位"
 msgid ""
 "$home in an external storage configuration will be replaced with the value "
 "of the specified attribute"
-msgstr "外部儲存空間設定中的 $home 將會以指定屬性的值取代"
+msgstr "外部儲存空間組態設定中的 $home 將會以指定特性的值取代"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:124
 msgid "User Profile Attributes"
-msgstr "使用者個人資料屬性"
+msgstr "使用者個人檔案特性"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:126
 msgid "Phone Field"
@@ -942,7 +950,7 @@ msgstr "電話號碼欄位"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:126
 msgid "User profile Phone will be set from the specified attribute"
-msgstr "使用者個人資料電話號碼將從指定的屬性設定"
+msgstr "使用者個人檔案電話號碼將根據指定的特性設定"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:127
 msgid "Website Field"
@@ -950,7 +958,7 @@ msgstr "網站欄位"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:127
 msgid "User profile Website will be set from the specified attribute"
-msgstr "使用者個人資料網站將從指定的屬性設定"
+msgstr "使用者個人檔案網站將根據指定的特性設定"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:128
 msgid "Address Field"
@@ -958,7 +966,7 @@ msgstr "地址欄位"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:128
 msgid "User profile Address will be set from the specified attribute"
-msgstr "使用者個人資料地址將從指定的屬性設定"
+msgstr "使用者個人檔案地址將根據指定的特性設定"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:129
 msgid "Twitter Field"
@@ -966,7 +974,7 @@ msgstr "Twitter 欄位"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:129
 msgid "User profile Twitter will be set from the specified attribute"
-msgstr "使用者個人資料 Twitter 將從指定的屬性設定"
+msgstr "使用者個人檔案 Twitter 將根據指定的特性設定"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:130
 msgid "Fediverse Field"
@@ -974,39 +982,39 @@ msgstr "聯邦宇宙欄位"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:130
 msgid "User profile Fediverse will be set from the specified attribute"
-msgstr "使用者個人資料聯邦宇宙將從指定的屬性設定"
+msgstr "使用者個人檔案聯邦宇宙將根據指定的特性設定"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:131
 msgid "Organisation Field"
-msgstr "組織欄位"
+msgstr "組織單位欄位"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:131
 msgid "User profile Organisation will be set from the specified attribute"
-msgstr "使用者個人資料組織將從指定的屬性設定"
+msgstr "使用者個人檔案組織單位將根據指定的特性設定"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:132
 msgid "Role Field"
-msgstr "職稱欄位"
+msgstr "職位欄位"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:132
 msgid "User profile Role will be set from the specified attribute"
-msgstr "使用者個人資料職稱將從指定的屬性設定"
+msgstr "使用者個人檔案職位將根據指定的特性設定"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:133
 msgid "Headline Field"
-msgstr "標題欄位"
+msgstr "重要經歷欄位"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:133
 msgid "User profile Headline will be set from the specified attribute"
-msgstr "使用者個人資料標題將從指定的屬性設定"
+msgstr "使用者個人檔案重要經歷將根據指定的特性設定"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:134
 msgid "Biography Field"
-msgstr "傳記欄位"
+msgstr "自傳欄位"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:134
 msgid "User profile Biography will be set from the specified attribute"
-msgstr "使用者個人資料傳記將從指定的屬性設定"
+msgstr "使用者個人檔案自傳將根據指定的特性設定"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:140
 msgid "Internal Username"
@@ -1026,18 +1034,21 @@ msgid ""
 "only on newly mapped (added) LDAP users. Leave it empty for default "
 "behavior."
 msgstr ""
-"預設情況下，內部使用者名稱將從 UUID "
-"屬性建立。其確保了使用者名稱是唯一且不需要轉換字元。內部使用者名稱的限制是只能使用下列字元：[a-zA-Z0-9_.@-]。其他字元會使用其 ASCII"
-" 對映或被忽略。發生碰撞時，將會加入數字。內部使用者名稱用於內部識別使用者。其也是使用者家資料夾的預設名稱。也是遠端 URL "
-"的一部分，舉例來說，會用於所有 DAV 服務。使用此設定，預設的行為將會被覆寫。變更僅對新映射（新增）的 LDAP 使用者有效。將其留空會使用預設行為。"
+"預設情況下，內部使用者名稱將根據 UUID 特性建立。這能確保使用者名稱是唯一，且"
+"不需要轉換字元。內部使用者名稱的限制是，只能使用下列字元：[a-zA-Z0-9_.@-]。"
+"其他字元會使用其 ASCII 對映取代，或是直接忽略。發生名稱碰撞時，將會加入或加大"
+"數字。內部使用者名稱用於內部識別使用者。這也是使用者家資料夾的預設名稱。"
+"也是遠端 URL 的一部分，例如，會用在所有 DAV "
+"服務上。啟用此設定後，預設的行為會被凌駕。變更僅對新映射（新增）的 LDAP "
+"使用者有效。將其留空會使用預設行為。"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:142
 msgid "Internal Username Attribute:"
-msgstr "內部使用者名稱屬性："
+msgstr "內部使用者名稱特性："
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:143
 msgid "Override UUID detection"
-msgstr "偵測覆寫 UUID"
+msgstr "凌駕 UUID 偵測"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:144
 msgid ""
@@ -1049,21 +1060,23 @@ msgid ""
 " users and groups and it is unique. Leave it empty for default behavior. "
 "Changes will have effect only on newly mapped (added) LDAP users and groups."
 msgstr ""
-"預設情況下，UUID 屬性會自動偵測。UUID 屬性用來準確識別 LDAP 使用者及群組。此外，如果未在上方指定，內部使用者名稱會以 UUID "
-"為基礎建立。您能覆寫設定並直接指定屬性，但一定要確保指定的屬性能被使用者及群組取得且唯一。留空則執行預設行為。變更只會對新映射（新增）的 LDAP "
+"預設情況下，UUID 特性會自動偵測。UUID 特性用來準確識別 LDAP "
+"使用者及群組。此外，如果未在上方指定，則內部使用者名稱會以 UUID 為基礎建立。"
+"您可以凌駕設定，並且根據您的想法直接傳定特性，但一定要確保指定的特性能被使用"
+"者及群組取得且唯一。留空將採取預設行為。變更只會對新映射（新增）的 LDAP "
 "使用者及群組生效。"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:145
 msgid "UUID Attribute for Users:"
-msgstr "使用者的 UUID 屬性："
+msgstr "使用者的 UUID 特性："
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:146
 msgid "UUID Attribute for Groups:"
-msgstr "群組的 UUID 屬性："
+msgstr "群組的 UUID 特性："
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:147
 msgid "Username-LDAP User Mapping"
-msgstr "使用者-LDAP 使用者映射"
+msgstr "使用者名稱-LDAP 使用者映射"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:148
 msgid ""
@@ -1078,10 +1091,13 @@ msgid ""
 "clear the mappings in a production environment, only in a testing or "
 "experimental stage."
 msgstr ""
-"使用者名稱用於儲存並指派詮釋資料。為了精確識別並認出使用者，每個 LDAP 使用者都將會有內部使用者名稱。這需要從使用者名稱到 LDAP "
-"使用者的映射。已建立的使用者名稱會映射到 LDAP 使用者的 UUID。另外，DN 會被快取以減少 LDAP 互動，但不會用於識別。若 DN "
-"變更，將會找到變更。內部使用者名稱將會全面使用。清除映射將會讓到處都是未連結的項目。清除映射對設定並不敏感，其會影響到所有 LDAP "
-"設定！不要在生產環境中清除映射，僅將其用於測試或實驗階段。"
+"使用者名稱用於儲存並指派中介資料。為了精確識別並認知使用者，每個 LDAP "
+"使用者都會有其內部使用者名稱。這需要從使用者名稱作映射到 LDAP 使用者。"
+"建立的使用者名稱會映射到 LDAP 使用者的 UUID。另外，DN 會被快取以減少 LDAP "
+"互動，但快取不用於識別身份。若 DN 變更時，系統會發現變動。內部使用者名稱在系"
+"統中全面使用，所以一旦清除映射，會讓到處都是未連結的殘留項目。清除映射的行為"
+"並不會區分組態設定，而是會影響所有 LDAP "
+"組態設定！請永遠不要在正式環境中清除映射，僅在測試或實驗階段使用。"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:149
 msgid "Clear Username-LDAP User Mapping"
