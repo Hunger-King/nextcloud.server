@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-12 12:22+0000\n"
+"PO-Revision-Date: 2024-03-17 15:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/theming/zh_Hant/>\n"
@@ -21,39 +21,39 @@ msgstr ""
 
 #: /var/www/html/apps/theming/lib/Controller/ThemingController.php:122
 msgid "The given name is too long"
-msgstr "指定的名稱太長"
+msgstr "給予的名稱太長"
 
 #: /var/www/html/apps/theming/lib/Controller/ThemingController.php:127
 msgid "The given web address is too long"
-msgstr "提供的網址太長"
+msgstr "給予的網址太長"
 
 #: /var/www/html/apps/theming/lib/Controller/ThemingController.php:130
 msgid "The given web address is not a valid URL"
-msgstr "指定的網址不是有效的 URL"
+msgstr "給予的網址不是有效的 URL"
 
 #: /var/www/html/apps/theming/lib/Controller/ThemingController.php:135
 msgid "The given legal notice address is too long"
-msgstr "指定的法律聲明網址太長"
+msgstr "給予的法律聲明網址太長"
 
 #: /var/www/html/apps/theming/lib/Controller/ThemingController.php:138
 msgid "The given legal notice address is not a valid URL"
-msgstr "指定的法律聲明網址不是有效的 URL"
+msgstr "給予的法律聲明網址不是有效的 URL"
 
 #: /var/www/html/apps/theming/lib/Controller/ThemingController.php:143
 msgid "The given privacy policy address is too long"
-msgstr "指定的隱私權政策網址太長"
+msgstr "給予的隱私權政策網址太長"
 
 #: /var/www/html/apps/theming/lib/Controller/ThemingController.php:146
 msgid "The given privacy policy address is not a valid URL"
-msgstr "指定的隱私權政策網址不是有效的 URL"
+msgstr "給予的隱私權政策網址不是有效的 URL"
 
 #: /var/www/html/apps/theming/lib/Controller/ThemingController.php:151
 msgid "The given slogan is too long"
-msgstr "指定的標語太長"
+msgstr "給予的標語太長"
 
 #: /var/www/html/apps/theming/lib/Controller/ThemingController.php:156
 msgid "The given color is invalid"
-msgstr "指定的顏色無效"
+msgstr "給予的顏色無效"
 
 #: /var/www/html/apps/theming/lib/Controller/ThemingController.php:161
 msgid "Disable-user-theming should be true or false"
@@ -69,11 +69,11 @@ msgstr "已儲存"
 
 #: /var/www/html/apps/theming/lib/Controller/ThemingController.php:199
 msgid "Invalid app given"
-msgstr "指定了無效的應用程式"
+msgstr "給予了無效的應用程式"
 
 #: /var/www/html/apps/theming/lib/Controller/ThemingController.php:202
 msgid "Invalid type for setting \"defaultApp\" given"
-msgstr "設定「defaultApp」時指定了無效的類型"
+msgstr "設定「defaultApp」時給予了無效的類型"
 
 #: /var/www/html/apps/theming/lib/Controller/ThemingController.php:206
 msgid "Invalid setting key"
@@ -85,7 +85,7 @@ msgstr "檔案已上傳"
 
 #: /var/www/html/apps/theming/lib/Controller/ThemingController.php:255
 msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
-msgstr "上傳的檔案大小超過 php.ini 中 upload_max_filesize 條目指定的限制"
+msgstr "上傳的檔案大小超過 php.ini 中 upload_max_filesize 條目設定的限制"
 
 #: /var/www/html/apps/theming/lib/Controller/ThemingController.php:256
 msgid ""
@@ -99,7 +99,7 @@ msgstr "檔案僅部份上傳"
 
 #: /var/www/html/apps/theming/lib/Controller/ThemingController.php:258
 msgid "No file was uploaded"
-msgstr "沒有檔案被上傳"
+msgstr "沒有檔案上傳"
 
 #: /var/www/html/apps/theming/lib/Controller/ThemingController.php:259
 msgid "Missing a temporary folder"
@@ -107,7 +107,7 @@ msgstr "找不到暫存資料夾"
 
 #: /var/www/html/apps/theming/lib/Controller/ThemingController.php:260
 msgid "Could not write file to disk"
-msgstr "無法將檔案寫入硬碟"
+msgstr "無法將檔案寫入磁碟"
 
 #: /var/www/html/apps/theming/lib/Controller/ThemingController.php:261
 msgid "A PHP extension stopped the file upload"
@@ -123,7 +123,7 @@ msgstr "無法清除舊的管理佈景主題影像資料夾"
 
 #: /var/www/html/apps/theming/lib/Migration/MigrateAdminConfig.php:97
 msgid "Failed to clean up the old administration image folder"
-msgstr "清除舊的管理影像資料夾失敗"
+msgstr "無法清除舊的管理影像資料夾"
 
 #: /var/www/html/apps/theming/lib/Settings/Admin.php:64
 msgid ""
@@ -168,7 +168,7 @@ msgstr "啟用深色主題"
 msgid ""
 "A dark theme to ease your eyes by reducing the overall luminosity and "
 "brightness."
-msgstr "透過降低整體光度與亮度來舒緩您的眼睛的深色主題。"
+msgstr "透過降低整體光度與亮度，來舒緩您眼睛的深色主題。"
 
 #: /var/www/html/apps/theming/lib/Themes/DefaultTheme.php:89
 msgid "System default theme"
@@ -194,7 +194,8 @@ msgstr "啟用閱讀障礙字型"
 msgid ""
 "OpenDyslexic is a free typeface/font designed to mitigate some of the common"
 " reading errors caused by dyslexia."
-msgstr "OpenDyslexic 是一種免費的字型，目的在降低因拼音文字閱讀障礙引起的一些常見閱讀錯誤。"
+msgstr "OpenDyslexic 是一種自由的字體/字型，設計目的在於降低因拼音文字閱讀障礙引起的"
+"一些常見閱讀錯誤。"
 
 #: /var/www/html/apps/theming/lib/Themes/HighContrastTheme.php:41
 msgid "High contrast mode"
@@ -208,7 +209,7 @@ msgstr "開啟高對比度模式"
 msgid ""
 "A high contrast mode to ease your navigation. Visual quality will be reduced"
 " but clarity will be increased."
-msgstr "高對比度模式會降低介面品質，但會提高清晰度，有助您瀏覽。"
+msgstr "高對比度模式會降低視覺質感，但會提高清晰度，有助您在畫面中瀏覽。"
 
 #: /var/www/html/apps/theming/lib/Themes/LightTheme.php:41
 msgid "Light theme"
@@ -239,8 +240,8 @@ msgstr "調整 Nextcloud 佈景主題"
 msgid ""
 "Theming makes it possible to easily customize the look and feel of your "
 "instance and supported clients. This will be visible for all users."
-msgstr "佈景主題讓您可以輕鬆自訂站台與支援客戶端的外觀與感覺。這對所有使用者都為可見"
-"。"
+msgstr "佈景主題讓您可以輕鬆自訂站台與支援客戶端的外觀與感覺。這對所有使用者都可以看"
+"見。"
 
 #. TRANSLATORS src/AdminTheming.vue:73
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:6
@@ -252,8 +253,8 @@ msgstr "進階選項"
 msgid ""
 "Install the ImageMagick PHP extension with support for SVG images to "
 "automatically generate favicons based on the uploaded logo and color."
-msgstr "安裝支援 SVG 圖片的 PHP ImageMagick 擴充功能，以上傳的圖示與顏色為基礎生成 "
-"favicons。"
+msgstr "安裝支援 SVG 圖片的 PHP ImageMagick 擴充功能，可以根據上傳的標誌與顏色，"
+"自動生成 favicon。"
 
 #. TRANSLATORS src/AdminTheming.vue:150
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:10
@@ -264,12 +265,12 @@ msgstr "名稱"
 #. TRANSLATORS src/AdminTheming.vue:159
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:14
 msgid "Web link"
-msgstr "網路連結"
+msgstr "網頁連結"
 
 #. TRANSLATORS src/AdminTheming.vue:166
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:16
 msgid "a safe home for all your data"
-msgstr "您資料的安全屋"
+msgstr "您所有資料的安全屋"
 
 #. TRANSLATORS src/AdminTheming.vue:168
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:18
@@ -285,12 +286,12 @@ msgstr "顏色"
 #. TRANSLATORS src/AdminTheming.vue:187
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:24
 msgid "Logo"
-msgstr "Logo"
+msgstr "標誌"
 
 #. TRANSLATORS src/AdminTheming.vue:188
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:26
 msgid "Upload new logo"
-msgstr "上傳新的 Logo"
+msgstr "上傳新的 Logo 標誌"
 
 #. TRANSLATORS src/AdminTheming.vue:195
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:28
@@ -315,12 +316,12 @@ msgstr "隱私權政策連結"
 #. TRANSLATORS src/AdminTheming.vue:227
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:36
 msgid "Header logo"
-msgstr "頁首圖示"
+msgstr "頁首標誌"
 
 #. TRANSLATORS src/AdminTheming.vue:228
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:38
 msgid "Upload new header logo"
-msgstr "上傳新的頁首圖示"
+msgstr "上傳新的頁首 Logo 標誌"
 
 #. TRANSLATORS src/AdminTheming.vue:235
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:40
@@ -330,7 +331,7 @@ msgstr "Favicon"
 #. TRANSLATORS src/AdminTheming.vue:236
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:42
 msgid "Upload new favicon"
-msgstr "上傳新 favicon"
+msgstr "上傳新的 Favicon"
 
 #. TRANSLATORS src/AdminTheming.vue:244
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:44
@@ -353,7 +354,7 @@ msgstr "雖然您可以選取並自訂您的站台，但使用者仍可以變更
 #. TRANSLATORS src/UserThemes.vue:56
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:52
 msgid "Background"
-msgstr "背景圖片"
+msgstr "背景"
 
 #. TRANSLATORS src/UserThemes.vue:60
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:54
@@ -393,10 +394,10 @@ msgid ""
 "Accessibility Guidelines{linkend} 2.1 on AA level, with the high contrast "
 "theme even on AAA level."
 msgstr ""
-"我們非常重視無障礙存取。我們遵循網路標準，並透過檢查來確保所有內容皆可在沒有"
-"滑鼠或輔助軟體（例如螢幕閱讀器）的情況下使用。我們目標是能達到 "
-"{guidelines}網頁內容無障礙指引{linkend} 2.1 版的 AA 等級，"
-"加上高對比度主題甚至還能到 AAA 等級。"
+"我們非常重視無障礙存取。我們遵循網頁標準，並透過檢查來確保所有內容皆可在沒有"
+"滑鼠，或是在輔助軟體，例如螢幕閱讀器的情況下使用。我們目標是能達到《{guidelin"
+"es}網頁內容無障礙指引{linkend}》2.1 版的 AA 等級，加上高對比度主題後，"
+"甚至還能達到 AAA 等級。"
 
 #. TRANSLATORS src/UserThemes.vue:151
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:66
@@ -405,13 +406,13 @@ msgid ""
 "issue tracker{linkend}. And if you want to get involved, come join "
 "{designteam}our design team{linkend}!"
 msgstr ""
-"如果您發現任何一個問題，請不要猶豫並請在 {issuetracker} 我們的問題追蹤系統{li"
-"nkend}回報。而如果您想參與，歡迎加入{designteam}我們的設計團隊{linkend}！"
+"如果您發現任何一個問題，請不要猶豫並請在{issuetracker}我們的問題追蹤系統{link"
+"end}中回報。而如果您想參與專案，歡迎加入{designteam}我們的設計團隊{linkend}！"
 
 #. TRANSLATORS src/components/AppOrderSelector.vue:163
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:68
 msgid "Current selected app: {app}, position {position} of {total}"
-msgstr "目前選取的應用程式：{app}、位置為 {position}，共 {total}"
+msgstr "目前選取的應用程式：{app}，位置為 {position}，共 {total}"
 
 #. TRANSLATORS src/components/AppOrderSelectorElement.vue:28
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:70
@@ -475,14 +476,15 @@ msgstr "導覽列設定"
 msgid ""
 "You can configure the app order used for the navigation bar. The first entry"
 " will be the default app, opened after login or when clicking on the logo."
-msgstr "您可以設定用於導覽列的應用程式順序。第一個條目將會是預設的應用程式，會在登入後或點擊標誌時開啟。"
+msgstr "您可以設定導覽列使用的應用程式順序。第一個條目將會是預設應用程式，會在登入後"
+"或點擊標誌時開啟。"
 
 #. TRANSLATORS src/components/UserAppMenuSection.vue:7
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:94
 msgid ""
 "The default app can not be changed because it was configured by the "
 "administrator."
-msgstr "預設的應用程式無法變更，因為其由管理員設定。"
+msgstr "預設的應用程式無法變更，因為是由管理員設定。"
 
 #. TRANSLATORS src/components/UserAppMenuSection.vue:10
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:96
@@ -515,7 +517,7 @@ msgstr "預設應用程式"
 msgid ""
 "The default app is the app that is e.g. opened after login or when the logo "
 "in the menu is clicked."
-msgstr "預設應用程式是，（例如）登入後或點擊選單中的標誌時開啟的應用程式。"
+msgstr "預設應用程式是指，會在登入後開啟，或是點擊選單中的標誌時開啟的應用程式。"
 
 #. TRANSLATORS src/components/admin/AppMenuSection.vue:9
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:110
@@ -535,14 +537,14 @@ msgstr "全域預設應用程式"
 #. TRANSLATORS src/components/admin/AppMenuSection.vue:19
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:116
 msgid "Default app priority"
-msgstr "預設應用程式優先程度"
+msgstr "預設應用程式順序"
 
 #. TRANSLATORS src/components/admin/AppMenuSection.vue:21
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:118
 msgid ""
 "If an app is not enabled for a user, the next app with lower priority is "
 "used."
-msgstr "若未對某個使用者啟用某個應用程式，則使用下一個優先程度較低的應用程式。"
+msgstr "若某個應用程式未對使用者啟用，則會為他使用下一個順序的應用程式。"
 
 #. TRANSLATORS src/components/admin/AppMenuSection.vue:86
 #: /var/www/html/apps/theming/specialVueFakeDummyForL10nScript.js:120
