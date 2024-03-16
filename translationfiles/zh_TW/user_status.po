@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-16 09:17+0000\n"
+"PO-Revision-Date: 2024-03-16 09:55+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/user_status/zh_Hant/>\n"
@@ -62,7 +62,7 @@ msgstr "使用者狀態"
 #. TRANSLATORS src/components/ClearAtSelect.vue:25
 #: /var/www/html/apps/user_status/specialVueFakeDummyForL10nScript.js:2
 msgid "Clear status after"
-msgstr "清空狀態才"
+msgstr "多久後清空狀態"
 
 #. TRANSLATORS src/components/CustomMessageInput.vue:25
 #: /var/www/html/apps/user_status/specialVueFakeDummyForL10nScript.js:4
@@ -179,7 +179,7 @@ msgstr "上線"
 #: /var/www/html/apps/user_status/src/mixins/OnlineStatusMixin.js:56
 #: /var/www/html/apps/user_status/src/services/statusOptionsService.js:38
 msgid "Away"
-msgstr "外出"
+msgstr "離開"
 
 #: /var/www/html/apps/user_status/src/mixins/OnlineStatusMixin.js:59
 #: /var/www/html/apps/user_status/src/services/statusOptionsService.js:42
@@ -213,7 +213,7 @@ msgstr "4小時"
 
 #: /var/www/html/apps/user_status/src/services/statusOptionsService.js:43
 msgid "Mute all notifications"
-msgstr "所有通知靜音"
+msgstr "消音所有通知"
 
 #: /var/www/html/apps/user_status/src/services/statusOptionsService.js:49
 msgid "Appear offline"
