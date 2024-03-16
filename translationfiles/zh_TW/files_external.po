@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-03-16 06:10+0000\n"
+"PO-Revision-Date: 2024-03-16 09:17+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/files_external/zh_Hant/>\n"
@@ -215,7 +215,7 @@ msgstr "客戶端 ID"
 
 #: /var/www/html/apps/files_external/lib/Lib/Auth/OAuth2/OAuth2.php:43
 msgid "Client secret"
-msgstr "客戶端密鑰"
+msgstr "客戶端密碼"
 
 #: /var/www/html/apps/files_external/lib/Lib/Auth/OpenStack/OpenStackV2.php:39
 msgid "OpenStack v2"
