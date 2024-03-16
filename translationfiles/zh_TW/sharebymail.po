@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-12 13:51+0000\n"
+"PO-Revision-Date: 2024-03-16 08:17+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/sharebymail/zh_Hant/>\n"
@@ -99,12 +99,12 @@ msgstr "透過電子郵件寄送分享失敗"
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:338
 #, php-format
 msgid "%1$s shared »%2$s« with you"
-msgstr "%1$s 與您分享了 %2$s"
+msgstr "%1$s 與您分享了「%2$s」"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:339
 #, php-format
 msgid "%1$s shared »%2$s« with you."
-msgstr "%1$s 與您分享了 %2$s。"
+msgstr "%1$s 與您分享了「%2$s」。"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:345
 msgid "Click the button below to open it."
@@ -114,7 +114,7 @@ msgstr "點擊下方的按鈕將其打開。"
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:482
 #, php-format
 msgid "Open »%s«"
-msgstr "開啟 %s"
+msgstr "開啟「%s」"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:360
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:431
@@ -164,17 +164,17 @@ msgstr "密碼將於 %s 到期"
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:467
 #, php-format
 msgid "%1$s shared »%2$s« with you and wants to add:"
-msgstr "%1$s 與您分享了 %2$s ，且想要新增："
+msgstr "%1$s 與您分享了「%2$s 」，且想要新增："
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:468
 #, php-format
 msgid "%1$s shared »%2$s« with you and wants to add"
-msgstr "%1$s 與您分享了 %2$s ，且想要新增"
+msgstr "%1$s 與您分享了「%2$s」，且想要新增"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:474
 #, php-format
 msgid "»%s« added a note to a file shared with you"
-msgstr "%s 在與您分享的檔案中加入了註記"
+msgstr "「%s」在與您分享的檔案中加入了註記"
 
 #: /var/www/html/apps/sharebymail/lib/ShareByMailProvider.php:530
 #, php-format
