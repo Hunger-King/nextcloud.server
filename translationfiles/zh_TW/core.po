@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-12 12:22+0000\n"
+"PO-Revision-Date: 2024-03-16 08:17+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/core/zh_Hant/>\n"
@@ -96,7 +96,7 @@ msgstr "無效的圖片"
 #: /var/www/html/core/Controller/AvatarController.php:306
 #: /var/www/html/core/Controller/AvatarController.php:342
 msgid "No temporary profile picture available, try again"
-msgstr "沒有臨時用的大頭貼，請再試一次"
+msgstr "沒有臨時用的個人檔案圖片，請再試一次"
 
 #: /var/www/html/core/Controller/AvatarController.php:330
 msgid "No crop data provided"
@@ -1361,7 +1361,7 @@ msgstr "設定選單"
 #. TRANSLATORS src/views/UserMenu.vue:133
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:252
 msgid "Avatar of {displayName}"
-msgstr "{displayName} 的大頭照"
+msgstr "{displayName} 的頭像"
 
 #. TRANSLATORS src/views/UnifiedSearch.vue:48
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:218
