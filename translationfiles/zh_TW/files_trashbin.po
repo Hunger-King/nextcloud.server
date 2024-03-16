@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-03-07 02:52+0000\n"
-"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
+"PO-Revision-Date: 2024-03-16 06:10+0000\n"
+"Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/files_trashbin/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -28,13 +28,13 @@ msgstr "已還原"
 #: /var/www/html/apps/files_trashbin/specialAppInfoFakeDummyForL10nScript.php:2
 #: /var/www/html/apps/files_trashbin/src/main.ts:35
 msgid "Deleted files"
-msgstr "已刪除檔案"
+msgstr "刪除的檔案"
 
 #: /var/www/html/apps/files_trashbin/lib/UserMigration/TrashbinMigrator.php:179
 msgid ""
 "Deleted files and folders in the trash bin (may expire during export if you "
 "are low on storage space)"
-msgstr "回收桶中的已刪除檔案與資料夾（若您的儲存空間不足，匯出過程中可能會過期）"
+msgstr "垃圾桶中刪除的檔案與資料夾（若您的儲存空間不足，匯出過程中可能會過期）"
 
 #: /var/www/html/apps/files_trashbin/specialAppInfoFakeDummyForL10nScript.php:3
 msgid ""
@@ -48,8 +48,14 @@ msgid ""
 "This application enables users to restore files that were deleted from the system. It displays a list of deleted files in the web interface, and has options to restore those deleted files back to the users file directories or remove them permanently from the system. Restoring a file also restores related file versions, if the versions application is enabled. When a file is deleted from a share, it can be restored in the same manner, though it is no longer shared. By default, these files remain in the trash bin for 30 days.\n"
 "To prevent a user from running out of disk space, the Deleted files app will not utilize more than 50% of the currently available free quota for deleted files. If the deleted files exceed this limit, the app deletes the oldest files until it gets below this limit. More information is available in the Deleted Files documentation."
 msgstr ""
-"此應用程式讓使用可以還原從系統中刪除的檔案。其會在網路介面中顯示已刪除的檔案列表，並有選項可以復原那些檔案到使用者的檔案目錄，或是將它們從系統中永久移除。若啟用了版本應用程式，復原檔案也會復原相關的檔案版本。當檔案從分享中刪除時，雖然不再共享，但可以用相同的方式來還原。預設情況下，這些檔案會在回收桶中保留30天。\n"
-"為了避免使用者耗盡磁碟空間，「回收桶」應用程式將不會用於超過目前可用配額 50% 的已刪除檔案。如果已刪除的檔案超過此限制，應用程式將會刪除最舊的檔案，直到低於此限制為止。更多資訊在「回收桶」的文件中提供。"
+"此應用程式讓使用者可以還原從系統中刪除的檔案。它會在網路介面中顯示已刪除的檔"
+"案列表，並有選項可以還原那些檔案回到使用者的檔案目錄中，或是將檔案從系統中永"
+"久移除。若有啟用「版本」應用程式，則還原檔案時也會一併還原連動的檔案版本。當"
+"檔案從分享中刪除時，雖然不再共享，但也可以用相同的方式來還原。預設情況下，"
+"這些檔案會保留在垃圾桶中 30 天。\n"
+"為了避免使用者耗盡磁碟空間，「刪除的檔案」應用程式在保留刪除的檔案時，"
+"不會使用超過目前可用限制容量的 50% 空間。如果刪除的檔案超過此限制，則應用程式"
+"會刪除最舊的檔案，直到低於此限制為止。更多資訊請參閱「刪除的檔案」文件。"
 
 #: /var/www/html/apps/files_trashbin/src/actions/restoreAction.ts:36
 msgid "Restore"
@@ -57,16 +63,16 @@ msgstr "還原"
 
 #: /var/www/html/apps/files_trashbin/src/main.ts:36
 msgid "List of files that have been deleted."
-msgstr "已被刪除的檔案清單。"
+msgstr "刪除的檔案清單。"
 
 #: /var/www/html/apps/files_trashbin/src/main.ts:38
 #: /var/www/html/apps/files_trashbin/templates/index.php:8
 msgid "No deleted files"
-msgstr "沒有已刪除的檔案"
+msgstr "沒有刪除的檔案"
 
 #: /var/www/html/apps/files_trashbin/src/main.ts:39
 msgid "Files and folders you have deleted will show up here"
-msgstr "您已刪除的檔案與資料夾將會在此處顯示"
+msgstr "您刪除的檔案與資料夾將會在此處顯示"
 
 #: /var/www/html/apps/files_trashbin/src/main.ts:50
 #: /var/www/html/apps/files_trashbin/templates/index.php:39
@@ -75,7 +81,7 @@ msgstr "已刪除"
 
 #: /var/www/html/apps/files_trashbin/templates/index.php:9
 msgid "You will be able to recover deleted files from here"
-msgstr "您可以從這裡還原已刪除的檔案"
+msgstr "您可以從這裡還原刪除的檔案"
 
 #: /var/www/html/apps/files_trashbin/templates/index.php:14
 msgid "No entries found in this folder"
