@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:19+0000\n"
-"PO-Revision-Date: 2024-03-13 14:52+0000\n"
+"PO-Revision-Date: 2024-03-16 08:17+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/files/zh_Hant/>\n"
@@ -1124,7 +1124,7 @@ msgstr "分享"
 #. TRANSLATORS src/views/FilesList.vue:339
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:154
 msgid "Shared by link"
-msgstr "由連結分享"
+msgstr "透過連結分享"
 
 #. TRANSLATORS src/views/FilesList.vue:341
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:156
