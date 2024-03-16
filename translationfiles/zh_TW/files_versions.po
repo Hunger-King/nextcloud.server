@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-03-07 02:52+0000\n"
-"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
+"PO-Revision-Date: 2024-03-16 06:10+0000\n"
+"Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/files_versions/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -28,7 +28,7 @@ msgstr "版本"
 msgid ""
 "This application automatically maintains older versions of files that are "
 "changed."
-msgstr "本應用程式會自動維護修改較舊版本的檔案。"
+msgstr "本應用程式會自動維護檔案較舊的修改版本。"
 
 #: /var/www/html/apps/files_versions/specialAppInfoFakeDummyForL10nScript.php:4
 #, php-format
@@ -36,8 +36,14 @@ msgid ""
 "This application automatically maintains older versions of files that are changed. When enabled, a hidden versions folder is provisioned in every user's directory and is used to store old file versions. A user can revert to an older version through the web interface at any time, with the replaced file becoming a version. The app automatically manages the versions folder to ensure the user does not run out of Quota because of versions.\n"
 "\t\tIn addition to the expiry of versions, the versions app makes certain never to use more than 50% of the user's currently available free space. If stored versions exceed this limit, the app will delete the oldest versions first until it meets this limit. More information is available in the Versions documentation."
 msgstr ""
-"此應用程式會自動維護已變更過檔案的較舊版本。啟用後，每個使用者目錄中都會有一個隱藏的版本資料夾，此資料夾用於儲存較舊版本的檔案。使用者可以在任何時候透過網路介面還原到較舊的版本，取代目前版本成為新的版本。應用程式會自動管理版本資料夾以確保使用者不會因為版本而用完配額。\n"
-"\t\t除了版本有效期限以外，版本應用程式還會確保使用者永遠不會使用超過使用者目前可用空間的 50%。如果儲存的版本超出此限制，則應用程式會先刪除最舊的版本，直到低於此限制。更多資訊請見「版本」文件。"
+"此應用程式會自動維護檔案較舊的修改版本。啟用後，每個使用者目錄中都會有一個隱"
+"藏的版本資料夾，用來儲存較舊版本的檔案。使用者可以在任何時候透過網路介面還原"
+"到較舊的版本，而被取代的版本則成為新一版。應用程式會自動管理版本資料夾，以確"
+"保使用者不會因為版本數而用完容量限制。\n"
+"\t\t除了版本有效期限以外，「版本」"
+"應用程式還會確保使用者永遠不會使用超過使用者目前可用空間的 50%。如果儲存的版"
+"本數超出此限制，則應用程式會先刪除最舊的版本，直到低於此限制為止。更多資訊請"
+"參閱「版本」文件。"
 
 #. TRANSLATORS src/components/Version.vue:56
 #. TRANSLATORS src/components/Version.vue:93
@@ -82,7 +88,7 @@ msgstr "版本名稱"
 msgid ""
 "Named versions are persisted, and excluded from automatic cleanups when your"
 " storage quota is full."
-msgstr "命名版本會保留，並在儲存配額已滿時從自動清理中排除。"
+msgstr "命名的版本會持續保留，並且排除在儲存的限制容量已滿時的自動清理之外。"
 
 #. TRANSLATORS src/components/Version.vue:111
 #: /var/www/html/apps/files_versions/specialVueFakeDummyForL10nScript.js:20
