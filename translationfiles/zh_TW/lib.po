@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:19+0000\n"
-"PO-Revision-Date: 2024-03-16 09:17+0000\n"
+"PO-Revision-Date: 2024-03-17 15:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/lib/zh_Hant/>\n"
@@ -1000,7 +1000,7 @@ msgstr "未滿足以下依賴關係，無法安裝應用程式「%1$s」：%2$s"
 
 #: /var/www/html/lib/private/legacy/OC_Defaults.php:241
 msgid "a safe home for all your data"
-msgstr "您資料的安全屋"
+msgstr "您所有資料的安全屋"
 
 #: /var/www/html/lib/private/legacy/OC_Files.php:226
 msgid "File is currently busy, please try again later"
