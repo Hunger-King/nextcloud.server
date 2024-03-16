@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:19+0000\n"
-"PO-Revision-Date: 2024-03-16 06:10+0000\n"
+"PO-Revision-Date: 2024-03-16 08:17+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/lib/zh_Hant/>\n"
@@ -27,7 +27,7 @@ msgstr "無法寫入「config」 目錄！"
 msgid ""
 "This can usually be fixed by giving the web server write access to the "
 "config directory."
-msgstr "允許網頁伺服器寫入 config 目錄通常可以解決這個問題。"
+msgstr "開通網頁伺服器寫入 config 目錄的存取權，通常可以解決這個問題。"
 
 #: /var/www/html/lib/base.php:261 /var/www/html/lib/base.php:268
 msgid ""
@@ -39,25 +39,26 @@ msgstr "但如果您比較希望保留 config.php "
 #: /var/www/html/lib/base.php:262 /var/www/html/lib/base.php:269
 #, php-format
 msgid "See %s"
-msgstr "見 %s"
+msgstr "請見 %s"
 
 #: /var/www/html/lib/base.php:400
 #, php-format
 msgid ""
 "Application %1$s is not present or has a non-compatible version with this "
 "server. Please check the apps directory."
-msgstr "應用程式 %1$s 不存在或有與此伺服器不相容的版本。請檢查應用程式目錄。"
+msgstr "應用程式 %1$s 不存在，或有與此伺服器不相容的版本。請檢查應用程式目錄。"
 
 #: /var/www/html/lib/base.php:802
 msgid "Sample configuration detected"
-msgstr "您目前正在使用範例設定"
+msgstr "偵測到正在使用範例組態設定"
 
 #: /var/www/html/lib/base.php:803
 msgid ""
 "It has been detected that the sample configuration has been copied. This can"
 " break your installation and is unsupported. Please read the documentation "
 "before performing changes on config.php"
-msgstr "您似乎直接複製了範例設定來使用，這樣的安裝很可能會無法運作，請閱讀說明文件後對 config.php 進行適當的修改"
+msgstr "您似乎直接複製了範例組態設定來使用。這可能為讓您的安裝無法運作，而且不支援這"
+"種作法。請在閱讀文件後，重新對 config.php 做出適當修改"
 
 #: /var/www/html/lib/base.php:1125
 msgid "The page could not be found on the server."
@@ -86,7 +87,7 @@ msgstr "確認您的電子郵件"
 
 #: /var/www/html/lib/private/Activity/ActivitySettingsAdapter.php:58
 msgid "Other activities"
-msgstr "其它活動"
+msgstr "其他活動"
 
 #: /var/www/html/lib/private/Activity/EventMerger.php:206
 #, php-format
@@ -114,11 +115,11 @@ msgstr "教育版"
 
 #: /var/www/html/lib/private/App/AppStore/Bundles/EnterpriseBundle.php:31
 msgid "Enterprise bundle"
-msgstr "企業組合包"
+msgstr "企業套組"
 
 #: /var/www/html/lib/private/App/AppStore/Bundles/GroupwareBundle.php:32
 msgid "Groupware bundle"
-msgstr "協作組合包"
+msgstr "協作應用套組"
 
 #: /var/www/html/lib/private/App/AppStore/Bundles/HubBundle.php:31
 msgid "Hub bundle"
@@ -126,7 +127,7 @@ msgstr "Hub 套裝"
 
 #: /var/www/html/lib/private/App/AppStore/Bundles/SocialSharingBundle.php:31
 msgid "Social sharing bundle"
-msgstr "社交分享組合包"
+msgstr "社交分享套組"
 
 #: /var/www/html/lib/private/App/DependencyAnalyzer.php:158
 #, php-format
@@ -141,7 +142,7 @@ msgstr "需要 PHP 版本低於 %s。"
 #: /var/www/html/lib/private/App/DependencyAnalyzer.php:170
 #, php-format
 msgid "%sbit or higher PHP required."
-msgstr "需要 %s 位元或更高的 PHP。"
+msgstr "需要 %s 位元或更高的 PHP 版本。"
 
 #: /var/www/html/lib/private/App/DependencyAnalyzer.php:194
 #, php-format
@@ -156,7 +157,7 @@ msgstr "支援下列資料庫：%s"
 #: /var/www/html/lib/private/App/DependencyAnalyzer.php:250
 #, php-format
 msgid "The command line tool %s could not be found"
-msgstr "找不到命令列工具指令 %s"
+msgstr "找不到命令列工具命令 %s"
 
 #: /var/www/html/lib/private/App/DependencyAnalyzer.php:277
 #, php-format
@@ -168,14 +169,14 @@ msgstr "函式庫 %s 無法使用。"
 msgid ""
 "Library %1$s with a version higher than %2$s is required - available version"
 " %3$s."
-msgstr "需要使用 %2$s 版以上的 %1$s 函式庫，目前可用的版本是 %3$s。"
+msgstr "需要使用 %2$s 版之上的 %1$s 函式庫，目前可用的版本是 %3$s。"
 
 #: /var/www/html/lib/private/App/DependencyAnalyzer.php:292
 #, php-format
 msgid ""
 "Library %1$s with a version lower than %2$s is required - available version "
 "%3$s."
-msgstr "需要使用 %2$s 版以下的 %1$s 函式庫，目前可用的版本是 %3$s。"
+msgstr "需要使用低於 %2$s 版的 %1$s 函式庫，目前可用的版本是 %3$s。"
 
 #: /var/www/html/lib/private/App/DependencyAnalyzer.php:324
 #, php-format
@@ -196,7 +197,7 @@ msgstr "需要伺服器版本 %s 或更低。"
 msgid ""
 "Logged in user must be an admin, a sub admin or gotten special right to "
 "access this setting"
-msgstr "登入使用者必須為管理員、子管理員或有可存取此設定的特殊權限使用者"
+msgstr "登入使用者必須為管理員、子管理員，或有可存取此設定的特權使用者"
 
 #: /var/www/html/lib/private/AppFramework/Middleware/Security/SecurityMiddleware.php:190
 msgid "Logged in user must be an admin or sub admin"
@@ -204,7 +205,7 @@ msgstr "登入的使用者必須要是管理員或是子管理員"
 
 #: /var/www/html/lib/private/AppFramework/Middleware/Security/SecurityMiddleware.php:196
 msgid "Logged in user must be an admin"
-msgstr "登入的使用者必須有管理員權限"
+msgstr "登入的使用者必須有管理員職權"
 
 #: /var/www/html/lib/private/Authentication/Listeners/RemoteWipeEmailListener.php:121
 #, php-format
@@ -385,14 +386,14 @@ msgstr "幾秒前"
 
 #: /var/www/html/lib/private/DirectEditing/Manager.php:111
 msgid "Empty file"
-msgstr "空檔案"
+msgstr "空白檔案"
 
 #: /var/www/html/lib/private/Encryption/Manager.php:179
 #, php-format
 msgid ""
 "Module with ID: %s does not exist. Please enable it in your apps settings or"
 " contact your administrator."
-msgstr "名為 %s 的模組不存在，請在應用程式設定中啟用，或是聯絡系統管理員。"
+msgstr "ID 為 %s 的模組不存在。請在應用程式設定中啟用，或是聯絡系統管理員。"
 
 #: /var/www/html/lib/private/Files/Template/TemplateManager.php:154
 msgid "File already exists"
@@ -433,14 +434,14 @@ msgstr "不允許空白的檔名"
 #: /var/www/html/lib/private/Installer.php:122
 #, php-format
 msgid "App \"%s\" cannot be installed because appinfo file cannot be read."
-msgstr "應用程式「%s」無法安裝，因為無法讀取 appinfo 檔案。"
+msgstr "由於無法讀取 appinfo 檔案，應用程式「%s」無法安裝。"
 
 #: /var/www/html/lib/private/Installer.php:135
 #, php-format
 msgid ""
 "App \"%s\" cannot be installed because it is not compatible with this "
 "version of the server."
-msgstr "應用程式「%s」無法安裝，因為該應用程式不相容於目前版本的伺服器。"
+msgstr "由於不相容於目前版本的伺服器，應用程式「%s」無法安裝。"
 
 #. TRANSLATORS this is the language name for the language switcher in the
 #. personal settings and should be the localized version
@@ -451,7 +452,7 @@ msgstr "正體中文（臺灣）"
 
 #: /var/www/html/lib/private/Mail/EMailTemplate.php:615
 msgid "This is an automatically sent email, please do not reply."
-msgstr "此為自動寄送的電子郵件，請不要回覆。"
+msgstr "這是自動寄送的電子郵件，請不要回覆。"
 
 #: /var/www/html/lib/private/NavigationManager.php:234
 msgid "Help"
@@ -492,16 +493,16 @@ msgstr "電子郵件"
 #: /var/www/html/lib/private/Profile/Actions/EmailAction.php:63
 #, php-format
 msgid "Mail %s"
-msgstr "傳送郵件給 %s"
+msgstr "寄送郵件給 %s"
 
 #: /var/www/html/lib/private/Profile/Actions/FediverseAction.php:60
 msgid "Fediverse"
-msgstr "Fediverse"
+msgstr "聯邦宇宙"
 
 #: /var/www/html/lib/private/Profile/Actions/FediverseAction.php:65
 #, php-format
 msgid "View %s on the fediverse"
-msgstr "在 fediverse 上檢視 %s"
+msgstr "在聯邦宇宙上檢視 %s"
 
 #: /var/www/html/lib/private/Profile/Actions/PhoneAction.php:59
 msgid "Phone"
@@ -510,7 +511,7 @@ msgstr "手機"
 #: /var/www/html/lib/private/Profile/Actions/PhoneAction.php:63
 #, php-format
 msgid "Call %s"
-msgstr "與 %s 通話"
+msgstr "打給 %s"
 
 #: /var/www/html/lib/private/Profile/Actions/TwitterAction.php:60
 msgid "Twitter"
@@ -556,7 +557,7 @@ msgstr "組織單位"
 
 #: /var/www/html/lib/private/Profile/ProfileManager.php:417
 msgid "Role"
-msgstr "角色"
+msgstr "職位"
 
 #: /var/www/html/lib/private/Server.php:1155
 msgid "Unknown user"
@@ -570,13 +571,13 @@ msgstr "其他設定"
 #: /var/www/html/lib/private/Setup/OCI.php:56
 #, php-format
 msgid "Enter the database username and name for %s"
-msgstr "輸入 %s 的資料庫名稱及使用者名稱"
+msgstr "輸入 %s 的資料庫使用者名稱及其名稱"
 
 #: /var/www/html/lib/private/Setup/AbstractDatabase.php:76
 #: /var/www/html/lib/private/Setup/OCI.php:58
 #, php-format
 msgid "Enter the database username for %s"
-msgstr "輸入 %s 的資料庫使用者暱稱"
+msgstr "輸入 %s 的資料庫使用者名稱"
 
 #: /var/www/html/lib/private/Setup/AbstractDatabase.php:78
 #: /var/www/html/lib/private/Setup/OCI.php:60
@@ -596,7 +597,7 @@ msgstr "MySQL 使用者名稱或密碼不正確"
 #: /var/www/html/lib/private/Setup/MySQL.php:77
 #: /var/www/html/lib/private/Setup/PostgreSQL.php:118
 msgid "You need to enter details of an existing account."
-msgstr "您必須輸入現有帳號的資訊。"
+msgstr "您必須輸入已有的帳號資訊。"
 
 #: /var/www/html/lib/private/Setup/OCI.php:71
 msgid "Oracle connection could not be established"
@@ -615,12 +616,12 @@ msgstr "PostgreSQL 使用者名稱和/或密碼無效"
 msgid ""
 "Mac OS X is not supported and %s will not work properly on this platform. "
 "Use it at your own risk! "
-msgstr "不支援 Mac OS X 而且 %s 在這個平台上面無法正常運作，請自行衡量風險後使用。 "
+msgstr "不支援 Mac OS X，而且 %s 在這個平台上無法正常運作。請自行衡量風險後使用！ "
 
 #: /var/www/html/lib/private/Setup.php:248
 msgid ""
 "For the best results, please consider using a GNU/Linux server instead."
-msgstr "請考慮使用 GNU/Linux 伺服器以獲得最佳體驗。"
+msgstr "請考慮改用 GNU/Linux 伺服器以獲得最佳結果。"
 
 #: /var/www/html/lib/private/Setup.php:255
 #, php-format
@@ -669,23 +670,23 @@ msgstr "找不到 %s 的分享後端"
 #: /var/www/html/lib/private/Share20/DefaultShareProvider.php:1492
 #, php-format
 msgid "%1$s shared »%2$s« with you and wants to add:"
-msgstr "%1$s 與您分享了 %2$s ，且想要新增："
+msgstr "%1$s 與您分享了「%2$s 」，且想要新增："
 
 #: /var/www/html/lib/private/Share20/DefaultShareProvider.php:1493
 #, php-format
 msgid "%1$s shared »%2$s« with you and wants to add"
-msgstr "%1$s 與您分享了 %2$s ，且想要新增"
+msgstr "%1$s 與您分享了「%2$s」，且想要新增"
 
 #: /var/www/html/lib/private/Share20/DefaultShareProvider.php:1498
 #, php-format
 msgid "»%s« added a note to a file shared with you"
-msgstr "%s 在與您分享的檔案中加入了註記"
+msgstr "「%s」在與您分享的檔案中加入了註記"
 
 #: /var/www/html/lib/private/Share20/DefaultShareProvider.php:1505
 #: /var/www/html/lib/private/Share20/Manager.php:916
 #, php-format
 msgid "Open »%s«"
-msgstr "開啟 %s"
+msgstr "開啟「%s」"
 
 #: /var/www/html/lib/private/Share20/DefaultShareProvider.php:1513
 #: /var/www/html/lib/private/Share20/Manager.php:925
@@ -701,15 +702,15 @@ msgstr "您不被允許分享 %s"
 #: /var/www/html/lib/private/Share20/Manager.php:344
 #, php-format
 msgid "Cannot increase permissions of %s"
-msgstr "無法增加 %s 的權限"
+msgstr "無法增加 %s 的權能"
 
 #: /var/www/html/lib/private/Share20/Manager.php:360
 msgid "Files cannot be shared with delete permissions"
-msgstr "無法分享具有刪除權限的檔案"
+msgstr "無法分享權限允許刪除的檔案"
 
 #: /var/www/html/lib/private/Share20/Manager.php:364
 msgid "Files cannot be shared with create permissions"
-msgstr "無法分享具有新建權限的檔案"
+msgstr "無法分享權限允許新建的檔案"
 
 #: /var/www/html/lib/private/Share20/Manager.php:391
 #: /var/www/html/lib/private/Share20/Manager.php:478
@@ -736,12 +737,12 @@ msgstr "分享 %s 失敗，因為此項目已與使用者 %s 分享"
 #: /var/www/html/lib/private/Share20/Manager.php:904
 #, php-format
 msgid "%1$s shared »%2$s« with you"
-msgstr "%1$s 與您分享了 %2$s"
+msgstr "%1$s 與您分享了「%2$s」"
 
 #: /var/www/html/lib/private/Share20/Manager.php:905
 #, php-format
 msgid "%1$s shared »%2$s« with you."
-msgstr "%1$s 與您分享了 %2$s。"
+msgstr "%1$s 與您分享了「%2$s」。"
 
 #: /var/www/html/lib/private/Share20/Manager.php:912
 msgid "Click the button below to open it."
@@ -750,7 +751,7 @@ msgstr "點擊下方的按鈕將其打開。"
 #: /var/www/html/lib/private/Share20/Manager.php:1531
 #: /var/www/html/lib/private/Share20/Manager.php:1555
 msgid "The requested share does not exist anymore"
-msgstr "該分享已不存在"
+msgstr "請求的分享已不存在"
 
 #: /var/www/html/lib/private/Share20/Manager.php:1562
 msgid "The requested share comes from a disabled user"
@@ -797,59 +798,59 @@ msgstr "週六"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:206
 msgid "Sun."
-msgstr "週日"
+msgstr "日"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:207
 msgid "Mon."
-msgstr "週一"
+msgstr "一"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:208
 msgid "Tue."
-msgstr "週二"
+msgstr "二"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:209
 msgid "Wed."
-msgstr "週三"
+msgstr "三"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:210
 msgid "Thu."
-msgstr "週四"
+msgstr "四"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:211
 msgid "Fri."
-msgstr "週五"
+msgstr "五"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:212
 msgid "Sat."
-msgstr "週六"
+msgstr "六"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:215
 msgid "Su"
-msgstr "週日"
+msgstr "日"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:216
 msgid "Mo"
-msgstr "週一"
+msgstr "一"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:217
 msgid "Tu"
-msgstr "週二"
+msgstr "二"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:218
 msgid "We"
-msgstr "週三"
+msgstr "三"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:219
 msgid "Th"
-msgstr "週四"
+msgstr "四"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:220
 msgid "Fr"
-msgstr "週五"
+msgstr "五"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:221
 msgid "Sa"
-msgstr "週六"
+msgstr "六"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:224
 msgid "January"
@@ -901,51 +902,51 @@ msgstr "十二月"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:238
 msgid "Jan."
-msgstr "一月"
+msgstr "1月"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:239
 msgid "Feb."
-msgstr "二月"
+msgstr "2月"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:240
 msgid "Mar."
-msgstr "三月"
+msgstr "3月"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:241
 msgid "Apr."
-msgstr "四月"
+msgstr "4月"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:242
 msgid "May."
-msgstr "五月"
+msgstr "5月"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:243
 msgid "Jun."
-msgstr "六月"
+msgstr "6月"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:244
 msgid "Jul."
-msgstr "七月"
+msgstr "7月"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:245
 msgid "Aug."
-msgstr "八月"
+msgstr "8月"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:246
 msgid "Sep."
-msgstr "九月"
+msgstr "9月"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:247
 msgid "Oct."
-msgstr "十月"
+msgstr "10月"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:248
 msgid "Nov."
-msgstr "十一月"
+msgstr "11月"
 
 #: /var/www/html/lib/private/Template/JSConfigHelper.php:249
 msgid "Dec."
-msgstr "十二月"
+msgstr "12月"
 
 #: /var/www/html/lib/private/User/Manager.php:454
 msgid "A valid password must be provided"
@@ -995,7 +996,7 @@ msgstr "應用程式取消了登入"
 msgid ""
 "App \"%1$s\" cannot be installed because the following dependencies are not "
 "fulfilled: %2$s"
-msgstr "無法安裝應用程式「%1$s」，因為未滿足以下依賴關係：%2$s"
+msgstr "未滿足以下依賴關係，無法安裝應用程式「%1$s」：%2$s"
 
 #: /var/www/html/lib/private/legacy/OC_Defaults.php:241
 msgid "a safe home for all your data"
@@ -1025,7 +1026,7 @@ msgstr "代符過期。請重新載入頁面。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:531
 msgid "No database drivers (sqlite, mysql, or postgresql) installed."
-msgstr "未安裝資料庫驅動程式（sqlite、mysql 或 postgresql）。"
+msgstr "未安裝資料庫驅動器（sqlite、mysql 或 postgresql）。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:541
 msgid "Cannot write into \"config\" directory."
@@ -1036,7 +1037,7 @@ msgstr "無法寫入「config」目錄。"
 msgid ""
 "This can usually be fixed by giving the web server write access to the "
 "config directory. See %s"
-msgstr "允許網頁伺服器寫入 config 目錄通常可以解決這個問題。請見 %s"
+msgstr "開通網頁伺服器寫入 config 目錄的存取權，通常可以解決這個問題。請見 %s"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:544
 #, php-format
@@ -1055,8 +1056,8 @@ msgstr "無法寫入「apps」目錄。"
 msgid ""
 "This can usually be fixed by giving the web server write access to the apps "
 "directory or disabling the App Store in the config file."
-msgstr "允許網頁伺服器寫入 apps "
-"目錄，或是在組態設定檔中停用應用程式商店，通常可以解決這個問題。"
+msgstr "開通網頁伺服器寫入 apps "
+"目錄的存取權，或是在組態設定檔中停用應用程式商店，通常可以解決這個問題。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:571
 msgid "Cannot create \"data\" directory."
@@ -1067,14 +1068,14 @@ msgstr "無法建立「data」目錄。"
 msgid ""
 "This can usually be fixed by giving the web server write access to the root "
 "directory. See %s"
-msgstr "開放網頁伺服器存取根目錄通常可以修正這個問題。請見 %s"
+msgstr "開通網頁伺服器寫入根目錄的存取權，通常可以修正這個問題。請見 %s"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:581
 #, php-format
 msgid ""
 "Permissions can usually be fixed by giving the web server write access to "
 "the root directory. See %s."
-msgstr "開放網頁伺服器存取根目錄通常可以修正權限問題。請見 %s。"
+msgstr "開通網頁伺服器可寫入根目錄的存取權，通常可以修正權限問題。請見 %s。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:584
 msgid "Your data directory is not writable."
@@ -1103,11 +1104,11 @@ msgstr "請要求您的伺服器管理員安裝模組。"
 #: /var/www/html/lib/private/legacy/OC_Util.php:673
 #, php-format
 msgid "PHP setting \"%s\" is not set to \"%s\"."
-msgstr "PHP 設定值「%s」未被設定為「%s」。"
+msgstr "PHP 設定值「%s」未設定為「%s」。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:674
 msgid "Adjusting this setting in php.ini will make Nextcloud run again"
-msgstr "調整 php.ini 中的設定，使 Nextcloud 重新運作"
+msgstr "調整 php.ini 中的設定，會讓 Nextcloud 重新執行"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:690
 #, php-format
@@ -1115,7 +1116,7 @@ msgid ""
 "<code>mbstring.func_overload</code> is set to <code>%s</code> instead of the"
 " expected value <code>0</code>."
 msgstr ""
-"<code>mbstring.func_overload</code> 被設定為 <code>%s</code> 而非預期中的 "
+"<code>mbstring.func_overload</code> 設定為 <code>%s</code>，而非預期中的 "
 "<code>0</code>。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:691
@@ -1130,7 +1131,7 @@ msgstr ""
 msgid ""
 "PHP is apparently set up to strip inline doc blocks. This will make several "
 "core apps inaccessible."
-msgstr "PHP 顯然設定為剪除內嵌文件區塊。這會讓多個核心應用程式無法運作。"
+msgstr "PHP 顯然設定為剪除 inline 的文件嵌入區塊。這會讓多個核心應用程式無法運作。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:698
 msgid ""
@@ -1150,12 +1151,12 @@ msgstr "請要求您的伺服器管理員重新啟動網頁伺服器。"
 #, php-format
 msgid ""
 "The required %s config variable is not configured in the config.php file."
-msgstr "必要的 %s 設定變數未在 config.php 檔案中設定。"
+msgstr "必要的 %s 組態設定變數，未在 config.php 檔案中設定。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:713
 msgid ""
 "Please ask your server administrator to check the Nextcloud configuration."
-msgstr "請聯絡您的伺服器管理員檢查 Nextcloud 設定。"
+msgstr "請聯絡您的伺服器管理員檢查 Nextcloud 組態設定。"
 
 #: /var/www/html/lib/private/legacy/OC_Util.php:743
 msgid "Your data directory is readable by other users."
@@ -1198,7 +1199,7 @@ msgstr "認證失敗，提供了錯誤的代符或提供者 ID"
 msgid ""
 "Parameters missing in order to complete the request. Missing Parameters: "
 "\"%s\""
-msgstr "欠缺完成請求所需的參數：「%s」"
+msgstr "欠缺參數無法完成請求。缺少的參數：「%s」"
 
 #: /var/www/html/lib/public/Federation/Exceptions/ProviderAlreadyExistsException.php:47
 #, php-format
@@ -1213,7 +1214,7 @@ msgstr "ID 為「%s」的雲端聯邦提供者不存在。"
 #: /var/www/html/lib/public/Files/LockNotAcquiredException.php:46
 #, php-format
 msgid "Could not obtain lock type %d on \"%s\"."
-msgstr "無法取得鎖定：類型 %d ，檔案 %s。"
+msgstr "無法取得鎖定，類型為 %d ，檔案「%s」。"
 
 #: /var/www/html/lib/public/Files/StorageAuthException.php:40
 #, php-format
@@ -1223,7 +1224,7 @@ msgstr "儲存空間未經授權。%s"
 #: /var/www/html/lib/public/Files/StorageBadConfigException.php:40
 #, php-format
 msgid "Storage incomplete configuration. %s"
-msgstr "儲存空間設定尚未完成。%s"
+msgstr "儲存空間組態設定不完整。%s"
 
 #: /var/www/html/lib/public/Files/StorageConnectionException.php:40
 #, php-format
@@ -1241,15 +1242,15 @@ msgstr "儲存空間連線逾時。%s"
 
 #: /var/www/html/lib/public/TextProcessing/FreePromptTaskType.php:56
 msgid "Free prompt"
-msgstr "免費提示詞"
+msgstr "自由提示詠唱"
 
 #: /var/www/html/lib/public/TextProcessing/FreePromptTaskType.php:64
 msgid "Runs an arbitrary prompt through the language model."
-msgstr "透過語言模型執行任意提示詞。"
+msgstr "透過語言模型執行任意提示詞詠唱。"
 
 #: /var/www/html/lib/public/TextProcessing/HeadlineTaskType.php:56
 msgid "Generate headline"
-msgstr "產生標題"
+msgstr "生成標題"
 
 #: /var/www/html/lib/public/TextProcessing/HeadlineTaskType.php:64
 msgid "Generates a possible headline for a text."
@@ -1257,16 +1258,16 @@ msgstr "為文字產生可能的標題。"
 
 #: /var/www/html/lib/public/TextProcessing/SummaryTaskType.php:56
 msgid "Summarize"
-msgstr "總結"
+msgstr "摘要"
 
 #: /var/www/html/lib/public/TextProcessing/SummaryTaskType.php:64
 msgid "Summarizes text by reducing its length without losing key information."
-msgstr "透過減少文字長度來總結而不遺失關鍵資訊。"
+msgstr "寫成摘要，減少文字長度而不丟失關鍵資訊。"
 
 #: /var/www/html/lib/public/TextProcessing/TopicsTaskType.php:56
 msgid "Extract topics"
-msgstr "擷取主題"
+msgstr "取出主題"
 
 #: /var/www/html/lib/public/TextProcessing/TopicsTaskType.php:64
 msgid "Extracts topics from a text and outputs them separated by commas."
-msgstr "從文字中擷取主題並輸出，然後用逗號分隔。"
+msgstr "從文字中取出涵蓋的主題並輸出，然後用逗號分隔。"
