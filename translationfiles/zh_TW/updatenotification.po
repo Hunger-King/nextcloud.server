@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-07 02:52+0000\n"
-"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
+"PO-Revision-Date: 2024-03-16 09:55+0000\n"
+"Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/updatenotification/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: /var/www/html/apps/updatenotification/js/legacy-notification.js:17
 msgid "{version} is available. Get more information on how to update."
-msgstr "{version} 釋出了。取得更多關於如何更新的資訊。"
+msgstr "{version} 發行了。取得更多關於如何更新的資訊。"
 
 #: /var/www/html/apps/updatenotification/lib/Controller/AdminController.php:89
 msgid "Channel updated"
@@ -40,7 +40,7 @@ msgstr "更新通知"
 msgid ""
 "The update server could not be reached since %d days to check for new "
 "updates."
-msgstr "更新伺服器在%d天前就無法連線檢查更新。"
+msgstr "更新伺服器在 %d 天前就無法連線檢查更新。"
 
 #: /var/www/html/apps/updatenotification/lib/Notification/Notifier.php:126
 msgid "Please check the Nextcloud and server log files for errors."
@@ -49,7 +49,7 @@ msgstr "請檢查 Nextcloud 與伺服器紀錄檔是否有錯誤。"
 #: /var/www/html/apps/updatenotification/lib/Notification/Notifier.php:131
 #, php-format
 msgid "Update to %1$s is available."
-msgstr "更新版 %1$s 已釋出。"
+msgstr "更新版 %1$s 已發行。"
 
 #: /var/www/html/apps/updatenotification/lib/Notification/Notifier.php:132
 msgid "Update to {serverAndVersion} is available."
@@ -58,7 +58,7 @@ msgstr "已可更新至 {serverAndVersion}。"
 #: /var/www/html/apps/updatenotification/lib/Notification/Notifier.php:151
 #, php-format
 msgid "Update for {app} to version %s is available."
-msgstr "{app} 已有 %s 版本的更新。"
+msgstr "{app} 已有 %s 版的更新。"
 
 #: /var/www/html/apps/updatenotification/specialAppInfoFakeDummyForL10nScript.php:2
 msgid "Update notification"
@@ -138,7 +138,7 @@ msgstr "更新檢查未完成。請重新整理此頁面。"
 #. TRANSLATORS src/components/UpdateNotification.vue:87
 #: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:28
 msgid "Your version is up to date."
-msgstr "您的版本為最新。"
+msgstr "您的版本為最新狀態。"
 
 #. TRANSLATORS src/components/UpdateNotification.vue:93
 #: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:30
@@ -168,7 +168,7 @@ msgstr "目前的更新頻道："
 msgid ""
 "You can always update to a newer version. But you can never downgrade to a "
 "more stable version."
-msgstr "您始終可以更新到較新的版本。但您無法降級到較穩定的版本。"
+msgstr "您永遠都可以更新到較新的版本。但您無法降級到較穩定的版本。"
 
 #. TRANSLATORS src/components/UpdateNotification.vue:134
 #: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:40
@@ -183,14 +183,14 @@ msgstr "無群組"
 #. TRANSLATORS src/components/UpdateNotification.vue:147
 #: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:44
 msgid "Only notifications for app updates are available."
-msgstr "僅適用於應用程式更新的通知。"
+msgstr "僅有應用程式更新的通知可用。"
 
 #. TRANSLATORS src/components/UpdateNotification.vue:148
 #: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:46
 msgid ""
 "The selected update channel makes dedicated notifications for the server "
 "obsolete."
-msgstr "選定的更新通道將會讓伺服器專用的通知過時。"
+msgstr "選定的更新通道將汰換伺服器專用的通知。"
 
 #. TRANSLATORS src/components/UpdateNotification.vue:149
 #: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:48
@@ -210,8 +210,9 @@ msgid ""
 "users and sometimes skip a version when issues are found. Learn more about "
 "updates and release channels at {link}"
 msgstr ""
-"請注意，新版本釋出後，僅會在有第一個次要版本或更新的版本時顯示。我們會逐步向使用者推送新版本，並在發現問題時跳過特定版本。在 {link} "
-"取得關於更新與釋出頻道的更多資訊"
+"請注意，新版本發行後，僅會在有第一個次要版本或後續版本時顯示。我們會逐步向使"
+"用者推送新版本，並在發現問題時跳過特定版本。請在 {link} "
+"取得關於更新與發行頻道的更多資訊"
 
 #. TRANSLATORS src/components/UpdateNotification.vue:240
 #: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:54
@@ -243,7 +244,7 @@ msgstr "無法連線至應用程式商店，或是應用程式商店回傳無任
 msgid ""
 "<strong>All</strong> apps have a compatible version for this Nextcloud "
 "version available."
-msgstr "<strong>所有</strong>應用程式都有適用於此 Nextcloud 版本的相容版本。"
+msgstr "<strong>所有</strong>應用程式都有可用於此 Nextcloud 版本的相容版本。"
 
 #. TRANSLATORS src/components/UpdateNotification.vue:267
 #: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:64
@@ -287,7 +288,7 @@ msgstr "測試版"
 msgid ""
 "A pre-release version only for testing new features, not for production "
 "environments."
-msgstr "釋出前版本，僅供測試新功能使用，不適用於生產環境。"
+msgstr "發行前版本，僅供測試新功能使用，不適用於生產環境。"
 
 #. TRANSLATORS src/components/UpdateNotification.vue:260
 #: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:82
@@ -297,5 +298,4 @@ msgid ""
 msgid_plural ""
 "<strong>%n</strong> apps have no compatible version for this Nextcloud "
 "version available."
-msgstr[0] "<strong>%n</strong> 應用程式沒有與此 Nextcloud 版本相容的版本。"
-msgstr[1] "<strong>%n</strong> 應用程式沒有與此 Nextcloud 版本相容的版本。"
+msgstr[0] "<strong>%n</strong> 個應用程式沒有與此 Nextcloud 版本相容的版本。"
