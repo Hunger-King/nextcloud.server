@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-01-19 05:52+0000\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"PO-Revision-Date: 2024-03-16 10:32+0000\n"
+"Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/workflowengine/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -30,7 +30,7 @@ msgstr "指定的運算子無效"
 
 #: /var/www/html/apps/workflowengine/lib/Check/AbstractStringCheck.php:94
 msgid "The given regular expression is invalid"
-msgstr "指定的正規表示式無效"
+msgstr "指定的正則表達式無效"
 
 #: /var/www/html/apps/workflowengine/lib/Check/FileSize.php:88
 msgid "The given file size is invalid"
@@ -102,7 +102,7 @@ msgstr "檔案複製"
 
 #: /var/www/html/apps/workflowengine/lib/Entity/File.php:118
 msgid "Tag assigned"
-msgstr "指派標籤"
+msgstr "標籤指派"
 
 #: /var/www/html/apps/workflowengine/lib/Entity/File.php:206
 msgid "Someone"
@@ -111,37 +111,37 @@ msgstr "某人"
 #: /var/www/html/apps/workflowengine/lib/Entity/File.php:212
 #, php-format
 msgid "%s created %s"
-msgstr "%s 建立 %s"
+msgstr "%s 建立了 %s"
 
 #: /var/www/html/apps/workflowengine/lib/Entity/File.php:214
 #, php-format
 msgid "%s modified %s"
-msgstr "%s 修改 %s"
+msgstr "%s 修改了 %s"
 
 #: /var/www/html/apps/workflowengine/lib/Entity/File.php:216
 #, php-format
 msgid "%s deleted %s"
-msgstr "%s 刪除 %s"
+msgstr "%s 刪除了 %s"
 
 #: /var/www/html/apps/workflowengine/lib/Entity/File.php:218
 #, php-format
 msgid "%s accessed %s"
-msgstr "%s 存取 %s"
+msgstr "%s 存取了 %s"
 
 #: /var/www/html/apps/workflowengine/lib/Entity/File.php:220
 #, php-format
 msgid "%s renamed %s"
-msgstr "%s 重新命名 %s"
+msgstr "%s 重新命名了 %s"
 
 #: /var/www/html/apps/workflowengine/lib/Entity/File.php:222
 #, php-format
 msgid "%s copied %s"
-msgstr "%s 複製 %s"
+msgstr "%s 複製了 %s"
 
 #: /var/www/html/apps/workflowengine/lib/Entity/File.php:241
 #, php-format
 msgid "%s assigned %s to %s"
-msgstr "%s 指派 %s 給 %s"
+msgstr "%s 指派了 %s 給 %s"
 
 #: /var/www/html/apps/workflowengine/lib/Manager.php:256
 #, php-format
@@ -184,7 +184,7 @@ msgstr "至少需要提供一次檢查"
 
 #: /var/www/html/apps/workflowengine/lib/Manager.php:506
 msgid "The provided operation data is too long"
-msgstr "操作提供的資料過長"
+msgstr "提供的操作資料過長"
 
 #: /var/www/html/apps/workflowengine/lib/Manager.php:513
 msgid "Invalid check provided"
@@ -377,7 +377,7 @@ msgstr "刪除"
 #. TRANSLATORS src/components/Rule.vue:106
 #: /var/www/html/apps/workflowengine/specialVueFakeDummyForL10nScript.js:64
 msgid "The configuration is invalid"
-msgstr "設定無效"
+msgstr "組態設定無效"
 
 #. TRANSLATORS src/components/Rule.vue:113
 #: /var/www/html/apps/workflowengine/specialVueFakeDummyForL10nScript.js:66
@@ -409,7 +409,7 @@ msgstr "未安裝流程"
 #. TRANSLATORS src/components/Workflow.vue:11
 #: /var/www/html/apps/workflowengine/specialVueFakeDummyForL10nScript.js:76
 msgid "Ask your administrator to install new flows."
-msgstr "要求您的管理員安裝新流程。"
+msgstr "請向您的管理員要求安裝新流程。"
 
 #. TRANSLATORS src/components/Workflow.vue:30
 #: /var/www/html/apps/workflowengine/specialVueFakeDummyForL10nScript.js:78
@@ -530,7 +530,7 @@ msgstr "没有標記為"
 
 #: /var/www/html/apps/workflowengine/src/components/Checks/request.js:31
 msgid "Request URL"
-msgstr "請求網址"
+msgstr "請求 URL"
 
 #: /var/www/html/apps/workflowengine/src/components/Checks/request.js:42
 msgid "Request time"
@@ -538,11 +538,11 @@ msgstr "請求時間"
 
 #: /var/www/html/apps/workflowengine/src/components/Checks/request.js:44
 msgid "between"
-msgstr "之間"
+msgstr "介於"
 
 #: /var/www/html/apps/workflowengine/src/components/Checks/request.js:45
 msgid "not between"
-msgstr "皆非"
+msgstr "不介於"
 
 #: /var/www/html/apps/workflowengine/src/components/Checks/request.js:51
 msgid "Request user agent"
@@ -554,8 +554,8 @@ msgstr "使用者群組成員資格"
 
 #: /var/www/html/apps/workflowengine/src/components/Checks/request.js:64
 msgid "is member of"
-msgstr "是成員來自"
+msgstr "是成員的群組"
 
 #: /var/www/html/apps/workflowengine/src/components/Checks/request.js:65
 msgid "is not member of"
-msgstr "不是成員來自"
+msgstr "不是成員的群組"
