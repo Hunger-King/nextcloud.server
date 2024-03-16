@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-16 08:17+0000\n"
+"PO-Revision-Date: 2024-03-16 09:17+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/core/zh_Hant/>\n"
@@ -2042,7 +2042,7 @@ msgstr "雙因素認證已強制要求啟用，但您的帳號目前還沒設定
 #: /var/www/html/core/templates/twofactorselectchallenge.php:70
 #: /var/www/html/core/templates/twofactorshowchallenge.php:32
 msgid "Use backup code"
-msgstr "使用備用碼認證"
+msgstr "使用備用碼"
 
 #: /var/www/html/core/templates/twofactorselectchallenge.php:75
 #: /var/www/html/core/templates/twofactorsetupchallenge.php:14
