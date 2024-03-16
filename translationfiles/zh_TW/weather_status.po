@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-12 12:22+0000\n"
+"PO-Revision-Date: 2024-03-16 09:55+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/weather_status/zh_Hant/>\n"
@@ -50,7 +50,7 @@ msgid ""
 "    This status can also be integrated in other places like the Calendar app."
 msgstr ""
 "整合在儀表板應用程式中的天氣狀態。\n"
-"    使用者的位置可以自動偵測或手動定義。然後會顯示6小時的預測。\n"
+"    使用者的位置可以自動偵測或手動定義。然後會顯示6小時的預報。\n"
 "    此狀態也可以整合到其他地方，如「行事曆」應用程式。"
 
 #. TRANSLATORS src/App.vue:55
@@ -66,7 +66,7 @@ msgstr "設定自訂位置"
 #. TRANSLATORS src/App.vue:66
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:6
 msgid "Favorites"
-msgstr "我的最愛"
+msgstr "喜愛"
 
 #. TRANSLATORS src/App.vue:102
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:8
@@ -106,13 +106,13 @@ msgstr "{temperature} {unit} 好天氣"
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:28
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:32
 msgid "{temperature} {unit} partly cloudy later today"
-msgstr "{temperature} {unit} 今日稍晚多雲"
+msgstr "{temperature} {unit} 今日稍晚局部多雲"
 
 #. TRANSLATORS src/App.vue:133
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:30
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:34
 msgid "{temperature} {unit} partly cloudy"
-msgstr "{temperature} {unit} 多雲"
+msgstr "{temperature} {unit} 局部多雲"
 
 #. TRANSLATORS src/App.vue:144
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:36
@@ -204,12 +204,12 @@ msgstr "正在載入天氣"
 #. TRANSLATORS src/App.vue:293
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:82
 msgid "Remove from favorites"
-msgstr "從最愛中移除"
+msgstr "從喜愛中移除"
 
 #. TRANSLATORS src/App.vue:294
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:84
 msgid "Add as favorite"
-msgstr "新增為最愛"
+msgstr "新增為喜愛"
 
 #. TRANSLATORS src/App.vue:327
 #: /var/www/html/apps/weather_status/specialVueFakeDummyForL10nScript.js:86
