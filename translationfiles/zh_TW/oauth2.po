@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-01-17 14:08+0000\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"PO-Revision-Date: 2024-03-16 06:10+0000\n"
+"Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/oauth2/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -81,7 +81,7 @@ msgstr "客戶端識別"
 #. TRANSLATORS src/App.vue:39
 #: /var/www/html/apps/oauth2/specialVueFakeDummyForL10nScript.js:12
 msgid "Secret key"
-msgstr "私鑰"
+msgstr "私密金鑰"
 
 #. TRANSLATORS src/App.vue:42
 #: /var/www/html/apps/oauth2/specialVueFakeDummyForL10nScript.js:14
