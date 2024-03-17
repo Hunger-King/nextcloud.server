@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-16 10:32+0000\n"
+"PO-Revision-Date: 2024-03-17 15:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/workflowengine/zh_Hant/>\n"
@@ -514,7 +514,7 @@ msgstr "符合 IPv6"
 
 #: /var/www/html/apps/workflowengine/src/components/Checks/file.js:78
 msgid "does not match IPv6"
-msgstr "不能符合 IPv6"
+msgstr "不符合 IPv6"
 
 #: /var/www/html/apps/workflowengine/src/components/Checks/file.js:96
 msgid "File system tag"
