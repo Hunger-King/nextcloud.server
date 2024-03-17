@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:19+0000\n"
-"PO-Revision-Date: 2024-03-16 09:55+0000\n"
+"PO-Revision-Date: 2024-03-17 15:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/files/zh_Hant/>\n"
@@ -207,7 +207,7 @@ msgstr "刪除資料夾"
 
 #: /var/www/html/apps/files/js/fileactions.js:788
 msgid "Disconnect storage"
-msgstr "解除連結儲存空間"
+msgstr "中斷連結儲存空間"
 
 #: /var/www/html/apps/files/js/fileactions.js:790
 msgid "Leave this share"
@@ -278,7 +278,7 @@ msgstr "儲存空間暫時無法使用"
 
 #: /var/www/html/apps/files/js/filelist.js:2620
 msgid "Could not move \"{file}\", target exists"
-msgstr "無法移動「{file}」，目標已存在"
+msgstr "無法移動「{file}」，目標已經存在"
 
 #: /var/www/html/apps/files/js/filelist.js:2624
 msgid "Could not move \"{file}\""
@@ -292,7 +292,7 @@ msgstr "複製"
 
 #: /var/www/html/apps/files/js/filelist.js:2762
 msgid "Could not copy \"{file}\", target exists"
-msgstr "無法複製「{file}」，目標已存在"
+msgstr "無法複製「{file}」，目標已經存在"
 
 #: /var/www/html/apps/files/js/filelist.js:2766
 msgid "Could not copy \"{file}\""
@@ -315,7 +315,7 @@ msgstr "重新導向到客戶端失敗"
 #: /var/www/html/apps/files/js/filelist.js:2893
 #: /var/www/html/apps/files/js/newfilemenu.js:143
 msgid "{newName} already exists"
-msgstr "{newName} 已存在"
+msgstr "{newName} 已經存在"
 
 #: /var/www/html/apps/files/js/filelist.js:2946
 msgid "Could not rename \"{fileName}\", it does not exist any more"
@@ -338,11 +338,11 @@ msgstr "無法建立檔案「{file}」"
 
 #: /var/www/html/apps/files/js/filelist.js:3056
 msgid "Could not create file \"{file}\" because it already exists"
-msgstr "無法建立檔案「{file}」，因為此檔案已存在"
+msgstr "無法建立檔案「{file}」，因為此檔案已經存在"
 
 #: /var/www/html/apps/files/js/filelist.js:3110
 msgid "Could not create folder \"{dir}\" because it already exists"
-msgstr "無法建立資料夾「{dir}」，因為此資料夾已存在"
+msgstr "無法建立資料夾「{dir}」，因為此資料夾已經存在"
 
 #: /var/www/html/apps/files/js/filelist.js:3181
 msgid "Could not fetch file details \"{file}\""
@@ -358,7 +358,7 @@ msgstr "在其他資料夾中沒有找到 {tag}{filter}{endtag}"
 
 #: /var/www/html/apps/files/js/filelist.js:3426
 msgid "Enter more than two characters to search in other folders"
-msgstr "輸入兩個字元以上 ，以便在其他資料夾搜尋"
+msgstr "請輸入兩個字元以上，以便在其他資料夾搜尋"
 
 #. TRANSLATORS src/components/FilesListTableHeader.vue:42
 #: /var/www/html/apps/files/js/filelist.js:3458
@@ -538,13 +538,13 @@ msgstr[1] "%n 位元組"
 #: /var/www/html/apps/files/js/mainfileinfodetailview.js:166
 #: /var/www/html/apps/files/js/tagsplugin.js:39
 msgid "Favorited"
-msgstr "已加入最愛"
+msgstr "已加入喜愛"
 
 #. TRANSLATORS src/components/FileEntry/FavoriteIcon.vue:23
 #: /var/www/html/apps/files/js/mainfileinfodetailview.js:166
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:12
 msgid "Favorite"
-msgstr "我的最愛"
+msgstr "喜愛"
 
 #: /var/www/html/apps/files/js/mainfileinfodetailview.js:169
 msgid ""
@@ -569,11 +569,11 @@ msgstr "上傳檔案"
 #: /var/www/html/apps/files/js/recentfilelist.js:36
 #: /var/www/html/apps/files/src/views/recent.ts:32
 msgid "Recent"
-msgstr "近期"
+msgstr "最近"
 
 #: /var/www/html/apps/files/js/tagsplugin.js:39
 msgid "Not favorited"
-msgstr "未加入至最愛"
+msgstr "未加入至喜愛"
 
 #. TRANSLATORS src/views/Sidebar.vue:60
 #: /var/www/html/apps/files/js/tagsplugin.js:86
@@ -586,7 +586,7 @@ msgstr "從喜愛中移除"
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:198
 #: /var/www/html/apps/files/src/actions/favoriteAction.ts:79
 msgid "Add to favorites"
-msgstr "新增至最愛"
+msgstr "新增至喜愛"
 
 #: /var/www/html/apps/files/js/tagsplugin.js:263
 msgid "An error occurred while trying to update the tags"
@@ -594,19 +594,19 @@ msgstr "更新標籤時發生錯誤"
 
 #: /var/www/html/apps/files/lib/Activity/FavoriteProvider.php:100
 msgid "Added to favorites"
-msgstr "已新增至最愛"
+msgstr "已新增至喜愛"
 
 #: /var/www/html/apps/files/lib/Activity/FavoriteProvider.php:108
 msgid "Removed from favorites"
-msgstr "已從最愛中移除"
+msgstr "已從喜愛中移除"
 
 #: /var/www/html/apps/files/lib/Activity/FavoriteProvider.php:130
 msgid "You added {file} to your favorites"
-msgstr "您已新增 {file} 至您的最愛"
+msgstr "您已新增 {file} 至您的喜愛"
 
 #: /var/www/html/apps/files/lib/Activity/FavoriteProvider.php:138
 msgid "You removed {file} from your favorites"
-msgstr "您已從您的最愛移除 {file}"
+msgstr "您已從您的喜愛移除 {file}"
 
 #: /var/www/html/apps/files/lib/Activity/Filter/Favorites.php:78
 #: /var/www/html/apps/files/src/views/favorites.ts:66
@@ -635,7 +635,7 @@ msgstr "由 {user} 還原"
 
 #: /var/www/html/apps/files/lib/Activity/Provider.php:155
 msgid "Renamed by {user}"
-msgstr "由 {user} 重新命名"
+msgstr "由 {user} 改名"
 
 #: /var/www/html/apps/files/lib/Activity/Provider.php:158
 msgid "Moved by {user}"
@@ -749,7 +749,7 @@ msgstr "{user} 將 {oldfile} 移動到了 {newfile}"
 #: /var/www/html/apps/files/lib/Activity/Settings/FavoriteAction.php:40
 msgid ""
 "A file has been added to or removed from your <strong>favorites</strong>"
-msgstr "檔案已從您的<strong>最愛</strong>新增或移除"
+msgstr "檔案已從您的<strong>喜愛</strong>新增或移除"
 
 #: /var/www/html/apps/files/lib/Activity/Settings/FileChanged.php:40
 msgid "A file or folder has been <strong>changed</strong>"
@@ -757,7 +757,7 @@ msgstr "檔案或資料夾已被<strong>變更</strong>"
 
 #: /var/www/html/apps/files/lib/Activity/Settings/FileFavoriteChanged.php:40
 msgid "A favorite file or folder has been <strong>changed</strong>"
-msgstr "一個最愛的檔案或資料夾已<strong>變更</strong>"
+msgstr "一個喜愛的檔案或資料夾已<strong>變更</strong>"
 
 #: /var/www/html/apps/files/lib/Helper.php:54
 #, php-format
@@ -774,7 +774,7 @@ msgstr "拒絕"
 
 #: /var/www/html/apps/files/lib/Notification/Notifier.php:145
 msgid "Incoming ownership transfer from {user}"
-msgstr "來自 {user} 的所有權轉移"
+msgstr "{user} 傳來的所有權轉移"
 
 #: /var/www/html/apps/files/lib/Notification/Notifier.php:154
 msgid ""
@@ -829,12 +829,12 @@ msgstr "重新載入目前的目錄"
 #. TRANSLATORS src/components/BreadCrumbs.vue:111
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:6
 msgid "Go to the \"{dir}\" directory"
-msgstr "到「{dir}」目錄"
+msgstr "前往「{dir}」目錄"
 
 #. TRANSLATORS src/components/DragAndDropNotice.vue:30
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:8
 msgid "Drag and drop files here to upload"
-msgstr "將檔案拖曳到此處以上傳"
+msgstr "將檔案拖放到此處以上傳"
 
 #. TRANSLATORS src/components/DragAndDropNotice.vue:108
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:10
@@ -892,7 +892,7 @@ msgstr "「{name}」是不允許的檔案類型。"
 #. TRANSLATORS src/components/FileEntry/FileEntryName.vue:216
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:40
 msgid "{newName} already exists."
-msgstr "{newName} 已存在。"
+msgstr "{newName} 已經存在。"
 
 #. TRANSLATORS src/components/FileEntry/FileEntryName.vue:222
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:42
@@ -907,7 +907,7 @@ msgstr "名稱不能空白"
 #. TRANSLATORS src/components/FileEntry/FileEntryName.vue:275
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:46
 msgid "Another entry with the same name already exists"
-msgstr "已存在另一個同名條目"
+msgstr "已經存在另一個同名條目"
 
 #. TRANSLATORS src/components/FileEntry/FileEntryName.vue:300
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:48
@@ -924,7 +924,7 @@ msgstr "無法命名檔案「{oldName}」，此檔案已不存在"
 msgid ""
 "The name \"{newName}\" is already used in the folder \"{dir}\". Please "
 "choose a different name."
-msgstr "此名稱「{newName}」在資料夾「{dir}」中已被使用。請選擇其他名稱。"
+msgstr "此名稱「{newName}」在資料夾「{dir}」中已被使用。請改用其他名稱。"
 
 #. TRANSLATORS src/components/FileEntry/FileEntryName.vue:322
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:54
@@ -970,7 +970,7 @@ msgstr "檔案與資料夾清單。"
 #. TRANSLATORS src/components/FilesListVirtual.vue:185
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:90
 msgid "Column headers with buttons are sortable."
-msgstr "帶有按鈕的欄位標題為可排序。"
+msgstr "帶有按鈕的欄位標頭為可排序。"
 
 #. TRANSLATORS src/components/FilesListVirtual.vue:186
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:92
@@ -1163,12 +1163,12 @@ msgstr "無法存取檔案"
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:170
 msgid ""
 "You might not have have permissions to view it, ask the sender to share it"
-msgstr "您可能沒有權限檢視它，請要求寄件者分享它"
+msgstr "您可能無權檢視，請要求寄件者分享"
 
 #. TRANSLATORS src/views/Settings.vue:31
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:176
 msgid "Sort favorites first"
-msgstr "先排序最愛"
+msgstr "先排序喜愛"
 
 #. TRANSLATORS src/views/Settings.vue:35
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:178
@@ -1210,7 +1210,7 @@ msgstr "使用此位置透過 WebDAV 存取您的檔案"
 msgid ""
 "If you have enabled 2FA, you must create and use a new app password by "
 "clicking here."
-msgstr "若您啟用了 2FA，您必須點擊此處建立並使用新的應用程式密碼。"
+msgstr "若您啟用了雙因素認證，您必須點擊此處建立並使用新的應用程式密碼。"
 
 #. TRANSLATORS src/views/Settings.vue:171
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:194
@@ -1225,7 +1225,7 @@ msgstr "WebDAV URL 已複製到剪貼簿"
 #. TRANSLATORS src/views/Sidebar.vue:436
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:202
 msgid "Unable to change the favourite state of the file"
-msgstr "無法更改檔案的最愛狀態"
+msgstr "無法更改檔案的喜愛狀態"
 
 #. TRANSLATORS src/views/Sidebar.vue:498
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:204
@@ -1297,7 +1297,7 @@ msgstr "您無法將檔案/資料夾移動到其自身或子資料夾中"
 
 #: /var/www/html/apps/files/src/actions/moveOrCopyAction.ts:123
 msgid "A file or folder with that name already exists in this folder"
-msgstr "此資料夾中已存在同名的檔案或資料夾"
+msgstr "此資料夾中已經存在同名的檔案或資料夾"
 
 #: /var/www/html/apps/files/src/actions/moveOrCopyAction.ts:125
 msgid "The files is locked"
@@ -1329,7 +1329,7 @@ msgstr "開啟資料夾 {displayName}"
 
 #: /var/www/html/apps/files/src/actions/openInFilesAction.ts:31
 msgid "Open in Files"
-msgstr "在「檔案」應用程式中開啟"
+msgstr "以「檔案」開啟"
 
 #: /var/www/html/apps/files/src/actions/sidebarAction.ts:32
 msgid "Open details"
@@ -1389,17 +1389,17 @@ msgstr "{fileCount} 個檔案與 {folderCount} 個資料夾"
 
 #: /var/www/html/apps/files/src/views/favorites.ts:67
 msgid "List of favorites files and folders."
-msgstr "最愛檔案與資料夾的清單。"
+msgstr "喜愛檔案與資料夾的清單。"
 
 #: /var/www/html/apps/files/src/views/favorites.ts:69
 #: /var/www/html/apps/files/templates/simplelist.php:3
 msgid "No favorites yet"
-msgstr "尚無最愛"
+msgstr "尚無喜愛"
 
 #: /var/www/html/apps/files/src/views/favorites.ts:70
 #: /var/www/html/apps/files/templates/simplelist.php:4
 msgid "Files and folders you mark as favorite will show up here"
-msgstr "您標記為最愛的檔案與資料夾將會顯示在這裡"
+msgstr "您標記為喜愛的檔案與資料夾將會顯示在這裡"
 
 #: /var/www/html/apps/files/src/views/files.ts:32
 msgid "All files"
@@ -1415,7 +1415,7 @@ msgstr "最近修改的檔案與資料夾的清單。"
 
 #: /var/www/html/apps/files/src/views/recent.ts:35
 msgid "No recently modified files"
-msgstr "近期無修改檔案"
+msgstr "最近無修改檔案"
 
 #: /var/www/html/apps/files/src/views/recent.ts:36
 msgid "Files and folders you recently modified will show up here."
