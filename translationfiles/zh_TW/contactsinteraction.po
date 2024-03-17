@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:16+0000\n"
-"PO-Revision-Date: 2024-03-12 12:22+0000\n"
+"PO-Revision-Date: 2024-03-17 15:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/contactsinteraction/zh_Hant/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: /var/www/html/apps/contactsinteraction/lib/AddressBook.php:142
 #: /var/www/html/apps/contactsinteraction/lib/Listeners/ContactInteractionListener.php:136
 msgid "Recently contacted"
-msgstr "最近聯絡過"
+msgstr "最近聯絡"
 
 #: /var/www/html/apps/contactsinteraction/specialAppInfoFakeDummyForL10nScript.php:2
 msgid "Contacts Interaction"
