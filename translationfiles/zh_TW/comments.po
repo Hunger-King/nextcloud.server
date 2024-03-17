@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:16+0000\n"
-"PO-Revision-Date: 2024-03-11 16:52+0000\n"
+"PO-Revision-Date: 2024-03-17 15:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/comments/zh_Hant/>\n"
@@ -70,7 +70,7 @@ msgstr "{user} 在「{file}」的留言中提到您"
 
 #: /var/www/html/apps/comments/specialAppInfoFakeDummyForL10nScript.php:3
 msgid "Files app plugin to add comments to files"
-msgstr "用於對檔案加入留言的檔案應用程式插入元件"
+msgstr "用於對檔案加入留言的檔案應用程式插入式元件"
 
 #. TRANSLATORS src/components/Comment.vue:46
 #: /var/www/html/apps/comments/specialVueFakeDummyForL10nScript.js:2
