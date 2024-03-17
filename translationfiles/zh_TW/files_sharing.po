@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-03-16 09:17+0000\n"
+"PO-Revision-Date: 2024-03-17 15:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/files_sharing/zh_Hant/>\n"
@@ -609,7 +609,7 @@ msgstr "允許上傳及編輯"
 #. TRANSLATORS src/components/SharePermissionsEditor.vue:54
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:26
 msgid "File drop (upload only)"
-msgstr "檔案投遞（僅上傳）"
+msgstr "檔案投遞（僅供上傳）"
 
 #. TRANSLATORS src/components/SharePermissionsEditor.vue:58
 #. TRANSLATORS src/components/SharingEntryQuickShareSelect.vue:78
@@ -981,7 +981,7 @@ msgstr "於 {server}"
 #. TRANSLATORS src/views/SharingDetailsTab.vue:60
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:184
 msgid "Upload only"
-msgstr "僅上傳"
+msgstr "僅供上傳"
 
 #. TRANSLATORS src/views/SharingDetailsTab.vue:87
 #: /var/www/html/apps/files_sharing/specialVueFakeDummyForL10nScript.js:188
@@ -1141,7 +1141,7 @@ msgstr[1] "接受分享"
 
 #: /var/www/html/apps/files_sharing/src/actions/openInFilesAction.ts:31
 msgid "Open in Files"
-msgstr "在「檔案」應用程式中開啟"
+msgstr "以「檔案」開啟"
 
 #: /var/www/html/apps/files_sharing/src/actions/rejectShareAction.ts:35
 msgid "Reject share"
