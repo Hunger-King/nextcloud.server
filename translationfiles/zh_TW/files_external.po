@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-03-16 09:17+0000\n"
+"PO-Revision-Date: 2024-03-17 15:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/files_external/zh_Hant/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: /var/www/html/apps/files_external/js/settings.js:94
 msgid "Type to select user or group."
-msgstr "輸入以選取使用者或群組。"
+msgstr "請輸入以選取使用者或群組。"
 
 #: /var/www/html/apps/files_external/js/settings.js:179
 msgid "(Group)"
@@ -29,7 +29,7 @@ msgstr "（群組）"
 
 #: /var/www/html/apps/files_external/js/settings.js:498
 msgid "Compatibility with Mac NFD encoding (slow)"
-msgstr "與 Mac 的 NFD 編碼相容（較慢）"
+msgstr "與 Mac NFD 編碼相容（較慢）"
 
 #: /var/www/html/apps/files_external/js/settings.js:499
 #: /var/www/html/apps/files_external/templates/settings.php:11
@@ -68,7 +68,7 @@ msgstr "唯讀"
 
 #: /var/www/html/apps/files_external/js/settings.js:506
 msgid "Disconnect"
-msgstr "解除連線"
+msgstr "中斷連結"
 
 #: /var/www/html/apps/files_external/js/settings.js:1013
 msgid "Admin defined"
@@ -87,8 +87,9 @@ msgid ""
 "and folders on any sync client that is currently connected but will not "
 "delete any files and folders on the external storage itself."
 msgstr ""
-"您確定要斷開這個外部儲存空間嗎？這將讓該儲存空間無法在 Nextcloud "
-"中使用，並將會在目前連線的任何同步客戶端上刪除這些檔案與資料夾，但不會刪除外部儲存空間本身的任何檔案與資料夾。"
+"您確定要中斷與這個外部儲存空間的連結嗎？這會讓該儲存空間無法在 Nextcloud 中使"
+"用，並將會在目前連線的任何同步客戶端上刪除這些檔案與資料夾，但不會刪除外部儲"
+"存空間本身的任何檔案與資料夾。"
 
 #: /var/www/html/apps/files_external/js/settings.js:1225
 msgid "Delete storage?"
@@ -420,7 +421,7 @@ msgstr "Root"
 
 #: /var/www/html/apps/files_external/lib/Lib/Backend/SFTP_Key.php:36
 msgid "SFTP with secret key login"
-msgstr "以私鑰登入 SFTP"
+msgstr "以私密金鑰登入 SFTP"
 
 #: /var/www/html/apps/files_external/lib/Lib/Backend/SMB.php:51
 msgid "SMB/CIFS"
@@ -561,7 +562,7 @@ msgstr "檢查此錯誤的外部儲存空間組態設定"
 
 #: /var/www/html/apps/files_external/src/actions/openInFilesAction.ts:38
 msgid "Open in Files"
-msgstr "在「檔案」應用程式中開啟"
+msgstr "以「檔案」開啟"
 
 #: /var/www/html/apps/files_external/src/actions/openInFilesAction.ts:48
 msgid ""
