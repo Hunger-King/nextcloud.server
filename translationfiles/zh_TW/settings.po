@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-16 08:17+0000\n"
+"PO-Revision-Date: 2024-03-17 15:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/settings/zh_Hant/>\n"
@@ -1255,7 +1255,7 @@ msgstr "允許應用程式使用分享 API"
 #. TRANSLATORS src/components/AdminSettingsSharingForm.vue:32
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:36
 msgid "Allow resharing"
-msgstr "允許轉分享"
+msgstr "允許轉發分享"
 
 #. TRANSLATORS src/components/AdminSettingsSharingForm.vue:35
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:38
@@ -1841,7 +1841,7 @@ msgstr "裝置"
 #. TRANSLATORS src/components/AuthTokenList.vue:28
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:278
 msgid "Last activity"
-msgstr "上次活動"
+msgstr "上次活動狀態"
 
 #. TRANSLATORS src/components/AuthTokenSection.vue:24
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:280
@@ -2571,7 +2571,7 @@ msgstr "刪除"
 #. TRANSLATORS src/components/SelectSharingPermissions.vue:34
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:550
 msgid "Reshare"
-msgstr "轉分享"
+msgstr "轉發分享"
 
 #. TRANSLATORS src/components/UserList.vue:34
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:552
