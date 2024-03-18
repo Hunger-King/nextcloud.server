@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-17 15:52+0000\n"
+"PO-Revision-Date: 2024-03-19 15:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/settings/zh_Hant/>\n"
@@ -674,7 +674,7 @@ msgstr "分享"
 
 #: /var/www/html/apps/settings/lib/Sections/Personal/Availability.php:52
 msgid "Availability"
-msgstr "可約時間"
+msgstr "可見時間"
 
 #: /var/www/html/apps/settings/lib/Sections/Personal/Calendar.php:49
 msgid "Calendar"
@@ -1235,7 +1235,7 @@ msgstr "您目前安裝的應用程式均不提供文字處理功能"
 msgid ""
 "Here you can decide which group can access certain sections of the "
 "administration settings."
-msgstr "您可以在此決定哪些群組可以存取哪些管理設定。"
+msgstr "您可以在此決定哪些群組可以取用特定的管理區段設定。"
 
 #. TRANSLATORS src/components/AdminDelegation/GroupSelect.vue:5
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:30
@@ -1651,7 +1651,7 @@ msgstr "評分：{score}/10"
 #. TRANSLATORS src/components/AppList.vue:38
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:194
 msgid "All apps are up-to-date."
-msgstr "所有應用程式都為最新。"
+msgstr "所有應用程式都是最新狀態。"
 
 #. TRANSLATORS src/components/AppList.vue:44
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:196
@@ -1841,7 +1841,7 @@ msgstr "裝置"
 #. TRANSLATORS src/components/AuthTokenList.vue:28
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:278
 msgid "Last activity"
-msgstr "上次活動狀態"
+msgstr "最近活動狀態"
 
 #. TRANSLATORS src/components/AuthTokenSection.vue:24
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:280
@@ -3106,7 +3106,7 @@ msgstr "使用者管理"
 #: /var/www/html/apps/settings/specialVueFakeDummyForL10nScript.js:826
 #: /var/www/html/apps/settings/src/router.js:61
 msgid "Active users"
-msgstr "活躍使用者"
+msgstr "啟用中使用者"
 
 #. TRANSLATORS src/views/Users.vue:55
 #. TRANSLATORS src/views/Users.vue:220
