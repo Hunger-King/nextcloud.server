@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-03-16 03:43+0000\n"
+"PO-Revision-Date: 2024-03-19 15:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/dav/zh_Hant/>\n"
@@ -870,27 +870,27 @@ msgstr "為 {dayName} 挑選結束時間"
 msgid ""
 "Automatically set user status to \"Do not disturb\" outside of availability "
 "to mute all notifications."
-msgstr "在可約時間以外，自動將使用者狀態設定為「請勿打擾」以靜音所有通知。"
+msgstr "在可見時間以外，自動將使用者狀態設定為「請勿打擾」以靜音所有通知。"
 
 #. TRANSLATORS src/components/AvailabilityForm.vue:102
 #: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:54
 msgid "Failed to load availability"
-msgstr "可約時間載入失敗"
+msgstr "可見時間載入失敗"
 
 #. TRANSLATORS src/components/AvailabilityForm.vue:119
 #: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:56
 msgid "Saved availability"
-msgstr "已儲存可約時間"
+msgstr "已儲存可見時間"
 
 #. TRANSLATORS src/components/AvailabilityForm.vue:123
 #: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:58
 msgid "Failed to save availability"
-msgstr "儲存可約時間失敗"
+msgstr "儲存可見時間失敗"
 
 #. TRANSLATORS src/views/Availability.vue:3
 #: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:60
 msgid "Availability"
-msgstr "可約時間"
+msgstr "可見時間"
 
 #. TRANSLATORS src/views/Availability.vue:4
 #: /var/www/html/apps/dav/specialVueFakeDummyForL10nScript.js:62
