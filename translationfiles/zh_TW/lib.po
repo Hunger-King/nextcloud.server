@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:19+0000\n"
-"PO-Revision-Date: 2024-03-17 15:52+0000\n"
+"PO-Revision-Date: 2024-03-19 15:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/lib/zh_Hant/>\n"
@@ -123,7 +123,7 @@ msgstr "協作應用套組"
 
 #: /var/www/html/lib/private/App/AppStore/Bundles/HubBundle.php:31
 msgid "Hub bundle"
-msgstr "Hub 套裝"
+msgstr "Hub 套組"
 
 #: /var/www/html/lib/private/App/AppStore/Bundles/SocialSharingBundle.php:31
 msgid "Social sharing bundle"
