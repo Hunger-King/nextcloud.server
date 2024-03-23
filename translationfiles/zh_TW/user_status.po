@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-16 09:55+0000\n"
+"PO-Revision-Date: 2024-03-24 05:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/user_status/zh_Hant/>\n"
@@ -62,7 +62,7 @@ msgstr "使用者狀態"
 #. TRANSLATORS src/components/ClearAtSelect.vue:25
 #: /var/www/html/apps/user_status/specialVueFakeDummyForL10nScript.js:2
 msgid "Clear status after"
-msgstr "多久後清空狀態"
+msgstr "多久後清除狀態"
 
 #. TRANSLATORS src/components/CustomMessageInput.vue:25
 #: /var/www/html/apps/user_status/specialVueFakeDummyForL10nScript.js:4
@@ -118,7 +118,7 @@ msgstr "您的狀態為自動設定"
 #: /var/www/html/apps/user_status/specialVueFakeDummyForL10nScript.js:26
 #: /var/www/html/apps/user_status/specialVueFakeDummyForL10nScript.js:28
 msgid "Clear status message"
-msgstr "清空狀態訊息"
+msgstr "清除狀態訊息"
 
 #. TRANSLATORS src/components/SetStatusModal.vue:75
 #: /var/www/html/apps/user_status/specialVueFakeDummyForL10nScript.js:30
@@ -159,7 +159,7 @@ msgstr "還原狀態時發生錯誤"
 #: /var/www/html/apps/user_status/src/filters/clearAtFilter.js:35
 #: /var/www/html/apps/user_status/src/services/clearAtOptionsService.js:32
 msgid "Don't clear"
-msgstr "不要清空"
+msgstr "不要清除"
 
 #: /var/www/html/apps/user_status/src/filters/clearAtFilter.js:41
 #: /var/www/html/apps/user_status/src/services/clearAtOptionsService.js:53
