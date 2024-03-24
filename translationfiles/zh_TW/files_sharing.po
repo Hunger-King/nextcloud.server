@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-03-17 15:52+0000\n"
+"PO-Revision-Date: 2024-03-25 10:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/files_sharing/zh_Hant/>\n"
@@ -252,7 +252,7 @@ msgstr "{actor} 移除了與 {user} 的分享"
 
 #: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:66
 msgid "Shared by {actor}"
-msgstr "{actor} 分享"
+msgstr "由 {actor} 分享"
 
 #: /var/www/html/apps/files_sharing/lib/Activity/Providers/Users.php:68
 msgid "{actor} removed share"
@@ -474,7 +474,7 @@ msgstr "「透過 Nextcloud Talk 傳送密碼」分享檔案或資料夾失敗�
 #: /var/www/html/apps/files_sharing/lib/DefaultPublicShareTemplateProvider.php:255
 #, php-format
 msgid "shared by %s"
-msgstr "%s 分享"
+msgstr "由 %s 分享"
 
 #: /var/www/html/apps/files_sharing/lib/DefaultPublicShareTemplateProvider.php:264
 #: /var/www/html/apps/files_sharing/lib/DefaultPublicShareTemplateProvider.php:266
