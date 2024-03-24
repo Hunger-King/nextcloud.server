@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-24 05:52+0000\n"
+"PO-Revision-Date: 2024-03-25 10:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/user_status/zh_Hant/>\n"
@@ -201,15 +201,15 @@ msgstr "儲存新狀態時發生錯誤"
 
 #: /var/www/html/apps/user_status/src/services/clearAtOptionsService.js:35
 msgid "30 minutes"
-msgstr "30分鐘"
+msgstr "30 分鐘"
 
 #: /var/www/html/apps/user_status/src/services/clearAtOptionsService.js:41
 msgid "1 hour"
-msgstr "1小時"
+msgstr "1 小時"
 
 #: /var/www/html/apps/user_status/src/services/clearAtOptionsService.js:47
 msgid "4 hours"
-msgstr "4小時"
+msgstr "4 小時"
 
 #: /var/www/html/apps/user_status/src/services/statusOptionsService.js:43
 msgid "Mute all notifications"
