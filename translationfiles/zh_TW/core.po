@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-24 05:52+0000\n"
+"PO-Revision-Date: 2024-03-25 10:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/core/zh_Hant/>\n"
@@ -1179,7 +1179,7 @@ msgstr "去年"
 #. TRANSLATORS src/views/GlobalSearchModal.vue:56
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:164
 msgid "Search people"
-msgstr "搜尋夥伴"
+msgstr "搜尋人物"
 
 #. TRANSLATORS src/views/GlobalSearchModal.vue:58
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:166
