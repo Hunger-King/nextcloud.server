@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-16 10:32+0000\n"
+"PO-Revision-Date: 2024-03-25 10:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/updatenotification/zh_Hant/>\n"
@@ -156,7 +156,8 @@ msgid ""
 "Changing the update channel also affects the apps management page. E.g. "
 "after switching to the beta channel, beta app updates will be offered to you"
 " in the apps management page."
-msgstr "變更更新頻道也會影響應用程式管理頁面。舉例來說，切換到測試版頻道後，將會在應用程式管理頁面中向您提供測試版應用程式更新。"
+msgstr "更換更新頻道也會影響應用程式管理頁面。舉例來說，切換到測試版頻道後，將會在應"
+"用程式管理頁面中向您提供測試版應用程式更新。"
 
 #. TRANSLATORS src/components/UpdateNotification.vue:103
 #: /var/www/html/apps/updatenotification/specialVueFakeDummyForL10nScript.js:36
