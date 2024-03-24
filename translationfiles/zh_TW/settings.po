@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-19 15:52+0000\n"
+"PO-Revision-Date: 2024-03-25 10:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/settings/zh_Hant/>\n"
@@ -526,7 +526,7 @@ msgstr ""
 #: /var/www/html/apps/settings/lib/Hooks.php:110
 #, php-format
 msgid "%1$s changed your password on %2$s."
-msgstr "%1$s 在 %2$s 更改了您的密碼。"
+msgstr "%1$s 更改了您在 %2$s 的密碼。"
 
 #: /var/www/html/apps/settings/lib/Hooks.php:115
 #, php-format
