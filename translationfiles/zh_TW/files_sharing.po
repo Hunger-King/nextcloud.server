@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:17+0000\n"
-"PO-Revision-Date: 2024-03-25 10:52+0000\n"
+"PO-Revision-Date: 2024-03-27 14:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/files_sharing/zh_Hant/>\n"
@@ -1329,7 +1329,7 @@ msgstr "您離開的分享將會顯示在此處"
 
 #: /var/www/html/apps/files_sharing/src/views/shares.ts:128
 msgid "Pending shares"
-msgstr "擱置中的分享"
+msgstr "待處理的分享"
 
 #: /var/www/html/apps/files_sharing/src/views/shares.ts:129
 msgid "List of unapproved shares."
@@ -1337,7 +1337,7 @@ msgstr "未批准的分享清單。"
 
 #: /var/www/html/apps/files_sharing/src/views/shares.ts:131
 msgid "No pending shares"
-msgstr "沒有擱置中的分享"
+msgstr "沒有待處理的分享"
 
 #: /var/www/html/apps/files_sharing/src/views/shares.ts:132
 msgid "Shares you have received but not approved will show up here"
