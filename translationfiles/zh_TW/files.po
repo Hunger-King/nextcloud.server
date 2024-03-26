@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:19+0000\n"
-"PO-Revision-Date: 2024-03-17 15:52+0000\n"
+"PO-Revision-Date: 2024-03-27 14:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/files/zh_Hant/>\n"
@@ -256,7 +256,7 @@ msgstr "選取檔案「{fileName}」"
 #: /var/www/html/apps/files/js/filesummary.js:266
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:56
 msgid "Pending"
-msgstr "待處理中"
+msgstr "待處理"
 
 #: /var/www/html/apps/files/js/filelist.js:1856
 msgid "Unable to determine date"
