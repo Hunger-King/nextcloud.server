@@ -87,3 +87,6 @@ Please read the [Code of Conduct](https://nextcloud.com/community/code-of-conduc
 Please review the [guidelines for contributing](.github/CONTRIBUTING.md) to this repository.
 
 More information on how to contribute: [https://nextcloud.com/contribute/](https://nextcloud.com/contribute/)
+
+# 軟體中文化
+本專案為數位部開放原始碼軟體中文化專案項目之一，其中文化與專案應用可參考 Wiki。
