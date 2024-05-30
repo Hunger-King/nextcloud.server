@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:19+0000\n"
-"PO-Revision-Date: 2024-05-21 11:04+0000\n"
+"PO-Revision-Date: 2024-05-31 05:04+0000\n"
 "Last-Translator: Ian Liu <ian@ocf.tw>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/files/zh_Hant/>\n"
@@ -474,7 +474,7 @@ msgstr "「{name}」是不允許的檔案類型"
 
 #: /var/www/html/apps/files/js/files.js:168
 msgid "Storage of {owner} is full, files cannot be updated or synced anymore!"
-msgstr "{owner} 的儲存空間已滿，沒有辦法再更新或是同步檔案！"
+msgstr "{owner} 的儲存空間已滿，已無法再更新或是同步檔案！"
 
 #: /var/www/html/apps/files/js/files.js:173
 msgid ""
@@ -490,7 +490,7 @@ msgstr "外部儲存空間「{mountPoint}」已滿，已無法再更新或同步
 
 #: /var/www/html/apps/files/js/files.js:185
 msgid "Your storage is full, files cannot be updated or synced anymore!"
-msgstr "您的儲存空間已滿，沒有辦法再更新或是同步檔案！"
+msgstr "您的儲存空間已滿，已無法再更新或是同步檔案！"
 
 #: /var/www/html/apps/files/js/files.js:191
 msgid "Storage of {owner} is almost full ({usedSpacePercent}%)."
@@ -623,7 +623,7 @@ msgstr "由 {user} 建立"
 
 #: /var/www/html/apps/files/lib/Activity/Provider.php:146
 msgid "Changed by {user}"
-msgstr "由 {user} 改動"
+msgstr "由 {user} 變更"
 
 #: /var/www/html/apps/files/lib/Activity/Provider.php:149
 msgid "Deleted by {user}"
@@ -1210,7 +1210,7 @@ msgstr "使用此位置透過 WebDAV 存取您的檔案"
 msgid ""
 "If you have enabled 2FA, you must create and use a new app password by "
 "clicking here."
-msgstr "若您啟用了雙因素認證，您必須點擊此處建立並使用新的應用程式密碼。"
+msgstr "若您啟用了雙因子認證，您必須點擊此處建立並使用新的應用程式密碼。"
 
 #. TRANSLATORS src/views/Settings.vue:171
 #: /var/www/html/apps/files/specialVueFakeDummyForL10nScript.js:194
