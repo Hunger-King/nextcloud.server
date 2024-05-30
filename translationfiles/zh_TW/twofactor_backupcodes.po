@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-16 09:17+0000\n"
-"Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
+"PO-Revision-Date: 2024-05-31 05:04+0000\n"
+"Last-Translator: Ian Liu <ian@ocf.tw>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/twofactor_backupcodes/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: /var/www/html/apps/twofactor_backupcodes/lib/Activity/Provider.php:68
 msgid "You created two-factor backup codes for your account"
-msgstr "您已建立您帳號的雙因素認證的備用碼"
+msgstr "您已建立您帳號的雙因子認證的備用碼"
 
 #: /var/www/html/apps/twofactor_backupcodes/lib/Notifications/Notifier.php:65
 msgid "Second-factor backup codes"
-msgstr "雙因素認證備用碼"
+msgstr "雙因子認證備用碼"
 
 #. TRANSLATORS src/views/PersonalSettings.vue:7
 #: /var/www/html/apps/twofactor_backupcodes/lib/Notifications/Notifier.php:80
@@ -38,7 +38,7 @@ msgid ""
 "You enabled two-factor authentication but did not generate backup codes yet."
 " They are needed to restore access to your account in case you lose your "
 "second factor."
-msgstr "您已啟用雙因素認證，但尚未產生備用碼。如果您失去第二因素的認證方式，則必須使"
+msgstr "您已啟用雙因子認證，但尚未產生備用碼。如果您失去第二因素的認證方式，則必須使"
 "用備用碼來恢復對您帳號的存取權。"
 
 #: /var/www/html/apps/twofactor_backupcodes/lib/Provider/BackupCodesProvider.php:90
@@ -52,11 +52,11 @@ msgstr "使用備用碼"
 
 #: /var/www/html/apps/twofactor_backupcodes/specialAppInfoFakeDummyForL10nScript.php:2
 msgid "Two factor backup codes"
-msgstr "雙因素認證備用碼"
+msgstr "雙因子認證備用碼"
 
 #: /var/www/html/apps/twofactor_backupcodes/specialAppInfoFakeDummyForL10nScript.php:3
 msgid "A two-factor auth backup codes provider"
-msgstr "雙因素認證備用碼提供者"
+msgstr "雙因子認證備用碼提供者"
 
 #. TRANSLATORS src/views/PersonalSettings.vue:13
 #: /var/www/html/apps/twofactor_backupcodes/specialVueFakeDummyForL10nScript.js:4
@@ -106,7 +106,7 @@ msgstr "{name} 備用碼"
 msgid ""
 "Use one of the backup codes you saved when setting up two-factor "
 "authentication."
-msgstr "設定啟用雙因素認證時，可輸入其中一組您已儲存的備用碼。"
+msgstr "設定啟用雙因子認證時，可輸入其中一組您已儲存的備用碼。"
 
 #: /var/www/html/apps/twofactor_backupcodes/templates/challenge.php:15
 msgid "Submit"
