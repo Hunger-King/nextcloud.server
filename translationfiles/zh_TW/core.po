@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-25 10:52+0000\n"
-"Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
+"PO-Revision-Date: 2024-05-31 05:04+0000\n"
+"Last-Translator: Ian Liu <ian@ocf.tw>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/core/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -190,7 +190,7 @@ msgstr "請求的任務類型不存在"
 
 #: /var/www/html/core/Controller/TextProcessingApiController.php:135
 msgid "Necessary language model provider is not available"
-msgstr "沒有須要的語言模型提供者"
+msgstr "沒有可用的語言模型程式"
 
 #: /var/www/html/core/Controller/TextProcessingApiController.php:163
 #: /var/www/html/core/Controller/TextProcessingApiController.php:192
@@ -256,7 +256,7 @@ msgid ""
 " limit. This does also grant you all additional benefits that Nextcloud "
 "Enterprise offers and is highly recommended for the operation in companies."
 msgstr ""
-"請在支援應用程式中輸入您的訂閱方案金鑰，以提高使用者限制。這也能賦予您 "
+"請在支援應用程式中輸入您的訂閱方案金鑰，以提高使用者數量限制。這也能賦予您 "
 "Nextcloud 企業版提供的所有其他好處，特別是可用於公司營運上的項目，十分推薦。"
 
 #: /var/www/html/core/Notification/CoreNotifier.php:84
@@ -335,7 +335,7 @@ msgstr "已從「%1$s」更新至 %2$s"
 
 #: /var/www/html/core/ajax/update.php:174
 msgid "Set log level to debug"
-msgstr "設定記錄層級至除錯"
+msgstr "設定除錯用的記錄層級"
 
 #: /var/www/html/core/ajax/update.php:177
 msgid "Reset log level"
@@ -386,9 +386,9 @@ msgid ""
 " Nginx those are typically the lines starting with \"location ~\" that need "
 "an update."
 msgstr ""
-"您的網頁伺服器未正確設定，無法解析「{url}」。這可能與伺服器的組態設定，並未更"
-"新為直接傳送此資料夾有關。請對應查看您的組態設定，例如 Apache 中的「."
-"htaccess」檔案，請比較一下附上的重寫規則；或者 Nginx，則請查看 {linkstart} "
+"您的網頁伺服器未正確設定，無法解析「{url}」。這可能與伺服器的組態設定，未更新"
+"為直接傳送此資料夾有關。請對應查看您的組態設定，例如 Apache 中的「."
+"htaccess」檔案，請比較一下附上的重寫規則；或請查看 Nginx {linkstart} "
 "文件頁面 ↗{linkend} 中所提供的文件。在 Nginx 環境中，通常是在「location "
 "~」開頭的那行需要調整更新。"
 
@@ -430,10 +430,8 @@ msgstr "無法透過 CLI 來執行排程工作，發生以下技術性錯誤："
 msgid ""
 "Last background job execution ran {relativeTime}. Something seems wrong. "
 "{linkstart}Check the background job settings ↗{linkend}."
-msgstr ""
-"上次背景工作是於 {relativeTime} "
-"前執行，似乎很久沒有執行了，有點問題。{linkstart} 請檢查背景工作設定 "
-"↗{linkend}。"
+msgstr "上次背景工作是於 {relativeTime} 前執行，似乎發生了一點錯誤。{linkstart} "
+"請檢查背景工作設定 ↗{linkend}。"
 
 #: /var/www/html/core/js/setupchecks.js:213
 msgid ""
@@ -503,7 +501,7 @@ msgstr "未啟用 PHP 模組「gmp」與「bcmath」。若您要使用 WebAuthn 
 msgid ""
 "Module php-imagick in this instance has no SVG support. For better "
 "compatibility it is recommended to install it."
-msgstr "站台安裝的 php-imagick 不支援 SVG。為了更好的相容性，建議補安裝。"
+msgstr "站台安裝的 php-imagick 不支援 SVG。建議安裝以獲更好的相容性。"
 
 #: /var/www/html/core/js/setupchecks.js:291
 msgid ""
@@ -514,10 +512,10 @@ msgid ""
 "needs to be made while the instance is offline. For further details read "
 "{linkstart}the documentation page about this ↗{linkend}."
 msgstr ""
-"資料庫的有些欄位缺少 big int 格式轉換。由於大行表格中的欄位類型轉換需要一些時"
-"間，所以沒有自動轉換。您可以執行「occ db:convert-filecache-"
-"bigint」手動套用轉換，轉換作業時 Nextcloud 站台必須處於離線狀態。詳情請參閱 "
-"{linkstart} 此問題的相關文件頁面 ↗{linkend}。"
+"資料庫的有些欄位缺少 big int 格式轉換。由於 big tables "
+"中的欄位類型轉換需要一些時間，所以沒有自動轉換。您可以執行「occ db:convert-"
+"filecache-bigint」手動套用轉換，轉換作業時 Nextcloud 站台必須處於離線狀態。"
+"詳情請參閱 {linkstart} 此問題的相關文件頁面 ↗{linkend}。"
 
 #: /var/www/html/core/js/setupchecks.js:299
 msgid ""
@@ -569,7 +567,7 @@ msgid ""
 msgstr ""
 "此站台使用 Amazon S3 物件儲存為主要儲存空間。上傳檔案會暫存在伺服器，"
 "因此建議 PHP 的暫存資料夾最少要有 50 GB "
-"可用容量。請在紀錄檔中查閱關於資料夾路徑及可用容量的詳細資訊。若要增進效能，"
+"可用容量。請在記錄檔中查閱關於資料夾路徑及可用容量的詳細資訊。若要增進效能，"
 "請在 php.ini 中變更暫存資料夾位置，或將該資料夾容量增加。"
 
 #: /var/www/html/core/js/setupchecks.js:338
@@ -1276,7 +1274,7 @@ msgstr "{user} 尚未新增任何資訊"
 #. TRANSLATORS src/views/Profile.vue:289
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:214
 msgid "Error opening the user status modal, try hard refreshing the page"
-msgstr "開啟使用者狀態的模態時發生問題，嘗試重新整理頁面"
+msgstr "開啟使用者狀態的模組時發生問題，嘗試重新整理頁面"
 
 #. TRANSLATORS src/views/UnifiedSearch.vue:52
 #: /var/www/html/core/specialVueFakeDummyForL10nScript.js:220
@@ -2000,43 +1998,43 @@ msgstr "您無權為此分享請求密碼"
 
 #: /var/www/html/core/templates/twofactorselectchallenge.php:5
 msgid "Two-factor authentication"
-msgstr "雙因素認證"
+msgstr "雙因子認證"
 
 #: /var/www/html/core/templates/twofactorselectchallenge.php:7
 msgid ""
 "Enhanced security is enabled for your account. Choose a second factor for "
 "authentication:"
-msgstr "您的帳號已啟用進階安全機制，請選擇一個雙因素認證方法："
+msgstr "您的帳號已啟用進階安全機制，請選擇一個雙因子認證方法："
 
 #: /var/www/html/core/templates/twofactorselectchallenge.php:11
 msgid ""
 "Could not load at least one of your enabled two-factor auth methods. Please "
 "contact your admin."
-msgstr "無法載入任何一個雙因素認證方法。請聯絡管理員。"
+msgstr "無法載入任何一個雙因子認證方法。請聯絡管理員。"
 
 #: /var/www/html/core/templates/twofactorselectchallenge.php:19
 msgid ""
 "Two-factor authentication is enforced but has not been configured on your "
 "account. Contact your admin for assistance."
-msgstr "雙因素認證已強制要求啟用，但您的帳號目前還沒設定。請聯絡管理員。"
+msgstr "雙因子認證已強制要求啟用，但您的帳號目前還沒設定。請聯絡管理員。"
 
 #: /var/www/html/core/templates/twofactorselectchallenge.php:21
 msgid ""
 "Two-factor authentication is enforced but has not been configured on your "
 "account. Please continue to setup two-factor authentication."
-msgstr "雙因素認證已強制要求啟用，但您的帳號目前還沒設定。請繼續設置您的雙因素認證。"
+msgstr "雙因子認證已強制要求啟用，但您的帳號目前還沒設定。請繼續設置您的雙因子認證。"
 
 #: /var/www/html/core/templates/twofactorselectchallenge.php:27
 #: /var/www/html/core/templates/twofactorsetupselection.php:27
 msgid "Set up two-factor authentication"
-msgstr "設定雙因素認證"
+msgstr "設定雙因子認證"
 
 #: /var/www/html/core/templates/twofactorselectchallenge.php:31
 msgid ""
 "Two-factor authentication is enforced but has not been configured on your "
 "account. Use one of your backup codes to log in or contact your admin for "
 "assistance."
-msgstr "雙因素認證已強制要求啟用，但您的帳號目前還沒設定。請使用您的備用碼登入，或聯"
+msgstr "雙因子認證已強制要求啟用，但您的帳號目前還沒設定。請使用您的備用碼登入，或聯"
 "絡管理員協助。"
 
 #: /var/www/html/core/templates/twofactorselectchallenge.php:70
