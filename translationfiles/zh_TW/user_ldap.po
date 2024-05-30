@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Nextcloud 3.14159\n"
 "Report-Msgid-Bugs-To: translations\\@example.com\n"
 "POT-Creation-Date: 2023-12-26 02:18+0000\n"
-"PO-Revision-Date: 2024-03-17 15:52+0000\n"
-"Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
+"PO-Revision-Date: 2024-05-31 05:04+0000\n"
+"Last-Translator: Ian Liu <ian@ocf.tw>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "nextcloud-server/user_ldap/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -769,7 +769,7 @@ msgstr "選填。要加進顯示名稱括號中的 LDAP 特性。例如 »John D
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:92
 msgid "Base User Tree"
-msgstr "Base 使用者樹"
+msgstr "基本使用者樹"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:92
 msgid "One User Base DN per line"
@@ -1062,9 +1062,9 @@ msgid ""
 msgstr ""
 "預設情況下，UUID 特性會自動偵測。UUID 特性用來準確識別 LDAP "
 "使用者及群組。此外，如果未在上方指定，則內部使用者名稱會以 UUID 為基礎建立。"
-"您可以凌駕設定，並且根據您的想法直接傳定特性，但一定要確保指定的特性能被使用"
-"者及群組取得且唯一。留空將採取預設行為。變更只會對新映射（新增）的 LDAP "
-"使用者及群組生效。"
+"您可以覆寫原設定，並且根據您的想法直接指定特性，但一定要確保所指定的特性能取"
+"得使用者及群組並是唯一的。留空將採取預設行為。變更只會對新映射（新增）的 "
+"LDAP 使用者及群組生效。"
 
 #: /var/www/html/apps/user_ldap/templates/settings.php:145
 msgid "UUID Attribute for Users:"
