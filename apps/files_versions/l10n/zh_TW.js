@@ -11,7 +11,7 @@ OC.L10N.register(
     "Download version" : "下載版本",
     "Delete version" : "刪除版本",
     "Version name" : "版本名稱",
-    "Named versions are persisted, and excluded from automatic cleanups when your storage quota is full." : "命名的版本會持續保留，並且排除在儲存的限制容量已滿時的自動清理之外。",
+    "Named versions are persisted, and excluded from automatic cleanups when your storage quota is full." : "命名的版本會持續保留，並且在儲存容量限制已滿時，排除在自動清理外。",
     "Remove version name" : "移除版本名稱",
     "Save version name" : "儲存版本名稱",
     "Current version" : "目前版本",
